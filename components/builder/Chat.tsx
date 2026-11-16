@@ -23,7 +23,7 @@ const plans = (rapid: number | null): { name: string; price: string; per: string
 // Enterprise comes in a few flavours. Swipe the card, or use the arrows and dots.
 const ENTERPRISE = [
   { price: "226 km", per: "per seat", line: "I do an Ironman on behalf of your team.", perks: ["Guaranteed to start, guaranteed-ish to finish", "A dedicated account swimmer", "Invoices in kilometres only"] },
-  { price: "3 rounds", per: "per quarter", line: "I spar on behalf of your legal team.", perks: ["Six months' experience, so manage expectations", "Pads held for your CEO", "Disputes settled on the bag"] },
+  { price: "3 rounds", per: "per quarter", line: "I spar on behalf of your legal team.", perks: ["Limited Muay Thai experience, so manage expectations", "Pads held for your CEO", "Disputes settled on the bag"] },
   { price: "48 hours", per: "no sleep", line: "I enter a hackathon as your company and try to win it.", perks: ["A quantum angle whether you need one or not", "Prize money: we'll talk", "The demo works on stage, once"] },
 ];
 
