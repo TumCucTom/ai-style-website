@@ -193,6 +193,15 @@ export function Freeform({ design, content }: { design: Design; content: Content
               </div>
             ) : b.type === "divider" ? (
               <hr />
+            ) : b.type === "image" ? (
+              <figure>
+                {/* from the web: no referrer is sent, and a picture that fails to load takes its block with it */}
+                {/* eslint-disable-next-line @next/next/no-img-element */}
+                <img className="pic" src={b.src} alt={b.title} loading="lazy" decoding="async" referrerPolicy="no-referrer" onError={(e) => e.currentTarget.closest("section")?.setAttribute("hidden", "")} />
+                {b.text && <figcaption className="cap">{b.text}</figcaption>}
+              </figure>
+            ) : b.type === "video" ? (
+              <video className="clip" src={b.src} muted loop autoPlay playsInline preload="metadata" aria-label={b.title || undefined} onError={(e) => e.currentTarget.closest("section")?.setAttribute("hidden", "")} />
             ) : b.type === "live" ? (
               <>
                 <Title b={b} />
@@ -216,6 +225,10 @@ export function Freeform({ design, content }: { design: Design; content: Content
   return (
     <div className={`fs fr-${frame}`} ref={root}>
       {/* already parsed, scoped under .fs and stripped to known-safe properties */}
+      {/* web fonts by name only; one request per family so a wrong name can't take the others down */}
+      {design.fonts?.map((f) => (
+        <link key={f} rel="stylesheet" href={`https://fonts.googleapis.com/css2?family=${encodeURIComponent(f).replace(/%20/g, "+")}&display=swap`} />
+      ))}
       <style>{design.css}</style>
       {frame === "rail" ? (
         <div className="fs-rail">

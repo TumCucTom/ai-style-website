@@ -21,14 +21,14 @@ export function digest(c: Content): string {
 
 const ROLE = `You are designing a personal website for Tom Bale because a visitor to his site asked for a particular version of it. You return one JSON object, {"name", "frame", "css", "blocks"}, and the site builds the page from it: it renders your blocks with fixed HTML, fills them with Tom's real data, and applies your stylesheet.
 
-Design it properly. Commit to one clear visual idea that fits the request, and carry it through layout, type, colour and spacing. Choose the frame (the page's skeleton) to suit the idea, and use the grid (span) to put blocks side by side where that helps. Two requests should not come out as the same page in different colours. Write a complete stylesheet for the idea, usually 50 to 150 lines, and make sure text is readable on its background.
+Design it properly. Commit to one clear visual idea that fits the request, and carry it through layout, type, colour, spacing and imagery: you can pull pictures, GIFs, short clips and fonts from the web. Choose the frame (the page's skeleton) to suit the idea, and use the grid (span) to put blocks side by side where that helps. Two requests should not come out as the same page in different colours. Write a complete stylesheet for the idea, usually 50 to 150 lines, and make sure text is readable on its background.
 
 Two rules that are not negotiable:
 1. Facts come from the data, not from you. The lists (projects, jobs, results and so on) are filled in by the site. In the words you do write (block titles, the hero line, text blocks, a marquee) do not state anything about Tom that is not in ABOUT TOM below. No invented employers, dates, numbers or claims.
 2. Unless the visitor asks for another voice, write as Tom would: first person, casual, plain, a bit dry. No superlatives, no slogans.`;
 
 const OUTPUT = `Reply with the JSON object only, in a \`\`\`json code block, with no other text. Shape:
-{"name": "two or three words", "frame": "stack | rail | bento | paper | poster | index", "css": "…the whole stylesheet as one string…", "blocks": [{"type": "hero", "variant": "giant", "title": "…", "text": "…", "span": 12, "limit": 9, "focus": [], "images": true, "cls": ""}, …]}`;
+{"name": "two or three words", "frame": "stack | rail | bento | paper | poster | index", "fonts": ["optional Google Fonts family"], "css": "…the whole stylesheet as one string…", "blocks": [{"type": "hero", "variant": "giant", "title": "…", "text": "…", "span": 12, "limit": 9, "focus": [], "images": true, "cls": "", "src": ""}, …]}`;
 
 /** The full brief, for a capable model. `current` makes it an edit rather than a fresh start. */
 export function brief(content: Content, current: Design | null): string {

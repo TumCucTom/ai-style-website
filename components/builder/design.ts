@@ -21,6 +21,8 @@ export const BLOCKS = {
   contact: ["plain"],
   marquee: ["plain"],
   divider: ["plain"],
+  image: ["plain", "wide", "cover", "round"],
+  video: ["plain", "wide", "cover"],
 } as const;
 export type BlockType = keyof typeof BLOCKS;
 
@@ -40,6 +42,8 @@ export type Block = {
   images: boolean;
   /** an extra class name for the stylesheet to hook */
   cls: string;
+  /** image and video blocks: where the picture or clip is, on the web */
+  src: string;
 };
 
 // The page's skeleton, under whatever the stylesheet does: stacked blocks on a
@@ -47,14 +51,50 @@ export type Block = {
 export const FRAMES = ["stack", "rail", "bento", "paper", "poster", "index"] as const;
 export type Frame = (typeof FRAMES)[number];
 
-export type Design = { name: string; css: string; blocks: Block[]; frame?: Frame };
+export type Design = { name: string; css: string; blocks: Block[]; frame?: Frame; fonts?: string[] };
 
 // control characters and the two Unicode line separators have no business in a heading
 const JUNK = new RegExp("[\\x00-\\x08\\x0b-\\x1f\\x7f" + String.fromCharCode(0x2028, 0x2029) + "]", "g");
 const clean = (v: unknown, max: number) => (typeof v === "string" ? v.replace(JUNK, "").trim().slice(0, max) : "");
 
-/** Whatever came in, return a Design that is safe to render, and say what was changed. */
-export function validateDesign(input: unknown): { design: Design; notes: string[] } | null {
+/**
+ * A picture, clip or stylesheet image may come from anywhere on the web, but
+ * only over https, only as a plain address (no login, no odd characters), and
+ * never from this machine or a private network.
+ */
+export function mediaUrl(v: unknown): string {
+  if (typeof v !== "string") return "";
+  const raw = v.trim();
+  if (raw.length < 12 || raw.length > 600 || !/^https:\/\//i.test(raw) || /[\s"'<>\\`(){}]/.test(raw)) return "";
+  let u: URL;
+  try {
+    u = new URL(raw);
+  } catch {
+    return "";
+  }
+  const host = u.hostname.toLowerCase();
+  if (u.protocol !== "https:" || u.username || u.password || !host.includes(".")) return "";
+  if (/^(localhost|.*\.local|.*\.internal|\[.*\]|\d+\.\d+\.\d+\.\d+)$/.test(host)) return "";
+  return u.href;
+}
+
+/** Web fonts are named, not linked: a few Google Fonts families, letters, digits and spaces only. */
+function fontNames(v: unknown): string[] {
+  if (!Array.isArray(v)) return [];
+  const out: string[] = [];
+  for (const f of v) {
+    const name = typeof f === "string" ? f.trim().replace(/\s+/g, " ") : "";
+    if (/^[A-Za-z0-9][A-Za-z0-9 ]{1,38}$/.test(name) && !out.includes(name)) out.push(name);
+    if (out.length === 3) break;
+  }
+  return out;
+}
+
+/**
+ * Whatever came in, return a Design that is safe to render, and say what was changed.
+ * `media: false` is for a model that can't be trusted to know real addresses: no pictures, clips or web fonts.
+ */
+export function validateDesign(input: unknown, { media = true }: { media?: boolean } = {}): { design: Design; notes: string[] } | null {
   if (!input || typeof input !== "object") return null;
   const src = input as Record<string, unknown>;
   const notes: string[] = [];
@@ -70,6 +110,11 @@ export function validateDesign(input: unknown): { design: Design; notes: string[
     }
     const variants = BLOCKS[type] as readonly string[];
     const variant = variants.includes(String(o.variant)) ? String(o.variant) : variants[0];
+    const src = media ? mediaUrl(o.src) : "";
+    if ((type === "image" || type === "video") && !src) {
+      notes.push(`dropped ${type === "image" ? "an image" : "a video"} with no usable https address`);
+      continue;
+    }
     const span = Math.round(Number(o.span));
     const limit = Math.round(Number(o.limit));
     blocks.push({
@@ -82,19 +127,21 @@ export function validateDesign(input: unknown): { design: Design; notes: string[
       focus: Array.isArray(o.focus) ? (o.focus.filter((f) => (FOCUS as readonly string[]).includes(f as string)) as Focus[]) : [],
       images: o.images !== false,
       cls: clean(o.cls, 24).replace(/[^a-z0-9-]/gi, ""),
+      src,
     });
   }
   if (raw.length > 24) notes.push("kept the first 24 blocks");
   if (!blocks.length) return null;
   // contact is the one thing a page must not lose
   if (!blocks.some((b) => b.type === "contact")) {
-    blocks.push({ type: "contact", variant: "plain", title: "Say hi", text: "", span: 12, limit: 1, focus: [], images: false, cls: "" });
+    blocks.push({ type: "contact", variant: "plain", title: "Say hi", text: "", span: 12, limit: 1, focus: [], images: false, cls: "", src: "" });
     notes.push("added the contact block");
   }
-  const { css, dropped } = sanitizeCss(typeof src.css === "string" ? src.css : "");
+  const { css, dropped } = sanitizeCss(typeof src.css === "string" ? src.css : "", media);
   if (dropped) notes.push(`removed ${dropped} thing${dropped === 1 ? "" : "s"} from the stylesheet that could reach outside the page`);
   const frame = (FRAMES as readonly string[]).includes(String(src.frame)) ? (src.frame as Frame) : "stack";
-  return { design: { name: clean(src.name, 40) || "Untitled", css, blocks, frame }, notes };
+  const fonts = media ? fontNames(src.fonts) : [];
+  return { design: { name: clean(src.name, 40) || "Untitled", css, blocks, frame, ...(fonts.length ? { fonts } : {}) }, notes };
 }
 
 // ---------- the stylesheet ----------
@@ -107,7 +154,13 @@ const PROP =
 const BAD_VALUE = /url\s*\(|image-set|element\s*\(|expression|javascript:|@import|behavior|-moz-binding|\\|[<>{}]|paint\s*\(|src\s*\(/i;
 const SELECTOR_OK = /^[a-z0-9 .#:>+~*_\-[\]="'()^$|,%]+$/i;
 
-function declarations(body: string, kf: Map<string, string>): { out: string; dropped: number } {
+// url() is allowed for pictures only: in these properties, pointing at a checked https address,
+// and never in a rule that looks at attributes or form fields (a stylesheet that can both read a
+// value and fetch an address can leak the one through the other).
+const URL_PROP = /^(background|background-image|border-image|border-image-source|list-style|list-style-image)$/;
+const CSS_URL = /url\(\s*(["']?)([^"')\s]+)\1\s*\)/gi;
+
+function declarations(body: string, kf: Map<string, string>, urls = false): { out: string; dropped: number } {
   let dropped = 0;
   const keep: string[] = [];
   for (const part of body.split(";")) {
@@ -115,7 +168,24 @@ function declarations(body: string, kf: Map<string, string>): { out: string; dro
     if (i < 1) continue;
     const prop = part.slice(0, i).trim().toLowerCase();
     let value = part.slice(i + 1).trim().replace(/\s*!important\s*$/i, "");
-    if (!PROP.test(prop) || !value || value.length > 400 || BAD_VALUE.test(value)) {
+    let bare = value;
+    if (/url\s*\(/i.test(value) && urls && URL_PROP.test(prop)) {
+      let ok = true;
+      let seen = 0;
+      const checked = value.replace(CSS_URL, (_m, _q, addr) => {
+        const safe = mediaUrl(addr);
+        if (!safe) ok = false;
+        seen++;
+        return `url("${safe}")`;
+      });
+      // every url( in the value has to be one that was read and checked; anything the pattern skipped fails it
+      if (ok && seen === (value.match(/url\s*\(/gi) ?? []).length) {
+        value = checked;
+        // judge the rest of the value with the checked addresses taken out
+        bare = value.replace(/url\("[^"]*"\)/g, "none");
+      }
+    }
+    if (!PROP.test(prop) || !value || value.length > 1400 || BAD_VALUE.test(bare)) {
       dropped++;
       continue;
     }
@@ -149,7 +219,7 @@ function scope(selector: string): string | null {
 }
 
 /** Parse a stylesheet and rebuild it from only the parts that are allowed. */
-export function sanitizeCss(input: string): { css: string; dropped: number } {
+export function sanitizeCss(input: string, media = true): { css: string; dropped: number } {
   let dropped = 0;
   const raw = input.slice(0, 24000).replace(/\/\*[\s\S]*?\*\//g, "");
   // statements with no block (@import, @charset, @namespace) are never copied
@@ -205,7 +275,7 @@ export function sanitizeCss(input: string): { css: string; dropped: number } {
         dropped++;
         continue;
       }
-      const d = declarations(body, kf);
+      const d = declarations(body, kf, media && !/[\[\]]|\b(input|textarea|select|form)\b|gate/i.test(head));
       dropped += d.dropped;
       if (d.out) out += `${sel}{${d.out}}`;
     }
@@ -225,6 +295,7 @@ export const DESIGN_SCHEMA = {
   properties: {
     name: { type: "string", description: "Two or three words naming this version." },
     frame: { type: "string", enum: [...FRAMES], description: "The page's skeleton." },
+    fonts: { type: "array", items: { type: "string" }, description: "Up to three Google Fonts family names to load." },
     css: { type: "string", description: "The stylesheet for the page. Plain CSS rules; selectors are relative to the page root." },
     blocks: {
       type: "array",
@@ -242,6 +313,7 @@ export const DESIGN_SCHEMA = {
           focus: { type: "array", items: { type: "string", enum: [...FOCUS] } },
           images: { type: "boolean" },
           cls: { type: "string" },
+          src: { type: "string", description: "image and video blocks: an https address" },
         },
       },
     },
@@ -260,6 +332,8 @@ export const BLOCK_GUIDE = `BLOCKS (each is {type, variant, title, text, span, l
 - live: variant bignum | row | ticker (GitHub contributions, chess ratings, last song).
 - contact: variant plain. Always include one. It renders a puzzle gate; you cannot change what is inside.
 - marquee: text = a short line that scrolls across. divider: a rule.
+- image: variant plain | wide | cover | round. src = an https address of a picture or GIF. title = alt text (say what it shows), text = optional caption.
+- video: variant plain | wide | cover. src = an https address of an .mp4 or .webm. It plays muted, on a loop, with no controls, so use short clips.
 FRAME (top-level "frame", optional, default "stack"): the page's skeleton. Pick the one the idea calls for; do not default to stack.
 - stack: blocks flow on the 12-column grid using span.
 - rail: the hero is a sticky sidebar on the left, everything else scrolls in one column on the right.
@@ -281,7 +355,17 @@ section.b.b-TYPE.v-VARIANT[.cls]   each block
   .nums > .num > b.num-v + span.num-k          in live
   .mq > span                                   in marquee and projects/marquee
   hr                                           in divider
-The base stylesheet already lays each variant out sensibly in black on white, so your CSS only needs to say what should be different. It may use any normal property (grid, flex, gradients, shadows, transforms, transitions, @keyframes, @media). It may not use url(), @import, @font-face or position: fixed or sticky; those are stripped. Fonts: only families likely installed (system-ui, Georgia, "Times New Roman", "Courier New", ui-monospace, "Comic Sans MS", Impact, "Helvetica Neue", Arial) or var(--font-display) for a heavy grotesque.`;
+  figure > img.pic + figcaption.cap            in image
+  video.clip                                   in video
+The base stylesheet already lays each variant out sensibly in black on white, so your CSS only needs to say what should be different. It may use any normal property (grid, flex, gradients, shadows, transforms, transitions, @keyframes, @media). It may not use @import, @font-face or position: fixed or sticky; those are stripped.
+
+PICTURES, GIFS, CLIPS AND FONTS FROM THE WEB (use them; a page with real imagery is far better than one without):
+- In blocks: image and video blocks, above. In CSS: url("https://…") in background, background-image, border-image and list-style-image, for textures, hero backdrops and the like. Put a background-color behind any background image so text stays readable if it fails to load.
+- Every address must be https, a direct link to the file (not a web page about it), and one you are sure exists. If you can browse or search, find real ones. If you cannot, use sources whose addresses you can construct: https://picsum.photos/seed/ANYWORD/1600/900 (a photograph, always works, the word picks it), https://placehold.co/1200x800/1a1a1a/ffffff?text=Words (flat colour with text), and Wikimedia Commons upload.wikimedia.org addresses you know. Do not invent plausible-looking addresses: a broken picture is hidden, which leaves a hole.
+- Pictures must suit a personal site that anyone might open: nothing explicit, nothing of real people other than public-domain or freely licensed images.
+- "fonts": up to three Google Fonts family names (e.g. ["Fraunces", "Space Grotesk"]). They are loaded for you; then use them in font-family with a fallback. Otherwise use families likely installed (system-ui, Georgia, "Times New Roman", "Courier New", ui-monospace, "Comic Sans MS", Impact, "Helvetica Neue", Arial) or var(--font-display) for a heavy grotesque.
+
+HTML for the new blocks: section.b-image > figure > img.pic + figcaption.cap ; section.b-video > video.clip`;
 
 // ---------- sharing ----------
 

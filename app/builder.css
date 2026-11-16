@@ -1015,3 +1015,12 @@ html.light .is-chat { --up: #1f5fe0; }
 .chat-ent:hover .chat-ent-bar, .chat-ent:focus-within .chat-ent-bar { animation-play-state: paused; }
 @media (prefers-reduced-motion: reduce) { .chat-ent-bar { display: none; } }
 .chat-plans p.price i { white-space: nowrap; }
+
+/* ===== pictures and clips in model-designed pages ===== */
+.fs .b-image figure { margin: 0; }
+.fs .pic, .fs .clip { display: block; width: 100%; height: auto; max-height: 85vh; object-fit: cover; }
+.fs .cap { margin-top: 0.5rem; font-size: 0.85rem; opacity: 0.7; }
+.fs .b-image.v-cover .pic, .fs .b-video.v-cover .clip { aspect-ratio: 21 / 9; }
+.fs .b-image.v-wide, .fs .b-video.v-wide { grid-column: 1 / -1 !important; margin-inline: calc(-1 * clamp(1rem, 4vw, 3rem)); }
+.fs .b-image.v-round .pic { width: min(100%, 16rem); aspect-ratio: 1; border-radius: 50%; }
+.fs .b-image[hidden], .fs .b-video[hidden] { display: none !important; }

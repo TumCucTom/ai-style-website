@@ -295,7 +295,8 @@ export function Builder({ content, studio = false }: { content: Content; studio?
 
   /** A model's reply, of any origin, into a version on the page. */
   function accept(raw: unknown, prompt: string, source: Source): boolean {
-    const checked = validateDesign(raw);
+    // a small local model invents addresses, so it gets no pictures, clips or web fonts
+    const checked = validateDesign(raw, { media: source !== "bigger model" });
     if (!checked) return false;
     if (source === "bigger model") {
       // a small model often ignores "only the HPC work"; the keyword rules don't, so they set the filter
@@ -581,7 +582,10 @@ export function Builder({ content, studio = false }: { content: Content; studio?
             <button onClick={build} disabled={!reply.trim()}>
               Build
             </button>
-            <span className="llm-dim">The reply is checked first, and its CSS can only touch the generated page.</span>
+            <span className="llm-dim">
+              The reply is checked first, and its CSS can only touch the generated page. It can pull pictures, GIFs, clips and fonts from other sites, so
+              those sites see the page being opened.
+            </span>
           </p>
         </div>
   );

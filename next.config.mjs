@@ -1,14 +1,17 @@
 // /studio takes a reply pasted from someone's own chatbot. The policy below
-// makes the browser refuse to send anything from that page to any host but
-// this one, and refuse outside scripts, frames and form posts. Inline scripts
+// makes the browser refuse scripts, frames, form posts and data requests to
+// any host but this one. Pictures, clips and fonts may load from the web,
+// because a design is allowed to use them. Inline scripts
 // stay allowed because Next's own bootstrap needs them.
 const dev = process.env.NODE_ENV !== "production";
 const studioCsp = [
   "default-src 'self'",
   `script-src 'self' 'unsafe-inline'${dev ? " 'unsafe-eval'" : ""}`,
-  "style-src 'self' 'unsafe-inline'",
-  "img-src 'self' data:",
-  "font-src 'self'",
+  // a pasted design may bring pictures, clips and Google Fonts from the web
+  "style-src 'self' 'unsafe-inline' https://fonts.googleapis.com",
+  "img-src 'self' data: https:",
+  "media-src 'self' https:",
+  "font-src 'self' https://fonts.gstatic.com",
   `connect-src 'self'${dev ? " ws://localhost:* ws://127.0.0.1:*" : ""}`,
   "frame-src 'none'",
   "worker-src 'none'",
