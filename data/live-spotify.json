@@ -1,14 +1,14 @@
 {
   "user": "trvbale",
-  "fetchedAt": "2026-11-14T21:52:13.931Z",
+  "fetchedAt": "2026-11-16T02:20:22.740Z",
   "current": {
-    "name": "IGOR'S THEME",
-    "artist": "Tyler, The Creator",
-    "album": "IGOR",
-    "url": "https://www.last.fm/music/Tyler,+The+Creator/_/IGOR%27S+THEME",
-    "image": "https://lastfm-img.freetls.fastly.net/i/u/174s/e150fa362c89b8f1d92d883ae828b7ef.jpg",
+    "name": "熱情のスペクトラム",
+    "artist": "Ikimonogakari",
+    "album": "Chou Ikimonobakari Tennen Kinen Members Best Selection",
+    "url": "https://www.last.fm/music/+noredirect/Ikimonogakari/_/%E7%86%B1%E6%83%85%E3%81%AE%E3%82%B9%E3%83%9A%E3%82%AF%E3%83%88%E3%83%A9%E3%83%A0",
+    "image": "https://lastfm-img.freetls.fastly.net/i/u/174s/bb80b85347d35939e8f99154db381585.jpg",
     "isNowPlaying": false,
-    "playedAt": "14 Nov 2026, 21:03"
+    "playedAt": "15 Nov 2026, 00:05"
   },
   "weeklyStats": {
     "totalScrobbles": 200
@@ -19,13 +19,13 @@
       "playCount": "20"
     },
     {
-      "name": "Rousseau",
-      "playCount": "19"
+      "name": "Flight of the Conchords",
+      "playCount": "14"
     },
     {
-      "name": "Flight of the Conchords",
-      "playCount": "13"
+      "name": "Rousseau",
+      "playCount": "12"
     }
   ],
-  "totalScrobbles": "3002"
+  "totalScrobbles": "3040"
 }
