@@ -1,0 +1,60 @@
+{
+  "tiles": [
+    {
+      "kind": "puzzle",
+      "label": "Latest puzzle",
+      "value": "Hanayama Cast Tube",
+      "meta": "solved · monthly drop complete",
+      "tone": "calm"
+    },
+    {
+      "kind": "book",
+      "label": "Reading",
+      "value": "Iliad — Homer",
+      "meta": "Penguin Classics · Fagles",
+      "tone": "calm"
+    },
+    {
+      "kind": "book",
+      "label": "Reading",
+      "value": "Can't Hurt Me — David Goggins",
+      "meta": "50% · accountability mirror",
+      "tone": "fresh"
+    },
+    {
+      "kind": "book",
+      "label": "In queue (reading)",
+      "value": "Same As Ever — Morgan Housel",
+      "meta": "next after Iliad",
+      "tone": "calm"
+    },
+    {
+      "kind": "rehab",
+      "label": "Training for",
+      "value": "ACL reconstruction — return to sports",
+      "meta": "post-surgery · 9–12 month plan",
+      "tone": "calm"
+    },
+    {
+      "kind": "run",
+      "label": "In queue (sport)",
+      "value": "Sub-3hr @ Athens Classic Marathon '27",
+      "meta": "42.2 km · post-rehab target",
+      "tone": "calm"
+    },
+    {
+      "kind": "run",
+      "label": "In queue (sport)",
+      "value": "Sub-17 5K — currently 17:32",
+      "meta": "Parkrun PB: 17:32 · -32s to find",
+      "tone": "fresh"
+    },
+    {
+      "kind": "boardgame",
+      "label": "Board game",
+      "value": "Catan: Starfarers",
+      "meta": "current favourite · Colonise the galaxy — trade, explore and befriend alien races among the stars",
+      "tone": "calm"
+    }
+  ]
+}

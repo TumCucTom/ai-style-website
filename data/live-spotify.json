@@ -1,0 +1,31 @@
+{
+  "user": "trvbale",
+  "fetchedAt": "2026-11-14T21:52:13.931Z",
+  "current": {
+    "name": "IGOR'S THEME",
+    "artist": "Tyler, The Creator",
+    "album": "IGOR",
+    "url": "https://www.last.fm/music/Tyler,+The+Creator/_/IGOR%27S+THEME",
+    "image": "https://lastfm-img.freetls.fastly.net/i/u/174s/e150fa362c89b8f1d92d883ae828b7ef.jpg",
+    "isNowPlaying": false,
+    "playedAt": "14 Nov 2026, 21:03"
+  },
+  "weeklyStats": {
+    "totalScrobbles": 200
+  },
+  "topArtists": [
+    {
+      "name": "Atlus Sound Team",
+      "playCount": "20"
+    },
+    {
+      "name": "Rousseau",
+      "playCount": "19"
+    },
+    {
+      "name": "Flight of the Conchords",
+      "playCount": "13"
+    }
+  ],
+  "totalScrobbles": "3002"
+}

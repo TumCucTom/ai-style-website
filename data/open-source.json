@@ -1,0 +1,366 @@
+[
+  {
+    "id": "pytorch",
+    "org": "pytorch",
+    "repo": "pytorch",
+    "url": "https://github.com/pytorch/pytorch/pull/186128",
+    "blurb": "Test cases and small bug fixes.",
+    "tags": [
+      "pytorch",
+      "tests",
+      "kernels"
+    ],
+    "logo": "/oss/pytorch-logo.svg",
+    "prs": [
+      {
+        "n": 186776,
+        "title": "Fix __qualname__ for OpOverload and OpOverloadPacket",
+        "state": "CLOSED",
+        "date": "2026-06-09"
+      },
+      {
+        "n": 186221,
+        "title": "Fix __qualname__ for OpOverload and OpOverloadPacket",
+        "state": "CLOSED",
+        "date": "2026-06-04"
+      },
+      {
+        "n": 186159,
+        "title": "Restore Any return type for Module.__getattr__ to fix typing false positives",
+        "state": "CLOSED",
+        "date": "2026-06-04"
+      },
+      {
+        "n": 186128,
+        "title": "Reject dtype conversion of quantized TypedStorage with a clear error",
+        "state": "CLOSED",
+        "date": "2026-06-03"
+      },
+      {
+        "n": 186079,
+        "title": "Add test cases for 0-sized tensor padding",
+        "state": "CLOSED",
+        "date": "2026-06-03"
+      }
+    ]
+  },
+  {
+    "id": "vercel-labs-zerolang",
+    "org": "vercel-labs",
+    "repo": "zerolang",
+    "url": "https://github.com/vercel-labs/zerolang/pulls?q=is%3Apr+author%3ATumCucTom",
+    "blurb": "Lexer/parser edge cases for the experimental graph-first agent language.",
+    "tags": [
+      "language",
+      "compiler",
+      "agent"
+    ],
+    "logo": "/oss/vercel-labs.png",
+    "prs": [
+      {
+        "n": 377,
+        "title": "feat: implement graph diff, 3-way merge, and auto-merge (#348-PR2-8)",
+        "state": "OPEN",
+        "date": "2026-06-04"
+      },
+      {
+        "n": 376,
+        "title": "feat: add zero graph diff command (#348-PR2)",
+        "state": "OPEN",
+        "date": "2026-06-04"
+      },
+      {
+        "n": 372,
+        "title": "Restrict char `\\xNN` to ASCII range (B6)",
+        "state": "OPEN",
+        "date": "2026-06-04"
+      },
+      {
+        "n": 371,
+        "title": "Reject unknown escapes in string literals (A2/A3/B8)",
+        "state": "OPEN",
+        "date": "2026-06-04"
+      },
+      {
+        "n": 370,
+        "title": "Accept underscores in float literals (B5)",
+        "state": "OPEN",
+        "date": "2026-06-04"
+      },
+      {
+        "n": 366,
+        "title": "Make lowering BLD004 diagnostics target-aware",
+        "state": "OPEN",
+        "date": "2026-06-04"
+      }
+    ]
+  },
+  {
+    "id": "fast-f1",
+    "org": "theOehrly",
+    "repo": "Fast-F1",
+    "url": "https://github.com/theOehrly/Fast-F1/pulls?q=is%3Apr+author%3ATumCucTom",
+    "blurb": "F1 telemetry library — public API for timing stream data.",
+    "tags": [
+      "f1",
+      "telemetry",
+      "api"
+    ],
+    "prs": [
+      {
+        "n": 938,
+        "title": "Enable Ruff Q rules in docs and config files",
+        "state": "CLOSED",
+        "date": "2026-06-16"
+      },
+      {
+        "n": 937,
+        "title": "Enable Ruff Q rules in docs and config files",
+        "state": "CLOSED",
+        "date": "2026-06-16"
+      },
+      {
+        "n": 936,
+        "title": "Enable Ruff Q rules for quote consistency in examples",
+        "state": "CLOSED",
+        "date": "2026-06-16"
+      },
+      {
+        "n": 935,
+        "title": "Enable Ruff Q rules for quote consistency in core library",
+        "state": "CLOSED",
+        "date": "2026-06-16"
+      },
+      {
+        "n": 926,
+        "title": "Add public API for timing stream data (GapToLeader, IntervalToPositionAhead)",
+        "state": "CLOSED",
+        "date": "2026-06-04"
+      },
+      {
+        "n": 925,
+        "title": "Fix NaT lap times after red flag restarts (issue #473)",
+        "state": "CLOSED",
+        "date": "2026-06-04"
+      },
+      {
+        "n": 924,
+        "title": "Enable Ruff Q rules for quote consistency",
+        "state": "CLOSED",
+        "date": "2026-06-04"
+      },
+      {
+        "n": 923,
+        "title": "Add TeamId and DriverId to F1 API driver info for FP sessions (fix #811)",
+        "state": "CLOSED",
+        "date": "2026-06-04"
+      },
+      {
+        "n": 922,
+        "title": "Fix missing TeamId for DNS drivers (fix #809)",
+        "state": "CLOSED",
+        "date": "2026-06-04"
+      },
+      {
+        "n": 921,
+        "title": "Deprecate fastf1.utils submodule (fix #884)",
+        "state": "CLOSED",
+        "date": "2026-06-04"
+      }
+    ]
+  },
+  {
+    "id": "nous-hermes",
+    "org": "NousResearch",
+    "repo": "hermes-agent",
+    "url": "https://github.com/NousResearch/hermes-agent/pulls?q=is%3Apr+author%3ATumCucTom",
+    "blurb": "Skills, docs, and CLI improvements.",
+    "tags": [
+      "agent",
+      "skills",
+      "tui"
+    ],
+    "prs": [
+      {
+        "n": 39740,
+        "title": "feat(web): add clean dashboard theme",
+        "state": "CLOSED",
+        "date": "2026-06-05"
+      },
+      {
+        "n": 36943,
+        "title": "feat(cli): add \"clean\" accessibility skin",
+        "state": "OPEN",
+        "date": "2026-06-01"
+      },
+      {
+        "n": 36931,
+        "title": "feat(cli): add /plan slash command to view agent's todo list",
+        "state": "CLOSED",
+        "date": "2026-06-01"
+      },
+      {
+        "n": 36890,
+        "title": "feat(skills): add ical skill in optional-skills/productivity",
+        "state": "OPEN",
+        "date": "2026-06-01"
+      },
+      {
+        "n": 36876,
+        "title": "feat(skills): add ical skill in optional-skills/productivity",
+        "state": "CLOSED",
+        "date": "2026-06-01"
+      },
+      {
+        "n": 36836,
+        "title": "feat(skills): add devcontainer skill in optional-skills/devops/",
+        "state": "OPEN",
+        "date": "2026-06-01"
+      },
+      {
+        "n": 36825,
+        "title": "feat(skills): add typst skill in optional-skills/creative/",
+        "state": "OPEN",
+        "date": "2026-06-01"
+      },
+      {
+        "n": 36820,
+        "title": "fix(memory): prefix Honcho gateway session key with ai_peer (#36160)",
+        "state": "CLOSED",
+        "date": "2026-06-01"
+      },
+      {
+        "n": 6746,
+        "title": "docs: add cron troubleshooting guide",
+        "state": "CLOSED",
+        "date": "2026-04-09"
+      }
+    ]
+  },
+  {
+    "id": "minimax-mini-agent",
+    "org": "MiniMax-AI",
+    "repo": "Mini-Agent",
+    "url": "https://github.com/MiniMax-AI/Mini-Agent/pulls?q=is%3Apr+author%3ATumCucTom",
+    "blurb": "Streaming and sub-agent features.",
+    "tags": [
+      "agent",
+      "streaming"
+    ],
+    "prs": [
+      {
+        "n": 85,
+        "title": "feat: add SubAgentTool for spawning child agents",
+        "state": "OPEN",
+        "date": "2026-04-06"
+      },
+      {
+        "n": 84,
+        "title": "feat: streaming LLM responses",
+        "state": "OPEN",
+        "date": "2026-04-05"
+      },
+      {
+        "n": 83,
+        "title": "docs: streaming LLM responses implementation plan (issue #71)",
+        "state": "CLOSED",
+        "date": "2026-04-04"
+      }
+    ]
+  },
+  {
+    "id": "minimax-mcp",
+    "org": "MiniMax-AI",
+    "repo": "MiniMax-MCP",
+    "url": "https://github.com/MiniMax-AI/MiniMax-MCP/pulls?q=is%3Apr+author%3ATumCucTom",
+    "blurb": "Tests, validation, and bug fixes.",
+    "tags": [
+      "mcp",
+      "tests",
+      "hardening"
+    ],
+    "prs": [
+      {
+        "n": 87,
+        "title": "test: expand coverage to server.py and __main__.py (#72)",
+        "state": "OPEN",
+        "date": "2026-06-02"
+      },
+      {
+        "n": 86,
+        "title": "fix(server): add timeout to all requests.get() calls to prevent indefinite hangs (#64)",
+        "state": "OPEN",
+        "date": "2026-06-02"
+      },
+      {
+        "n": 85,
+        "title": "feat(server): validate numeric and enum tool params locally before API calls (#66)",
+        "state": "OPEN",
+        "date": "2026-06-02"
+      },
+      {
+        "n": 84,
+        "title": "style(server): fix over-indentation in music_generation function body (#69)",
+        "state": "OPEN",
+        "date": "2026-06-02"
+      },
+      {
+        "n": 83,
+        "title": "docs(server): disclose play_audio's file-folder walking behavior in tool description (#78)",
+        "state": "OPEN",
+        "date": "2026-06-02"
+      }
+    ]
+  },
+  {
+    "id": "minimax-cli",
+    "org": "MiniMax-AI",
+    "repo": "cli",
+    "url": "https://github.com/MiniMax-AI/cli/pull/170",
+    "blurb": "Config write safety and search docs.",
+    "tags": [
+      "cli",
+      "config",
+      "fs"
+    ],
+    "prs": [
+      {
+        "n": 171,
+        "title": "fix(config): fall back to copy+unlink on EXDEV when writing config (#61)",
+        "state": "CLOSED",
+        "date": "2026-06-02"
+      },
+      {
+        "n": 170,
+        "title": "docs(search): document the 10-result cap on mmx search query (#107)",
+        "state": "CLOSED",
+        "date": "2026-06-02"
+      }
+    ]
+  },
+  {
+    "id": "minimax-skills",
+    "org": "MiniMax-AI",
+    "repo": "skills",
+    "url": "https://github.com/MiniMax-AI/skills/pulls?q=is%3Apr+author%3ATumCucTom",
+    "blurb": "New skills: PDF reading and spreadsheet triage.",
+    "tags": [
+      "skills",
+      "docs"
+    ],
+    "prs": [
+      {
+        "n": 62,
+        "title": "feat(excel-wps-table-diagnosis): add new skill for spreadsheet diagnosis and cleanup planning",
+        "state": "OPEN",
+        "date": "2026-04-04"
+      },
+      {
+        "n": 51,
+        "title": "feat(minimax-pdf-read): add PDF reading skill for text extraction",
+        "state": "OPEN",
+        "date": "2026-03-30"
+      }
+    ]
+  }
+]

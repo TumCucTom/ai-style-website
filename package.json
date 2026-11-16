@@ -1,0 +1,39 @@
+{
+  "name": "tom-bale-v4",
+  "version": "4.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "test": "node --test",
+    "start": "next start",
+    "lint": "next lint",
+    "embed": "node scripts/embed.mjs",
+    "embed:corpus": "node scripts/embed.mjs --dump",
+    "embed:umap": "npm run embed:corpus && python3 scripts/embed_umap.py && npm run embed",
+    "commits": "node scripts/commits.mjs",
+    "chess": "node scripts/chess.mjs"
+  },
+  "dependencies": {
+    "chess.js": "^1.4.0",
+    "next": "^15.1.11",
+    "react": "^19.0.4",
+    "react-dom": "^19.0.4",
+    "three": "^0.187.0"
+  },
+  "devDependencies": {
+    "@types/node": "22.10.5",
+    "@types/react": "^19.0.4",
+    "@types/react-dom": "^19.0.4",
+    "@types/three": "^0.187.0",
+    "autoprefixer": "10.4.20",
+    "postcss": "^8.5.15",
+    "tailwindcss": "3.4.17",
+    "topojson-client": "^3.1.0",
+    "typescript": "5.7.2",
+    "world-atlas": "^2.0.2"
+  },
+  "overrides": {
+    "postcss": "$postcss"
+  }
+}

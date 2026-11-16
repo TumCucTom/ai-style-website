@@ -1,0 +1,3121 @@
+[
+  {
+    "id": "repo-agentic-playground",
+    "text": "agentic-playground agentic-playground ai ai TypeScript React Zustand Electron node-pty xterm.js Swift (native helper) agentic-playground. Canvas Workspace — an infinite-canvas macOS desktop app that hosts VS Code–style panels, real PTYs, file explorers, and embedded apps. Built on Electron with a VS Code–shaped exten",
+    "name": "agentic-playground",
+    "meta": {
+      "kind": "repo",
+      "category": "ai",
+      "stack": [
+        "TypeScript",
+        "React",
+        "Zustand",
+        "Electron",
+        "node-pty",
+        "xterm.js",
+        "Swift (native helper)"
+      ],
+      "description": "Canvas Workspace — an infinite-canvas macOS desktop app that hosts VS Code–style panels, real PTYs, file explorers, and embedded apps. Built on Electron with a VS Code–shaped extension host. Features: real PTY terminals with `TaskMonitor` that auto-focuses/auto-promotes completed panels, infinite **Canvas** + binary-split **Grid** layout modes (⌘⇧L), undo/redo with 100ms coalescing, multi-workspace JSON storage, auto-save, **App Launcher** that streams real spawned apps into canvas panels via macOS accessibility API (Swift helper), three bundled extensions (`canvas-notes`, `canvas-tasks` Kanban, `canvas-system`). 67 unit tests + 11 e2e tests (vitest + playwright)."
+    }
+  },
+  {
+    "id": "repo-hermes-agent",
+    "text": "hermes-agent hermes-agent ai ai Python hermes-agent. Fork of Nous Research's self-improving AI agent — \"The agent that grows with you.\" Features a real terminal interface (TUI with multiline editing, slash-command autocomplete), lives on T",
+    "name": "hermes-agent",
+    "meta": {
+      "kind": "repo",
+      "category": "ai",
+      "stack": [
+        "Python"
+      ],
+      "description": "Fork of Nous Research's self-improving AI agent — \"The agent that grows with you.\" Features a real terminal interface (TUI with multiline editing, slash-command autocomplete), lives on Telegram/Discord/Slack/WhatsApp/Signal, a closed learning loop (agent-curated memory, autonomous skill creation, FTS5 session search, Honcho dialectic user modeling), built-in cron scheduler, sub-agent delegation, six terminal backends (local/Docker/SSH/Singularity/Modal/Daytona), trajectory generation for training. Tom has authored multiple PRs upstream adding skills, slash commands, accessibility skins, memory fixes, and documentation."
+    }
+  },
+  {
+    "id": "repo-hiring",
+    "text": "hiring hiring ai ai TypeScript React Tailwind Express SQLite MiniMax Claude hiring. Jack & Jill — AI agents for job searching and hiring. React + Tailwind frontend, Express + SQLite backend, AI provider flexibility (MiniMax M2.7, OpenAI, claude-opus-4-5 via router). Includes ",
+    "name": "hiring",
+    "meta": {
+      "kind": "repo",
+      "category": "ai",
+      "stack": [
+        "TypeScript",
+        "React",
+        "Tailwind",
+        "Express",
+        "SQLite",
+        "MiniMax",
+        "Claude"
+      ],
+      "description": "Jack & Jill — AI agents for job searching and hiring. React + Tailwind frontend, Express + SQLite backend, AI provider flexibility (MiniMax M2.7, OpenAI, claude-opus-4-5 via router). Includes a **Ratings** subapp (`ratings.jackandjill.ai`) styled like \"Rate My Professor\" for University of Bristol BSc Computer Science units — browse schools, programmes, unit cards, ratings, workload, reviews, career tags. Custom unit submission + persisted review submission via REST API."
+    }
+  },
+  {
+    "id": "repo-llama-8b-isc-25",
+    "text": "llama-8b-ISC-25 llama-8b-ISC-25 ai ai Python PyTorch CUDA FP8 FlashAttention 3 Transformer Engine DoRA SLURM llama-8b-ISC-25. ISC25 Student Cluster Competition — LLaMA 8B Fine-Tuning Task. Performance optimisation on 8× H100 GPUs: FlashAttention 3 (H100-specific kernels), NVIDIA Transformer Engine with FP8 s",
+    "name": "llama-8b-ISC-25",
+    "meta": {
+      "kind": "repo",
+      "category": "ai",
+      "stack": [
+        "Python",
+        "PyTorch",
+        "CUDA",
+        "FP8",
+        "FlashAttention 3",
+        "Transformer Engine",
+        "DoRA",
+        "SLURM"
+      ],
+      "description": "ISC25 Student Cluster Competition — LLaMA 8B Fine-Tuning Task. Performance optimisation on 8× H100 GPUs: FlashAttention 3 (H100-specific kernels), NVIDIA Transformer Engine with FP8 support, FP8 precision (chosen over BF16 for superior H100 performance + larger batch sizes), effective batch size 256 (`per_device_batch_size=16, num_gpus=8, gradient_accumulation_steps=2`). Accuracy optimisation: DoRA (Delta-Orthogonal Rank Adaptation) chosen over LoRA/qLoRA for higher accuracy with moderate compute overhead. 5 epochs, max_steps=69, ~685 total steps. Full files in competition submission state."
+    }
+  },
+  {
+    "id": "repo-machine-learning-coursework",
+    "text": "machine-learning-coursework machine-learning-coursework ai ai Jupyter Notebook Python scikit-learn machine-learning-coursework. Machine Learning coursework at the University of Bristol. Brief README indicates a **Classification** task with PCA vs random projection comparison (reporting explained va",
+    "name": "machine-learning-coursework",
+    "meta": {
+      "kind": "repo",
+      "category": "ai",
+      "stack": [
+        "Jupyter Notebook",
+        "Python",
+        "scikit-learn"
+      ],
+      "description": "Machine Learning coursework at the University of Bristol. Brief README indicates a **Classification** task with PCA vs random projection comparison (reporting explained variance ratios). Corresponds to the 87% ML coursework score highlighted in the main profile."
+    }
+  },
+  {
+    "id": "repo-ocaml-microgpt",
+    "text": "ocaml-microgpt ocaml-microgpt ai ai OCaml (planned) ocaml-microgpt. Repository is empty (no source files, only `.git`). Intended for a minimal GPT implementation in OCaml.. OCaml (planned). ai",
+    "name": "ocaml-microgpt",
+    "meta": {
+      "kind": "repo",
+      "category": "ai",
+      "stack": [
+        "OCaml (planned)"
+      ],
+      "description": "Repository is empty (no source files, only `.git`). Intended for a minimal GPT implementation in OCaml."
+    }
+  },
+  {
+    "id": "repo-omnii",
+    "text": "omnii omnii ai ai TypeScript React Native Firebase Groq Opik omnii. \"Duolingo but for anything.\" AI-powered educational platform that generates personalised, gamified learning courses on any topic using LLMs. React Native cross-platform app. Features: AI-genera",
+    "name": "omnii",
+    "meta": {
+      "kind": "repo",
+      "category": "ai",
+      "stack": [
+        "TypeScript",
+        "React Native",
+        "Firebase",
+        "Groq",
+        "Opik"
+      ],
+      "description": "\"Duolingo but for anything.\" AI-powered educational platform that generates personalised, gamified learning courses on any topic using LLMs. React Native cross-platform app. Features: AI-generated courses (structure + lessons + quizzes), XP / streaks / unlock lessons, Beginner/Intermediate/Advanced difficulty, personalised content from uploaded materials, global + friends leaderboard. Built with Groq API (`llama-3.3-70b-versatile`), Firebase (Auth + Firestore), and **Opik** for LLM evaluation (LLM-as-judge across educational quality, structural compliance, engagement potential, difficulty alignment; online evaluation threads; automated prompt/agent tuning; multi-tool agent evaluation; regression test suite; real-time quality monitoring dashboard)."
+    }
+  },
+  {
+    "id": "repo-personalised-text-coach",
+    "text": "personalised-text-coach personalised-text-coach ai ai Python FastAPI Anthropic SDK SQLAlchemy personalised-text-coach. Personalised text coaching tool. Code structure (`app/`, `cli.py`, `frontend/`, `import_chat.py`, `services/`, `test_chat.py`) and dependencies (Anthropic SDK, FastAPI, uvicor",
+    "name": "personalised-text-coach",
+    "meta": {
+      "kind": "repo",
+      "category": "ai",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "Anthropic SDK",
+        "SQLAlchemy"
+      ],
+      "description": "Personalised text coaching tool. Code structure (`app/`, `cli.py`, `frontend/`, `import_chat.py`, `services/`, `test_chat.py`) and dependencies (Anthropic SDK, FastAPI, uvicorn, pydantic, SQLAlchemy, aiosqlite) suggest a chat-driven AI coaching app with a backend API, CLI, and frontend. No README."
+    }
+  },
+  {
+    "id": "repo-sales-bot-showdown",
+    "text": "Sales-Bot-Showdown Sales-Bot-Showdown ai ai Next.js 14 TypeScript Tailwind CSS Groq API React Heroicons Sales-Bot-Showdown. AI Chat Simulation — a web app where two AI agents have a conversation based on user-provided context and roles. Real-time conversation generation, user-defined context/roles per A",
+    "name": "Sales-Bot-Showdown",
+    "meta": {
+      "kind": "repo",
+      "category": "ai",
+      "stack": [
+        "Next.js 14",
+        "TypeScript",
+        "Tailwind CSS",
+        "Groq API",
+        "React",
+        "Heroicons"
+      ],
+      "description": "AI Chat Simulation — a web app where two AI agents have a conversation based on user-provided context and roles. Real-time conversation generation, user-defined context/roles per AI. Powered by Groq API."
+    }
+  },
+  {
+    "id": "repo-sparse-attention-poc",
+    "text": "sparse-attention-poc sparse-attention-poc ai ai Python PyTorch SDPA MiniMax M3 DeepSeek CSA/HCA HPC SLURM sparse-attention-poc. Comparative study of sparse attention approaches for long-context LLMs (128K–1M tokens). Approach progression: (1) synthetic benchmarks (SDPA / MemEff / local / hybrid), (2) SubQ",
+    "name": "sparse-attention-poc",
+    "meta": {
+      "kind": "repo",
+      "category": "ai",
+      "stack": [
+        "Python",
+        "PyTorch",
+        "SDPA",
+        "MiniMax M3",
+        "DeepSeek CSA/HCA",
+        "HPC",
+        "SLURM"
+      ],
+      "description": "Comparative study of sparse attention approaches for long-context LLMs (128K–1M tokens). Approach progression: (1) synthetic benchmarks (SDPA / MemEff / local / hybrid), (2) SubQ / SSA-inspired learned sparse routing on Qwen 0.5B (failed — gradient blackout), (3) MiniMax M3 two-stage sparse attention (index + top-k blocks) + hybrid local+global, (4) DeepSeek V4 CSA (4:1 compression) / HCA (128:1 compression), (5) training pipeline with Gumbel-Softmax, (6) HPC validation on MiniMax-M2.7 (456B MoE). **Key result:** fixed hybrid (local sliding window + global prefix) gives 4.4× speedup over MemEff at 4096 tokens; sparse paths OOM at 100K+ tokens on real models. ~170 GH200 hours total."
+    }
+  },
+  {
+    "id": "repo-speedy-llm",
+    "text": "speedy-llm speedy-llm ai ai C Python NumPy MLX CUDA NEON intrinsics SVE2 speedy-llm. Fork of Alex Cheema's \"talos-vs-macbook\". Compares Karpathy's microGPT (a 4,192-parameter character-level transformer) in 5 implementations on M4 Max MacBook Pro vs TALOS-V2's 53,000 tok/s",
+    "name": "speedy-llm",
+    "meta": {
+      "kind": "repo",
+      "category": "ai",
+      "stack": [
+        "C",
+        "Python",
+        "NumPy",
+        "MLX",
+        "CUDA",
+        "NEON intrinsics",
+        "SVE2"
+      ],
+      "description": "Fork of Alex Cheema's \"talos-vs-macbook\". Compares Karpathy's microGPT (a 4,192-parameter character-level transformer) in 5 implementations on M4 Max MacBook Pro vs TALOS-V2's 53,000 tok/sec hardware implementation on a Cyclone V FPGA. Implementations: pure-python, NumPy fp32, MLX fp32 (CPU + GPU), C fp32+NEON, C Q4.12 fixed-point. **Result:** C+NEON beats FPGA by ~71×; NumPy is slower than FPGA; MLX-GPU is worst (kernel launch overhead). Extended to M3 Ultra, M1 Max, NVIDIA DGX Spark (Grace + Blackwell, with both naïve and persistent CUDA kernels). Best perf-per-watt: Grace C+NEON at ~1.45M tok/sec/W."
+    }
+  },
+  {
+    "id": "repo-vlm-memory",
+    "text": "VLM-memory VLM-memory ai ai Python VLM-memory. Fork of VITA-Group's VLM-3R — a unified Vision-Language Model framework integrating 3D reconstructive instruction tuning for deep spatial understanding from monocular video. VLM-3R process",
+    "name": "VLM-memory",
+    "meta": {
+      "kind": "repo",
+      "category": "ai",
+      "stack": [
+        "Python"
+      ],
+      "description": "Fork of VITA-Group's VLM-3R — a unified Vision-Language Model framework integrating 3D reconstructive instruction tuning for deep spatial understanding from monocular video. VLM-3R processes monocular video frames by employing a geometry encoder to derive implicit 3D tokens that represent spatial understanding. Uses Spatial-Visual–View Fusion + 200K+ curated 3D reconstructive instruction tuning QA pairs. Tom also maintains a related dependency fork (`CUT3R`) with a RoPE position indexing fix."
+    }
+  },
+  {
+    "id": "repo-yuki",
+    "text": "yuki yuki f1 f1 Python scikit-learn F1 FastF1 Pandas NumPy yuki. Yuki ML — a Formula 1 focused machine learning model that predicts race outcomes for the 2025 season. Gradient Boosting Regressor trained on historical F1 race data (FastF1 API) with multiple fe",
+    "name": "yuki",
+    "meta": {
+      "kind": "repo",
+      "category": "f1",
+      "stack": [
+        "Python",
+        "scikit-learn",
+        "F1",
+        "FastF1",
+        "Pandas",
+        "NumPy"
+      ],
+      "description": "Yuki ML — a Formula 1 focused machine learning model that predicts race outcomes for the 2025 season. Gradient Boosting Regressor trained on historical F1 race data (FastF1 API) with multiple feature variants: basic qualifying-only, advanced qualifying+sector, calm/original-parameter, and old-driver-only. Multiple `prediction*.py` scripts; FastF1 cache directory. Named in honour of Yuki Tsunoda."
+    }
+  },
+  {
+    "id": "repo-yukigpt",
+    "text": "YukiGPT YukiGPT ai ai Python PyTorch YukiGPT. Decoder-only version of the model from \"Attention is All You Need\". Does not implement the cross-attention section (uncoditional text generation). Built from scratch in Python following Andre",
+    "name": "YukiGPT",
+    "meta": {
+      "kind": "repo",
+      "category": "ai",
+      "stack": [
+        "Python",
+        "PyTorch"
+      ],
+      "description": "Decoder-only version of the model from \"Attention is All You Need\". Does not implement the cross-attention section (uncoditional text generation). Built from scratch in Python following Andrej Karpathy's \"Let's build GPT: from scratch, in code, spelled out\" video. Includes a bigram language model, self-attention mechanism exploration, and dataset utilities. TODO: collect & train on F1 radio, implement a custom tokeniser, expand toward nanoGPT."
+    }
+  },
+  {
+    "id": "repo-godel",
+    "text": "godel godel other other JavaScript godel. Create a Gödel Prime Encoding from a string of text. No detailed README.. JavaScript. other",
+    "name": "godel",
+    "meta": {
+      "kind": "repo",
+      "category": "other",
+      "stack": [
+        "JavaScript"
+      ],
+      "description": "Create a Gödel Prime Encoding from a string of text. No detailed README."
+    }
+  },
+  {
+    "id": "repo-py2noteai",
+    "text": "py2noteAI py2noteAI ai ai Python OpenAI API Jupyter setuptools py2noteAI. Py2Notebook AI — a Python library that transforms Python scripts into Jupyter Notebooks with AI-generated comments explaining each code block. Saves API keys locally; CLI for `config set-ke",
+    "name": "py2noteAI",
+    "meta": {
+      "kind": "repo",
+      "category": "ai",
+      "stack": [
+        "Python",
+        "OpenAI API",
+        "Jupyter",
+        "setuptools"
+      ],
+      "description": "Py2Notebook AI — a Python library that transforms Python scripts into Jupyter Notebooks with AI-generated comments explaining each code block. Saves API keys locally; CLI for `config set-key` and convert. Useful for time-constrained hackathons when you need to document as you go. Published to PyPI as `py2notebook-ai`."
+    }
+  },
+  {
+    "id": "repo-crgs-css-person-detection",
+    "text": "CRGS-CSS-person-detection CRGS-CSS-person-detection ai ai Python Roboflow Computer Vision CRGS-CSS-person-detection. Dataset and documentation for an in-person ML challenge at CRGS (City of Cambridge School) for the Computer Science Society. README walks participants through setup, trainin",
+    "name": "CRGS-CSS-person-detection",
+    "meta": {
+      "kind": "repo",
+      "category": "ai",
+      "stack": [
+        "Python",
+        "Roboflow",
+        "Computer Vision"
+      ],
+      "description": "Dataset and documentation for an in-person ML challenge at CRGS (City of Cambridge School) for the Computer Science Society. README walks participants through setup, training a person-detection model on the curated dataset, and submitting results. Prizes for the in-person event."
+    }
+  },
+  {
+    "id": "repo-u3core",
+    "text": "u3core u3core ai ai Python AWS Vue Quasar Twilio Node.js Computer Vision u3core. u3Core — an AI/ML microservice that bolts onto an existing IoT platform for fire, smoke, and oil-leak detection. **2nd place, Intel AI PC Innovation Challenge.** Repo carries the AWS-deployed ",
+    "name": "u3core",
+    "meta": {
+      "kind": "repo",
+      "category": "ai",
+      "stack": [
+        "Python",
+        "AWS",
+        "Vue",
+        "Quasar",
+        "Twilio",
+        "Node.js",
+        "Computer Vision"
+      ],
+      "description": "u3Core — an AI/ML microservice that bolts onto an existing IoT platform for fire, smoke, and oil-leak detection. **2nd place, Intel AI PC Innovation Challenge.** Repo carries the AWS-deployed backend, a Vue.js frontend (Twilio + Quasar), an AI/ML `code/` directory, GitHub Actions CI, and detailed docs (frontend, architecture, risk register, stakeholder analysis)."
+    }
+  },
+  {
+    "id": "repo-focused",
+    "text": "focused focused ios ios Swift SwiftUI SwiftTerm tmux AppKit focused. Focused — a native macOS SwiftUI app for running multiple Claude Code agents in parallel: one window, one active agent, a sidebar of the rest. Spawns agents in any directory (`⌘T`), tracks th",
+    "name": "focused",
+    "meta": {
+      "kind": "repo",
+      "category": "ios",
+      "stack": [
+        "Swift",
+        "SwiftUI",
+        "SwiftTerm",
+        "tmux",
+        "AppKit"
+      ],
+      "description": "Focused — a native macOS SwiftUI app for running multiple Claude Code agents in parallel: one window, one active agent, a sidebar of the rest. Spawns agents in any directory (`⌘T`), tracks them in a `tmux -L focused` server, shows a SwiftTerm live preview per agent, surfaces an idle-notification + auto-bubble when an agent finishes, and lets you `tmux attach -t agent-<id>` from any terminal and keep tracking. Thin SwiftUI shell on top of tmux; tmux is the source of truth."
+    }
+  },
+  {
+    "id": "repo-keep-sharp",
+    "text": "keep-sharp keep-sharp ios ios Swift SwiftUI AppKit keep-sharp. Keep-Sharp — a SwiftUI macOS companion for running AI agents in parallel: solve LeetCode problems in the foreground while your agents work, and get a native macOS notification the moment a",
+    "name": "keep-sharp",
+    "meta": {
+      "kind": "repo",
+      "category": "ios",
+      "stack": [
+        "Swift",
+        "SwiftUI",
+        "AppKit"
+      ],
+      "description": "Keep-Sharp — a SwiftUI macOS companion for running AI agents in parallel: solve LeetCode problems in the foreground while your agents work, and get a native macOS notification the moment an agent needs your input. Paired with the **focused** app."
+    }
+  },
+  {
+    "id": "repo-blind-cube",
+    "text": "blind-cube blind-cube puzzle puzzle JavaScript HTML CSS AnimCube3.js blind-cube. A comprehensive Rubik's Cube simulator with advanced blind solving capabilities. Interactive 3D cube (AnimCube3.js), custom or random 20-move scrambles, mouse/touch/keyboard controls. **Bl",
+    "name": "blind-cube",
+    "meta": {
+      "kind": "repo",
+      "category": "puzzle",
+      "stack": [
+        "JavaScript",
+        "HTML",
+        "CSS",
+        "AnimCube3.js"
+      ],
+      "description": "A comprehensive Rubik's Cube simulator with advanced blind solving capabilities. Interactive 3D cube (AnimCube3.js), custom or random 20-move scrambles, mouse/touch/keyboard controls. **Blind mode** hides the cube entirely; **letter input system** lets you type letters A–X to execute setup moves; supports edge and corner solving modes. **Algorithm practice** for T-Perm, Y-Perm (Old Pochmann), and Full Parity with one-click execution. Buffer-piece recognition, example scrambles, move history, error prevention. Vercel-deployed with VibeOps issue tracking integration."
+    }
+  },
+  {
+    "id": "repo-turing-complete-rubix-cube",
+    "text": "turing-complete-rubix-cube turing-complete-rubix-cube puzzle puzzle Python turing-complete-rubix-cube. Two implementations of CPUs that run on Rubik's Cubes, both storing all data as sticker colours:. Python. puzzle",
+    "name": "turing-complete-rubix-cube",
+    "meta": {
+      "kind": "repo",
+      "category": "puzzle",
+      "stack": [
+        "Python"
+      ],
+      "description": "Two implementations of CPUs that run on Rubik's Cubes, both storing all data as sticker colours:"
+    }
+  },
+  {
+    "id": "repo-cryptic-collab",
+    "text": "cryptic-collab cryptic-collab puzzle puzzle Next.js 14 Prisma PostgreSQL Tailwind TypeScript cryptic-collab. \"Cryptic Collective\" — a platform for sharing and solving cryptic crossword clues with friends. Create and join groups with unique codes, share cryptic crossword clues, solve other mem",
+    "name": "cryptic-collab",
+    "meta": {
+      "kind": "repo",
+      "category": "puzzle",
+      "stack": [
+        "Next.js 14",
+        "Prisma",
+        "PostgreSQL",
+        "Tailwind",
+        "TypeScript"
+      ],
+      "description": "\"Cryptic Collective\" — a platform for sharing and solving cryptic crossword clues with friends. Create and join groups with unique codes, share cryptic crossword clues, solve other members' clues, track scores on a leaderboard with real-time updates. Deployable to Vercel."
+    }
+  },
+  {
+    "id": "repo-connect-collab",
+    "text": "connect-collab connect-collab puzzle puzzle Next.js 14 Prisma PostgreSQL Tailwind TypeScript connect-collab. Same stack and concept as Cryptic Collective, but for NYT Connections. Create and join groups with unique codes, share puzzles, solve other members' creations, track scores, real-time ",
+    "name": "connect-collab",
+    "meta": {
+      "kind": "repo",
+      "category": "puzzle",
+      "stack": [
+        "Next.js 14",
+        "Prisma",
+        "PostgreSQL",
+        "Tailwind",
+        "TypeScript"
+      ],
+      "description": "Same stack and concept as Cryptic Collective, but for NYT Connections. Create and join groups with unique codes, share puzzles, solve other members' creations, track scores, real-time updates."
+    }
+  },
+  {
+    "id": "repo-georgia-ai",
+    "text": "georgia-AI georgia-AI puzzle puzzle Python NumPy Pandas PyTorch Beam Search georgia-AI. A machine-learning AI that looks at a set of Wordle results (up to 20 people's guesses) for a given day and tries to infer that day's word **without playing the game**. PyTorch neural netw",
+    "name": "georgia-AI",
+    "meta": {
+      "kind": "repo",
+      "category": "puzzle",
+      "stack": [
+        "Python",
+        "NumPy",
+        "Pandas",
+        "PyTorch",
+        "Beam Search"
+      ],
+      "description": "A machine-learning AI that looks at a set of Wordle results (up to 20 people's guesses) for a given day and tries to infer that day's word **without playing the game**. PyTorch neural network + beam search. Trained on WhatsApp chat exports of friends' daily Wordle results. Two architectures: one-hot (best, **28% accuracy** after beam search + dictionary) and extensive 5757-word output (22%). Models a vocabulary of 5,757 5-letter words. Speculation on failure modes (e.g. difficulty with words starting with \"s\" because they're common first-guess patterns)."
+    }
+  },
+  {
+    "id": "repo-rubix-chess",
+    "text": "rubix-chess rubix-chess game game TypeScript Vite Three.js Game Engine rubix-chess. Three.js-powered playground for the Rubix Chess ruleset on an 8×8×8 cube. Each move is either a classical chess move on the cube surface or a slice rotation. Ships with a deterministic en",
+    "name": "rubix-chess",
+    "meta": {
+      "kind": "repo",
+      "category": "game",
+      "stack": [
+        "TypeScript",
+        "Vite",
+        "Three.js",
+        "Game Engine"
+      ],
+      "description": "Three.js-powered playground for the Rubix Chess ruleset on an 8×8×8 cube. Each move is either a classical chess move on the cube surface or a slice rotation. Ships with a deterministic engine, smooth slice animations, highlighted move hints (current selection, legal targets, last move, checked kings), and a side-panel containing slice controls, undo/redo, and move history. Straight rays continue across edges without breaking direction; diagonals wrap by stepping through the adjacent face. Knights step two squares along one global direction then one perpendicular. Pawns promote when their forward ray leaves the cube. Cube moves are illegal while the current player is in check. Position signatures (including slice orientations) are tracked for repetition detection."
+    }
+  },
+  {
+    "id": "repo-erdos-855",
+    "text": "erdos-855 erdos-855 puzzle puzzle TBD erdos-855. Empty repository for Erdos problem 855 work. No README, no source files.. TBD. puzzle",
+    "name": "erdos-855",
+    "meta": {
+      "kind": "repo",
+      "category": "puzzle",
+      "stack": [
+        "TBD"
+      ],
+      "description": "Empty repository for Erdos problem 855 work. No README, no source files."
+    }
+  },
+  {
+    "id": "repo-can-u-dig-it",
+    "text": "can-U-dig-it can-U-dig-it puzzle puzzle TBD can-U-dig-it. Empty repository. No README, no source files.. TBD. puzzle",
+    "name": "can-U-dig-it",
+    "meta": {
+      "kind": "repo",
+      "category": "puzzle",
+      "stack": [
+        "TBD"
+      ],
+      "description": "Empty repository. No README, no source files."
+    }
+  },
+  {
+    "id": "repo-f1-ar",
+    "text": "f1-ar f1-ar f1 f1 TBD f1-ar. Augmented reality F1 project. Repository has a `.gitmodules` and a `resources/` directory but no source code or README.. TBD. f1",
+    "name": "f1-ar",
+    "meta": {
+      "kind": "repo",
+      "category": "f1",
+      "stack": [
+        "TBD"
+      ],
+      "description": "Augmented reality F1 project. Repository has a `.gitmodules` and a `resources/` directory but no source code or README."
+    }
+  },
+  {
+    "id": "repo-f1-commentary",
+    "text": "f1-commentary f1-commentary f1 f1 Python FastF1 Groq API f1-commentary. Transform F1 race data into engaging commentary and visualisations using AI. Pipeline: collect race data (FastF1 API), analyse race (incident detection, position changes), generate comm",
+    "name": "f1-commentary",
+    "meta": {
+      "kind": "repo",
+      "category": "f1",
+      "stack": [
+        "Python",
+        "FastF1",
+        "Groq API"
+      ],
+      "description": "Transform F1 race data into engaging commentary and visualisations using AI. Pipeline: collect race data (FastF1 API), analyse race (incident detection, position changes), generate commentary (Groq API), create incident visualisations (animated GIFs with follow camera). Configurable by year, race, session, drivers, lap, start time, and duration."
+    }
+  },
+  {
+    "id": "repo-f1-ghost-car",
+    "text": "f1-ghost-car f1-ghost-car f1 f1 Python FastF1 matplotlib f1-ghost-car. F1 Qualifying Visual Overhead Comparisons — a Python script that visualises Formula 1 qualifying sessions with animated car tracking and realistic track layouts. Compares any two drivers",
+    "name": "f1-ghost-car",
+    "meta": {
+      "kind": "repo",
+      "category": "f1",
+      "stack": [
+        "Python",
+        "FastF1",
+        "matplotlib"
+      ],
+      "description": "F1 Qualifying Visual Overhead Comparisons — a Python script that visualises Formula 1 qualifying sessions with animated car tracking and realistic track layouts. Compares any two drivers' fastest laps (2018-2024). Modes: static plot, animated overview, follow camera mode (200m window), realistic track surface rendering, optional racing lines. Track data from the TUM FTM Racetrack Database; car images sourced as top-view PNGs."
+    }
+  },
+  {
+    "id": "repo-f1-qtda",
+    "text": "f1-qtda f1-qtda f1 f1 Python FastF1 pandas numpy pyarrow f1-qtda. F1 Race Telemetry Data Fetcher — comprehensive Python script that fetches detailed telemetry data (throttle, brake, speed, gear, RPM, DRS, distance) for **all drivers** in a given race across",
+    "name": "f1-qtda",
+    "meta": {
+      "kind": "repo",
+      "category": "f1",
+      "stack": [
+        "Python",
+        "FastF1",
+        "pandas",
+        "numpy",
+        "pyarrow"
+      ],
+      "description": "F1 Race Telemetry Data Fetcher — comprehensive Python script that fetches detailed telemetry data (throttle, brake, speed, gear, RPM, DRS, distance) for **all drivers** in a given race across **all laps**. Supports Race, Qualifying, Free Practice; exports to CSV / JSON / Parquet; built-in FastF1 caching. CLI args for year, race, session, output dir, formats, cache dir, list-events."
+    }
+  },
+  {
+    "id": "repo-f1-telemetry-analysis",
+    "text": "f1-telemetry-analysis f1-telemetry-analysis f1 f1 Python FastF1 matplotlib f1-telemetry-analysis. F1 Qualifying Lap Visualisation — modified version of the AWS-powered F1 graphics. Uses the FastF1 API and Python (matplotlib, pandas, numpy); graphs and graphics are composed i",
+    "name": "f1-telemetry-analysis",
+    "meta": {
+      "kind": "repo",
+      "category": "f1",
+      "stack": [
+        "Python",
+        "FastF1",
+        "matplotlib"
+      ],
+      "description": "F1 Qualifying Lap Visualisation — modified version of the AWS-powered F1 graphics. Uses the FastF1 API and Python (matplotlib, pandas, numpy); graphs and graphics are composed in Canva."
+    }
+  },
+  {
+    "id": "repo-fai",
+    "text": "fai fai f1 f1 TBD (Assetto Corsa + AI submodules) fai. F1 AI tooling. Repository has `agent-methods/` (a single `ACRL_Technical_Analysis.md` document) and `resource-repos/` (submodules: `ACDriver`, `ACRL`, `AI-Assetto-Corsa`, `assetto_corsa_gym`, `fi",
+    "name": "fai",
+    "meta": {
+      "kind": "repo",
+      "category": "f1",
+      "stack": [
+        "TBD (Assetto Corsa + AI submodules)"
+      ],
+      "description": "F1 AI tooling. Repository has `agent-methods/` (a single `ACRL_Technical_Analysis.md` document) and `resource-repos/` (submodules: `ACDriver`, `ACRL`, `AI-Assetto-Corsa`, `assetto_corsa_gym`, `findings`, `training-steps`). Appears to be Assetto Corsa-related AI tooling."
+    }
+  },
+  {
+    "id": "repo-ciuk-archer2-hpl",
+    "text": "ciuk-archer2-hpl ciuk-archer2-hpl hpc hpc C HPC LINPACK ARCHER2 ciuk-archer2-hpl. HPL (High Performance Linpack) benchmark submission for the CIUK (Computing Insight UK) high performance computing cluster competition. Contains the upstream HPL source tree (`hpl`, ",
+    "name": "ciuk-archer2-hpl",
+    "meta": {
+      "kind": "repo",
+      "category": "hpc",
+      "stack": [
+        "C",
+        "HPC",
+        "LINPACK",
+        "ARCHER2"
+      ],
+      "description": "HPL (High Performance Linpack) benchmark submission for the CIUK (Computing Insight UK) high performance computing cluster competition. Contains the upstream HPL source tree (`hpl`, `hpl-2.3`) and `submission-files/`. No README."
+    }
+  },
+  {
+    "id": "repo-ciuk-memory-benchmark",
+    "text": "ciuk-memory-benchmark ciuk-memory-benchmark hpc hpc C HPC Memory Benchmarking ciuk-memory-benchmark. Memory Benchmark challenge for CIUK25. The README links to the team's video submission on YouTube.. C HPC Memory Benchmarking. hpc",
+    "name": "ciuk-memory-benchmark",
+    "meta": {
+      "kind": "repo",
+      "category": "hpc",
+      "stack": [
+        "C",
+        "HPC",
+        "Memory Benchmarking"
+      ],
+      "description": "Memory Benchmark challenge for CIUK25. The README links to the team's video submission on YouTube."
+    }
+  },
+  {
+    "id": "repo-hpc-2",
+    "text": "hpc-2 hpc-2 hpc hpc C MPI OpenMP CUDA CUDA Graphs SVE2 NUMA LBM hpc-2. Advanced HPC coursework — multi-stage optimisation of a D2Q9 Lattice Boltzmann Method solver for the **NVIDIA Grace CPU Superchip** (144 Arm Neoverse V2 cores across 2 sockets via NVLink-C2C, 4",
+    "name": "hpc-2",
+    "meta": {
+      "kind": "repo",
+      "category": "hpc",
+      "stack": [
+        "C",
+        "MPI",
+        "OpenMP",
+        "CUDA",
+        "CUDA Graphs",
+        "SVE2",
+        "NUMA",
+        "LBM"
+      ],
+      "description": "Advanced HPC coursework — multi-stage optimisation of a D2Q9 Lattice Boltzmann Method solver for the **NVIDIA Grace CPU Superchip** (144 Arm Neoverse V2 cores across 2 sockets via NVLink-C2C, 4×128-bit SVE2, LPDDR5X up to 1 TB/s). Targets: 1024² in 2.0s, 2048² in 2.5s, 4096² in 9.0s on 576 cores / 4 nodes. Stages include:"
+    }
+  },
+  {
+    "id": "repo-hpc-lbm",
+    "text": "hpc-lbm hpc-lbm hpc hpc C OpenMP SLURM Gnuplot hpc-lbm. Base coursework for the Advanced High Performance Computing class. D2Q9-BGK Lattice Boltzmann Method implementation in C, with OpenMP parallelisation. Runs on BlueCrystal Phase 4 via the prov",
+    "name": "hpc-lbm",
+    "meta": {
+      "kind": "repo",
+      "category": "hpc",
+      "stack": [
+        "C",
+        "OpenMP",
+        "SLURM",
+        "Gnuplot"
+      ],
+      "description": "Base coursework for the Advanced High Performance Computing class. D2Q9-BGK Lattice Boltzmann Method implementation in C, with OpenMP parallelisation. Runs on BlueCrystal Phase 4 via the provided `job_submit_d2q9-bgk` SLURM script. Includes a result-checking Python script (`check/check.py`), `check_submission.sh` for clean-environment builds, and Gnuplot visualisation. README documents serial output timings on 128×128 / 128×256 / 256×256 / 1024×1024 grids."
+    }
+  },
+  {
+    "id": "repo-hpc-lbm-v2",
+    "text": "hpc-lbm-v2 hpc-lbm-v2 hpc hpc C OpenMP SIMD SVE2 NUMA Make hpc-lbm-v2. LBM HPC implementation v2 — nine stages of serial optimisations targeting the Grace CPU Superchip. Directories: `123-serial-optims/4-fusion-vectorised`, `3.5-SIMD`, `4-openMP`, `6-SIMD`, `",
+    "name": "hpc-lbm-v2",
+    "meta": {
+      "kind": "repo",
+      "category": "hpc",
+      "stack": [
+        "C",
+        "OpenMP",
+        "SIMD",
+        "SVE2",
+        "NUMA",
+        "Make"
+      ],
+      "description": "LBM HPC implementation v2 — nine stages of serial optimisations targeting the Grace CPU Superchip. Directories: `123-serial-optims/4-fusion-vectorised`, `3.5-SIMD`, `4-openMP`, `6-SIMD`, `8-NUMA`, `9-target-opt`, `base`, `new-openmp`. OpenMP parallelisation stage adds `#pragma omp parallel for` across `accelerate_flow` / `propagate` / `rebound_and_collision` / `av_velocity`, one parallel region per timestep, thread-local collision buffers, NUMA first-touch, aggressive CFLAGS, and SVE2-aware vectorisation."
+    }
+  },
+  {
+    "id": "repo-distributed-vs-parallel-gol",
+    "text": "Distributed-Vs-Parallel-GoL Distributed-Vs-Parallel-GoL hpc hpc Go AWS EC2 RPC LaTeX MATLAB Distributed-Vs-Parallel-GoL. Parallel vs Distributed implementations of Conway's Game of Life. Implemented, optimised (including halo exchange, communication overhead, architecture considerations) and",
+    "name": "Distributed-Vs-Parallel-GoL",
+    "meta": {
+      "kind": "repo",
+      "category": "hpc",
+      "stack": [
+        "Go",
+        "AWS EC2",
+        "RPC",
+        "LaTeX",
+        "MATLAB"
+      ],
+      "description": "Parallel vs Distributed implementations of Conway's Game of Life. Implemented, optimised (including halo exchange, communication overhead, architecture considerations) and compared parallel (concurrent Go programming) and distributed (AWS EC2 instances via RPC calls) versions. Includes benchmarking, MATLAB graphs, and CPU profiling. Network communication optimised via a publish/subscribe model for fault tolerance and scalability. **Scored 86% — top in cohort (Computer Systems A).**"
+    }
+  },
+  {
+    "id": "repo-quantum-cross-chain-arbitrage",
+    "text": "quantum-cross-chain-arbitrage quantum-cross-chain-arbitrage defi defi Vyper Python JavaScript QAOA Flare Docker Hardhat quantum-cross-chain-arbitrage. Quantum-Enhanced Cross-Chain Arbitrage Bot (QXAB) on Flare. Built by Tom, Dhillon Thurairatnam, and Ella (cowboyella) — Team \"EthumBards\" for the ETH Oxford Hackathon. U",
+    "name": "quantum-cross-chain-arbitrage",
+    "meta": {
+      "kind": "repo",
+      "category": "defi",
+      "stack": [
+        "Vyper",
+        "Python",
+        "JavaScript",
+        "QAOA",
+        "Flare",
+        "Docker",
+        "Hardhat"
+      ],
+      "description": "Quantum-Enhanced Cross-Chain Arbitrage Bot (QXAB) on Flare. Built by Tom, Dhillon Thurairatnam, and Ella (cowboyella) — Team \"EthumBards\" for the ETH Oxford Hackathon. Uses QAOA (Quantum Approximate Optimisation Algorithm) with custom graph construction, liquidity/slippage modelling, and flash loans with **Vyper** smart contracts. Leverages Flare's FTSO for real-time cross-chain price feeds and the Flare State Connector for trustless execution across Aave, Uniswap, Curve, and Flare lending pools. **Awards:** ETH Oxford DeFi hackathon — Winners ($5000); Vyperlang bounty — 2nd place."
+    }
+  },
+  {
+    "id": "repo-quantum-economic-advantage-calculator",
+    "text": "quantum-economic-advantage-calculator quantum-economic-advantage-calculator quantum quantum JavaScript quantum-economic-advantage-calculator. Extended version of MIT's Quantum Economic Advantage Calculator, from their paper \"The Quantum Tortoise and the Classical Hare: A simple framework for understand",
+    "name": "quantum-economic-advantage-calculator",
+    "meta": {
+      "kind": "repo",
+      "category": "quantum",
+      "stack": [
+        "JavaScript"
+      ],
+      "description": "Extended version of MIT's Quantum Economic Advantage Calculator, from their paper \"The Quantum Tortoise and the Classical Hare: A simple framework for understanding which problems quantum computing will accelerate (and which it will not)\" (arXiv 2310.15505)."
+    }
+  },
+  {
+    "id": "repo-varqite-defi-collateral",
+    "text": "varqite-defi-collateral varqite-defi-collateral quantum quantum Python Qiskit qiskit-algorithms qiskit-aer qiskit-ionq SciPy NetworkX GraphQL Streamlit varqite-defi-collateral. A Quantum-Enhanced Approach to DeFi Collateral Optimisation — a practical quantum computing project demonstrating quantum-inspired graph partitioning for DeFi collateral optim",
+    "name": "varqite-defi-collateral",
+    "meta": {
+      "kind": "repo",
+      "category": "quantum",
+      "stack": [
+        "Python",
+        "Qiskit",
+        "qiskit-algorithms",
+        "qiskit-aer",
+        "qiskit-ionq",
+        "SciPy",
+        "NetworkX",
+        "GraphQL",
+        "Streamlit"
+      ],
+      "description": "A Quantum-Enhanced Approach to DeFi Collateral Optimisation — a practical quantum computing project demonstrating quantum-inspired graph partitioning for DeFi collateral optimisation (on Aave v3 Polygon positions), based on the proven quantum speedup technique from \"Accelerating Large-Scale Linear Algebra Using Variational Quantum Imaginary Time Evolution\" (arXiv 2503.13128). Treated DeFi positions as a sparse linear system similar to FEA meshes, applying spectral clustering with quantum-inspired optimisation. Processed **10,143 real Aave v3 Polygon positions**; built a bipartite graph with 9,619 nodes and 15,348 edges; 0.03s processing on the PoC subset. CLI tools: `fetch`, `build`, `test`, `varqite_partition_fast`. Web interface via Streamlit."
+    }
+  },
+  {
+    "id": "repo-varqite-maxcut",
+    "text": "varQITE-maxcut varQITE-maxcut quantum quantum Python Qiskit IonQ Jupyter varQITE-maxcut. Team IsamBits' solutions to **IonQ's challenge at iQuHack 2025**. Three notebooks: (1) Max-cut using varQITE, (2) Max-cut with the constraint that both partitions have equal cardinalit",
+    "name": "varQITE-maxcut",
+    "meta": {
+      "kind": "repo",
+      "category": "quantum",
+      "stack": [
+        "Python",
+        "Qiskit",
+        "IonQ",
+        "Jupyter"
+      ],
+      "description": "Team IsamBits' solutions to **IonQ's challenge at iQuHack 2025**. Three notebooks: (1) Max-cut using varQITE, (2) Max-cut with the constraint that both partitions have equal cardinality, (3) Max-cut with the constraint that both partitions are connected. Shows `build_ansatz()` and `build_maxcut_hamiltonian()` as the main contributions, with the rest deriving the QP / MIQP → Hamiltonian translations."
+    }
+  },
+  {
+    "id": "repo-portfolio-optimisation",
+    "text": "Portfolio-Optimisation Portfolio-Optimisation defi defi TypeScript Next.js Wormhole API |Brian⟩ Starkware Solana Quantum (RNG) Portfolio-Optimisation. **CertAInty Quantum — Winners of the EncodeAI Wormhole bounty.** A live, online suite of AI- and quantum-enhanced tools for portfolio optimisation (`supremacy.thomasbale.com`).",
+    "name": "Portfolio-Optimisation",
+    "meta": {
+      "kind": "repo",
+      "category": "defi",
+      "stack": [
+        "TypeScript",
+        "Next.js",
+        "Wormhole API",
+        "|Brian⟩",
+        "Starkware",
+        "Solana",
+        "Quantum (RNG)"
+      ],
+      "description": "**CertAInty Quantum — Winners of the EncodeAI Wormhole bounty.** A live, online suite of AI- and quantum-enhanced tools for portfolio optimisation (`supremacy.thomasbale.com`). Enhances Starkware's |Brian⟩ AI with quantum pre-execution scripts, gives users quantum-informed XAI explanations, and uses Wormhole + Solana for low-cost rebalancing. Live at supremacy.thomasbale.com."
+    }
+  },
+  {
+    "id": "repo-black-swan",
+    "text": "black-swan black-swan defi defi Go Solidity RISC0 Rust PostgreSQL/SQLite iOS Hardhat Flare Plasma black-swan. \"Black Swan\" — the Bio-Sovereign Data Market. A platform where you monetise your biological reaction to content; advertisers/creators pay for the literal dopamine spike or emotional resona",
+    "name": "black-swan",
+    "meta": {
+      "kind": "repo",
+      "category": "defi",
+      "stack": [
+        "Go",
+        "Solidity",
+        "RISC0",
+        "Rust",
+        "PostgreSQL/SQLite",
+        "iOS",
+        "Hardhat",
+        "Flare",
+        "Plasma"
+      ],
+      "description": "\"Black Swan\" — the Bio-Sovereign Data Market. A platform where you monetise your biological reaction to content; advertisers/creators pay for the literal dopamine spike or emotional resonance measured via the blockchain (Proof-of-Affect primitive). Built on **Flare Coston2 testnet** using Flare's Data Connector (FDC) for trustless biometric attestation, **Plasma** as the settlement layer for stablecoin payouts. Smart contracts: `TrustlessAffectVerifier` (with FDC integration + built-in escrow), `TestToken` (ERC20). Backend in Go; iOS demo app (`BlackSwanSDK/DemoApp`); RISC0 ZK prover for the Secure Enclave → ZK proof → FDC attestation flow. Account abstraction (FaceID) for mainstream onboarding."
+    }
+  },
+  {
+    "id": "repo-bonk",
+    "text": "bonk bonk game game TypeScript React Vite Node.js Express WebSockets Jest bonk. Boop Online — a monorepo implementation of the two-player board game **boop.** Three workspaces: `packages/game-engine/` (pure TypeScript rules engine, Jest-tested), `packages/client/` (React + ",
+    "name": "bonk",
+    "meta": {
+      "kind": "repo",
+      "category": "game",
+      "stack": [
+        "TypeScript",
+        "React",
+        "Vite",
+        "Node.js",
+        "Express",
+        "WebSockets",
+        "Jest"
+      ],
+      "description": "Boop Online — a monorepo implementation of the two-player board game **boop.** Three workspaces: `packages/game-engine/` (pure TypeScript rules engine, Jest-tested), `packages/client/` (React + Vite frontend with hot-seat, AI, online), `packages/server/` (Express + ws WebSocket backend). Implements the full rule set: forced removals at 8 pieces, boops (blocked / off-board / diagonal), kitten graduation, cat supply tracking, both win conditions. Two-tier AI built from legal move enumeration and a heuristic. WebSocket rooms with reconnect support, session IDs, last-move broadcast, periodic room pruning."
+    }
+  },
+  {
+    "id": "repo-catan",
+    "text": "catan catan game game TypeScript Vite catan. Online Catan. `README.md` is empty; `local-catan/` contains a web implementation (`index.html`, `package.json`, `package-lock.json`, `src/`, `tsconfig.json`, `vite.config.ts`) — a Vite + TypeSc",
+    "name": "catan",
+    "meta": {
+      "kind": "repo",
+      "category": "game",
+      "stack": [
+        "TypeScript",
+        "Vite"
+      ],
+      "description": "Online Catan. `README.md` is empty; `local-catan/` contains a web implementation (`index.html`, `package.json`, `package-lock.json`, `src/`, `tsconfig.json`, `vite.config.ts`) — a Vite + TypeScript local build."
+    }
+  },
+  {
+    "id": "repo-copy-dance",
+    "text": "copy-dance copy-dance game game TypeScript React Tailwind MediaPipe Node.js copy-dance. Copy Dance Game — an improved, web-based implementation of the \"Copy Dance\" mini-game from 1-2 Switch, where players take turns copying each other's poses via webcam. Enhanced by tracking ",
+    "name": "copy-dance",
+    "meta": {
+      "kind": "repo",
+      "category": "game",
+      "stack": [
+        "TypeScript",
+        "React",
+        "Tailwind",
+        "MediaPipe",
+        "Node.js"
+      ],
+      "description": "Copy Dance Game — an improved, web-based implementation of the \"Copy Dance\" mini-game from 1-2 Switch, where players take turns copying each other's poses via webcam. Enhanced by tracking all limbs (vs the original's single joycon position). Uses MediaPipe Pose for real-time tracking, normalises poses relative to nose position for position-independence, cosine similarity for pose comparison. 3 rounds per player."
+    }
+  },
+  {
+    "id": "repo-cuphead-ai",
+    "text": "cuphead-ai cuphead-ai game game TBD cuphead-ai. Empty repository. No source files, no README. Intended for AI agents that play the game Cuphead.. TBD. game",
+    "name": "cuphead-ai",
+    "meta": {
+      "kind": "repo",
+      "category": "game",
+      "stack": [
+        "TBD"
+      ],
+      "description": "Empty repository. No source files, no README. Intended for AI agents that play the game Cuphead."
+    }
+  },
+  {
+    "id": "repo-island",
+    "text": "island island ios ios Swift iOS Lottie MediaRemote island. DynamicIsland — an iOS app providing the Apple Dynamic Island experience. Xcode project with `DynamicIsland`, `DynamicIslandSamples`, `Frameworks`, `Localizable.xcstrings`, `LottieAnimations`,",
+    "name": "island",
+    "meta": {
+      "kind": "repo",
+      "category": "ios",
+      "stack": [
+        "Swift",
+        "iOS",
+        "Lottie",
+        "MediaRemote"
+      ],
+      "description": "DynamicIsland — an iOS app providing the Apple Dynamic Island experience. Xcode project with `DynamicIsland`, `DynamicIslandSamples`, `Frameworks`, `Localizable.xcstrings`, `LottieAnimations`, `mediaremote-adapter`, and `Updates` directories. Starred on Tom's profile."
+    }
+  },
+  {
+    "id": "repo-poly-hop",
+    "text": "poly-hop poly-hop game game JavaScript HTML CSS p5.js MediaPipe Pose Hardhat Ethers v6 Node.js + Express Vercel poly-hop. Poly-Hop — a retro 8-bit platformer you play **with your body** (lean left/right, jump, crouch — MediaPipe Pose translates real-world motion into game actions). Mint your avatar as an on-cha",
+    "name": "poly-hop",
+    "meta": {
+      "kind": "repo",
+      "category": "game",
+      "stack": [
+        "JavaScript",
+        "HTML",
+        "CSS",
+        "p5.js",
+        "MediaPipe Pose",
+        "Hardhat",
+        "Ethers v6",
+        "Node.js + Express",
+        "Vercel"
+      ],
+      "description": "Poly-Hop — a retro 8-bit platformer you play **with your body** (lean left/right, jump, crouch — MediaPipe Pose translates real-world motion into game actions). Mint your avatar as an on-chain NFT on Polygon (Amoy test-net). Character customisation: skin tones, outfits (Adventurer / Knight / Wizard), hair (Spiky / Curly / Straight); procedural levels; enemies & coins. Live at `poly-hop.thomasbale.com`. Contract `0xCb0d18F697C255bCb029F3950F58A8Dafd91E373` on Polygon Amoy (chain 80002)."
+    }
+  },
+  {
+    "id": "repo-quoridor",
+    "text": "quoridor quoridor game game HTML CSS JavaScript quoridor. Quoridor — Local PvP Game. A local multiplayer implementation of the classic Quoridor board game with a modern UI inspired by Chess.com. Visual feedback for valid moves, turn indicators, wal",
+    "name": "quoridor",
+    "meta": {
+      "kind": "repo",
+      "category": "game",
+      "stack": [
+        "HTML",
+        "CSS",
+        "JavaScript"
+      ],
+      "description": "Quoridor — Local PvP Game. A local multiplayer implementation of the classic Quoridor board game with a modern UI inspired by Chess.com. Visual feedback for valid moves, turn indicators, wall placement validation, pathfinding to ensure walls don't block paths, win detection, undo. Open `index.html` in a browser — no build process or server required."
+    }
+  },
+  {
+    "id": "repo-quoridor-ai",
+    "text": "quoridor-ai quoridor-ai game game Python MCTS A* Zobrist Hashing Flask WebSockets quoridor-ai. A fully functional 9×9 Quoridor engine with a competitive AI using **Monte Carlo Tree Search (MCTS)** enhanced with domain-specific heuristics. UCT selection, biased (non-random) rollouts",
+    "name": "quoridor-ai",
+    "meta": {
+      "kind": "repo",
+      "category": "game",
+      "stack": [
+        "Python",
+        "MCTS",
+        "A*",
+        "Zobrist Hashing",
+        "Flask",
+        "WebSockets"
+      ],
+      "description": "A fully functional 9×9 Quoridor engine with a competitive AI using **Monte Carlo Tree Search (MCTS)** enhanced with domain-specific heuristics. UCT selection, biased (non-random) rollouts, progressive widening, transposition table with Zobrist hashing. A* pathfinding for wall validation (Manhattan distance heuristic, distance + path-count evaluation). Configurable evaluation (distance, path count, wall count, tempo bonus). Web interface (Flask + WebSocket) for AI-vs-AI watch mode, step-by-step play, real-time updates, configurable MCTS strength. 3–5× speedup over naive via dynamic programming: evaluation caching, transposition tables, pathfinding caching, wall-validity caching, fast rollout heuristics."
+    }
+  },
+  {
+    "id": "repo-go-anywhere",
+    "text": "go-anywhere go-anywhere game game JavaScript HTML CSS go-anywhere. GeoDrive — a web app (HTML/JS) for geolocation-based driving. The `index.html` title is \"GeoDrive\" and the page initialises a canvas with a fixed-position UI overlay. `docs/` and `js/` di",
+    "name": "go-anywhere",
+    "meta": {
+      "kind": "repo",
+      "category": "game",
+      "stack": [
+        "JavaScript",
+        "HTML",
+        "CSS"
+      ],
+      "description": "GeoDrive — a web app (HTML/JS) for geolocation-based driving. The `index.html` title is \"GeoDrive\" and the page initialises a canvas with a fixed-position UI overlay. `docs/` and `js/` directories present. No README."
+    }
+  },
+  {
+    "id": "repo-go-spinners",
+    "text": "go-spinners go-spinners other other Go go-spinners. A Go port of the Rust \"rattles\" library — a minimal terminal spinner library with an extensive preset collection. Zero dependencies, time-based or tick-based animation modes, **38+ preset",
+    "name": "go-spinners",
+    "meta": {
+      "kind": "repo",
+      "category": "other",
+      "stack": [
+        "Go"
+      ],
+      "description": "A Go port of the Rust \"rattles\" library — a minimal terminal spinner library with an extensive preset collection. Zero dependencies, time-based or tick-based animation modes, **38+ presets** across ASCII (e.g. `Dqpb`, `RollingLine`, `SimpleDots`, `Arc`, `Balloon`, `CircleHalves`, `Point`, `SquareCorners`, `Triangle`, `GrowHorizontal`, `Noise`), braille (e.g. `Dots`–`Dots14`, `DotsCircle`, `Sand`, `Bounce`, `Wave`, `Scan`, `Rain`, `Pulse`, `Snake`, `Sparkle`, `Cascade`, `Columns`, `Orbit`, `Breathe`, `WaveRows`, `Checkerboard`, `Helix`, `FillSweep`, `DiagSwipe`), and emoji (e.g. `Hearts`, `Clock`, `Earth`, `Moon`, `Speaker`, `Weather`). `no_std` compatible. API: `Rattler` (time-based) + `TickedRattler` (manual tick) with builder methods."
+    }
+  },
+  {
+    "id": "repo-algos-ii-minigame",
+    "text": "Algos-II-Minigame Algos-II-Minigame game game Python pygame Algos-II-Minigame. A small pygame turn-based game spun out of an Algorithms II exam question. Ten rounds: each round, choose a free resource to collect, or trade resources with the bank. Final score =",
+    "name": "Algos-II-Minigame",
+    "meta": {
+      "kind": "repo",
+      "category": "game",
+      "stack": [
+        "Python",
+        "pygame"
+      ],
+      "description": "A small pygame turn-based game spun out of an Algorithms II exam question. Ten rounds: each round, choose a free resource to collect, or trade resources with the bank. Final score = sum of squares of your resource counts; no resource may exceed 10; the rules guarantee at least one of collect/trade is always available. 8-bit pixel-art UI."
+    }
+  },
+  {
+    "id": "repo-scotland-yard-ai",
+    "text": "Scotland-Yard-AI Scotland-Yard-AI ai ai Java MiniMax Alpha-Beta Dijkstra Sparse-Matrix Math Maven Scotland-Yard-AI. A virtual implementation of the **Scotland Yard** board game (Java) with full AIs for both Mr. X and the detectives. Mr. X uses **mini-max with alpha-beta pruning**, sparse-matrix fa",
+    "name": "Scotland-Yard-AI",
+    "meta": {
+      "kind": "repo",
+      "category": "ai",
+      "stack": [
+        "Java",
+        "MiniMax",
+        "Alpha-Beta",
+        "Dijkstra",
+        "Sparse-Matrix Math",
+        "Maven"
+      ],
+      "description": "A virtual implementation of the **Scotland Yard** board game (Java) with full AIs for both Mr. X and the detectives. Mr. X uses **mini-max with alpha-beta pruning**, sparse-matrix fast shortest-path, and layered heuristics (distance, ticket spend, double-move timing). The detectives use a possible-location vector calculator (BFS over the transport-mode adjacency matrices) to track Mr. X after each reveal, plus three evaluation classes (`EvaluateCloseIn`, `EvaluatePrepare`, `EvaluateTickets`) for different game states. Detailed report in `report.pdf`."
+    }
+  },
+  {
+    "id": "repo-aniboxd",
+    "text": "aniboxd aniboxd ios ios Swift iOS 17 Xcode 15 aniboxd. Aniboxd — an iOS app for tracking anime. Xcode project + tests + `docs/`. iOS 17+, Xcode 15+, Swift 5.9. Bundle id prefix `com.aniboxd`.. Swift iOS 17 Xcode 15. ios",
+    "name": "aniboxd",
+    "meta": {
+      "kind": "repo",
+      "category": "ios",
+      "stack": [
+        "Swift",
+        "iOS 17",
+        "Xcode 15"
+      ],
+      "description": "Aniboxd — an iOS app for tracking anime. Xcode project + tests + `docs/`. iOS 17+, Xcode 15+, Swift 5.9. Bundle id prefix `com.aniboxd`."
+    }
+  },
+  {
+    "id": "repo-aurelia",
+    "text": "aurelia aurelia ios ios Swift iOS aurelia. VoiceType — an iOS app. Xcode project + source dir `VoiceType/`. No README; name inferred from project directory.. Swift iOS. ios",
+    "name": "aurelia",
+    "meta": {
+      "kind": "repo",
+      "category": "ios",
+      "stack": [
+        "Swift",
+        "iOS"
+      ],
+      "description": "VoiceType — an iOS app. Xcode project + source dir `VoiceType/`. No README; name inferred from project directory."
+    }
+  },
+  {
+    "id": "repo-detach",
+    "text": "detach detach ios ios Swift iOS 15+ WKWebView detach. InstaWeb — Instagram Web Viewer for iOS. An iOS app that wraps Instagram's web version (instagram.com) in a WKWebView, allowing users to browse Instagram through a native app shell. Single scr",
+    "name": "detach",
+    "meta": {
+      "kind": "repo",
+      "category": "ios",
+      "stack": [
+        "Swift",
+        "iOS 15+",
+        "WKWebView"
+      ],
+      "description": "InstaWeb — Instagram Web Viewer for iOS. An iOS app that wraps Instagram's web version (instagram.com) in a WKWebView, allowing users to browse Instagram through a native app shell. Single screen with refresh + share toolbar. iOS 15+. Privacy policy included."
+    }
+  },
+  {
+    "id": "repo-factlet",
+    "text": "factlet factlet ios ios Swift iOS 17 Xcode 15 WidgetKit App Groups Push Notifications factlet. A minimalistic iOS app that displays general-knowledge factlets on your home screen, lock screen, and via notifications. **233 curated factlets** across **8 categories** (Science, History, Na",
+    "name": "factlet",
+    "meta": {
+      "kind": "repo",
+      "category": "ios",
+      "stack": [
+        "Swift",
+        "iOS 17",
+        "Xcode 15",
+        "WidgetKit",
+        "App Groups",
+        "Push Notifications"
+      ],
+      "description": "A minimalistic iOS app that displays general-knowledge factlets on your home screen, lock screen, and via notifications. **233 curated factlets** across **8 categories** (Science, History, Nature, Language, Culture, The Body, Geography, Technology) × **3 difficulty levels**. Transparent widgets with light/dark text; push notifications at frequencies from hourly to daily; on-device fact rotation (15 min / 30 min / hourly / daily). iOS 17+, Swift, App Groups, WidgetKit. Typography inspired by the Vocabulary app (Times New Roman)."
+    }
+  },
+  {
+    "id": "repo-fit-finder",
+    "text": "fit-finder fit-finder ios ios iOS (Swift) Python FastAPI uvicorn Railway fit-finder. \"Find any outfit\" — full-stack outfit search app. Top-level: `backend/`, `docs/`, `ios/`, `website/`, `opencode.json`, `Procfile`, `railway.json`, `TODO-affiliate.md`, `privacy-policy`. Ba",
+    "name": "fit-finder",
+    "meta": {
+      "kind": "repo",
+      "category": "ios",
+      "stack": [
+        "iOS (Swift)",
+        "Python",
+        "FastAPI",
+        "uvicorn",
+        "Railway"
+      ],
+      "description": "\"Find any outfit\" — full-stack outfit search app. Top-level: `backend/`, `docs/`, `ios/`, `website/`, `opencode.json`, `Procfile`, `railway.json`, `TODO-affiliate.md`, `privacy-policy`. Backend entry point: `web: cd backend && uvicorn src.main:app --host 0.0.0.0 --port $PORT` (FastAPI on Railway). `TODO-affiliate.md` notes SerpAPI (Google Shopping) replacement with free affiliate APIs. No README."
+    }
+  },
+  {
+    "id": "repo-find-my-pint",
+    "text": "Find-My-Pint Find-My-Pint ios ios Swift iOS 17 Xcode 15 Find-My-Pint. An iOS app that points to the location of the nearest place that will serve you beer. Xcode project + source `FindMyPint/` + `privacy-policy`. iOS 17+, Xcode 15+, Swift 5.9, iPhone-only ",
+    "name": "Find-My-Pint",
+    "meta": {
+      "kind": "repo",
+      "category": "ios",
+      "stack": [
+        "Swift",
+        "iOS 17",
+        "Xcode 15"
+      ],
+      "description": "An iOS app that points to the location of the nearest place that will serve you beer. Xcode project + source `FindMyPint/` + `privacy-policy`. iOS 17+, Xcode 15+, Swift 5.9, iPhone-only (`TARGETED_DEVICE_FAMILY: \"1\"`)."
+    }
+  },
+  {
+    "id": "repo-journal-app",
+    "text": "journal-app journal-app ios ios Swift iOS 16 journal-app. DailyBeanClone — an iOS journal app (a clone/inspired-by of the Day One journal pattern). Xcode project `DailyBeanClone.xcodeproj` + source + `docs/`. iOS 16+, Swift. Bundle id `com.daily",
+    "name": "journal-app",
+    "meta": {
+      "kind": "repo",
+      "category": "ios",
+      "stack": [
+        "Swift",
+        "iOS 16"
+      ],
+      "description": "DailyBeanClone — an iOS journal app (a clone/inspired-by of the Day One journal pattern). Xcode project `DailyBeanClone.xcodeproj` + source + `docs/`. iOS 16+, Swift. Bundle id `com.dailybean.clone`."
+    }
+  },
+  {
+    "id": "repo-pin",
+    "text": "pin pin ios ios Swift iOS 17 MapKit MKLocalSearchCompleter PhotoKit pin. Pin — Apple Maps–style app with place pins. A native iOS app that clones the look and behaviour of Apple Maps and adds **place pins** with notes, links, and photos. Full-screen MapKit map with st",
+    "name": "pin",
+    "meta": {
+      "kind": "repo",
+      "category": "ios",
+      "stack": [
+        "Swift",
+        "iOS 17",
+        "MapKit",
+        "MKLocalSearchCompleter",
+        "PhotoKit"
+      ],
+      "description": "Pin — Apple Maps–style app with place pins. A native iOS app that clones the look and behaviour of Apple Maps and adds **place pins** with notes, links, and photos. Full-screen MapKit map with standard Apple Maps styling; live search suggestions via `MKLocalSearchCompleter`; tap-to-place with a place card; each pin stores free-form notes, labelled links (e.g. \"Menu\", \"Reservations\"), and photos from the library; local persistence for pins and photos. iOS 17+, Xcode 15+."
+    }
+  },
+  {
+    "id": "repo-proof",
+    "text": "proof proof ios ios Swift iOS CocoaPods proof. Accountability — an iOS app. Xcode project + source `Accountability/`, `Accountability.xcworkspace`, `Podfile`, `Pods/`. Project name inferred from `Accountability/`. No README.. Swift iOS Coco",
+    "name": "proof",
+    "meta": {
+      "kind": "repo",
+      "category": "ios",
+      "stack": [
+        "Swift",
+        "iOS",
+        "CocoaPods"
+      ],
+      "description": "Accountability — an iOS app. Xcode project + source `Accountability/`, `Accountability.xcworkspace`, `Podfile`, `Pods/`. Project name inferred from `Accountability/`. No README."
+    }
+  },
+  {
+    "id": "repo-step-counter-commit-graph",
+    "text": "step-counter-commit-graph step-counter-commit-graph ios ios Swift iOS 17 HealthKit WidgetKit step-counter-commit-graph. StepGraph — an iOS app that reads step count data from Apple Health and displays it as a **GitHub-style contribution/commit graph** for the last 365 days / 52 weeks. Customi",
+    "name": "step-counter-commit-graph",
+    "meta": {
+      "kind": "repo",
+      "category": "ios",
+      "stack": [
+        "Swift",
+        "iOS 17",
+        "HealthKit",
+        "WidgetKit"
+      ],
+      "description": "StepGraph — an iOS app that reads step count data from Apple Health and displays it as a **GitHub-style contribution/commit graph** for the last 365 days / 52 weeks. Customisable block colours, light/dark mode support, week/day toggle. iOS 17+. Privacy policy included."
+    }
+  },
+  {
+    "id": "repo-upsilon",
+    "text": "upsilon upsilon ios ios Swift SwiftUI iOS 16 WidgetKit App Clip Claude/GPT upsilon. Upsilon iOS — a SwiftUI implementation of the Upsilon mobile builder experience. Lets users describe an idea, generate a working prototype with AI, edit visually, add assets, configure backen",
+    "name": "upsilon",
+    "meta": {
+      "kind": "repo",
+      "category": "ios",
+      "stack": [
+        "Swift",
+        "SwiftUI",
+        "iOS 16",
+        "WidgetKit",
+        "App Clip",
+        "Claude/GPT"
+      ],
+      "description": "Upsilon iOS — a SwiftUI implementation of the Upsilon mobile builder experience. Lets users describe an idea, generate a working prototype with AI, edit visually, add assets, configure backend automations, and publish to the App Store via Expo/EAS. Features: native SwiftUI interface (onboarding, dashboard, editor workspaces), AI-driven project generation (Claude/GPT selectable) with prompt chat, live preview, and pinch-to-build contextual actions, asset tools for AI image/icon creation, audio + voice-over synthesis, haptic tuning, built-in \"Upsilon Cloud\" backend controls (auth, database, automations, third-party integrations like maps, weather, push, email), share links / App Clip hand-off, SSH/export helpers, subscription tiers, App Store deployment flow with live logs, placeholder WidgetKit timeline. iOS 16+."
+    }
+  },
+  {
+    "id": "repo-water-app",
+    "text": "water-app water-app ios ios TBD (intended iOS app) water-app. Empty repository. No source files, no README.. TBD (intended iOS app). ios",
+    "name": "water-app",
+    "meta": {
+      "kind": "repo",
+      "category": "ios",
+      "stack": [
+        "TBD (intended iOS app)"
+      ],
+      "description": "Empty repository. No source files, no README."
+    }
+  },
+  {
+    "id": "repo-history-laptop-stickers",
+    "text": "history-laptop-stickers history-laptop-stickers web web HTML CSS JavaScript history-laptop-stickers. Laptop Sticker History — a single-page web app. `index.html` + `docs/` + a `background.png`. The page uses system fonts, dark background, viewport-anchored layout. No README..",
+    "name": "history-laptop-stickers",
+    "meta": {
+      "kind": "repo",
+      "category": "web",
+      "stack": [
+        "HTML",
+        "CSS",
+        "JavaScript"
+      ],
+      "description": "Laptop Sticker History — a single-page web app. `index.html` + `docs/` + a `background.png`. The page uses system fonts, dark background, viewport-anchored layout. No README."
+    }
+  },
+  {
+    "id": "repo-holly-portfolio",
+    "text": "holly-portfolio holly-portfolio web web JavaScript holly-portfolio. Personal Portfolio for an influencer triathlete. JavaScript-based; not in the cloned set but referenced in Tom's profile. (Listed based on portfolio description.). JavaScript. web",
+    "name": "holly-portfolio",
+    "meta": {
+      "kind": "repo",
+      "category": "web",
+      "stack": [
+        "JavaScript"
+      ],
+      "description": "Personal Portfolio for an influencer triathlete. JavaScript-based; not in the cloned set but referenced in Tom's profile. (Listed based on portfolio description.)"
+    }
+  },
+  {
+    "id": "repo-japan-itinerary",
+    "text": "japan-itinerary japan-itinerary web web HTML CSS Vercel japan-itinerary. A static multi-page web app for a Japan trip itinerary. Pages: `index.html`, `beth-notes.html`, `tom-notes.html`, `general-notes.html`, `todo.html`, `calendar.html`, `bookings.html`. ",
+    "name": "japan-itinerary",
+    "meta": {
+      "kind": "repo",
+      "category": "web",
+      "stack": [
+        "HTML",
+        "CSS",
+        "Vercel"
+      ],
+      "description": "A static multi-page web app for a Japan trip itinerary. Pages: `index.html`, `beth-notes.html`, `tom-notes.html`, `general-notes.html`, `todo.html`, `calendar.html`, `bookings.html`. `vercel.json` for Vercel deployment. No README."
+    }
+  },
+  {
+    "id": "repo-lifo",
+    "text": "lifo lifo web web React Native TypeScript Firebase Anthropic SDK lifo. LifoFinance — a React Native app. `package.json` lists `@anthropic-ai/sdk`, `@react-native-community/slider`, `@react-native-firebase/app`. Default React Native CLI scaffold (Android + iOS). Bun",
+    "name": "lifo",
+    "meta": {
+      "kind": "repo",
+      "category": "web",
+      "stack": [
+        "React Native",
+        "TypeScript",
+        "Firebase",
+        "Anthropic SDK"
+      ],
+      "description": "LifoFinance — a React Native app. `package.json` lists `@anthropic-ai/sdk`, `@react-native-community/slider`, `@react-native-firebase/app`. Default React Native CLI scaffold (Android + iOS). Bundle appears to be a finance / personal-finance app integrating Claude (Anthropic SDK) and Firebase. (Name from `package.json` \"LifoFinance\".)"
+    }
+  },
+  {
+    "id": "repo-lifo-website",
+    "text": "lifo-website lifo-website web web Next.js 15 React 19 React Three Fiber drei Turbopack lifo-website. Landing page for the Lifo / LifoFinance app. Next.js 15 with Turbopack, React 19, `@react-three/drei`, `@react-three/fiber` — suggests a 3D landing page. No content README.. Next.js 15 R",
+    "name": "lifo-website",
+    "meta": {
+      "kind": "repo",
+      "category": "web",
+      "stack": [
+        "Next.js 15",
+        "React 19",
+        "React Three Fiber",
+        "drei",
+        "Turbopack"
+      ],
+      "description": "Landing page for the Lifo / LifoFinance app. Next.js 15 with Turbopack, React 19, `@react-three/drei`, `@react-three/fiber` — suggests a 3D landing page. No content README."
+    }
+  },
+  {
+    "id": "repo-memories-map",
+    "text": "memories-map memories-map web web HTML CSS JavaScript Leaflet memories-map. \"Tom and Beth — 4 Years around the world\" — a memory map. Uses Leaflet (`leaflet@1.9.4`) for the base map, custom CSS overlay, floating header overlay with title and add-memory button. `",
+    "name": "memories-map",
+    "meta": {
+      "kind": "repo",
+      "category": "web",
+      "stack": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "Leaflet"
+      ],
+      "description": "\"Tom and Beth — 4 Years around the world\" — a memory map. Uses Leaflet (`leaflet@1.9.4`) for the base map, custom CSS overlay, floating header overlay with title and add-memory button. `index.html`, `memories.js`, `script.js`, `style.css`, `assets/`. No README."
+    }
+  },
+  {
+    "id": "repo-mobile-website-mobo-website",
+    "text": "mobile-website (mobo-website) mobile-website (mobo-website) web web TypeScript mobile-website (mobo-website). Website for an old venture — Hikaya Education. (Name \"mobo-website\" suggests mobile-optimised; from portfolio description.) Listed in profile but not in the cloned set..",
+    "name": "mobile-website (mobo-website)",
+    "meta": {
+      "kind": "repo",
+      "category": "web",
+      "stack": [
+        "TypeScript"
+      ],
+      "description": "Website for an old venture — Hikaya Education. (Name \"mobo-website\" suggests mobile-optimised; from portfolio description.) Listed in profile but not in the cloned set."
+    }
+  },
+  {
+    "id": "repo-mystery-hour",
+    "text": "mystery-hour mystery-hour web web Vite TypeScript Chart.js Three.js Vercel mystery-hour. A deep dive into James O'Brien's Mystery Hour data. Vite + TypeScript dashboard (`mystery-hour-dashboard`) using Chart.js and Three.js. Deployed to Vercel. `dashboard/`, `docs/`, `script",
+    "name": "mystery-hour",
+    "meta": {
+      "kind": "repo",
+      "category": "web",
+      "stack": [
+        "Vite",
+        "TypeScript",
+        "Chart.js",
+        "Three.js",
+        "Vercel"
+      ],
+      "description": "A deep dive into James O'Brien's Mystery Hour data. Vite + TypeScript dashboard (`mystery-hour-dashboard`) using Chart.js and Three.js. Deployed to Vercel. `dashboard/`, `docs/`, `scripts/` (with subdirs `analysis/`, `data/`, `pipeline/`), `vercel.json` rewrites to `/index.html`."
+    }
+  },
+  {
+    "id": "repo-openclaw-app-template",
+    "text": "openclaw-app-template openclaw-app-template web web Next.js 15 TypeScript Geist font openclaw-app-template. A template for deploying an OpenClaw app for a specific vertical. Default Next.js 15 + Geist font scaffold (no custom content). Intended as a starting point.. Next.js 15 TypeScr",
+    "name": "openclaw-app-template",
+    "meta": {
+      "kind": "repo",
+      "category": "web",
+      "stack": [
+        "Next.js 15",
+        "TypeScript",
+        "Geist font"
+      ],
+      "description": "A template for deploying an OpenClaw app for a specific vertical. Default Next.js 15 + Geist font scaffold (no custom content). Intended as a starting point."
+    }
+  },
+  {
+    "id": "repo-personal-website",
+    "text": "personal-website personal-website web web TypeScript Next.js static HTML/CSS/JS personal-website. The code for Tom's personal portfolio websites — the two static / Next.js sites whose contents were the original source for `ABOUT_ME.md` and `PROFILE.md`. Starred on Tom's profile..",
+    "name": "personal-website",
+    "meta": {
+      "kind": "repo",
+      "category": "web",
+      "stack": [
+        "TypeScript",
+        "Next.js",
+        "static HTML/CSS/JS"
+      ],
+      "description": "The code for Tom's personal portfolio websites — the two static / Next.js sites whose contents were the original source for `ABOUT_ME.md` and `PROFILE.md`. Starred on Tom's profile."
+    }
+  },
+  {
+    "id": "repo-rhino-deck",
+    "text": "rhino-deck rhino-deck web web HTML rhino-deck. A static HTML deck for **Rhino** (companion to `rhino-website`). Contains `index.html` and a `Rhino-Deck.pdf`. No README.. HTML. web",
+    "name": "rhino-deck",
+    "meta": {
+      "kind": "repo",
+      "category": "web",
+      "stack": [
+        "HTML"
+      ],
+      "description": "A static HTML deck for **Rhino** (companion to `rhino-website`). Contains `index.html` and a `Rhino-Deck.pdf`. No README."
+    }
+  },
+  {
+    "id": "repo-rhino-website",
+    "text": "rhino-website rhino-website web web HTML CSS JavaScript rhino-website. Website for **Rhino** — foundational large spatial models. A spatiotemporal LLM that reasons robustly about 3D space over long horizons. Three pages: Landing (bold hero + feature overvi",
+    "name": "rhino-website",
+    "meta": {
+      "kind": "repo",
+      "category": "web",
+      "stack": [
+        "HTML",
+        "CSS",
+        "JavaScript"
+      ],
+      "description": "Website for **Rhino** — foundational large spatial models. A spatiotemporal LLM that reasons robustly about 3D space over long horizons. Three pages: Landing (bold hero + feature overview), FAQ (common questions about Rhino and spatial models), Contact (client-side form, integration-ready). Plain HTML/CSS/JS; no build step."
+    }
+  },
+  {
+    "id": "repo-toms-brain",
+    "text": "toms-brain toms-brain web web Markdown Obsidian toms-brain. An Obsidian vault of Tom's notes, projects, and wiki. Contains `ALL_MESSAGES.txt`, `CLAUDE.md`, `cli/`, `log/`, `projects/`, `raw/`, `wiki/`, an Obsidian canvas (`Untitled.canvas`), and a ",
+    "name": "toms-brain",
+    "meta": {
+      "kind": "repo",
+      "category": "web",
+      "stack": [
+        "Markdown",
+        "Obsidian"
+      ],
+      "description": "An Obsidian vault of Tom's notes, projects, and wiki. Contains `ALL_MESSAGES.txt`, `CLAUDE.md`, `cli/`, `log/`, `projects/`, `raw/`, `wiki/`, an Obsidian canvas (`Untitled.canvas`), and a \"UoB Quantum Computing Society.md\" note. No README."
+    }
+  },
+  {
+    "id": "repo-uob-swimming-website",
+    "text": "uob-swimming-website uob-swimming-website web web Next.js 14 TypeScript Tailwind CSS Framer Motion Lucide React uob-swimming-website. The official website for the University of Bristol Performance Swimming Club. Modern, responsive site built with Next.js 14 and Tailwind CSS. Home (large hero banner, meet-the-te",
+    "name": "uob-swimming-website",
+    "meta": {
+      "kind": "repo",
+      "category": "web",
+      "stack": [
+        "Next.js 14",
+        "TypeScript",
+        "Tailwind CSS",
+        "Framer Motion",
+        "Lucide React"
+      ],
+      "description": "The official website for the University of Bristol Performance Swimming Club. Modern, responsive site built with Next.js 14 and Tailwind CSS. Home (large hero banner, meet-the-team CTA, sponsor carousel, achievements section), prospective-students, meet-the-team pages. Framer Motion ready for future enhancements."
+    }
+  },
+  {
+    "id": "repo-veloworks-website",
+    "text": "veloworks-website veloworks-website web web TypeScript veloworks-website. Website for Veloworks Components. (README is just \"# Website for Veloworks Components\".). TypeScript. web",
+    "name": "veloworks-website",
+    "meta": {
+      "kind": "repo",
+      "category": "web",
+      "stack": [
+        "TypeScript"
+      ],
+      "description": "Website for Veloworks Components. (README is just \"# Website for Veloworks Components\".)"
+    }
+  },
+  {
+    "id": "repo-versioned",
+    "text": "versioned versioned web web TypeScript React Vite MediaPipe Pose Express Python (optional) versioned. Pose editor — MediaPipe in the browser. Frontend-first: upload a video, run **MediaPipe Pose** in the browser, see the skeleton, edit limbs frame by frame, and save the data to a backend (r",
+    "name": "versioned",
+    "meta": {
+      "kind": "repo",
+      "category": "web",
+      "stack": [
+        "TypeScript",
+        "React",
+        "Vite",
+        "MediaPipe Pose",
+        "Express",
+        "Python (optional)"
+      ],
+      "description": "Pose editor — MediaPipe in the browser. Frontend-first: upload a video, run **MediaPipe Pose** in the browser, see the skeleton, edit limbs frame by frame, and save the data to a backend (ready for future version control). MediaPipe Pose runs via `@mediapipe/tasks-vision` (WASM + model from CDN) on each frame to produce 33 landmarks per frame. React (Vite + TypeScript) with draggable-joint skeleton canvas, frame timeline, Load/Export JSON, Save-to-backend. Minimal Node/Express backend persists sequences in-memory. Optional Python pipeline: `extract_poses.py` (video → JSON), `render_skeleton.py` (JSON → skeleton MP4). Working names: `versioned` / `sesh-hub` / `choreogit`."
+    }
+  },
+  {
+    "id": "repo-article-website",
+    "text": "article-website article-website web web TypeScript article-website. (Listed in profile; not in the cloned set.). TypeScript. web",
+    "name": "article-website",
+    "meta": {
+      "kind": "repo",
+      "category": "web",
+      "stack": [
+        "TypeScript"
+      ],
+      "description": "(Listed in profile; not in the cloned set.)"
+    }
+  },
+  {
+    "id": "repo-cv",
+    "text": "cv cv web web HTML cv. My CV, deployed. (Listed in profile; not in the cloned set.). HTML. web",
+    "name": "cv",
+    "meta": {
+      "kind": "repo",
+      "category": "web",
+      "stack": [
+        "HTML"
+      ],
+      "description": "My CV, deployed. (Listed in profile; not in the cloned set.)"
+    }
+  },
+  {
+    "id": "repo-interactive-portfolio",
+    "text": "interactive-portfolio interactive-portfolio web web JavaScript interactive-portfolio. Interactive personal portfolio website. (Listed in profile; not in the cloned set.). JavaScript. web",
+    "name": "interactive-portfolio",
+    "meta": {
+      "kind": "repo",
+      "category": "web",
+      "stack": [
+        "JavaScript"
+      ],
+      "description": "Interactive personal portfolio website. (Listed in profile; not in the cloned set.)"
+    }
+  },
+  {
+    "id": "repo-reel-farm",
+    "text": "reel-farm reel-farm web web TBD reel-farm. (Listed in profile; not in the cloned set.). TBD. web",
+    "name": "reel-farm",
+    "meta": {
+      "kind": "repo",
+      "category": "web",
+      "stack": [
+        "TBD"
+      ],
+      "description": "(Listed in profile; not in the cloned set.)"
+    }
+  },
+  {
+    "id": "repo-cloud-agent-app",
+    "text": "cloud-agent-app cloud-agent-app web web TBD cloud-agent-app. (Listed in profile; not in the cloned set.). TBD. web",
+    "name": "cloud-agent-app",
+    "meta": {
+      "kind": "repo",
+      "category": "web",
+      "stack": [
+        "TBD"
+      ],
+      "description": "(Listed in profile; not in the cloned set.)"
+    }
+  },
+  {
+    "id": "repo-no-code-app-app",
+    "text": "no-code-app-app no-code-app-app web web TBD no-code-app-app. (Listed in profile; not in the cloned set.). TBD. web",
+    "name": "no-code-app-app",
+    "meta": {
+      "kind": "repo",
+      "category": "web",
+      "stack": [
+        "TBD"
+      ],
+      "description": "(Listed in profile; not in the cloned set.)"
+    }
+  },
+  {
+    "id": "repo-vsti-interactive-examples",
+    "text": "vsti-interactive-examples vsti-interactive-examples web web HTML vsti-interactive-examples. (Listed in profile; not in the cloned set.). HTML. web",
+    "name": "vsti-interactive-examples",
+    "meta": {
+      "kind": "repo",
+      "category": "web",
+      "stack": [
+        "HTML"
+      ],
+      "description": "(Listed in profile; not in the cloned set.)"
+    }
+  },
+  {
+    "id": "repo-3d-whiteboard",
+    "text": "3d-whiteboard 3d-whiteboard web web React 19 Three.js Vite MediaPipe Hands ESLint 3d-whiteboard. 3D Whiteboard — a React + Three.js + Vite web app where you draw on a 3D canvas with **MediaPipe Hands** (webcam-tracked hand landmarks). 3D strokes, hand pose controls, and a Three.js ",
+    "name": "3d-whiteboard",
+    "meta": {
+      "kind": "repo",
+      "category": "web",
+      "stack": [
+        "React 19",
+        "Three.js",
+        "Vite",
+        "MediaPipe Hands",
+        "ESLint"
+      ],
+      "description": "3D Whiteboard — a React + Three.js + Vite web app where you draw on a 3D canvas with **MediaPipe Hands** (webcam-tracked hand landmarks). 3D strokes, hand pose controls, and a Three.js renderer. WIP — README is just the project name. (Note: there is also an older `tumcuctom.github.io` repo, an earlier GitHub Pages version of the personal site — superseded by `personal-website`.)"
+    }
+  },
+  {
+    "id": "repo-adfes-biz-synthetic-extension",
+    "text": "adfes-biz-synthetic-extension adfes-biz-synthetic-extension ai ai Python Generative AI Computer Vision adfes-biz-synthetic-extension. Emotional Face Stimuli Research — as part of work as a research assistant on emotional face stimuli research for the University of Bristol (School of Brain, Behaviour an",
+    "name": "adfes-biz-synthetic-extension",
+    "meta": {
+      "kind": "repo",
+      "category": "ai",
+      "stack": [
+        "Python",
+        "Generative AI",
+        "Computer Vision"
+      ],
+      "description": "Emotional Face Stimuli Research — as part of work as a research assistant on emotional face stimuli research for the University of Bristol (School of Brain, Behaviour and Health). Generation of synthetic faces that express the **6 basic emotions** (anger, disgust, fear, happiness, sadness, surprise) at varying intensity. Underpins the Machine Learning Research Assistant role listed in the main profile."
+    }
+  },
+  {
+    "id": "repo-ai-coursework",
+    "text": "ai-coursework ai-coursework coursework coursework Prolog HTML ai-coursework. Artificial Intelligence coursework at the University of Bristol. The README is the Prolog code/CLI cheatsheet for an AI Logic Programming course (`ailp.pl cw part1` — start web server, ",
+    "name": "ai-coursework",
+    "meta": {
+      "kind": "repo",
+      "category": "coursework",
+      "stack": [
+        "Prolog",
+        "HTML"
+      ],
+      "description": "Artificial Intelligence coursework at the University of Bristol. The README is the Prolog code/CLI cheatsheet for an AI Logic Programming course (`ailp.pl cw part1` — start web server, `join_game(-A)` to add an agent, `reset_game`, `start_game`, `solve_maze`). Corresponds to the 86% AI coursework score highlighted in the main profile."
+    }
+  },
+  {
+    "id": "repo-ai-for-chess-in-3-dimensions",
+    "text": "AI-for-chess-in-3-dimensions AI-for-chess-in-3-dimensions coursework coursework C# Unity Game Development AI NNs AI-for-chess-in-3-dimensions. Engine and AI for chess in 3 dimensions. The first ever way to play 3-dimensional chess on your machine, including an AI making use of a **NN and mini-max with alpha-beta",
+    "name": "AI-for-chess-in-3-dimensions",
+    "meta": {
+      "kind": "repo",
+      "category": "coursework",
+      "stack": [
+        "C#",
+        "Unity",
+        "Game Development",
+        "AI",
+        "NNs"
+      ],
+      "description": "Engine and AI for chess in 3 dimensions. The first ever way to play 3-dimensional chess on your machine, including an AI making use of a **NN and mini-max with alpha-beta pruning**. Built in **Unity with C#** with a customisable UI. Was Tom's A-Level year-long coursework (AQA NEA), **scored 75/75 (maximum mark)**. README notes the source code is \"lost — rebuilding Unity environment\"; the original C# code can be found in the report under \"technical solution\". Includes demo videos for the UI, gameplay, and five AI variants. Includes an extensive report with code, UML diagram, flow charts for algorithms and AI, Unity environment/configuration/assets, AI justifications, client feedback and interviews, and research."
+    }
+  },
+  {
+    "id": "repo-advent-of-code",
+    "text": "Advent-Of-Code Advent-Of-Code other other Python algorithms graph theory number theory dynamic programming Advent-Of-Code. Advent of Code daily solutions. **All 2024 days solved in Python** (`2024/images/finished.gif` shows full completion). **2025 solved in a different language each day** (README just sho",
+    "name": "Advent-Of-Code",
+    "meta": {
+      "kind": "repo",
+      "category": "other",
+      "stack": [
+        "Python",
+        "algorithms",
+        "graph theory",
+        "number theory",
+        "dynamic programming"
+      ],
+      "description": "Advent of Code daily solutions. **All 2024 days solved in Python** (`2024/images/finished.gif` shows full completion). **2025 solved in a different language each day** (README just shows `# 2025` and `# 2024` — `2025/` directory exists with per-day solutions)."
+    }
+  },
+  {
+    "id": "repo-clipboard-cli",
+    "text": "clipboard-cli clipboard-cli other other Shell / CLI clipboard-cli. A small CLI tool: clipboard history as a command-line utility. Single `clipboard` source file. No README.. Shell / CLI. other",
+    "name": "clipboard-cli",
+    "meta": {
+      "kind": "repo",
+      "category": "other",
+      "stack": [
+        "Shell / CLI"
+      ],
+      "description": "A small CLI tool: clipboard history as a command-line utility. Single `clipboard` source file. No README."
+    }
+  },
+  {
+    "id": "repo-decimal-to-binary-visualiser",
+    "text": "Decimal-to-binary-visualiser Decimal-to-binary-visualiser other other C Decimal-to-binary-visualiser. A small C program that visualises the binary representation of a decimal, with the option to step through several representations (e.g. signed, two's complement, BCD). Wo",
+    "name": "Decimal-to-binary-visualiser",
+    "meta": {
+      "kind": "repo",
+      "category": "other",
+      "stack": [
+        "C"
+      ],
+      "description": "A small C program that visualises the binary representation of a decimal, with the option to step through several representations (e.g. signed, two's complement, BCD). Works the other way too. Built during the Algos II revision block."
+    }
+  },
+  {
+    "id": "repo-pgm-to-sk-converter",
+    "text": "PGM-to-SK-Converter PGM-to-SK-Converter other other C PGM-to-SK-Converter. Tiny C tool that converts a `.pgm` (Portable Grey Map) image into an `.sk` (Sketch) file. Reads the image into a 2D array, sets the background to the most-occurring colour, and dr",
+    "name": "PGM-to-SK-Converter",
+    "meta": {
+      "kind": "repo",
+      "category": "other",
+      "stack": [
+        "C"
+      ],
+      "description": "Tiny C tool that converts a `.pgm` (Portable Grey Map) image into an `.sk` (Sketch) file. Reads the image into a 2D array, sets the background to the most-occurring colour, and draws lines for every other colour. Optimised to scan each colour row only once."
+    }
+  },
+  {
+    "id": "repo-sarah-eccles",
+    "text": "sarah-eccles sarah-eccles other other Python sarah-eccles. (Listed in profile; not in the cloned set.). Python. other",
+    "name": "sarah-eccles",
+    "meta": {
+      "kind": "repo",
+      "category": "other",
+      "stack": [
+        "Python"
+      ],
+      "description": "(Listed in profile; not in the cloned set.)"
+    }
+  },
+  {
+    "id": "repo-anima-transaction",
+    "text": "anima-transaction anima-transaction other other Python anima-transaction. (Listed in profile; not in the cloned set.). Python. other",
+    "name": "anima-transaction",
+    "meta": {
+      "kind": "repo",
+      "category": "other",
+      "stack": [
+        "Python"
+      ],
+      "description": "(Listed in profile; not in the cloned set.)"
+    }
+  },
+  {
+    "id": "repo-life-of-steroids",
+    "text": "life-of-steroids life-of-steroids other other Makefile life-of-steroids. (Listed in profile; not in the cloned set.). Makefile. other",
+    "name": "life-of-steroids",
+    "meta": {
+      "kind": "repo",
+      "category": "other",
+      "stack": [
+        "Makefile"
+      ],
+      "description": "(Listed in profile; not in the cloned set.)"
+    }
+  },
+  {
+    "id": "repo-mini-agent",
+    "text": "Mini-Agent Mini-Agent fork fork Python Mini-Agent. Fork of MiniMax-AI/Mini-Agent — a minimal yet professional single agent demo project. (Referenced in the main profile and in the Open Source Contributions section.). Python. fork",
+    "name": "Mini-Agent",
+    "meta": {
+      "kind": "repo",
+      "category": "fork",
+      "stack": [
+        "Python"
+      ],
+      "description": "Fork of MiniMax-AI/Mini-Agent — a minimal yet professional single agent demo project. (Referenced in the main profile and in the Open Source Contributions section.)"
+    }
+  },
+  {
+    "id": "repo-minimax-mcp",
+    "text": "MiniMax-MCP MiniMax-MCP fork fork Python MiniMax-MCP. MiniMax Model Context Protocol server. Fork of MiniMax-AI's MCP implementation.. Python. fork",
+    "name": "MiniMax-MCP",
+    "meta": {
+      "kind": "repo",
+      "category": "fork",
+      "stack": [
+        "Python"
+      ],
+      "description": "MiniMax Model Context Protocol server. Fork of MiniMax-AI's MCP implementation."
+    }
+  },
+  {
+    "id": "repo-minimax-skills",
+    "text": "minimax-skills minimax-skills fork fork C# (per profile) TypeScript Python minimax-skills. Fork of MiniMax-AI/skills — curated repository of agent skills. (Tom has authored multiple PRs upstream adding new skills like `minimax-pdf-read` and `excel-wps-table-diagnosis`.). C# ",
+    "name": "minimax-skills",
+    "meta": {
+      "kind": "repo",
+      "category": "fork",
+      "stack": [
+        "C# (per profile)",
+        "TypeScript",
+        "Python"
+      ],
+      "description": "Fork of MiniMax-AI/skills — curated repository of agent skills. (Tom has authored multiple PRs upstream adding new skills like `minimax-pdf-read` and `excel-wps-table-diagnosis`.)"
+    }
+  },
+  {
+    "id": "repo-2024-mlaipredictionmicroservices-fork",
+    "text": "2024-MLAIPredictionMicroservices-Fork 2024-MLAIPredictionMicroservices-Fork fork fork Vue 2024-MLAIPredictionMicroservices-Fork. Fork of a 2024 ML/AI Prediction Microservices project.. Vue. fork",
+    "name": "2024-MLAIPredictionMicroservices-Fork",
+    "meta": {
+      "kind": "repo",
+      "category": "fork",
+      "stack": [
+        "Vue"
+      ],
+      "description": "Fork of a 2024 ML/AI Prediction Microservices project."
+    }
+  },
+  {
+    "id": "repo-cut3r",
+    "text": "CUT3R CUT3R fork fork Python CUT3R. Fork of CUT3R — a VLM-Memory dependency with a RoPE position indexing fix.. Python. fork",
+    "name": "CUT3R",
+    "meta": {
+      "kind": "repo",
+      "category": "fork",
+      "stack": [
+        "Python"
+      ],
+      "description": "Fork of CUT3R — a VLM-Memory dependency with a RoPE position indexing fix."
+    }
+  },
+  {
+    "id": "repo-tumcuctom",
+    "text": "TumCucTom TumCucTom meta meta Markdown TumCucTom. Tom's profile README repository — used to drive the SVG profile image on the GitHub profile page. Starred.. Markdown. meta",
+    "name": "TumCucTom",
+    "meta": {
+      "kind": "repo",
+      "category": "meta",
+      "stack": [
+        "Markdown"
+      ],
+      "description": "Tom's profile README repository — used to drive the SVG profile image on the GitHub profile page. Starred."
+    }
+  },
+  {
+    "id": "project-ai-chess-3d",
+    "text": "AI for Chess in 3D AI for Chess in 3D ai ai Unity C# Neural Network MiniMax Alpha-Beta AI for Chess in 3D. The first ever game and engine for chess in 3D. The A-Level NEA — 100% (75/75).. Unity C# Neural Network MiniMax Alpha-Beta. ai",
+    "name": "AI for Chess in 3D",
+    "meta": {
+      "kind": "project",
+      "domain": "ai",
+      "year": 2023,
+      "stack": [
+        "Unity",
+        "C#",
+        "Neural Network",
+        "MiniMax",
+        "Alpha-Beta"
+      ]
+    }
+  },
+  {
+    "id": "project-quantum-cross-chain-arbitrage",
+    "text": "Quantum Cross-Chain Arbitrage Quantum Cross-Chain Arbitrage defi defi Vyper Python QAOA Flare Quantum Cross-Chain Arbitrage. QAOA + Flare FTSO + Vyper flash loans. ETH Oxford DeFi hackathon win.. Vyper Python QAOA Flare. defi",
+    "name": "Quantum Cross-Chain Arbitrage",
+    "meta": {
+      "kind": "project",
+      "domain": "defi",
+      "year": 2025,
+      "stack": [
+        "Vyper",
+        "Python",
+        "QAOA",
+        "Flare"
+      ]
+    }
+  },
+  {
+    "id": "project-llama-8b-isc25",
+    "text": "Llama 8B @ ISC'25 Llama 8B @ ISC'25 hpc hpc PyTorch FlashAttention 3 FP8 DoRA Llama 8B @ ISC'25. 8× H100 fine-tuning with FlashAttention 3, Transformer Engine, FP8, and DoRA. Represented the UK.. PyTorch FlashAttention 3 FP8 DoRA. hpc",
+    "name": "Llama 8B @ ISC'25",
+    "meta": {
+      "kind": "project",
+      "domain": "hpc",
+      "year": 2025,
+      "stack": [
+        "PyTorch",
+        "FlashAttention 3",
+        "FP8",
+        "DoRA"
+      ]
+    }
+  },
+  {
+    "id": "project-varqite-defi-collateral",
+    "text": "VarQITE DeFi Collateral Optimisation VarQITE DeFi Collateral Optimisation quantum quantum Qiskit VarQITE SciPy Streamlit VarQITE DeFi Collateral Optimisation. Quantum-inspired graph partitioning for Aave v3 Polygon positions, 10,143 real positions.. Qiskit VarQITE SciPy Streamlit. quantum",
+    "name": "VarQITE DeFi Collateral Optimisation",
+    "meta": {
+      "kind": "project",
+      "domain": "quantum",
+      "year": 2025,
+      "stack": [
+        "Qiskit",
+        "VarQITE",
+        "SciPy",
+        "Streamlit"
+      ]
+    }
+  },
+  {
+    "id": "project-sparse-attention-poc",
+    "text": "Sparse Attention for Long Context LLMs Sparse Attention for Long Context LLMs ai ai PyTorch MiniMax M3 DeepSeek CSA FlashAttention Sparse Attention for Long Context LLMs. Benchmarks of SDPA, MemEff, M3, DeepSeek V4 CSA/HCA on Qwen 0.5B and MiniMax-M2.7.. PyTorch MiniMax M3 DeepSeek CSA FlashAttention. ai",
+    "name": "Sparse Attention for Long Context LLMs",
+    "meta": {
+      "kind": "project",
+      "domain": "ai",
+      "year": 2025,
+      "stack": [
+        "PyTorch",
+        "MiniMax M3",
+        "DeepSeek CSA",
+        "FlashAttention"
+      ]
+    }
+  },
+  {
+    "id": "project-agentic-playground",
+    "text": "Canvas Workspace Canvas Workspace ai ai TypeScript Electron React Zustand Swift Canvas Workspace. Infinite-canvas macOS desktop app (Electron) with VS Code-shaped extension host, real PTYs, and embedded apps.. TypeScript Electron React Zustand Swift. ai",
+    "name": "Canvas Workspace",
+    "meta": {
+      "kind": "project",
+      "domain": "ai",
+      "year": 2025,
+      "stack": [
+        "TypeScript",
+        "Electron",
+        "React",
+        "Zustand",
+        "Swift"
+      ]
+    }
+  },
+  {
+    "id": "project-black-swan",
+    "text": "Black Swan Black Swan defi defi Go Rust RISC0 Solidity iOS Black Swan. Bio-Sovereign Data Market: biometrics → on-chain Proof-of-Affect, on Flare + Plasma.. Go Rust RISC0 Solidity iOS. defi",
+    "name": "Black Swan",
+    "meta": {
+      "kind": "project",
+      "domain": "defi",
+      "year": 2025,
+      "stack": [
+        "Go",
+        "Rust",
+        "RISC0",
+        "Solidity",
+        "iOS"
+      ]
+    }
+  },
+  {
+    "id": "project-turing-complete-rubix-cube",
+    "text": "Turing-Complete Rubik's Cube CPUs Turing-Complete Rubik's Cube CPUs puzzle puzzle Python Computation Theory Turing-Complete Rubik's Cube CPUs. Two CPUs that run on Rubik's cubes, with all data stored as sticker colours.. Python Computation Theory. puzzle",
+    "name": "Turing-Complete Rubik's Cube CPUs",
+    "meta": {
+      "kind": "project",
+      "domain": "puzzle",
+      "year": 2024,
+      "stack": [
+        "Python",
+        "Computation Theory"
+      ]
+    }
+  },
+  {
+    "id": "project-rubix-chess",
+    "text": "Rubix Chess 3D Rubix Chess 3D game game TypeScript Three.js Vite Rubix Chess 3D. Chess on an 8×8×8 cube where slice rotations are also legal moves.. TypeScript Three.js Vite. game",
+    "name": "Rubix Chess 3D",
+    "meta": {
+      "kind": "project",
+      "domain": "game",
+      "year": 2024,
+      "stack": [
+        "TypeScript",
+        "Three.js",
+        "Vite"
+      ]
+    }
+  },
+  {
+    "id": "project-f1-commentary",
+    "text": "F1 Commentary F1 Commentary f1 f1 Python FastF1 Groq F1 Commentary. AI race commentary + animated incident visualisations from F1 telemetry.. Python FastF1 Groq. f1",
+    "name": "F1 Commentary",
+    "meta": {
+      "kind": "project",
+      "domain": "f1",
+      "year": 2024,
+      "stack": [
+        "Python",
+        "FastF1",
+        "Groq"
+      ]
+    }
+  },
+  {
+    "id": "project-yuki",
+    "text": "Yuki ML Yuki ML f1 f1 Python scikit-learn FastF1 Yuki ML. F1 race outcome predictor — Gradient Boosting on qualifying + sector times. Named after Yuki Tsunoda.. Python scikit-learn FastF1. f1",
+    "name": "Yuki ML",
+    "meta": {
+      "kind": "project",
+      "domain": "f1",
+      "year": 2024,
+      "stack": [
+        "Python",
+        "scikit-learn",
+        "FastF1"
+      ]
+    }
+  },
+  {
+    "id": "project-f1-ghost-car",
+    "text": "F1 Ghost Car F1 Ghost Car f1 f1 Python Matplotlib FastF1 F1 Ghost Car. Overhead reconstruction visualisation of qualifying laps with follow-camera mode.. Python Matplotlib FastF1. f1",
+    "name": "F1 Ghost Car",
+    "meta": {
+      "kind": "project",
+      "domain": "f1",
+      "year": 2024,
+      "stack": [
+        "Python",
+        "Matplotlib",
+        "FastF1"
+      ]
+    }
+  },
+  {
+    "id": "project-f1-qtda",
+    "text": "F1 Telemetry Data Fetcher F1 Telemetry Data Fetcher f1 f1 Python FastF1 Pandas NumPy F1 Telemetry Data Fetcher. Fetches throttle/brake/speed/gear/RPM/DRS for every driver and lap, exports to CSV/JSON/Parquet.. Python FastF1 Pandas NumPy. f1",
+    "name": "F1 Telemetry Data Fetcher",
+    "meta": {
+      "kind": "project",
+      "domain": "f1",
+      "year": 2024,
+      "stack": [
+        "Python",
+        "FastF1",
+        "Pandas",
+        "NumPy"
+      ]
+    }
+  },
+  {
+    "id": "project-hpc-lbm",
+    "text": "HPC Lattice Boltzmann Optimisation HPC Lattice Boltzmann Optimisation hpc hpc C MPI OpenMP CUDA CUDA Graphs HPC Lattice Boltzmann Optimisation. D2Q9-BGK across 28+ stages: serial, SIMD, OpenMP, MPI, CUDA, CUDA Graphs, NUMA, SVE2.. C MPI OpenMP CUDA CUDA Graphs. hpc",
+    "name": "HPC Lattice Boltzmann Optimisation",
+    "meta": {
+      "kind": "project",
+      "domain": "hpc",
+      "year": 2025,
+      "stack": [
+        "C",
+        "MPI",
+        "OpenMP",
+        "CUDA",
+        "CUDA Graphs"
+      ]
+    }
+  },
+  {
+    "id": "project-adfes-biz-synthetic-extension",
+    "text": "Adfes-Biz Synthetic Extension Adfes-Biz Synthetic Extension ai ai Python ML Generative AI Computer Vision Adfes-Biz Synthetic Extension. Generative ML for emotional face stimuli — ML Research Assistant work, Bristol School of Brain.. Python ML Generative AI Computer Vision. ai",
+    "name": "Adfes-Biz Synthetic Extension",
+    "meta": {
+      "kind": "project",
+      "domain": "ai",
+      "year": 2025,
+      "stack": [
+        "Python",
+        "ML",
+        "Generative AI",
+        "Computer Vision"
+      ]
+    }
+  },
+  {
+    "id": "project-factlet",
+    "text": "Factlet Factlet ios ios Swift WidgetKit App Groups Factlet. 233 factlets × 8 categories × 3 difficulty levels, with transparent home-screen widgets.. Swift WidgetKit App Groups. ios",
+    "name": "Factlet",
+    "meta": {
+      "kind": "project",
+      "domain": "ios",
+      "year": 2024,
+      "stack": [
+        "Swift",
+        "WidgetKit",
+        "App Groups"
+      ]
+    }
+  },
+  {
+    "id": "project-pin",
+    "text": "Pin Pin ios ios Swift MapKit MKLocalSearchCompleter PhotoKit Pin. Apple Maps-style app with place pins that store notes, links, and photos.. Swift MapKit MKLocalSearchCompleter PhotoKit. ios",
+    "name": "Pin",
+    "meta": {
+      "kind": "project",
+      "domain": "ios",
+      "year": 2024,
+      "stack": [
+        "Swift",
+        "MapKit",
+        "MKLocalSearchCompleter",
+        "PhotoKit"
+      ]
+    }
+  },
+  {
+    "id": "project-poly-hop",
+    "text": "Poly-Hop Poly-Hop game game JavaScript p5.js MediaPipe Polygon ERC-721 Poly-Hop. Body-controlled 8-bit platformer — MediaPipe Pose turns you into the controller, Polygon NFT avatars.. JavaScript p5.js MediaPipe Polygon ERC-721. game",
+    "name": "Poly-Hop",
+    "meta": {
+      "kind": "project",
+      "domain": "game",
+      "year": 2024,
+      "stack": [
+        "JavaScript",
+        "p5.js",
+        "MediaPipe",
+        "Polygon",
+        "ERC-721"
+      ]
+    }
+  },
+  {
+    "id": "project-quoridor-ai",
+    "text": "Quoridor AI Quoridor AI game game Python MCTS A* Flask WebSockets Quoridor AI. 9×9 Quoridor engine with MCTS (UCT, biased rollouts, progressive widening, Zobrist hashing).. Python MCTS A* Flask WebSockets. game",
+    "name": "Quoridor AI",
+    "meta": {
+      "kind": "project",
+      "domain": "game",
+      "year": 2024,
+      "stack": [
+        "Python",
+        "MCTS",
+        "A*",
+        "Flask",
+        "WebSockets"
+      ]
+    }
+  },
+  {
+    "id": "project-bonk",
+    "text": "Bonk / Boop Online Bonk / Boop Online game game TypeScript React Vite Node.js WebSockets Bonk / Boop Online. Monorepo for two-player boop. — TypeScript engine, React + Vite front-end, Node WebSocket backend.. TypeScript React Vite Node.js WebSockets. game",
+    "name": "Bonk / Boop Online",
+    "meta": {
+      "kind": "project",
+      "domain": "game",
+      "year": 2024,
+      "stack": [
+        "TypeScript",
+        "React",
+        "Vite",
+        "Node.js",
+        "WebSockets"
+      ]
+    }
+  },
+  {
+    "id": "project-vlm-memory",
+    "text": "VLM-memory VLM-memory ai ai Python PyTorch 3D VLM VLM-memory. VLM-3R fork — 3D reconstructive instruction tuning of a vision-language model for spatial understanding from monocular video. Plus a CUT3R RoPE position-indexing fix.. Python PyTorch 3D VL",
+    "name": "VLM-memory",
+    "meta": {
+      "kind": "project",
+      "domain": "ai",
+      "year": 2025,
+      "stack": [
+        "Python",
+        "PyTorch",
+        "3D",
+        "VLM"
+      ]
+    }
+  },
+  {
+    "id": "project-veloworks",
+    "text": "Veloworks Components Veloworks Components web web Operations Marketing 3D printing Veloworks Components. Co-founded — 3D-printed performance cycling components. Sponsor, marketing, ops, finance.. Operations Marketing 3D printing. web",
+    "name": "Veloworks Components",
+    "meta": {
+      "kind": "project",
+      "domain": "web",
+      "year": 2024,
+      "stack": [
+        "Operations",
+        "Marketing",
+        "3D printing"
+      ]
+    }
+  },
+  {
+    "id": "project-machine-learning-coursework",
+    "text": "machine-learning-coursework machine-learning-coursework ai ai Jupyter Notebook Python scikit-learn machine-learning-coursework. Machine Learning coursework at the University of Bristol. Brief README indicates a **Classification** task with PCA vs random projection comparison (reporting explained va",
+    "name": "machine-learning-coursework",
+    "meta": {
+      "kind": "project",
+      "domain": "ai",
+      "stack": [
+        "Jupyter Notebook",
+        "Python",
+        "scikit-learn"
+      ]
+    }
+  },
+  {
+    "id": "project-omnii",
+    "text": "omnii omnii ai ai TypeScript React Native Firebase Groq Opik omnii. \"Duolingo but for anything.\" AI-powered educational platform that generates personalised, gamified learning courses on any topic using LLMs. React Native cross-platform app. Features: AI-genera",
+    "name": "omnii",
+    "meta": {
+      "kind": "project",
+      "domain": "ai",
+      "stack": [
+        "TypeScript",
+        "React Native",
+        "Firebase",
+        "Groq",
+        "Opik"
+      ]
+    }
+  },
+  {
+    "id": "project-sales-bot-showdown",
+    "text": "Sales-Bot-Showdown Sales-Bot-Showdown ai ai Next.js 14 TypeScript Tailwind CSS Groq API React Heroicons Sales-Bot-Showdown. AI Chat Simulation — a web app where two AI agents have a conversation based on user-provided context and roles. Real-time conversation generation, user-defined context/roles per A",
+    "name": "Sales-Bot-Showdown",
+    "meta": {
+      "kind": "project",
+      "domain": "ai",
+      "stack": [
+        "Next.js 14",
+        "TypeScript",
+        "Tailwind CSS",
+        "Groq API",
+        "React",
+        "Heroicons"
+      ]
+    }
+  },
+  {
+    "id": "project-yukigpt",
+    "text": "YukiGPT YukiGPT ai ai Python PyTorch YukiGPT. Decoder-only version of the model from \"Attention is All You Need\". Does not implement the cross-attention section (uncoditional text generation). Built from scratch in Python following Andre",
+    "name": "YukiGPT",
+    "meta": {
+      "kind": "project",
+      "domain": "ai",
+      "stack": [
+        "Python",
+        "PyTorch"
+      ]
+    }
+  },
+  {
+    "id": "project-godel",
+    "text": "godel godel other other JavaScript godel. Create a Gödel Prime Encoding from a string of text. No detailed README.. JavaScript. other",
+    "name": "godel",
+    "meta": {
+      "kind": "project",
+      "domain": "other",
+      "stack": [
+        "JavaScript"
+      ]
+    }
+  },
+  {
+    "id": "project-f1-telemetry-analysis",
+    "text": "f1-telemetry-analysis f1-telemetry-analysis f1 f1 Python FastF1 matplotlib f1-telemetry-analysis. F1 Qualifying Lap Visualisation — modified version of the AWS-powered F1 graphics. Uses the FastF1 API and Python (matplotlib, pandas, numpy); graphs and graphics are composed i",
+    "name": "f1-telemetry-analysis",
+    "meta": {
+      "kind": "project",
+      "domain": "f1",
+      "stack": [
+        "Python",
+        "FastF1",
+        "matplotlib"
+      ]
+    }
+  },
+  {
+    "id": "project-ciuk-memory-benchmark",
+    "text": "ciuk-memory-benchmark ciuk-memory-benchmark hpc hpc C HPC Memory Benchmarking ciuk-memory-benchmark. Memory Benchmark challenge for CIUK25. The README links to the team's video submission on YouTube.. C HPC Memory Benchmarking. hpc",
+    "name": "ciuk-memory-benchmark",
+    "meta": {
+      "kind": "project",
+      "domain": "hpc",
+      "stack": [
+        "C",
+        "HPC",
+        "Memory Benchmarking"
+      ]
+    }
+  },
+  {
+    "id": "project-hpc-lbm-v2",
+    "text": "hpc-lbm-v2 hpc-lbm-v2 hpc hpc C OpenMP SIMD SVE2 NUMA Make hpc-lbm-v2. LBM HPC implementation v2 — nine stages of serial optimisations targeting the Grace CPU Superchip. Directories: `123-serial-optims/4-fusion-vectorised`, `3.5-SIMD`, `4-openMP`, `6-SIMD`, `",
+    "name": "hpc-lbm-v2",
+    "meta": {
+      "kind": "project",
+      "domain": "hpc",
+      "stack": [
+        "C",
+        "OpenMP",
+        "SIMD",
+        "SVE2",
+        "NUMA",
+        "Make"
+      ]
+    }
+  },
+  {
+    "id": "project-distributed-vs-parallel-gol",
+    "text": "Distributed-Vs-Parallel-GoL Distributed-Vs-Parallel-GoL hpc hpc Go AWS EC2 RPC LaTeX MATLAB Distributed-Vs-Parallel-GoL. Parallel vs Distributed implementations of Conway's Game of Life. Implemented, optimised (including halo exchange, communication overhead, architecture considerations) and",
+    "name": "Distributed-Vs-Parallel-GoL",
+    "meta": {
+      "kind": "project",
+      "domain": "hpc",
+      "stack": [
+        "Go",
+        "AWS EC2",
+        "RPC",
+        "LaTeX",
+        "MATLAB"
+      ]
+    }
+  },
+  {
+    "id": "project-quantum-economic-advantage-calculator",
+    "text": "quantum-economic-advantage-calculator quantum-economic-advantage-calculator quantum quantum JavaScript quantum-economic-advantage-calculator. Extended version of MIT's Quantum Economic Advantage Calculator, from their paper \"The Quantum Tortoise and the Classical Hare: A simple framework for understand",
+    "name": "quantum-economic-advantage-calculator",
+    "meta": {
+      "kind": "project",
+      "domain": "quantum",
+      "stack": [
+        "JavaScript"
+      ]
+    }
+  },
+  {
+    "id": "project-copy-dance",
+    "text": "copy-dance copy-dance game game TypeScript React Tailwind MediaPipe Node.js copy-dance. Copy Dance Game — an improved, web-based implementation of the \"Copy Dance\" mini-game from 1-2 Switch, where players take turns copying each other's poses via webcam. Enhanced by tracking ",
+    "name": "copy-dance",
+    "meta": {
+      "kind": "project",
+      "domain": "game",
+      "stack": [
+        "TypeScript",
+        "React",
+        "Tailwind",
+        "MediaPipe",
+        "Node.js"
+      ]
+    }
+  },
+  {
+    "id": "project-island",
+    "text": "island island ios ios Swift iOS Lottie MediaRemote island. DynamicIsland — an iOS app providing the Apple Dynamic Island experience. Xcode project with `DynamicIsland`, `DynamicIslandSamples`, `Frameworks`, `Localizable.xcstrings`, `LottieAnimations`,",
+    "name": "island",
+    "meta": {
+      "kind": "project",
+      "domain": "ios",
+      "stack": [
+        "Swift",
+        "iOS",
+        "Lottie",
+        "MediaRemote"
+      ]
+    }
+  },
+  {
+    "id": "project-quoridor",
+    "text": "quoridor quoridor game game HTML CSS JavaScript quoridor. Quoridor — Local PvP Game. A local multiplayer implementation of the classic Quoridor board game with a modern UI inspired by Chess.com. Visual feedback for valid moves, turn indicators, wal",
+    "name": "quoridor",
+    "meta": {
+      "kind": "project",
+      "domain": "game",
+      "stack": [
+        "HTML",
+        "CSS",
+        "JavaScript"
+      ]
+    }
+  },
+  {
+    "id": "project-go-spinners",
+    "text": "go-spinners go-spinners other other Go go-spinners. A Go port of the Rust \"rattles\" library — a minimal terminal spinner library with an extensive preset collection. Zero dependencies, time-based or tick-based animation modes, **38+ preset",
+    "name": "go-spinners",
+    "meta": {
+      "kind": "project",
+      "domain": "other",
+      "stack": [
+        "Go"
+      ]
+    }
+  },
+  {
+    "id": "project-aniboxd",
+    "text": "aniboxd aniboxd ios ios Swift iOS 17 Xcode 15 aniboxd. Aniboxd — an iOS app for tracking anime. Xcode project + tests + `docs/`. iOS 17+, Xcode 15+, Swift 5.9. Bundle id prefix `com.aniboxd`.. Swift iOS 17 Xcode 15. ios",
+    "name": "aniboxd",
+    "meta": {
+      "kind": "project",
+      "domain": "ios",
+      "stack": [
+        "Swift",
+        "iOS 17",
+        "Xcode 15"
+      ]
+    }
+  },
+  {
+    "id": "project-aurelia",
+    "text": "aurelia aurelia ios ios Swift iOS aurelia. VoiceType — an iOS app. Xcode project + source dir `VoiceType/`. No README; name inferred from project directory.. Swift iOS. ios",
+    "name": "aurelia",
+    "meta": {
+      "kind": "project",
+      "domain": "ios",
+      "stack": [
+        "Swift",
+        "iOS"
+      ]
+    }
+  },
+  {
+    "id": "project-detach",
+    "text": "detach detach ios ios Swift iOS 15+ WKWebView detach. InstaWeb — Instagram Web Viewer for iOS. An iOS app that wraps Instagram's web version (instagram.com) in a WKWebView, allowing users to browse Instagram through a native app shell. Single scr",
+    "name": "detach",
+    "meta": {
+      "kind": "project",
+      "domain": "ios",
+      "stack": [
+        "Swift",
+        "iOS 15+",
+        "WKWebView"
+      ]
+    }
+  },
+  {
+    "id": "project-find-my-pint",
+    "text": "Find-My-Pint Find-My-Pint ios ios Swift iOS 17 Xcode 15 Find-My-Pint. An iOS app that points to the location of the nearest place that will serve you beer. Xcode project + source `FindMyPint/` + `privacy-policy`. iOS 17+, Xcode 15+, Swift 5.9, iPhone-only ",
+    "name": "Find-My-Pint",
+    "meta": {
+      "kind": "project",
+      "domain": "ios",
+      "stack": [
+        "Swift",
+        "iOS 17",
+        "Xcode 15"
+      ]
+    }
+  },
+  {
+    "id": "project-journal-app",
+    "text": "journal-app journal-app ios ios Swift iOS 16 journal-app. DailyBeanClone — an iOS journal app (a clone/inspired-by of the Day One journal pattern). Xcode project `DailyBeanClone.xcodeproj` + source + `docs/`. iOS 16+, Swift. Bundle id `com.daily",
+    "name": "journal-app",
+    "meta": {
+      "kind": "project",
+      "domain": "ios",
+      "stack": [
+        "Swift",
+        "iOS 16"
+      ]
+    }
+  },
+  {
+    "id": "project-proof",
+    "text": "proof proof ios ios Swift iOS CocoaPods proof. Accountability — an iOS app. Xcode project + source `Accountability/`, `Accountability.xcworkspace`, `Podfile`, `Pods/`. Project name inferred from `Accountability/`. No README.. Swift iOS Coco",
+    "name": "proof",
+    "meta": {
+      "kind": "project",
+      "domain": "ios",
+      "stack": [
+        "Swift",
+        "iOS",
+        "CocoaPods"
+      ]
+    }
+  },
+  {
+    "id": "project-step-counter-commit-graph",
+    "text": "step-counter-commit-graph step-counter-commit-graph ios ios Swift iOS 17 HealthKit WidgetKit step-counter-commit-graph. StepGraph — an iOS app that reads step count data from Apple Health and displays it as a **GitHub-style contribution/commit graph** for the last 365 days / 52 weeks. Customi",
+    "name": "step-counter-commit-graph",
+    "meta": {
+      "kind": "project",
+      "domain": "ios",
+      "stack": [
+        "Swift",
+        "iOS 17",
+        "HealthKit",
+        "WidgetKit"
+      ]
+    }
+  },
+  {
+    "id": "project-upsilon",
+    "text": "upsilon upsilon ios ios Swift SwiftUI iOS 16 WidgetKit App Clip Claude/GPT upsilon. Upsilon iOS — a SwiftUI implementation of the Upsilon mobile builder experience. Lets users describe an idea, generate a working prototype with AI, edit visually, add assets, configure backen",
+    "name": "upsilon",
+    "meta": {
+      "kind": "project",
+      "domain": "ios",
+      "stack": [
+        "Swift",
+        "SwiftUI",
+        "iOS 16",
+        "WidgetKit",
+        "App Clip",
+        "Claude/GPT"
+      ]
+    }
+  },
+  {
+    "id": "project-lifo",
+    "text": "lifo lifo web web React Native TypeScript Firebase Anthropic SDK lifo. LifoFinance — a React Native app. `package.json` lists `@anthropic-ai/sdk`, `@react-native-community/slider`, `@react-native-firebase/app`. Default React Native CLI scaffold (Android + iOS). Bun",
+    "name": "lifo",
+    "meta": {
+      "kind": "project",
+      "domain": "web",
+      "stack": [
+        "React Native",
+        "TypeScript",
+        "Firebase",
+        "Anthropic SDK"
+      ]
+    }
+  },
+  {
+    "id": "project-lifo-website",
+    "text": "lifo-website lifo-website web web Next.js 15 React 19 React Three Fiber drei Turbopack lifo-website. Landing page for the Lifo / LifoFinance app. Next.js 15 with Turbopack, React 19, `@react-three/drei`, `@react-three/fiber` — suggests a 3D landing page. No content README.. Next.js 15 R",
+    "name": "lifo-website",
+    "meta": {
+      "kind": "project",
+      "domain": "web",
+      "stack": [
+        "Next.js 15",
+        "React 19",
+        "React Three Fiber",
+        "drei",
+        "Turbopack"
+      ]
+    }
+  },
+  {
+    "id": "project-memories-map",
+    "text": "memories-map memories-map web web HTML CSS JavaScript Leaflet memories-map. \"Tom and Beth — 4 Years around the world\" — a memory map. Uses Leaflet (`leaflet@1.9.4`) for the base map, custom CSS overlay, floating header overlay with title and add-memory button. `",
+    "name": "memories-map",
+    "meta": {
+      "kind": "project",
+      "domain": "web",
+      "stack": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "Leaflet"
+      ]
+    }
+  },
+  {
+    "id": "project-mobile-website-mobo-website",
+    "text": "mobile-website (mobo-website) mobile-website (mobo-website) web web TypeScript mobile-website (mobo-website). Website for an old venture — Hikaya Education. (Name \"mobo-website\" suggests mobile-optimised; from portfolio description.) Listed in profile but not in the cloned set..",
+    "name": "mobile-website (mobo-website)",
+    "meta": {
+      "kind": "project",
+      "domain": "web",
+      "stack": [
+        "TypeScript"
+      ]
+    }
+  },
+  {
+    "id": "project-mystery-hour",
+    "text": "mystery-hour mystery-hour web web Vite TypeScript Chart.js Three.js Vercel mystery-hour. A deep dive into James O'Brien's Mystery Hour data. Vite + TypeScript dashboard (`mystery-hour-dashboard`) using Chart.js and Three.js. Deployed to Vercel. `dashboard/`, `docs/`, `script",
+    "name": "mystery-hour",
+    "meta": {
+      "kind": "project",
+      "domain": "web",
+      "stack": [
+        "Vite",
+        "TypeScript",
+        "Chart.js",
+        "Three.js",
+        "Vercel"
+      ]
+    }
+  },
+  {
+    "id": "project-openclaw-app-template",
+    "text": "openclaw-app-template openclaw-app-template web web Next.js 15 TypeScript Geist font openclaw-app-template. A template for deploying an OpenClaw app for a specific vertical. Default Next.js 15 + Geist font scaffold (no custom content). Intended as a starting point.. Next.js 15 TypeScr",
+    "name": "openclaw-app-template",
+    "meta": {
+      "kind": "project",
+      "domain": "web",
+      "stack": [
+        "Next.js 15",
+        "TypeScript",
+        "Geist font"
+      ]
+    }
+  },
+  {
+    "id": "project-toms-brain",
+    "text": "toms-brain toms-brain web web Markdown Obsidian toms-brain. An Obsidian vault of Tom's notes, projects, and wiki. Contains `ALL_MESSAGES.txt`, `CLAUDE.md`, `cli/`, `log/`, `projects/`, `raw/`, `wiki/`, an Obsidian canvas (`Untitled.canvas`), and a ",
+    "name": "toms-brain",
+    "meta": {
+      "kind": "project",
+      "domain": "web",
+      "stack": [
+        "Markdown",
+        "Obsidian"
+      ]
+    }
+  },
+  {
+    "id": "project-uob-swimming-website",
+    "text": "uob-swimming-website uob-swimming-website web web Next.js 14 TypeScript Tailwind CSS Framer Motion Lucide React uob-swimming-website. The official website for the University of Bristol Performance Swimming Club. Modern, responsive site built with Next.js 14 and Tailwind CSS. Home (large hero banner, meet-the-te",
+    "name": "uob-swimming-website",
+    "meta": {
+      "kind": "project",
+      "domain": "web",
+      "stack": [
+        "Next.js 14",
+        "TypeScript",
+        "Tailwind CSS",
+        "Framer Motion",
+        "Lucide React"
+      ]
+    }
+  },
+  {
+    "id": "project-versioned",
+    "text": "versioned versioned web web TypeScript React Vite MediaPipe Pose Express Python (optional) versioned. Pose editor — MediaPipe in the browser. Frontend-first: upload a video, run **MediaPipe Pose** in the browser, see the skeleton, edit limbs frame by frame, and save the data to a backend (r",
+    "name": "versioned",
+    "meta": {
+      "kind": "project",
+      "domain": "web",
+      "stack": [
+        "TypeScript",
+        "React",
+        "Vite",
+        "MediaPipe Pose",
+        "Express",
+        "Python (optional)"
+      ]
+    }
+  },
+  {
+    "id": "project-ai-coursework",
+    "text": "ai-coursework ai-coursework coursework coursework Prolog HTML ai-coursework. Artificial Intelligence coursework at the University of Bristol. The README is the Prolog code/CLI cheatsheet for an AI Logic Programming course (`ailp.pl cw part1` — start web server, ",
+    "name": "ai-coursework",
+    "meta": {
+      "kind": "project",
+      "domain": "coursework",
+      "stack": [
+        "Prolog",
+        "HTML"
+      ]
+    }
+  },
+  {
+    "id": "project-ai-for-chess-in-3-dimensions",
+    "text": "AI-for-chess-in-3-dimensions AI-for-chess-in-3-dimensions coursework coursework C# Unity Game Development AI NNs AI-for-chess-in-3-dimensions. Engine and AI for chess in 3 dimensions. The first ever way to play 3-dimensional chess on your machine, including an AI making use of a **NN and mini-max with alpha-beta",
+    "name": "AI-for-chess-in-3-dimensions",
+    "meta": {
+      "kind": "project",
+      "domain": "coursework",
+      "stack": [
+        "C#",
+        "Unity",
+        "Game Development",
+        "AI",
+        "NNs"
+      ]
+    }
+  },
+  {
+    "id": "project-advent-of-code",
+    "text": "Advent-Of-Code Advent-Of-Code other other Python algorithms graph theory number theory dynamic programming Advent-Of-Code. Advent of Code daily solutions. **All 2024 days solved in Python** (`2024/images/finished.gif` shows full completion). **2025 solved in a different language each day** (README just sho",
+    "name": "Advent-Of-Code",
+    "meta": {
+      "kind": "project",
+      "domain": "other",
+      "stack": [
+        "Python",
+        "algorithms",
+        "graph theory",
+        "number theory",
+        "dynamic programming"
+      ]
+    }
+  },
+  {
+    "id": "project-clipboard-cli",
+    "text": "clipboard-cli clipboard-cli other other Shell / CLI clipboard-cli. A small CLI tool: clipboard history as a command-line utility. Single `clipboard` source file. No README.. Shell / CLI. other",
+    "name": "clipboard-cli",
+    "meta": {
+      "kind": "project",
+      "domain": "other",
+      "stack": [
+        "Shell / CLI"
+      ]
+    }
+  },
+  {
+    "id": "project-py2noteai",
+    "text": "Py2Notebook AI Py2Notebook AI ai ai Python OpenAI API Jupyter setuptools Py2Notebook AI. Python library that turns scripts into Jupyter Notebooks with AI-generated comments. Published to PyPI as `py2notebook-ai`.. Python OpenAI API Jupyter setuptools. ai",
+    "name": "Py2Notebook AI",
+    "meta": {
+      "kind": "project",
+      "domain": "ai",
+      "year": 2025,
+      "stack": [
+        "Python",
+        "OpenAI API",
+        "Jupyter",
+        "setuptools"
+      ]
+    }
+  },
+  {
+    "id": "project-crgs-css-person-detection",
+    "text": "CRGS CSS Person Detection CRGS CSS Person Detection ai ai Python Roboflow Computer Vision CRGS CSS Person Detection. Dataset + walkthrough for an in-person ML challenge at CRGS — train a person-detection model and submit.. Python Roboflow Computer Vision. ai",
+    "name": "CRGS CSS Person Detection",
+    "meta": {
+      "kind": "project",
+      "domain": "ai",
+      "year": 2024,
+      "stack": [
+        "Python",
+        "Roboflow",
+        "Computer Vision"
+      ]
+    }
+  },
+  {
+    "id": "project-u3core",
+    "text": "u3Core u3Core ai ai Python AWS Vue Quasar Twilio Node.js Computer Vision u3Core. AI/ML microservice bolted onto an IoT platform for fire, smoke, and oil-leak detection. 2nd place, Intel AI PC Innovation Challenge.. Python AWS Vue Quasar Twilio Node.js Computer Vision. ai",
+    "name": "u3Core",
+    "meta": {
+      "kind": "project",
+      "domain": "ai",
+      "year": 2024,
+      "stack": [
+        "Python",
+        "AWS",
+        "Vue",
+        "Quasar",
+        "Twilio",
+        "Node.js",
+        "Computer Vision"
+      ]
+    }
+  },
+  {
+    "id": "project-focused",
+    "text": "Focused Focused ios ios Swift SwiftUI SwiftTerm tmux AppKit Focused. Native macOS SwiftUI shell for running multiple Claude Code agents in parallel — tmux is the source of truth.. Swift SwiftUI SwiftTerm tmux AppKit. ios",
+    "name": "Focused",
+    "meta": {
+      "kind": "project",
+      "domain": "ios",
+      "year": 2025,
+      "stack": [
+        "Swift",
+        "SwiftUI",
+        "SwiftTerm",
+        "tmux",
+        "AppKit"
+      ]
+    }
+  },
+  {
+    "id": "project-keep-sharp",
+    "text": "Keep-Sharp Keep-Sharp ios ios Swift SwiftUI AppKit Keep-Sharp. SwiftUI macOS companion for running AI agents in parallel — solve LeetCode in the foreground, get notified when an agent needs input.. Swift SwiftUI AppKit. ios",
+    "name": "Keep-Sharp",
+    "meta": {
+      "kind": "project",
+      "domain": "ios",
+      "year": 2025,
+      "stack": [
+        "Swift",
+        "SwiftUI",
+        "AppKit"
+      ]
+    }
+  },
+  {
+    "id": "project-varqite-maxcut",
+    "text": "varQITE Max-Cut varQITE Max-Cut quantum quantum Python Qiskit IonQ Jupyter varQITE Max-Cut. Team IsamBits' solutions to IonQ's challenge at iQuHack 2025 — three Max-Cut variants via varQITE.. Python Qiskit IonQ Jupyter. quantum",
+    "name": "varQITE Max-Cut",
+    "meta": {
+      "kind": "project",
+      "domain": "quantum",
+      "year": 2025,
+      "stack": [
+        "Python",
+        "Qiskit",
+        "IonQ",
+        "Jupyter"
+      ]
+    }
+  },
+  {
+    "id": "project-portfolio-optimisation",
+    "text": "Portfolio Optimisation Portfolio Optimisation defi defi TypeScript Next.js Wormhole API |Brian⟩ Starkware Solana Quantum RNG Portfolio Optimisation. CertAInty Quantum — EncodeAI Wormhole bounty winners. Quantum-enhanced portfolio suite at supremacy.thomasbale.com.. TypeScript Next.js Wormhole API |Brian⟩ Starkware Solana Qu",
+    "name": "Portfolio Optimisation",
+    "meta": {
+      "kind": "project",
+      "domain": "defi",
+      "year": 2025,
+      "stack": [
+        "TypeScript",
+        "Next.js",
+        "Wormhole API",
+        "|Brian⟩",
+        "Starkware",
+        "Solana",
+        "Quantum RNG"
+      ]
+    }
+  },
+  {
+    "id": "project-algos-ii-minigame",
+    "text": "Algos II Minigame Algos II Minigame game game Python pygame Algos II Minigame. pygame turn-based game spun out of an Algorithms II exam question — 10 rounds of collect-or-trade.. Python pygame. game",
+    "name": "Algos II Minigame",
+    "meta": {
+      "kind": "project",
+      "domain": "game",
+      "year": 2024,
+      "stack": [
+        "Python",
+        "pygame"
+      ]
+    }
+  },
+  {
+    "id": "project-scotland-yard-ai",
+    "text": "Scotland Yard AI Scotland Yard AI ai ai Java MiniMax Alpha-Beta Dijkstra Sparse-Matrix Math Maven Scotland Yard AI. Full Java virtual implementation of Scotland Yard with AIs for both Mr. X (minimax + αβ + sparse-matrix shortest-path) and detectives (BFS over transport-mode adjacencies).. Java Min",
+    "name": "Scotland Yard AI",
+    "meta": {
+      "kind": "project",
+      "domain": "ai",
+      "year": 2024,
+      "stack": [
+        "Java",
+        "MiniMax",
+        "Alpha-Beta",
+        "Dijkstra",
+        "Sparse-Matrix Math",
+        "Maven"
+      ]
+    }
+  },
+  {
+    "id": "project-3d-whiteboard",
+    "text": "3D Whiteboard 3D Whiteboard web web React 19 Three.js Vite MediaPipe Hands ESLint 3D Whiteboard. React + Three.js + Vite — draw on a 3D canvas with MediaPipe Hands (webcam-tracked hand landmarks).. React 19 Three.js Vite MediaPipe Hands ESLint. web",
+    "name": "3D Whiteboard",
+    "meta": {
+      "kind": "project",
+      "domain": "web",
+      "year": 2025,
+      "stack": [
+        "React 19",
+        "Three.js",
+        "Vite",
+        "MediaPipe Hands",
+        "ESLint"
+      ]
+    }
+  },
+  {
+    "id": "project-decimal-to-binary-visualiser",
+    "text": "Decimal-to-Binary Visualiser Decimal-to-Binary Visualiser other other C Decimal-to-Binary Visualiser. C program that visualises binary representation of a decimal — step through signed, two's complement, BCD. Built during Algos II revision.. C. other",
+    "name": "Decimal-to-Binary Visualiser",
+    "meta": {
+      "kind": "project",
+      "domain": "other",
+      "year": 2024,
+      "stack": [
+        "C"
+      ]
+    }
+  },
+  {
+    "id": "project-pgm-to-sk-converter",
+    "text": "PGM → SK Converter PGM → SK Converter other other C PGM → SK Converter. Tiny C tool that converts a `.pgm` (Portable Grey Map) image into an `.sk` (Sketch) file.. C. other",
+    "name": "PGM → SK Converter",
+    "meta": {
+      "kind": "project",
+      "domain": "other",
+      "year": 2024,
+      "stack": [
+        "C"
+      ]
+    }
+  },
+  {
+    "id": "ach-eth-oxford",
+    "text": "ETH Oxford DeFi Hackathon — Winners ETH Oxford DeFi Hackathon — Winners hackathons hackathons quantum defi vyper qaoa ETH Oxford DeFi Hackathon — Winners. Quantum cross-chain arbitrage with QAOA + Flare FTSO + Vyper flash loans.. quantum defi vyper qaoa. hackathons",
+    "name": "ETH Oxford DeFi Hackathon — Winners",
+    "meta": {
+      "kind": "achievement",
+      "category": "hackathons",
+      "year": 2025,
+      "tags": [
+        "quantum",
+        "defi",
+        "vyper",
+        "qaoa"
+      ]
+    }
+  },
+  {
+    "id": "ach-eth-oxford-sui-ctf",
+    "text": "ETH Oxford SUI Capture-the-Flag ETH Oxford SUI Capture-the-Flag hackathons hackathons sui move ctf security ETH Oxford SUI Capture-the-Flag. SUI Move smart-contract CTF — exploit + fix in 36 hours.. sui move ctf security. hackathons",
+    "name": "ETH Oxford SUI Capture-the-Flag",
+    "meta": {
+      "kind": "achievement",
+      "category": "hackathons",
+      "year": 2026,
+      "tags": [
+        "sui",
+        "move",
+        "ctf",
+        "security"
+      ]
+    }
+  },
+  {
+    "id": "ach-polygon-ai-agents",
+    "text": "Polygon AI Agents Hackathon Polygon AI Agents Hackathon hackathons hackathons polygon ai agent defi Polygon AI Agents Hackathon. On-chain AI agent that reads news and trades via Polygon CDK.. polygon ai agent defi. hackathons",
+    "name": "Polygon AI Agents Hackathon",
+    "meta": {
+      "kind": "achievement",
+      "category": "hackathons",
+      "year": 2025,
+      "tags": [
+        "polygon",
+        "ai",
+        "agent",
+        "defi"
+      ]
+    }
+  },
+  {
+    "id": "ach-vyperlang-2nd",
+    "text": "Vyperlang Bounty — 2nd Place Vyperlang Bounty — 2nd Place hackathons hackathons vyper defi Vyperlang Bounty — 2nd Place. Smart-contract bounty at ETH Oxford for the Vyperlang team.. vyper defi. hackathons",
+    "name": "Vyperlang Bounty — 2nd Place",
+    "meta": {
+      "kind": "achievement",
+      "category": "hackathons",
+      "year": 2025,
+      "tags": [
+        "vyper",
+        "defi"
+      ]
+    }
+  },
+  {
+    "id": "ach-iquhack-ionq",
+    "text": "MIT iQuHack IonQ Content Bounty MIT iQuHack IonQ Content Bounty hackathons hackathons quantum ionq MIT iQuHack IonQ Content Bounty. First proper quantum computing bounty win — led to founding UOBQC.. quantum ionq. hackathons",
+    "name": "MIT iQuHack IonQ Content Bounty",
+    "meta": {
+      "kind": "achievement",
+      "category": "hackathons",
+      "year": 2025,
+      "tags": [
+        "quantum",
+        "ionq"
+      ]
+    }
+  },
+  {
+    "id": "ach-iquhack-ionq-entanglement-2026",
+    "text": "MIT iQuHack IonQ Entanglement Distillation — 1st place Day 1 MIT iQuHack IonQ Entanglement Distillation — 1st place Day 1 hackathons hackathons quantum ionq entanglement MIT iQuHack IonQ Entanglement Distillation — 1st place Day 1. Day 1 win at iQuHack 2026 on the IonQ track with an entanglement-distillation routine on a noisy chain.. quantum ionq entanglement. hackat",
+    "name": "MIT iQuHack IonQ Entanglement Distillation — 1st place Day 1",
+    "meta": {
+      "kind": "achievement",
+      "category": "hackathons",
+      "year": 2026,
+      "tags": [
+        "quantum",
+        "ionq",
+        "entanglement"
+      ]
+    }
+  },
+  {
+    "id": "ach-encodeai",
+    "text": "EncodeAI Wormhole Bounty EncodeAI Wormhole Bounty hackathons hackathons ai agent wormhole EncodeAI Wormhole Bounty. Cross-chain agent orchestration prize at the EncodeAI hackathon.. ai agent wormhole. hackathons",
+    "name": "EncodeAI Wormhole Bounty",
+    "meta": {
+      "kind": "achievement",
+      "category": "hackathons",
+      "year": 2025,
+      "tags": [
+        "ai",
+        "agent",
+        "wormhole"
+      ]
+    }
+  },
+  {
+    "id": "ach-isc25-uk",
+    "text": "Represented UK at ISC'25 SCC Represented UK at ISC'25 SCC competition competition hpc uk llama cluster Represented UK at ISC'25 SCC. UKSCC Student Cluster Competition — fine-tuned Llama 8B on 8× H100 with FlashAttention 3, FP8, DoRA.. hpc uk llama cluster. competition",
+    "name": "Represented UK at ISC'25 SCC",
+    "meta": {
+      "kind": "achievement",
+      "category": "competition",
+      "year": 2025,
+      "tags": [
+        "hpc",
+        "uk",
+        "llama",
+        "cluster"
+      ]
+    }
+  },
+  {
+    "id": "ach-ciuk",
+    "text": "CIUK HPC Cluster Challenge (×2) CIUK HPC Cluster Challenge (×2) competition competition hpc uk cluster CIUK HPC Cluster Challenge (×2). Two-time CIUK cluster competitor — fast iteration on the Bristol team.. hpc uk cluster. competition",
+    "name": "CIUK HPC Cluster Challenge (×2)",
+    "meta": {
+      "kind": "achievement",
+      "category": "competition",
+      "year": 2024,
+      "tags": [
+        "hpc",
+        "uk",
+        "cluster"
+      ]
+    }
+  },
+  {
+    "id": "ach-ironman-ch",
+    "text": "Ironman Switzerland 140.6 Ironman Switzerland 140.6 sport-done sport-done triathlon endurance Ironman Switzerland 140.6. 10h30m after 9 months of training. 10,000m swim / 500km bike / 70km run.. triathlon endurance. sport-done",
+    "name": "Ironman Switzerland 140.6",
+    "meta": {
+      "kind": "achievement",
+      "category": "sport-done",
+      "year": 2024,
+      "tags": [
+        "triathlon",
+        "endurance"
+      ]
+    }
+  },
+  {
+    "id": "ach-competitive-swim",
+    "text": "Competitive swimmer Competitive swimmer sport-current sport-current swim club Competitive swimmer. Years of competitive club swimming — 200m free, 100m fly, county-level meets.. swim club. sport-current",
+    "name": "Competitive swimmer",
+    "meta": {
+      "kind": "achievement",
+      "category": "sport-current",
+      "year": 2015,
+      "tags": [
+        "swim",
+        "club"
+      ]
+    }
+  },
+  {
+    "id": "ach-bucs-swim",
+    "text": "BUCS Mens 1st Team Medley Relay BUCS Mens 1st Team Medley Relay sport-done sport-done swim bucs relay BUCS Mens 1st Team Medley Relay. Raced the Mens 1st Team Medley Relay at BUCS Short Course — Bristol Performance Squad.. swim bucs relay. sport-done",
+    "name": "BUCS Mens 1st Team Medley Relay",
+    "meta": {
+      "kind": "achievement",
+      "category": "sport-done",
+      "year": 2023,
+      "tags": [
+        "swim",
+        "bucs",
+        "relay"
+      ]
+    }
+  },
+  {
+    "id": "ach-climbing",
+    "text": "Indoor bouldering — V7 Indoor bouldering — V7 sport-current sport-current climb bouldering Indoor bouldering — V7. Projecting V7, plate spinning on V6.. climb bouldering. sport-current",
+    "name": "Indoor bouldering — V7",
+    "meta": {
+      "kind": "achievement",
+      "category": "sport-current",
+      "year": 2023,
+      "tags": [
+        "climb",
+        "bouldering"
+      ]
+    }
+  },
+  {
+    "id": "ach-muay-thai",
+    "text": "Muay Thai — amateur sparring Muay Thai — amateur sparring sport-current sport-current muay-thai striking Muay Thai — amateur sparring. Six months of Muay Thai — pads, bag, light amateur sparring. Different kind of tired.. muay-thai striking. sport-current",
+    "name": "Muay Thai — amateur sparring",
+    "meta": {
+      "kind": "achievement",
+      "category": "sport-current",
+      "year": 2025,
+      "tags": [
+        "muay-thai",
+        "striking"
+      ]
+    }
+  },
+  {
+    "id": "ach-sim-racing",
+    "text": "Sim racing Sim racing sport-current sport-current sim-racing f1-25 assetto-corsa Sim racing. F1 25, Assetto Corsa, Assetto Corsa Competizione — chasing a sub-1:10 on the Dallara F2 at Monaco.. sim-racing f1-25 assetto-corsa. sport-current",
+    "name": "Sim racing",
+    "meta": {
+      "kind": "achievement",
+      "category": "sport-current",
+      "year": 2018,
+      "tags": [
+        "sim-racing",
+        "f1-25",
+        "assetto-corsa"
+      ]
+    }
+  },
+  {
+    "id": "ach-rubiks",
+    "text": "Rubik's cubing Rubik's cubing sport-current sport-current cfop 3x3 Rubik's cubing. 3×3 with full CFOP and edge / corner control. BLD next.. cfop 3x3. sport-current",
+    "name": "Rubik's cubing",
+    "meta": {
+      "kind": "achievement",
+      "category": "sport-current",
+      "year": 2021,
+      "tags": [
+        "cfop",
+        "3x3"
+      ]
+    }
+  },
+  {
+    "id": "ach-rubiks-bld",
+    "text": "Blindfolded Rubik's cubing Blindfolded Rubik's cubing sport-current sport-current 3bld bld Blindfolded Rubik's cubing. Learning 3BLD — memo + execution on a real cube (and a custom trainer).. 3bld bld. sport-current",
+    "name": "Blindfolded Rubik's cubing",
+    "meta": {
+      "kind": "achievement",
+      "category": "sport-current",
+      "year": 2025,
+      "tags": [
+        "3bld",
+        "bld"
+      ]
+    }
+  },
+  {
+    "id": "exp-veloworks",
+    "text": "Co-Founder & Operator · Veloworks Components Co-Founder & Operator · Veloworks Components business business business Operations Sponsorship Marketing 3D Printing TypeScript . Co-founded and operated a business producing 3D-printed performance cycling components.. Operations Sponsorship Marketing 3D Printing TypeScript. business Operations Sponsorship Marketing 3D Printin",
+    "name": "Co-Founder & Operator · Veloworks Components",
+    "meta": {
+      "kind": "experience",
+      "subkind": "business",
+      "org": "Veloworks Components",
+      "dates": "Sep 2024 – Jun 2026",
+      "tags": [
+        "business",
+        "Operations",
+        "Sponsorship",
+        "Marketing",
+        "3D Printing",
+        "TypeScript"
+      ]
+    }
+  },
+  {
+    "id": "exp-demonstrator-bristol",
+    "text": "Demonstrator & Graduate Teacher · University of Bristol Demonstrator & Graduate Teacher · University of Bristol teaching teaching teaching Teaching Mentoring Curriculum CS Pedagogy . Teaching the next cohort of CS students across the modules I sat in one year ago.. Teaching Mentoring Curriculum CS Pedagogy. teaching Teaching Mentoring Curriculum CS Pedagogy",
+    "name": "Demonstrator & Graduate Teacher · University of Bristol",
+    "meta": {
+      "kind": "experience",
+      "subkind": "teaching",
+      "org": "University of Bristol",
+      "dates": "Aug 2025 – May 2026",
+      "tags": [
+        "teaching",
+        "Teaching",
+        "Mentoring",
+        "Curriculum",
+        "CS Pedagogy"
+      ]
+    }
+  },
+  {
+    "id": "exp-ml-research-bristol",
+    "text": "Machine Learning Research Assistant · University of Bristol · School of Brain, Behaviour and Health Machine Learning Research Assistant · University of Bristol · School of Brain, Behaviour and Health research research research PyTorch Computer Vision Generative Models Research . Built a scalable ML workflow for generating photorealistic, emotional faces for psychological research.. PyTorch Computer Vision Generative Models Research. research PyTorch Computer Vision Generati",
+    "name": "Machine Learning Research Assistant · University of Bristol · School of Brain, Behaviour and Health",
+    "meta": {
+      "kind": "experience",
+      "subkind": "research",
+      "org": "University of Bristol · School of Brain, Behaviour and Health",
+      "dates": "Feb 2025 – Feb 2026",
+      "tags": [
+        "research",
+        "PyTorch",
+        "Computer Vision",
+        "Generative Models",
+        "Research"
+      ]
+    }
+  },
+  {
+    "id": "exp-edtech-cofounder",
+    "text": "Co-Founder & Technical Lead · Personal-finance EdTech startup (stealth) Co-Founder & Technical Lead · Personal-finance EdTech startup (stealth) startup startup startup React Native TypeScript Firebase AI-assisted Dev Lean Product User Research . Turned down a DeepMind internship to build a personal-finance ed-tech startup for young adults.. React Native TypeScript Firebase AI-assisted Dev Lean Product User Research. startup React Native Typ",
+    "name": "Co-Founder & Technical Lead · Personal-finance EdTech startup (stealth)",
+    "meta": {
+      "kind": "experience",
+      "subkind": "startup",
+      "org": "Personal-finance EdTech startup (stealth)",
+      "dates": "Jun 2025 – Sep 2025",
+      "tags": [
+        "startup",
+        "React Native",
+        "TypeScript",
+        "Firebase",
+        "AI-assisted Dev",
+        "Lean Product",
+        "User Research"
+      ]
+    }
+  },
+  {
+    "id": "exp-ukscc-isc25",
+    "text": "UK HPC Student Team Member · UKSCC · ISC'25 UK HPC Student Team Member · UKSCC · ISC'25 hpc hpc hpc HPC SLURM OpenMP MPI CUDA FP8 FlashAttention 3 DoRA Llama 8B . Represented the UK at the ISC Student Cluster Competition. Fine-tuned Llama 8B on 8×H100 and optimised OpenMX on 208 cores.. HPC SLURM OpenMP MPI CUDA FP8 FlashAttention 3 DoRA Llama 8B. hpc HPC SLU",
+    "name": "UK HPC Student Team Member · UKSCC · ISC'25",
+    "meta": {
+      "kind": "experience",
+      "subkind": "hpc",
+      "org": "UKSCC · ISC'25",
+      "dates": "May 2025 – Jun 2025",
+      "tags": [
+        "hpc",
+        "HPC",
+        "SLURM",
+        "OpenMP",
+        "MPI",
+        "CUDA",
+        "FP8",
+        "FlashAttention 3",
+        "DoRA",
+        "Llama 8B"
+      ]
+    }
+  },
+  {
+    "id": "exp-digital-u3-intern",
+    "text": "Machine Learning Software Engineer Intern · DigitalU3 (u3core) Machine Learning Software Engineer Intern · DigitalU3 (u3core) industry industry industry Python PyTorch REST API SQL AGILE Code Review . Engineered an ML system with a strong focus on efficiency and scalability, paired with a real product surface.. Python PyTorch REST API SQL AGILE Code Review. industry Python PyTorch REST API SQL AG",
+    "name": "Machine Learning Software Engineer Intern · DigitalU3 (u3core)",
+    "meta": {
+      "kind": "experience",
+      "subkind": "industry",
+      "org": "DigitalU3 (u3core)",
+      "dates": "Sep 2024 – Mar 2025",
+      "tags": [
+        "industry",
+        "Python",
+        "PyTorch",
+        "REST API",
+        "SQL",
+        "AGILE",
+        "Code Review"
+      ]
+    }
+  }
+]

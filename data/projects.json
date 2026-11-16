@@ -1,0 +1,1207 @@
+[
+  {
+    "slug": "ai-chess-3d",
+    "name": "AI for Chess in 3D",
+    "tagline": "3D chess engine and game. My A-level NEA, marked 75/75.",
+    "domain": "ai",
+    "year": 2023,
+    "stack": [
+      "Unity",
+      "C#",
+      "Neural Network",
+      "MiniMax",
+      "Alpha-Beta"
+    ],
+    "highlights": [
+      "100% in the NEA, 1st in the CS cohort at CRGS",
+      "An 8\u00d78\u00d78 chess variant with a full engine"
+    ],
+    "image": "/projects/chess.webp",
+    "highlight": true,
+    "highlightOrder": 4,
+    "links": {
+      "github": "https://github.com/TumCucTom/ai-chess-3d"
+    }
+  },
+  {
+    "slug": "quantum-cross-chain-arbitrage",
+    "name": "Quantum Cross-Chain Arbitrage",
+    "tagline": "QAOA, Flare FTSO and Vyper flash loans. Won at ETH Oxford.",
+    "domain": "defi",
+    "year": 2025,
+    "stack": [
+      "Vyper",
+      "Python",
+      "QAOA",
+      "Flare"
+    ],
+    "highlights": [
+      "ETH Oxford DeFi hackathon winners",
+      "Vyperlang bounty, 2nd place"
+    ],
+    "image": "/projects/qxab.webp",
+    "highlight": true,
+    "highlightOrder": 5,
+    "links": {
+      "github": "https://github.com/TumCucTom/quantum-cross-chain-arbitrage"
+    }
+  },
+  {
+    "slug": "llama-8b-isc25",
+    "name": "Llama 8B @ ISC'25",
+    "tagline": "Fine-tuning on 8\u00d7H100 with FlashAttention 3, FP8 and DoRA. The UKSCC entry.",
+    "domain": "coursework",
+    "year": 2025,
+    "stack": [
+      "PyTorch",
+      "FlashAttention 3",
+      "FP8",
+      "DoRA"
+    ],
+    "highlights": [
+      "UKSCC / ISC25 Student Cluster Competition",
+      "Effective batch 256, max_steps 69 \u00d7 5 epochs"
+    ],
+    "image": "/projects/llama.avif",
+    "highlight": true,
+    "highlightOrder": 3,
+    "links": {
+      "github": "https://github.com/TumCucTom/llama-8b-ISC-25"
+    }
+  },
+  {
+    "slug": "varqite-defi-collateral",
+    "name": "VarQITE DeFi Collateral Optimisation",
+    "tagline": "Graph partitioning with VarQITE for 10,143 Aave v3 Polygon positions.",
+    "domain": "quantum",
+    "year": 2025,
+    "stack": [
+      "Qiskit",
+      "VarQITE",
+      "SciPy",
+      "Streamlit"
+    ],
+    "highlights": [
+      "9,619 nodes / 15,348 edges bipartite graph",
+      "0.03s processing on PoC subset"
+    ],
+    "links": {
+      "github": "https://github.com/TumCucTom/varqite-defi-collateral"
+    }
+  },
+  {
+    "slug": "sparse-attention-poc",
+    "name": "Sparse Attention for Long Context LLMs",
+    "tagline": "Sparse attention benchmarks: SDPA, MemEff, M3, DeepSeek CSA/HCA.",
+    "domain": "ai",
+    "year": 2025,
+    "stack": [
+      "PyTorch",
+      "MiniMax M3",
+      "DeepSeek CSA",
+      "FlashAttention"
+    ],
+    "highlights": [
+      "4.4\u00d7 speedup over MemEff at 4096 tokens (local)",
+      "~170 GH200-hours total"
+    ],
+    "links": {
+      "github": "https://github.com/TumCucTom/sparse-attention-poc"
+    }
+  },
+  {
+    "slug": "agentic-playground",
+    "name": "Canvas Workspace",
+    "tagline": "Infinite-canvas Electron desktop with a VS Code-shaped extension host.",
+    "domain": "ai",
+    "year": 2025,
+    "stack": [
+      "TypeScript",
+      "Electron",
+      "React",
+      "Zustand",
+      "Swift"
+    ],
+    "highlights": [
+      "67 unit tests + 11 end-to-end tests",
+      "Multi-workspace JSON storage, auto-save 500ms"
+    ],
+    "links": {
+      "github": "https://github.com/TumCucTom/agentic-playground"
+    }
+  },
+  {
+    "slug": "black-swan",
+    "name": "Black Swan",
+    "tagline": "Bio-sovereign data market: biometrics to on-chain Proof-of-Affect.",
+    "domain": "defi",
+    "year": 2025,
+    "stack": [
+      "Go",
+      "Rust",
+      "RISC0",
+      "Solidity",
+      "iOS"
+    ],
+    "highlights": [
+      "FDC attestation + escrow on Coston2",
+      "RISC0 ZK prover for Secure Enclave \u2192 ZK"
+    ],
+    "links": {
+      "github": "https://github.com/TumCucTom/black-swan"
+    }
+  },
+  {
+    "slug": "turing-complete-rubix-cube",
+    "name": "Turing-Complete Rubik's Cube CPUs",
+    "tagline": "Two CPUs that run on Rubik's cubes, with data stored as sticker colours.",
+    "domain": "puzzle",
+    "year": 2024,
+    "stack": [
+      "Python",
+      "Computation Theory"
+    ],
+    "highlights": [
+      "Infinite tape of cubes, JZ/JNZ/JC/JNC/JMP/HALT",
+      "Plus a single-cube 8-bit calculator variant"
+    ],
+    "links": {
+      "github": "https://github.com/TumCucTom/turing-complete-rubix-cube"
+    }
+  },
+  {
+    "slug": "can-U-dig-it",
+    "name": "can-U-dig-it",
+    "tagline": "Helper tools for Jane Street's Can U Dig It? puzzle.",
+    "domain": "puzzle",
+    "year": 2025,
+    "stack": [
+      "Python"
+    ],
+    "highlights": [],
+    "links": {
+      "github": "https://github.com/TumCucTom/can-U-dig-it"
+    }
+  },
+  {
+    "slug": "rubix-chess",
+    "name": "Rubix Chess 3D",
+    "tagline": "Chess on an 8\u00d78\u00d78 cube, where slice rotations are legal moves.",
+    "domain": "game",
+    "year": 2024,
+    "stack": [
+      "TypeScript",
+      "Three.js",
+      "Vite"
+    ],
+    "highlights": [
+      "Deterministic engine, repetition detection",
+      "Smooth slice animations, undo/redo"
+    ],
+    "links": {
+      "github": "https://github.com/TumCucTom/rubix-chess"
+    }
+  },
+  {
+    "slug": "f1-commentary",
+    "name": "F1 Commentary",
+    "tagline": "AI race commentary and animated incident visualisations from F1 telemetry.",
+    "domain": "f1",
+    "year": 2024,
+    "stack": [
+      "Python",
+      "FastF1",
+      "Groq"
+    ],
+    "highlights": [
+      "Automatic incident detection and position-change analysis",
+      "Animated GIFs of race incidents with follow camera"
+    ],
+    "links": {
+      "github": "https://github.com/TumCucTom/f1-commentary"
+    }
+  },
+  {
+    "slug": "yuki",
+    "name": "Yuki ML",
+    "tagline": "F1 race predictor: gradient boosting on qualifying and sector times.",
+    "domain": "f1",
+    "year": 2024,
+    "stack": [
+      "Python",
+      "scikit-learn",
+      "FastF1"
+    ],
+    "highlights": [
+      "Basic + advanced variants, calm/old-driver modes",
+      "Predicts 2025 season from historical data"
+    ],
+    "links": {
+      "github": "https://github.com/TumCucTom/yuki"
+    }
+  },
+  {
+    "slug": "f1-ghost-car",
+    "name": "F1 Ghost Car",
+    "tagline": "Overhead reconstruction of qualifying laps, with a follow-camera mode.",
+    "domain": "f1",
+    "year": 2024,
+    "stack": [
+      "Python",
+      "Matplotlib",
+      "FastF1"
+    ],
+    "highlights": [
+      "Compare any two drivers 2018\u20132024",
+      "Realistic track surface rendering"
+    ],
+    "image": "/projects/ghost.webp",
+    "video": "/projects/ghost.mp4",
+    "highlight": true,
+    "highlightOrder": 2,
+    "links": {
+      "github": "https://github.com/TumCucTom/f1-ghost-car"
+    }
+  },
+  {
+    "slug": "f1-qtda",
+    "name": "F1 Telemetry Data Fetcher",
+    "tagline": "Fetches throttle, brake, speed, gear, RPM and DRS; exports CSV, JSON or Parquet.",
+    "domain": "f1",
+    "year": 2024,
+    "stack": [
+      "Python",
+      "FastF1",
+      "Pandas",
+      "NumPy"
+    ],
+    "highlights": [
+      "Race, Qualifying, Free Practice sessions",
+      "Built-in FastF1 caching"
+    ],
+    "links": {
+      "github": "https://github.com/TumCucTom/f1-qtda"
+    }
+  },
+  {
+    "slug": "hpc-lbm",
+    "name": "HPC Lattice Boltzmann Optimisation",
+    "tagline": "D2Q9-BGK through 28 stages, from serial to CUDA Graphs, NUMA and SVE2.",
+    "domain": "coursework",
+    "year": 2025,
+    "stack": [
+      "C",
+      "MPI",
+      "OpenMP",
+      "CUDA",
+      "CUDA Graphs"
+    ],
+    "highlights": [
+      "Targets 1024\u00b2 in 2.0s on 576 cores / 4 nodes",
+      "NUMA first-touch on Grace CPU Superchip"
+    ],
+    "links": {
+      "github": "https://github.com/TumCucTom/hpc-2"
+    }
+  },
+  {
+    "slug": "adfes-biz-synthetic-extension",
+    "name": "Adfes-Biz Synthetic Extension",
+    "tagline": "Generative ML for emotional face stimuli, for Bristol's School of Brain.",
+    "domain": "ai",
+    "year": 2025,
+    "stack": [
+      "Python",
+      "ML",
+      "Generative AI",
+      "Computer Vision"
+    ],
+    "highlights": [
+      "6 basic emotions at varying intensity",
+      "Underpins the ML Research Assistant role"
+    ],
+    "links": {
+      "github": "https://github.com/TumCucTom/adfes-biz-synthetic-extension"
+    }
+  },
+  {
+    "slug": "factlet",
+    "name": "Factlet",
+    "tagline": "233 factlets in 8 categories and 3 difficulties, with home-screen widgets.",
+    "domain": "ios",
+    "year": 2024,
+    "stack": [
+      "Swift",
+      "WidgetKit",
+      "App Groups"
+    ],
+    "highlights": [
+      "Push notifications: hourly to daily",
+      "iOS 17+, on-device fact rotation"
+    ],
+    "links": {
+      "github": "https://github.com/TumCucTom/factlet",
+      "appstore": "https://apps.apple.com/gb/developer/thomas-bale/id1833606286"
+    }
+  },
+  {
+    "slug": "pin",
+    "name": "Pin",
+    "tagline": "Apple Maps-style app with place pins for notes, links and photos.",
+    "domain": "ios",
+    "year": 2024,
+    "stack": [
+      "Swift",
+      "MapKit",
+      "MKLocalSearchCompleter",
+      "PhotoKit"
+    ],
+    "highlights": [
+      "Live search suggestions",
+      "Tap-to-place with a place card"
+    ],
+    "links": {
+      "github": "https://github.com/TumCucTom/pin",
+      "appstore": "https://apps.apple.com/gb/developer/thomas-bale/id1833606286"
+    }
+  },
+  {
+    "slug": "poly-hop",
+    "name": "Poly-Hop",
+    "tagline": "Body-controlled 8-bit platformer: MediaPipe Pose and Polygon NFT avatars.",
+    "domain": "game",
+    "year": 2024,
+    "stack": [
+      "JavaScript",
+      "p5.js",
+      "MediaPipe",
+      "Polygon",
+      "ERC-721"
+    ],
+    "highlights": [
+      "Live at poly-hop.thomasbale.com",
+      "Polygon Amoy chain 80002"
+    ],
+    "links": {
+      "github": "https://github.com/TumCucTom/poly-hop",
+      "live": "https://poly-hop.thomasbale.com"
+    }
+  },
+  {
+    "slug": "quoridor-ai",
+    "name": "Quoridor AI",
+    "tagline": "9\u00d79 Quoridor engine: MCTS with UCT, biased rollouts and Zobrist hashing.",
+    "domain": "game",
+    "year": 2024,
+    "stack": [
+      "Python",
+      "MCTS",
+      "A*",
+      "Flask",
+      "WebSockets"
+    ],
+    "highlights": [
+      "3\u20135\u00d7 speedup via caching, fast rollout heuristics",
+      "Web AI-vs-AI watch mode"
+    ],
+    "links": {
+      "github": "https://github.com/TumCucTom/quoridor-ai"
+    }
+  },
+  {
+    "slug": "bonk",
+    "name": "Bonk / Boop Online",
+    "tagline": "Two-player boop: TypeScript engine, React and Vite, Node WebSocket.",
+    "domain": "game",
+    "year": 2024,
+    "stack": [
+      "TypeScript",
+      "React",
+      "Vite",
+      "Node.js",
+      "WebSockets"
+    ],
+    "highlights": [
+      "Two-tier heuristic AI",
+      "Reconnect support, last-move broadcast"
+    ],
+    "links": {
+      "github": "https://github.com/TumCucTom/bonk"
+    }
+  },
+  {
+    "slug": "vlm-memory",
+    "name": "VLM-memory",
+    "tagline": "Adds memory and query-based frame selection to the VLM-3R-7B model.",
+    "domain": "ai",
+    "year": 2026,
+    "stack": [
+      "Python",
+      "PyTorch",
+      "3D",
+      "VLM"
+    ],
+    "highlights": [
+      "200K+ curated 3D reconstructive QA pairs",
+      "Spatial-Visual\u2013View Fusion across monocular frames",
+      "CUT3R dependency fork with RoPE index fix"
+    ],
+    "image": "/projects/new-arch.webp",
+    "highlight": true,
+    "highlightOrder": 1,
+    "links": {
+      "github": "https://github.com/TumCucTom/VLM-memory"
+    }
+  },
+  {
+    "slug": "veloworks",
+    "name": "Veloworks Components",
+    "tagline": "Co-founded. 3D-printed performance cycling components.",
+    "domain": "web",
+    "year": 2024,
+    "stack": [
+      "Operations",
+      "Marketing",
+      "3D printing"
+    ],
+    "highlights": [
+      "Live Instagram + website",
+      "Side business alongside the degree"
+    ],
+    "links": {
+      "github": "https://github.com/TumCucTom/veloworks-website"
+    }
+  },
+  {
+    "slug": "machine-learning-coursework",
+    "name": "machine-learning-coursework",
+    "tagline": "Machine learning coursework at Bristol. 87%.",
+    "domain": "coursework",
+    "stack": [
+      "Python",
+      "scikit-learn"
+    ],
+    "highlights": [],
+    "links": {
+      "github": "https://github.com/TumCucTom/machine-learning-coursework"
+    }
+  },
+  {
+    "slug": "omnii",
+    "name": "omnii",
+    "tagline": "Duolingo for anything: AI-generated gamified learning.",
+    "domain": "ios",
+    "stack": [
+      "React Native",
+      "TypeScript",
+      "Firebase",
+      "Groq",
+      "Opik"
+    ],
+    "highlights": [],
+    "links": {
+      "github": "https://github.com/TumCucTom/omnii",
+      "appstore": "https://apps.apple.com/gb/developer/thomas-bale/id1833606286"
+    }
+  },
+  {
+    "slug": "sales-bot-showdown",
+    "name": "Sales-Bot-Showdown",
+    "tagline": "Two AI agents converse in a web app, from user-provided context and roles.",
+    "domain": "ai",
+    "stack": [
+      "Next.js 14",
+      "TypeScript",
+      "Tailwind CSS",
+      "Groq API",
+      "React",
+      "Heroicons"
+    ],
+    "highlights": [],
+    "links": {
+      "github": "https://github.com/TumCucTom/sales-bot-showdown"
+    }
+  },
+  {
+    "slug": "yukigpt",
+    "name": "YukiGPT",
+    "tagline": "Decoder-only 'Attention Is All You Need' from scratch in Python, Karpathy-style.",
+    "domain": "ai",
+    "stack": [
+      "Python",
+      "PyTorch"
+    ],
+    "highlights": [],
+    "links": {
+      "github": "https://github.com/TumCucTom/yukigpt"
+    }
+  },
+  {
+    "slug": "godel",
+    "name": "godel",
+    "tagline": "G\u00f6del prime encoding of a string of text.",
+    "domain": "other",
+    "stack": [
+      "JavaScript"
+    ],
+    "highlights": [],
+    "links": {
+      "github": "https://github.com/TumCucTom/godel"
+    }
+  },
+  {
+    "slug": "f1-telemetry-analysis",
+    "name": "f1-telemetry-analysis",
+    "tagline": "AWS-style F1 qualifying visualisation with FastF1 and matplotlib.",
+    "domain": "f1",
+    "stack": [
+      "Python",
+      "FastF1",
+      "matplotlib"
+    ],
+    "highlights": [],
+    "links": {
+      "github": "https://github.com/TumCucTom/f1-telemetry-analysis"
+    }
+  },
+  {
+    "slug": "hpc-lbm-v2",
+    "name": "hpc-lbm-v2",
+    "tagline": "LBM on a Grace CPU Superchip in nine stages: OpenMP, SIMD, NUMA and SVE2.",
+    "domain": "coursework",
+    "stack": [
+      "C",
+      "OpenMP",
+      "SIMD",
+      "SVE2",
+      "NUMA",
+      "Make"
+    ],
+    "highlights": [],
+    "links": {
+      "github": "https://github.com/TumCucTom/hpc-lbm-v2"
+    }
+  },
+  {
+    "slug": "distributed-vs-parallel-gol",
+    "name": "Distributed-Vs-Parallel-GoL",
+    "tagline": "Parallel versus distributed Game of Life in Go: pub/sub RPC on AWS EC2. 86%, top of the cohort.",
+    "domain": "coursework",
+    "stack": [
+      "Go",
+      "AWS EC2",
+      "RPC",
+      "LaTeX",
+      "MATLAB"
+    ],
+    "highlights": [],
+    "links": {
+      "github": "https://github.com/TumCucTom/distributed-vs-parallel-gol"
+    }
+  },
+  {
+    "slug": "quantum-economic-advantage-calculator",
+    "name": "quantum-economic-advantage-calculator",
+    "tagline": "MIT's Quantum Economic Advantage Calculator (arXiv 2310.15505), extended.",
+    "domain": "quantum",
+    "stack": [
+      "JavaScript"
+    ],
+    "highlights": [],
+    "links": {
+      "github": "https://github.com/TumCucTom/quantum-economic-advantage-calculator"
+    }
+  },
+  {
+    "slug": "copy-dance",
+    "name": "copy-dance",
+    "tagline": "Copy Dance for the web with full-limb MediaPipe tracking, after 1-2-Switch.",
+    "domain": "game",
+    "stack": [
+      "TypeScript",
+      "React",
+      "Tailwind",
+      "MediaPipe",
+      "Node.js"
+    ],
+    "highlights": [],
+    "links": {
+      "github": "https://github.com/TumCucTom/copy-dance"
+    }
+  },
+  {
+    "slug": "island",
+    "name": "island",
+    "tagline": "Apple's Dynamic Island on any Mac.",
+    "domain": "ios",
+    "stack": [
+      "Swift",
+      "iOS",
+      "Lottie",
+      "MediaRemote"
+    ],
+    "highlights": [],
+    "links": {
+      "github": "https://github.com/TumCucTom/island",
+      "appstore": "https://apps.apple.com/gb/developer/thomas-bale/id1833606286"
+    }
+  },
+  {
+    "slug": "quoridor",
+    "name": "quoridor",
+    "tagline": "Local two-player Quoridor with a Chess.com-style UI and no build step.",
+    "domain": "game",
+    "stack": [
+      "HTML",
+      "CSS",
+      "JavaScript"
+    ],
+    "highlights": [],
+    "links": {
+      "github": "https://github.com/TumCucTom/quoridor"
+    }
+  },
+  {
+    "slug": "go-spinners",
+    "name": "go-spinners",
+    "tagline": "Go port of Rust's 'rattles': 38+ terminal spinner presets, zero dependencies.",
+    "domain": "other",
+    "stack": [
+      "Go"
+    ],
+    "highlights": [],
+    "links": {
+      "github": "https://github.com/TumCucTom/go-spinners"
+    }
+  },
+  {
+    "slug": "aniboxd",
+    "name": "aniboxd",
+    "tagline": "iOS app for tracking anime.",
+    "domain": "ios",
+    "stack": [
+      "Swift",
+      "iOS 17",
+      "Xcode 15"
+    ],
+    "highlights": [],
+    "links": {
+      "github": "https://github.com/TumCucTom/aniboxd",
+      "appstore": "https://apps.apple.com/gb/developer/thomas-bale/id1833606286"
+    }
+  },
+  {
+    "slug": "aurelia",
+    "name": "aurelia",
+    "tagline": "VoiceType iOS app.",
+    "domain": "ios",
+    "stack": [
+      "Swift",
+      "iOS"
+    ],
+    "highlights": [],
+    "links": {
+      "github": "https://github.com/TumCucTom/aurelia",
+      "appstore": "https://apps.apple.com/gb/developer/thomas-bale/id1833606286"
+    }
+  },
+  {
+    "slug": "detach",
+    "name": "detach",
+    "tagline": "Instagram with no reels: a WKWebView wrapper for iOS 15+.",
+    "domain": "ios",
+    "stack": [
+      "Swift",
+      "iOS 15+",
+      "WKWebView"
+    ],
+    "highlights": [],
+    "links": {
+      "github": "https://github.com/TumCucTom/detach",
+      "appstore": "https://apps.apple.com/gb/developer/thomas-bale/id1833606286"
+    }
+  },
+  {
+    "slug": "find-my-pint",
+    "name": "Find-My-Pint",
+    "tagline": "iOS app pointing to the nearest pub.",
+    "domain": "ios",
+    "stack": [
+      "Swift",
+      "iOS 17",
+      "Xcode 15"
+    ],
+    "highlights": [],
+    "links": {
+      "github": "https://github.com/TumCucTom/find-my-pint",
+      "appstore": "https://apps.apple.com/gb/developer/thomas-bale/id1833606286"
+    }
+  },
+  {
+    "slug": "journal-app",
+    "name": "journal-app",
+    "tagline": "Day One-inspired iOS journal.",
+    "domain": "ios",
+    "stack": [
+      "Swift",
+      "iOS 16"
+    ],
+    "highlights": [],
+    "links": {
+      "github": "https://github.com/TumCucTom/journal-app",
+      "appstore": "https://apps.apple.com/gb/developer/thomas-bale/id1833606286"
+    }
+  },
+  {
+    "slug": "proof",
+    "name": "proof",
+    "tagline": "Accountability iOS app.",
+    "domain": "ios",
+    "stack": [
+      "Swift",
+      "iOS",
+      "CocoaPods"
+    ],
+    "highlights": [],
+    "links": {
+      "github": "https://github.com/TumCucTom/proof",
+      "appstore": "https://apps.apple.com/gb/developer/thomas-bale/id1833606286"
+    }
+  },
+  {
+    "slug": "step-counter-commit-graph",
+    "name": "step-counter-commit-graph",
+    "tagline": "Apple Health steps as a GitHub contribution graph.",
+    "domain": "ios",
+    "stack": [
+      "Swift",
+      "iOS 17",
+      "HealthKit",
+      "WidgetKit"
+    ],
+    "highlights": [],
+    "links": {
+      "github": "https://github.com/TumCucTom/step-counter-commit-graph",
+      "appstore": "https://apps.apple.com/gb/developer/thomas-bale/id1833606286"
+    }
+  },
+  {
+    "slug": "lifo",
+    "name": "lifo",
+    "tagline": "LifoFinance: a React Native personal-finance app using Claude and Firebase.",
+    "domain": "web",
+    "stack": [
+      "React Native",
+      "TypeScript",
+      "Firebase",
+      "Anthropic SDK"
+    ],
+    "highlights": [],
+    "links": {
+      "github": "https://github.com/TumCucTom/lifo"
+    }
+  },
+  {
+    "slug": "lifo-website",
+    "name": "lifo-website",
+    "tagline": "3D Next.js landing page for the Lifo app.",
+    "domain": "web",
+    "stack": [
+      "Next.js 15",
+      "React 19",
+      "React Three Fiber",
+      "drei",
+      "Turbopack"
+    ],
+    "highlights": [],
+    "links": {
+      "github": "https://github.com/TumCucTom/lifo-website"
+    }
+  },
+  {
+    "slug": "memories-map",
+    "name": "memories-map",
+    "tagline": "Tom and Beth: four years around the world, on a Leaflet map.",
+    "domain": "web",
+    "stack": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "Leaflet"
+    ],
+    "highlights": [],
+    "links": {
+      "github": "https://github.com/TumCucTom/memories-map"
+    }
+  },
+  {
+    "slug": "mobile-website-mobo-website",
+    "name": "Mobo Website",
+    "tagline": "Hikaya Education website, from an old venture.",
+    "domain": "web",
+    "stack": [
+      "TypeScript"
+    ],
+    "highlights": [],
+    "links": {
+      "github": "https://github.com/TumCucTom/mobo-website"
+    }
+  },
+  {
+    "slug": "mystery-hour",
+    "name": "mystery-hour",
+    "tagline": "James O'Brien's Mystery Hour as a Vite and Three.js dashboard.",
+    "domain": "web",
+    "stack": [
+      "Vite",
+      "TypeScript",
+      "Chart.js",
+      "Three.js",
+      "Vercel"
+    ],
+    "highlights": [],
+    "links": {
+      "github": "https://github.com/TumCucTom/mystery-hour"
+    }
+  },
+  {
+    "slug": "uob-swimming-website",
+    "name": "uob-swimming-website",
+    "tagline": "Bristol Uni Performance Swimming site, in Next.js 14.",
+    "domain": "web",
+    "stack": [
+      "Next.js 14",
+      "TypeScript",
+      "Tailwind CSS",
+      "Framer Motion",
+      "Lucide React"
+    ],
+    "highlights": [],
+    "links": {
+      "github": "https://github.com/TumCucTom/uob-swimming-website"
+    }
+  },
+  {
+    "slug": "versioned",
+    "name": "versioned",
+    "tagline": "In-browser MediaPipe pose editor: upload, edit, export, version.",
+    "domain": "web",
+    "stack": [
+      "TypeScript",
+      "React",
+      "Vite",
+      "MediaPipe Pose",
+      "Express",
+      "Python (optional)"
+    ],
+    "highlights": [],
+    "links": {
+      "github": "https://github.com/TumCucTom/versioned"
+    }
+  },
+  {
+    "slug": "ai-coursework",
+    "name": "ai-coursework",
+    "tagline": "AI logic programming coursework in Prolog. 86%.",
+    "domain": "coursework",
+    "stack": [
+      "Prolog",
+      "HTML"
+    ],
+    "highlights": [],
+    "links": {
+      "github": "https://github.com/TumCucTom/ai-coursework"
+    }
+  },
+  {
+    "slug": "ai-for-chess-in-3-dimensions",
+    "name": "AI-for-chess-in-3-dimensions",
+    "tagline": "3D chess engine and game in Unity and C#, with a neural net and alpha-beta. AQA NEA, 75/75.",
+    "domain": "coursework",
+    "stack": [
+      "C#",
+      "Unity",
+      "Game Development",
+      "AI",
+      "NNs"
+    ],
+    "highlights": [],
+    "links": {
+      "github": "https://github.com/TumCucTom/ai-for-chess-in-3-dimensions"
+    }
+  },
+  {
+    "slug": "advent-of-code",
+    "name": "Advent-Of-Code",
+    "tagline": "Advent of Code: 2024 all in Python, 2025 in a new language each day.",
+    "domain": "other",
+    "stack": [
+      "Python",
+      "algorithms",
+      "graph theory",
+      "number theory",
+      "dynamic programming"
+    ],
+    "highlights": [],
+    "links": {
+      "github": "https://github.com/TumCucTom/advent-of-code"
+    }
+  },
+  {
+    "slug": "clipboard-cli",
+    "name": "clipboard-cli",
+    "tagline": "Clipboard history CLI.",
+    "domain": "other",
+    "stack": [
+      "Shell / CLI"
+    ],
+    "highlights": [],
+    "links": {
+      "github": "https://github.com/TumCucTom/clipboard-cli"
+    }
+  },
+  {
+    "slug": "py2noteai",
+    "name": "Py2Notebook AI",
+    "tagline": "Turns a Python script into a Jupyter notebook with AI comments. On PyPI.",
+    "domain": "ai",
+    "year": 2025,
+    "stack": [
+      "Python",
+      "OpenAI API",
+      "Jupyter",
+      "setuptools"
+    ],
+    "highlights": [
+      "Published to PyPI",
+      "Hackathon-built: document as you go"
+    ],
+    "links": {
+      "github": "https://github.com/TumCucTom/py2noteAI"
+    }
+  },
+  {
+    "slug": "crgs-css-person-detection",
+    "name": "CRGS CSS Person Detection",
+    "tagline": "Person-detection dataset and walkthrough for the CRGS in-person ML challenge.",
+    "domain": "ai",
+    "year": 2024,
+    "stack": [
+      "Python",
+      "Roboflow",
+      "Computer Vision"
+    ],
+    "highlights": [
+      "Built for the CRGS Computer Science Society in-person event"
+    ],
+    "links": {
+      "github": "https://github.com/TumCucTom/CRGS-CSS-person-detection"
+    }
+  },
+  {
+    "slug": "u3core",
+    "name": "u3Core",
+    "tagline": "ML microservice for fire, smoke and oil-leak detection from IoT devices. Intel, 2nd.",
+    "domain": "ai",
+    "year": 2024,
+    "stack": [
+      "Python",
+      "AWS",
+      "Vue",
+      "Quasar",
+      "Twilio",
+      "Node.js",
+      "Computer Vision"
+    ],
+    "highlights": [
+      "2nd place, Intel AI PC Innovation Challenge",
+      "AWS-deployed backend with full stakeholder + risk docs"
+    ],
+    "links": {
+      "github": "https://github.com/TumCucTom/u3core"
+    }
+  },
+  {
+    "slug": "focused",
+    "name": "Focused",
+    "tagline": "SwiftUI shell for running several Claude Code agents, with tmux as the source of truth.",
+    "domain": "ios",
+    "year": 2025,
+    "stack": [
+      "Swift",
+      "SwiftUI",
+      "SwiftTerm",
+      "tmux",
+      "AppKit"
+    ],
+    "highlights": [
+      "One active agent in the window, the rest in a sidebar",
+      "Idle notifications when an agent finishes",
+      "Attach any terminal with `tmux attach -t agent-<id>`"
+    ],
+    "links": {
+      "github": "https://github.com/TumCucTom/focused",
+      "appstore": "https://apps.apple.com/gb/developer/thomas-bale/id1833606286"
+    }
+  },
+  {
+    "slug": "keep-sharp",
+    "name": "Keep-Sharp",
+    "tagline": "SwiftUI macOS companion: run AI agents in parallel and get notified when they need input.",
+    "domain": "ios",
+    "year": 2025,
+    "stack": [
+      "Swift",
+      "SwiftUI",
+      "AppKit"
+    ],
+    "highlights": [
+      "Native macOS notifications",
+      "Pairs with the Focused app"
+    ],
+    "links": {
+      "github": "https://github.com/TumCucTom/keep-sharp",
+      "appstore": "https://apps.apple.com/gb/developer/thomas-bale/id1833606286"
+    }
+  },
+  {
+    "slug": "varqite-maxcut",
+    "name": "varQITE Max-Cut",
+    "tagline": "iQuHACK 2025 IonQ challenge: three Max-Cut variants via varQITE.",
+    "domain": "quantum",
+    "year": 2025,
+    "stack": [
+      "Python",
+      "Qiskit",
+      "IonQ",
+      "Jupyter"
+    ],
+    "highlights": [
+      "Equal-cardinality Max-Cut",
+      "Connected-partition Max-Cut",
+      "build_ansatz + build_maxcut_hamiltonian reusable"
+    ],
+    "links": {
+      "github": "https://github.com/TumCucTom/varQITE-maxcut"
+    }
+  },
+  {
+    "slug": "portfolio-optimisation",
+    "name": "Portfolio Optimisation",
+    "tagline": "Quantum-enhanced portfolio suite. EncodeAI Wormhole bounty winners.",
+    "domain": "defi",
+    "year": 2025,
+    "stack": [
+      "TypeScript",
+      "Next.js",
+      "Wormhole API",
+      "|Brian\u27e9",
+      "Starkware",
+      "Solana",
+      "Quantum RNG"
+    ],
+    "highlights": [
+      "Wormhole + Solana for low-cost rebalancing",
+      "Quantum-informed XAI explanations",
+      "Live at supremacy.thomasbale.com"
+    ],
+    "links": {
+      "github": "https://github.com/TumCucTom/Portfolio-Optimisation"
+    }
+  },
+  {
+    "slug": "algos-ii-minigame",
+    "name": "Algos II Minigame",
+    "tagline": "Turn-based pygame game from an Algos II exam question: ten rounds of trade.",
+    "domain": "game",
+    "year": 2024,
+    "stack": [
+      "Python",
+      "pygame"
+    ],
+    "highlights": [
+      "8-bit pixel-art UI",
+      "Final score = sum of squares of resource counts"
+    ],
+    "links": {
+      "github": "https://github.com/TumCucTom/Algos-II-Minigame"
+    }
+  },
+  {
+    "slug": "scotland-yard-ai",
+    "name": "Scotland Yard AI",
+    "tagline": "Java Scotland Yard with AIs for Mr. X (\u03b1\u03b2) and detectives (BFS).",
+    "domain": "ai",
+    "year": 2024,
+    "stack": [
+      "Java",
+      "MiniMax",
+      "Alpha-Beta",
+      "Dijkstra",
+      "Sparse-Matrix Math",
+      "Maven"
+    ],
+    "highlights": [
+      "Mr. X: layered heuristics for distance, tickets, double-move",
+      "Detectives: possible-location vector tracking with three evaluation classes"
+    ],
+    "links": {
+      "github": "https://github.com/TumCucTom/Scotland-Yard-AI"
+    }
+  },
+  {
+    "slug": "3d-whiteboard",
+    "name": "3D Whiteboard",
+    "tagline": "Draw on a 3D canvas with MediaPipe Hands and Three.js.",
+    "domain": "web",
+    "year": 2025,
+    "stack": [
+      "React 19",
+      "Three.js",
+      "Vite",
+      "MediaPipe Hands",
+      "ESLint"
+    ],
+    "highlights": [
+      "Real-time hand pose controls",
+      "3D strokes rendered with Three.js"
+    ],
+    "links": {
+      "github": "https://github.com/TumCucTom/3d-whiteboard"
+    }
+  },
+  {
+    "slug": "decimal-to-binary-visualiser",
+    "name": "Decimal-to-Binary Visualiser",
+    "tagline": "C visualiser for binary representations: signed, two's complement, BCD.",
+    "domain": "coursework",
+    "year": 2024,
+    "stack": [
+      "C"
+    ],
+    "highlights": [
+      "Step-through multiple representations",
+      "Two-way conversion"
+    ],
+    "links": {
+      "github": "https://github.com/TumCucTom/Decimal-to-binary-visualiser"
+    }
+  },
+  {
+    "slug": "pgm-to-sk-converter",
+    "name": "PGM \u2192 SK Converter",
+    "tagline": "C tool that converts a `.pgm` image into a `.sk` (Sketch) file.",
+    "domain": "coursework",
+    "year": 2024,
+    "stack": [
+      "C"
+    ],
+    "highlights": [
+      "Each colour row scanned only once",
+      "Lines drawn for every non-background colour"
+    ],
+    "links": {
+      "github": "https://github.com/TumCucTom/PGM-to-SK-Converter"
+    }
+  }
+]

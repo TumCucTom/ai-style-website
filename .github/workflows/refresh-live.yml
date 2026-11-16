@@ -1,0 +1,42 @@
+name: refresh-live
+
+on:
+  schedule:
+    # Every 2 hours; commit collection includes private repositories and PRs.
+    - cron: "0 */2 * * *"
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - ".github/workflows/refresh-live.yml"
+      - "scripts/fetch-all.mjs"
+      - "scripts/github-activity.mjs"
+      - "scripts/commits.mjs"
+      - "data/**/*.json"
+
+concurrency:
+  group: refresh-live
+  cancel-in-progress: true
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - uses: actions/setup-node@v6
+        with:
+          node-version: "24"
+
+      - name: Fetch all live data and push
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_USER_TOKEN: ${{ secrets.GH_USER_TOKEN }}
+        run: node scripts/fetch-all.mjs
+

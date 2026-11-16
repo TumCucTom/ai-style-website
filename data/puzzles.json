@@ -1,0 +1,182 @@
+[
+  {
+    "kind": "sequence",
+    "title": "Monthmania",
+    "prompt": "What comes next in: J, F, M, A, M, J, J, ?",
+    "hint": "Think about the calendar",
+    "answer": "A",
+    "normalize": "strip",
+    "difficulty": 1
+  },
+  {
+    "kind": "combinatorics",
+    "title": "Banana Count",
+    "prompt": "How many distinct arrangements can you make from the letters of BANANA?",
+    "hint": "Count carefully — repeated letters divide permutations",
+    "answer": "60",
+    "normalize": "num",
+    "difficulty": 2
+  },
+  {
+    "kind": "modular",
+    "title": "Last Digit",
+    "prompt": "What is the last digit of 7^2024?",
+    "hint": "7^n cycles every 4",
+    "answer": "1",
+    "normalize": "num",
+    "difficulty": 1
+  },
+  {
+    "kind": "quantum",
+    "title": "Qubit Probability",
+    "prompt": "A qubit is in state √(1/3)|0⟩ + √(2/3)|1⟩. You measure it. What probability do you get for |1⟩?",
+    "hint": "Born rule: amplitude squared. https://docs.qiskit.org/qiskit/concepts/quantum.html#states-and-measurement",
+    "answer": "2/3",
+    "normalize": "strip",
+    "difficulty": 2
+  },
+  {
+    "kind": "algorithm",
+    "title": "Tower of Tops",
+    "prompt": "You have 6 disks stacked largest-at-bottom on peg A. You want to move the entire tower to peg C, using peg B as temporary. What's the minimum number of moves required?",
+    "hint": "T(k) = 2T(k-1) + 1 — solve the recurrence",
+    "answer": "63",
+    "normalize": "num",
+    "difficulty": 2
+  },
+  {
+    "kind": "number-theory",
+    "title": "LCM Stack",
+    "prompt": "Find the smallest positive integer divisible by all numbers from 1 to 10 inclusive.",
+    "hint": "Prime factorize each, take max powers",
+    "answer": "2520",
+    "normalize": "num",
+    "difficulty": 1
+  },
+  {
+    "kind": "geometry",
+    "title": "Heron's Triangle",
+    "prompt": "A triangle has side lengths 13, 14, 15. What's its area?",
+    "hint": "Heron's formula",
+    "answer": "84",
+    "normalize": "num",
+    "difficulty": 2
+  },
+  {
+    "kind": "quantum",
+    "title": "Ring of Five",
+    "prompt": "Five qubits start in |00000⟩. Apply a Hadamard to every qubit, then a controlled-Z between each neighbouring pair around a ring (1–2, 2–3, 3–4, 4–5, 5–1), then a Hadamard to every qubit again. How many of the 32 measurement outcomes have non-zero probability?",
+    "hint": "The amplitude of outcome y is a signed sum over all 32 bit strings x. Small enough to brute-force, or think about the stabilisers of a ring graph state.",
+    "answer": "16",
+    "normalize": "num",
+    "difficulty": 3
+  },
+  {
+    "kind": "quantum",
+    "title": "Half-Chance Grover",
+    "prompt": "Grover's algorithm searches 4096 items for a single marked one, starting from the uniform superposition. What is the smallest number of Grover iterations after which measuring finds the marked item with probability at least 1/2?",
+    "hint": "Each iteration rotates the state by 2θ, where sin θ = 1/√N. The usual (π/4)√N figure is for near-certainty, not for 1/2.",
+    "answer": "25",
+    "normalize": "num",
+    "difficulty": 3
+  },
+  {
+    "kind": "hpc",
+    "title": "Amdahl's Ceiling",
+    "prompt": "A simulation runs exactly 3 times faster on 4 cores than on 1. Assuming Amdahl's law holds with a fixed serial fraction, how many times faster than the single-core run is it on 64 cores?",
+    "hint": "Speedup on n cores is 1 / (s + (1 − s)/n). Use the 4-core measurement to pin down s first.",
+    "answer": "8",
+    "normalize": "num",
+    "difficulty": 3
+  },
+  {
+    "kind": "chess",
+    "title": "Knight in Three Dimensions",
+    "prompt": "On an 8×8×8 board, a 3D knight moves 2 cells along one axis and 1 cell along a different axis; its third coordinate stays the same. How many different shortest routes take it from a corner cell to the diagonally opposite corner cell?",
+    "hint": "First find the fewest moves by looking at how far the coordinate sum must travel. Then count orderings — or run a breadth-first search that counts paths.",
+    "answer": "10080",
+    "normalize": "num",
+    "difficulty": 3
+  },
+  {
+    "kind": "cube",
+    "title": "R U L, Repeat",
+    "prompt": "Start with a solved 3×3×3 Rubik's cube and repeat the three-move sequence R U L (each a clockwise quarter turn of the right, up and left face, as seen looking at that face). After how many repetitions of the whole sequence is the cube first solved again?",
+    "hint": "Treat R U L as one permutation of the pieces. Its order is the lowest common multiple of its cycle lengths, with twisted and flipped cycles counting extra.",
+    "answer": "90",
+    "normalize": "num",
+    "difficulty": 3
+  },
+  {
+    "kind": "optimisation",
+    "title": "Pit Wall",
+    "prompt": "A race lasts 60 laps. On tyres that have already completed k laps, a lap takes 90 + k/10 seconds. Each pit stop fits fresh tyres and adds 22 seconds. You start on fresh tyres and may stop as often as you like. What is the minimum total race time, in seconds?",
+    "hint": "For a fixed number of stops, equal stints are best. Compare what one more stop saves in tyre wear with the 22 seconds it costs.",
+    "answer": "5501",
+    "normalize": "num",
+    "difficulty": 3
+  },
+  {
+    "kind": "probability",
+    "title": "Snake Eyes and Boxcars",
+    "prompt": "You roll a pair of fair six-sided dice over and over, adding the two faces each time. What is the expected number of rolls until you have seen both a total of 2 and a total of 12 at least once?",
+    "hint": "Split it in two: wait for the first of the pair, then wait for the other one. Or use E[max] = E[A] + E[B] − E[min].",
+    "answer": "54",
+    "normalize": "num",
+    "difficulty": 3
+  },
+  {
+    "kind": "modular",
+    "title": "Power Tower",
+    "prompt": "What are the last three digits of 2^(3^(4^5))? The exponents are evaluated from the top down, so the exponent of 2 is 3^1024.",
+    "hint": "Work mod 8 and mod 125 separately, then recombine. To reduce the exponent you need the order of 2 mod 125, and then of 3 modulo that.",
+    "answer": "352",
+    "normalize": "num",
+    "difficulty": 3
+  },
+  {
+    "kind": "combinatorics",
+    "title": "Painted Edges",
+    "prompt": "Each of the 12 edges of a cube is painted either black or white. Two paintings count as the same if one can be turned into the other by rotating the cube (reflections do not count). How many different paintings are there?",
+    "hint": "Burnside's lemma: average, over the 24 rotations, the number of paintings each rotation leaves unchanged.",
+    "answer": "218",
+    "normalize": "num",
+    "difficulty": 3
+  },
+  {
+    "kind": "probability",
+    "title": "Wandering King",
+    "prompt": "A chess king stands on a corner square of an otherwise empty 8×8 board. Each step it moves to one of its legal neighbouring squares, chosen uniformly at random. What is the expected number of steps until it is first back on the corner where it started?",
+    "hint": "For a random walk on a graph, the long-run share of time spent on a square is proportional to its number of neighbours.",
+    "answer": "140",
+    "normalize": "num",
+    "difficulty": 3
+  },
+  {
+    "kind": "algorithm",
+    "title": "Every Third",
+    "prompt": "1000 people, numbered 1 to 1000, stand in a circle. Counting starts at person 1 and goes round in increasing order; every third person still standing is removed (so 3 goes first, then 6, and so on, round and round). What is the number of the last person left?",
+    "hint": "There is no neat closed form for step 3. Use the recurrence J(n) = (J(n−1) + 3) mod n on 0-based positions, or simulate.",
+    "answer": "604",
+    "normalize": "num",
+    "difficulty": 3
+  },
+  {
+    "kind": "geometry",
+    "title": "Tilted Squares",
+    "prompt": "Take a 6×6 square grid of points (36 points in all). How many squares, of any size and any orientation, have all four corners on points of the grid?",
+    "hint": "Every tilted square sits snugly inside exactly one axis-aligned square. How many squares are inscribed in an axis-aligned square of side k?",
+    "answer": "105",
+    "normalize": "num",
+    "difficulty": 3
+  },
+  {
+    "kind": "game-theory",
+    "title": "One, Three or Four",
+    "prompt": "Two players take turns removing 1, 3 or 4 stones from a single pile; whoever takes the last stone wins. With perfect play, for how many starting pile sizes from 1 to 100 inclusive does the player who moves first lose?",
+    "hint": "Label each pile size winning or losing, working up from 0. The pattern repeats with a short period.",
+    "answer": "29",
+    "normalize": "num",
+    "difficulty": 3
+  }
+]

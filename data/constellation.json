@@ -1,0 +1,6436 @@
+{
+  "generatedAt": "2026-06-04T10:32:09.640Z",
+  "embedSource": "tfidf",
+  "dim": 1093,
+  "numClusters": 18,
+  "clusters": [
+    {
+      "id": 0,
+      "count": 35,
+      "name": "Web",
+      "color": "#00d4ff"
+    },
+    {
+      "id": 1,
+      "count": 31,
+      "name": "AI/ML",
+      "color": "#a78bfa"
+    },
+    {
+      "id": 2,
+      "count": 28,
+      "name": "iOS Apps",
+      "color": "#34d399"
+    },
+    {
+      "id": 3,
+      "count": 17,
+      "name": "Games",
+      "color": "#fbbf24"
+    },
+    {
+      "id": 4,
+      "count": 15,
+      "name": "Other",
+      "color": "#f472b6"
+    },
+    {
+      "id": 5,
+      "count": 12,
+      "name": "F1 / Motorsport",
+      "color": "#60a5fa"
+    },
+    {
+      "id": 6,
+      "count": 11,
+      "name": "HPC",
+      "color": "#fb7185"
+    },
+    {
+      "id": 7,
+      "count": 8,
+      "name": "Puzzles",
+      "color": "#4ade80"
+    },
+    {
+      "id": 8,
+      "count": 7,
+      "name": "Hackathons",
+      "color": "#c084fc"
+    },
+    {
+      "id": 9,
+      "count": 6,
+      "name": "DeFi / Blockchain",
+      "color": "#22d3ee"
+    },
+    {
+      "id": 10,
+      "count": 6,
+      "name": "Quantum",
+      "color": "#facc15"
+    },
+    {
+      "id": 11,
+      "count": 6,
+      "name": "Experience",
+      "color": "#f97316"
+    },
+    {
+      "id": 12,
+      "count": 5,
+      "name": "Forks",
+      "color": "#10b981"
+    },
+    {
+      "id": 13,
+      "count": 5,
+      "name": "Sport",
+      "color": "#e879f9"
+    },
+    {
+      "id": 14,
+      "count": 4,
+      "name": "Coursework",
+      "color": "#00d4ff"
+    },
+    {
+      "id": 15,
+      "count": 4,
+      "name": "Interests",
+      "color": "#a78bfa"
+    },
+    {
+      "id": 16,
+      "count": 2,
+      "name": "Competitions",
+      "color": "#34d399"
+    },
+    {
+      "id": 17,
+      "count": 1,
+      "name": "Meta",
+      "color": "#fbbf24"
+    }
+  ],
+  "items": [
+    {
+      "id": "repo-agentic-playground",
+      "name": "agentic-playground",
+      "kind": "repo",
+      "x": 0.3543454482302736,
+      "y": 0.357907433551759,
+      "z": -0.31872228785663903,
+      "cluster": 1
+    },
+    {
+      "id": "repo-hermes-agent",
+      "name": "hermes-agent",
+      "kind": "repo",
+      "x": 0.3558726569984734,
+      "y": 0.3018037560228815,
+      "z": -0.31908735060790844,
+      "cluster": 1
+    },
+    {
+      "id": "repo-hiring",
+      "name": "hiring",
+      "kind": "repo",
+      "x": 0.33032715160720716,
+      "y": 0.33507340846497136,
+      "z": -0.3328676080384193,
+      "cluster": 1
+    },
+    {
+      "id": "repo-llama-8b-isc-25",
+      "name": "llama-8b-ISC-25",
+      "kind": "repo",
+      "x": 0.35114411786869004,
+      "y": 0.33752260122798494,
+      "z": -0.29252159662804555,
+      "cluster": 1
+    },
+    {
+      "id": "repo-machine-learning-coursework",
+      "name": "machine-learning-coursework",
+      "kind": "repo",
+      "x": 0.32553871614750346,
+      "y": 0.34640723623828884,
+      "z": -0.3036257464470671,
+      "cluster": 1
+    },
+    {
+      "id": "repo-ocaml-microgpt",
+      "name": "ocaml-microgpt",
+      "kind": "repo",
+      "x": 0.3692014684451668,
+      "y": 0.2942329771735249,
+      "z": -0.2884496704984973,
+      "cluster": 1
+    },
+    {
+      "id": "repo-omnii",
+      "name": "omnii",
+      "kind": "repo",
+      "x": 0.3223331193753354,
+      "y": 0.29004729101496607,
+      "z": -0.3245808381848284,
+      "cluster": 1
+    },
+    {
+      "id": "repo-personalised-text-coach",
+      "name": "personalised-text-coach",
+      "kind": "repo",
+      "x": 0.335888647101253,
+      "y": 0.28941605681296234,
+      "z": -0.2934222242015847,
+      "cluster": 1
+    },
+    {
+      "id": "repo-sales-bot-showdown",
+      "name": "Sales-Bot-Showdown",
+      "kind": "repo",
+      "x": 0.30219801428079646,
+      "y": 0.34627728636011257,
+      "z": -0.3327113549779093,
+      "cluster": 1
+    },
+    {
+      "id": "repo-sparse-attention-poc",
+      "name": "sparse-attention-poc",
+      "kind": "repo",
+      "x": 0.3513424706854246,
+      "y": 0.3753550372112457,
+      "z": -0.2719614173717332,
+      "cluster": 1
+    },
+    {
+      "id": "repo-speedy-llm",
+      "name": "speedy-llm",
+      "kind": "repo",
+      "x": 0.30000515463679656,
+      "y": 0.3362118326365843,
+      "z": -0.30068429176850864,
+      "cluster": 1
+    },
+    {
+      "id": "repo-vlm-memory",
+      "name": "VLM-memory",
+      "kind": "repo",
+      "x": 0.30357266009247924,
+      "y": 0.27990374153103637,
+      "z": -0.3027577747700595,
+      "cluster": 1
+    },
+    {
+      "id": "repo-yuki",
+      "name": "yuki",
+      "kind": "repo",
+      "x": 0.3601012003195544,
+      "y": 0.1652977337826193,
+      "z": -0.25833004520864117,
+      "cluster": 5
+    },
+    {
+      "id": "repo-yukigpt",
+      "name": "YukiGPT",
+      "kind": "repo",
+      "x": 0.347788887981555,
+      "y": 0.25341042762477545,
+      "z": -0.31663250467292203,
+      "cluster": 1
+    },
+    {
+      "id": "repo-godel",
+      "name": "godel",
+      "kind": "repo",
+      "x": -0.25286296677325437,
+      "y": -0.17678989542862605,
+      "z": 0.20205241985560624,
+      "cluster": 4
+    },
+    {
+      "id": "repo-py2noteai",
+      "name": "py2noteAI",
+      "kind": "repo",
+      "x": 0.35304595489238133,
+      "y": 0.29806967387174615,
+      "z": -0.24026707928965624,
+      "cluster": 1
+    },
+    {
+      "id": "repo-crgs-css-person-detection",
+      "name": "CRGS-CSS-person-detection",
+      "kind": "repo",
+      "x": 0.29441864833177667,
+      "y": 0.2574001195121867,
+      "z": -0.3289866451083998,
+      "cluster": 1
+    },
+    {
+      "id": "repo-u3core",
+      "name": "u3core",
+      "kind": "repo",
+      "x": 0.3263113810508973,
+      "y": 0.34323828761355046,
+      "z": -0.2719176417180705,
+      "cluster": 1
+    },
+    {
+      "id": "repo-focused",
+      "name": "focused",
+      "kind": "repo",
+      "x": 0.038942576724908806,
+      "y": -0.030782752325833107,
+      "z": -0.07041960430769158,
+      "cluster": 2
+    },
+    {
+      "id": "repo-keep-sharp",
+      "name": "keep-sharp",
+      "kind": "repo",
+      "x": 0.08344131977015122,
+      "y": 0.04056425622559039,
+      "z": -0.02416318568996774,
+      "cluster": 2
+    },
+    {
+      "id": "repo-blind-cube",
+      "name": "blind-cube",
+      "kind": "repo",
+      "x": 0.6520541483950861,
+      "y": 0.4804953981356134,
+      "z": -0.5758069366725073,
+      "cluster": 7
+    },
+    {
+      "id": "repo-turing-complete-rubix-cube",
+      "name": "turing-complete-rubix-cube",
+      "kind": "repo",
+      "x": 0.5990824195830032,
+      "y": 0.3493032639392902,
+      "z": -0.6572651138117165,
+      "cluster": 7
+    },
+    {
+      "id": "repo-cryptic-collab",
+      "name": "cryptic-collab",
+      "kind": "repo",
+      "x": 0.6560663207936949,
+      "y": 0.432325083032228,
+      "z": -0.5522028891850028,
+      "cluster": 7
+    },
+    {
+      "id": "repo-connect-collab",
+      "name": "connect-collab",
+      "kind": "repo",
+      "x": 0.6215925644908872,
+      "y": 0.29906763270924275,
+      "z": -0.6538726194625382,
+      "cluster": 7
+    },
+    {
+      "id": "repo-georgia-ai",
+      "name": "georgia-AI",
+      "kind": "repo",
+      "x": 0.659503476330689,
+      "y": 0.38773978030886647,
+      "z": -0.5930820521148736,
+      "cluster": 7
+    },
+    {
+      "id": "repo-rubix-chess",
+      "name": "rubix-chess",
+      "kind": "repo",
+      "x": 0.24972174371085398,
+      "y": 0.17904396041735265,
+      "z": -0.35351729084410477,
+      "cluster": 3
+    },
+    {
+      "id": "repo-erdos-855",
+      "name": "erdos-855",
+      "kind": "repo",
+      "x": 0.6800688710590368,
+      "y": 0.3300759374257725,
+      "z": -0.6244452121351345,
+      "cluster": 7
+    },
+    {
+      "id": "repo-can-u-dig-it",
+      "name": "can-U-dig-it",
+      "kind": "repo",
+      "x": 0.6639759382295489,
+      "y": 0.2851330901012116,
+      "z": -0.623289040631257,
+      "cluster": 7
+    },
+    {
+      "id": "repo-f1-ar",
+      "name": "f1-ar",
+      "kind": "repo",
+      "x": 0.32703549240863555,
+      "y": 0.0779283146433084,
+      "z": -0.2630804257448126,
+      "cluster": 5
+    },
+    {
+      "id": "repo-f1-commentary",
+      "name": "f1-commentary",
+      "kind": "repo",
+      "x": 0.27958415142753246,
+      "y": 0.022669139083972445,
+      "z": -0.28010265117826877,
+      "cluster": 5
+    },
+    {
+      "id": "repo-f1-ghost-car",
+      "name": "f1-ghost-car",
+      "kind": "repo",
+      "x": 0.3534136019572326,
+      "y": 0.07755911997042433,
+      "z": -0.24648521132019063,
+      "cluster": 5
+    },
+    {
+      "id": "repo-f1-qtda",
+      "name": "f1-qtda",
+      "kind": "repo",
+      "x": 0.3100272761379898,
+      "y": 0.011231908605288686,
+      "z": -0.28352325599326045,
+      "cluster": 5
+    },
+    {
+      "id": "repo-f1-telemetry-analysis",
+      "name": "f1-telemetry-analysis",
+      "kind": "repo",
+      "x": 0.33091575853012883,
+      "y": 0.031942843085537104,
+      "z": -0.24154522540225132,
+      "cluster": 5
+    },
+    {
+      "id": "repo-fai",
+      "name": "fai",
+      "kind": "repo",
+      "x": 0.3031395539068804,
+      "y": 0.011258502835469156,
+      "z": -0.2516288709600444,
+      "cluster": 5
+    },
+    {
+      "id": "repo-ciuk-archer2-hpl",
+      "name": "ciuk-archer2-hpl",
+      "kind": "repo",
+      "x": 0.12743329010332782,
+      "y": 0.2100151280371015,
+      "z": -0.11585863327708468,
+      "cluster": 6
+    },
+    {
+      "id": "repo-ciuk-memory-benchmark",
+      "name": "ciuk-memory-benchmark",
+      "kind": "repo",
+      "x": 0.06079982547862656,
+      "y": 0.2845824646334767,
+      "z": -0.1610374744986776,
+      "cluster": 6
+    },
+    {
+      "id": "repo-hpc-2",
+      "name": "hpc-2",
+      "kind": "repo",
+      "x": 0.10615870130022503,
+      "y": 0.3082403628397863,
+      "z": -0.09530041310154316,
+      "cluster": 6
+    },
+    {
+      "id": "repo-hpc-lbm",
+      "name": "hpc-lbm",
+      "kind": "repo",
+      "x": 0.09079915478688594,
+      "y": 0.19612943923850504,
+      "z": -0.14666292619586638,
+      "cluster": 6
+    },
+    {
+      "id": "repo-hpc-lbm-v2",
+      "name": "hpc-lbm-v2",
+      "kind": "repo",
+      "x": 0.10048767499676371,
+      "y": 0.1625666979207253,
+      "z": -0.11493357221261993,
+      "cluster": 6
+    },
+    {
+      "id": "repo-distributed-vs-parallel-gol",
+      "name": "Distributed-Vs-Parallel-GoL",
+      "kind": "repo",
+      "x": 0.05684958986142997,
+      "y": 0.2127482874210558,
+      "z": -0.16020790825362413,
+      "cluster": 6
+    },
+    {
+      "id": "repo-quantum-cross-chain-arbitrage",
+      "name": "quantum-cross-chain-arbitrage",
+      "kind": "repo",
+      "x": 0.07031268121550188,
+      "y": 0.19260888808117574,
+      "z": -0.18356193962277334,
+      "cluster": 9
+    },
+    {
+      "id": "repo-quantum-economic-advantage-calculator",
+      "name": "quantum-economic-advantage-calculator",
+      "kind": "repo",
+      "x": 0.1504935456783336,
+      "y": 0.2314956503750631,
+      "z": 0.004929501230297506,
+      "cluster": 10
+    },
+    {
+      "id": "repo-varqite-defi-collateral",
+      "name": "varqite-defi-collateral",
+      "kind": "repo",
+      "x": 0.10800468186658116,
+      "y": 0.2467988116426803,
+      "z": -0.0257998421946547,
+      "cluster": 10
+    },
+    {
+      "id": "repo-varqite-maxcut",
+      "name": "varQITE-maxcut",
+      "kind": "repo",
+      "x": 0.08863465648638272,
+      "y": 0.29510271438835173,
+      "z": -0.016368473796958632,
+      "cluster": 10
+    },
+    {
+      "id": "repo-portfolio-optimisation",
+      "name": "Portfolio-Optimisation",
+      "kind": "repo",
+      "x": 0.0220891159056509,
+      "y": 0.2552231767299318,
+      "z": -0.1963747825203354,
+      "cluster": 9
+    },
+    {
+      "id": "repo-black-swan",
+      "name": "black-swan",
+      "kind": "repo",
+      "x": 0.05612702507139957,
+      "y": 0.2471702977825851,
+      "z": -0.1867098340760678,
+      "cluster": 9
+    },
+    {
+      "id": "repo-bonk",
+      "name": "bonk",
+      "kind": "repo",
+      "x": 0.20341668583307876,
+      "y": 0.1909687514587852,
+      "z": -0.3468096825747409,
+      "cluster": 3
+    },
+    {
+      "id": "repo-catan",
+      "name": "catan",
+      "kind": "repo",
+      "x": 0.23966193194811092,
+      "y": 0.22843286700890686,
+      "z": -0.33668195007125207,
+      "cluster": 3
+    },
+    {
+      "id": "repo-copy-dance",
+      "name": "copy-dance",
+      "kind": "repo",
+      "x": 0.23898882484061262,
+      "y": 0.2393401832921001,
+      "z": -0.301106654987023,
+      "cluster": 3
+    },
+    {
+      "id": "repo-cuphead-ai",
+      "name": "cuphead-ai",
+      "kind": "repo",
+      "x": 0.17153319207074927,
+      "y": 0.23173658336149533,
+      "z": -0.3623976523221687,
+      "cluster": 3
+    },
+    {
+      "id": "repo-island",
+      "name": "island",
+      "kind": "repo",
+      "x": 0.049060081319692805,
+      "y": 0.01952969163009556,
+      "z": 0.0270210512363393,
+      "cluster": 2
+    },
+    {
+      "id": "repo-poly-hop",
+      "name": "poly-hop",
+      "kind": "repo",
+      "x": 0.20483996062977128,
+      "y": 0.22959687642019072,
+      "z": -0.347894960368083,
+      "cluster": 3
+    },
+    {
+      "id": "repo-quoridor",
+      "name": "quoridor",
+      "kind": "repo",
+      "x": 0.19502948545707943,
+      "y": 0.2559194252132415,
+      "z": -0.37863885987299284,
+      "cluster": 3
+    },
+    {
+      "id": "repo-quoridor-ai",
+      "name": "quoridor-ai",
+      "kind": "repo",
+      "x": 0.22633901645701715,
+      "y": 0.296756368185824,
+      "z": -0.32303772793630137,
+      "cluster": 3
+    },
+    {
+      "id": "repo-go-anywhere",
+      "name": "go-anywhere",
+      "kind": "repo",
+      "x": 0.2333388590789136,
+      "y": 0.2940219174698379,
+      "z": -0.37346070182821667,
+      "cluster": 3
+    },
+    {
+      "id": "repo-go-spinners",
+      "name": "go-spinners",
+      "kind": "repo",
+      "x": -0.30019069195174136,
+      "y": -0.04177510783008337,
+      "z": 0.23098912936564014,
+      "cluster": 4
+    },
+    {
+      "id": "repo-algos-ii-minigame",
+      "name": "Algos-II-Minigame",
+      "kind": "repo",
+      "x": 0.21912137952901295,
+      "y": 0.20644347797752075,
+      "z": -0.27803197524723766,
+      "cluster": 3
+    },
+    {
+      "id": "repo-scotland-yard-ai",
+      "name": "Scotland-Yard-AI",
+      "kind": "repo",
+      "x": 0.2599225664622133,
+      "y": 0.3152325921676254,
+      "z": -0.24240460272985348,
+      "cluster": 1
+    },
+    {
+      "id": "repo-aniboxd",
+      "name": "aniboxd",
+      "kind": "repo",
+      "x": 0.01262217457027516,
+      "y": -0.05680923081495178,
+      "z": 0.01291350918975974,
+      "cluster": 2
+    },
+    {
+      "id": "repo-aurelia",
+      "name": "aurelia",
+      "kind": "repo",
+      "x": 0.027869832058434865,
+      "y": -0.07184973470788501,
+      "z": 0.040647850785592014,
+      "cluster": 2
+    },
+    {
+      "id": "repo-detach",
+      "name": "detach",
+      "kind": "repo",
+      "x": -0.009460690609859837,
+      "y": -0.0625657137796296,
+      "z": 0.02624953699674351,
+      "cluster": 2
+    },
+    {
+      "id": "repo-factlet",
+      "name": "factlet",
+      "kind": "repo",
+      "x": 0.00999479281333679,
+      "y": -0.09206711301109136,
+      "z": 0.04453569464621092,
+      "cluster": 2
+    },
+    {
+      "id": "repo-fit-finder",
+      "name": "fit-finder",
+      "kind": "repo",
+      "x": -0.01754808814311127,
+      "y": -0.059866686369455566,
+      "z": 0.047546189768754785,
+      "cluster": 2
+    },
+    {
+      "id": "repo-find-my-pint",
+      "name": "Find-My-Pint",
+      "kind": "repo",
+      "x": -0.004132314796762737,
+      "y": -0.10807058241213822,
+      "z": 0.056032798159285684,
+      "cluster": 2
+    },
+    {
+      "id": "repo-journal-app",
+      "name": "journal-app",
+      "kind": "repo",
+      "x": -0.03643390431635666,
+      "y": -0.06787909695575142,
+      "z": 0.059626942275917576,
+      "cluster": 2
+    },
+    {
+      "id": "repo-pin",
+      "name": "pin",
+      "kind": "repo",
+      "x": -0.018896034382550837,
+      "y": -0.11639763785323277,
+      "z": 0.07130620443581656,
+      "cluster": 2
+    },
+    {
+      "id": "repo-proof",
+      "name": "proof",
+      "kind": "repo",
+      "x": -0.05141850636776661,
+      "y": -0.08118346931824888,
+      "z": 0.07325863701607953,
+      "cluster": 2
+    },
+    {
+      "id": "repo-step-counter-commit-graph",
+      "name": "step-counter-commit-graph",
+      "kind": "repo",
+      "x": -0.03578284349828108,
+      "y": -0.12245569056288524,
+      "z": 0.0866818031366843,
+      "cluster": 2
+    },
+    {
+      "id": "repo-upsilon",
+      "name": "upsilon",
+      "kind": "repo",
+      "x": -0.06732907921654627,
+      "y": -0.09591006460476431,
+      "z": 0.08710074415946858,
+      "cluster": 2
+    },
+    {
+      "id": "repo-water-app",
+      "name": "water-app",
+      "kind": "repo",
+      "x": -0.05516582941464365,
+      "y": -0.12784406062491013,
+      "z": 0.10216139219451834,
+      "cluster": 2
+    },
+    {
+      "id": "repo-history-laptop-stickers",
+      "name": "history-laptop-stickers",
+      "kind": "repo",
+      "x": -0.3609495561822885,
+      "y": -0.2363340001393066,
+      "z": 0.35048290486137,
+      "cluster": 0
+    },
+    {
+      "id": "repo-holly-portfolio",
+      "name": "holly-portfolio",
+      "kind": "repo",
+      "x": -0.3758201724830633,
+      "y": -0.26321353192178354,
+      "z": 0.3793967868356303,
+      "cluster": 0
+    },
+    {
+      "id": "repo-japan-itinerary",
+      "name": "japan-itinerary",
+      "kind": "repo",
+      "x": -0.37924757978969204,
+      "y": -0.2944408156859685,
+      "z": 0.4094941902515927,
+      "cluster": 0
+    },
+    {
+      "id": "repo-lifo",
+      "name": "lifo",
+      "kind": "repo",
+      "x": -0.42979629662267904,
+      "y": -0.2724232215415846,
+      "z": 0.4045199973637272,
+      "cluster": 0
+    },
+    {
+      "id": "repo-lifo-website",
+      "name": "lifo-website",
+      "kind": "repo",
+      "x": -0.4241672003928819,
+      "y": -0.3580741574155655,
+      "z": 0.46233308422307867,
+      "cluster": 0
+    },
+    {
+      "id": "repo-memories-map",
+      "name": "memories-map",
+      "kind": "repo",
+      "x": -0.6757521516317107,
+      "y": -0.3841048805775575,
+      "z": 0.603544122603432,
+      "cluster": 0
+    },
+    {
+      "id": "repo-mobile-website-mobo-website",
+      "name": "mobile-website (mobo-website)",
+      "kind": "repo",
+      "x": -0.6185000330173522,
+      "y": -0.3936250185022536,
+      "z": 0.6461599273095046,
+      "cluster": 0
+    },
+    {
+      "id": "repo-mystery-hour",
+      "name": "mystery-hour",
+      "kind": "repo",
+      "x": -0.6373546209587422,
+      "y": -0.4638333307277549,
+      "z": 0.6091445971979166,
+      "cluster": 0
+    },
+    {
+      "id": "repo-openclaw-app-template",
+      "name": "openclaw-app-template",
+      "kind": "repo",
+      "x": -0.5815434932624205,
+      "y": -0.42658969207328523,
+      "z": 0.600925663346395,
+      "cluster": 0
+    },
+    {
+      "id": "repo-personal-website",
+      "name": "personal-website",
+      "kind": "repo",
+      "x": -0.5772163579535784,
+      "y": -0.4629997627228101,
+      "z": 0.6522299923071111,
+      "cluster": 0
+    },
+    {
+      "id": "repo-rhino-deck",
+      "name": "rhino-deck",
+      "kind": "repo",
+      "x": -0.556427886101231,
+      "y": -0.5114357446515772,
+      "z": 0.6084209817979161,
+      "cluster": 0
+    },
+    {
+      "id": "repo-rhino-website",
+      "name": "rhino-website",
+      "kind": "repo",
+      "x": -0.4487456553106361,
+      "y": -0.5179908269394806,
+      "z": 0.5664718487987808,
+      "cluster": 0
+    },
+    {
+      "id": "repo-toms-brain",
+      "name": "toms-brain",
+      "kind": "repo",
+      "x": -0.41728960354029754,
+      "y": -0.49385548567952947,
+      "z": 0.5000468548590696,
+      "cluster": 0
+    },
+    {
+      "id": "repo-uob-swimming-website",
+      "name": "uob-swimming-website",
+      "kind": "repo",
+      "x": -0.39156358208442366,
+      "y": -0.4410478250184733,
+      "z": 0.5335931572457862,
+      "cluster": 0
+    },
+    {
+      "id": "repo-veloworks-website",
+      "name": "veloworks-website",
+      "kind": "repo",
+      "x": -0.45235162196683354,
+      "y": -0.4901579394033218,
+      "z": 0.44670437909461463,
+      "cluster": 0
+    },
+    {
+      "id": "repo-versioned",
+      "name": "versioned",
+      "kind": "repo",
+      "x": -0.3670992265443679,
+      "y": -0.42063687401169475,
+      "z": 0.48689722293714405,
+      "cluster": 0
+    },
+    {
+      "id": "repo-article-website",
+      "name": "article-website",
+      "kind": "repo",
+      "x": -0.40114770830160634,
+      "y": -0.42768102643918565,
+      "z": 0.43066873968289787,
+      "cluster": 0
+    },
+    {
+      "id": "repo-cv",
+      "name": "cv",
+      "kind": "repo",
+      "x": -0.5111475467715907,
+      "y": -0.2597686280746192,
+      "z": 0.3994467210334543,
+      "cluster": 0
+    },
+    {
+      "id": "repo-interactive-portfolio",
+      "name": "interactive-portfolio",
+      "kind": "repo",
+      "x": -0.45814141331442515,
+      "y": -0.22966012234140792,
+      "z": 0.418134972356496,
+      "cluster": 0
+    },
+    {
+      "id": "repo-reel-farm",
+      "name": "reel-farm",
+      "kind": "repo",
+      "x": -0.4826174335202799,
+      "y": -0.20425025246840744,
+      "z": 0.4578146631642106,
+      "cluster": 0
+    },
+    {
+      "id": "repo-cloud-agent-app",
+      "name": "cloud-agent-app",
+      "kind": "repo",
+      "x": -0.5361799207971278,
+      "y": -0.20299082693948065,
+      "z": 0.43226063495268746,
+      "cluster": 0
+    },
+    {
+      "id": "repo-no-code-app-app",
+      "name": "no-code-app-app",
+      "kind": "repo",
+      "x": -0.4330338578403381,
+      "y": -0.25065106709846197,
+      "z": 0.47284460198013456,
+      "cluster": 0
+    },
+    {
+      "id": "repo-vsti-interactive-examples",
+      "name": "vsti-interactive-examples",
+      "kind": "repo",
+      "x": -0.3781244016515511,
+      "y": -0.27838720827251473,
+      "z": 0.48604767141542893,
+      "cluster": 0
+    },
+    {
+      "id": "repo-3d-whiteboard",
+      "name": "3d-whiteboard",
+      "kind": "repo",
+      "x": -0.4720712902032136,
+      "y": -0.33792752326344466,
+      "z": 0.36860186747544016,
+      "cluster": 0
+    },
+    {
+      "id": "repo-adfes-biz-synthetic-extension",
+      "name": "adfes-biz-synthetic-extension",
+      "kind": "repo",
+      "x": 0.18727629196064105,
+      "y": 0.11419746334349408,
+      "z": -0.11780022716214988,
+      "cluster": 1
+    },
+    {
+      "id": "repo-ai-coursework",
+      "name": "ai-coursework",
+      "kind": "repo",
+      "x": -0.511581744608273,
+      "y": -0.2975214032255676,
+      "z": 0.37573543774840135,
+      "cluster": 14
+    },
+    {
+      "id": "repo-ai-for-chess-in-3-dimensions",
+      "name": "AI-for-chess-in-3-dimensions",
+      "kind": "repo",
+      "x": -0.5607068392880281,
+      "y": -0.25095153208693066,
+      "z": 0.3537097351318644,
+      "cluster": 14
+    },
+    {
+      "id": "repo-advent-of-code",
+      "name": "Advent-Of-Code",
+      "kind": "repo",
+      "x": -0.4551051732558655,
+      "y": -0.25621517517884507,
+      "z": 0.42206162428536054,
+      "cluster": 4
+    },
+    {
+      "id": "repo-clipboard-cli",
+      "name": "clipboard-cli",
+      "kind": "repo",
+      "x": -0.4459198687949444,
+      "y": -0.29768674438019604,
+      "z": 0.38439757303283617,
+      "cluster": 4
+    },
+    {
+      "id": "repo-decimal-to-binary-visualiser",
+      "name": "Decimal-to-binary-visualiser",
+      "kind": "repo",
+      "x": -0.43446129990274884,
+      "y": -0.297466276391646,
+      "z": 0.4315770022961083,
+      "cluster": 4
+    },
+    {
+      "id": "repo-pgm-to-sk-converter",
+      "name": "PGM-to-SK-Converter",
+      "kind": "repo",
+      "x": -0.448880309812666,
+      "y": -0.33044040837079486,
+      "z": 0.41533433564352246,
+      "cluster": 4
+    },
+    {
+      "id": "repo-sarah-eccles",
+      "name": "sarah-eccles",
+      "kind": "repo",
+      "x": -0.46801122596514827,
+      "y": -0.29205924042679393,
+      "z": 0.41228011321939567,
+      "cluster": 4
+    },
+    {
+      "id": "repo-anima-transaction",
+      "name": "anima-transaction",
+      "kind": "repo",
+      "x": -0.5007812799926492,
+      "y": -0.2214890134523854,
+      "z": 0.4090346279635367,
+      "cluster": 4
+    },
+    {
+      "id": "repo-life-of-steroids",
+      "name": "life-of-steroids",
+      "kind": "repo",
+      "x": -0.5140298498802335,
+      "y": -0.17158449744627358,
+      "z": 0.42145152277133285,
+      "cluster": 4
+    },
+    {
+      "id": "repo-mini-agent",
+      "name": "Mini-Agent",
+      "kind": "repo",
+      "x": -0.39033393647784875,
+      "y": -0.08468021270326605,
+      "z": 0.5260579489074837,
+      "cluster": 12
+    },
+    {
+      "id": "repo-minimax-mcp",
+      "name": "MiniMax-MCP",
+      "kind": "repo",
+      "x": -0.47954223031972976,
+      "y": -0.21647939122398172,
+      "z": 0.4334861979787638,
+      "cluster": 12
+    },
+    {
+      "id": "repo-minimax-skills",
+      "name": "minimax-skills",
+      "kind": "repo",
+      "x": -0.3888465264946806,
+      "y": -0.17666663371927613,
+      "z": 0.5612177502159583,
+      "cluster": 12
+    },
+    {
+      "id": "repo-2024-mlaipredictionmicroservices-fork",
+      "name": "2024-MLAIPredictionMicroservices-Fork",
+      "kind": "repo",
+      "x": -0.46793636529636495,
+      "y": -0.30459506775825723,
+      "z": 0.3413028951609672,
+      "cluster": 12
+    },
+    {
+      "id": "repo-cut3r",
+      "name": "CUT3R",
+      "kind": "repo",
+      "x": -0.25962737526473856,
+      "y": -0.25791373875894025,
+      "z": 0.5561055263596456,
+      "cluster": 12
+    },
+    {
+      "id": "repo-tumcuctom",
+      "name": "TumCucTom",
+      "kind": "repo",
+      "x": -0.48063051130462364,
+      "y": -0.6607554193717874,
+      "z": 0.47163848047056567,
+      "cluster": 17
+    },
+    {
+      "id": "project-ai-chess-3d",
+      "name": "AI for Chess in 3D",
+      "kind": "project",
+      "x": 0.1759058730234617,
+      "y": 0.17459861961946205,
+      "z": -0.07735416888745349,
+      "cluster": 1
+    },
+    {
+      "id": "project-quantum-cross-chain-arbitrage",
+      "name": "Quantum Cross-Chain Arbitrage",
+      "kind": "project",
+      "x": -0.15090451384754217,
+      "y": 0.07681424335523131,
+      "z": -0.011503779671704989,
+      "cluster": 9
+    },
+    {
+      "id": "project-llama-8b-isc25",
+      "name": "Llama 8B @ ISC'25",
+      "kind": "project",
+      "x": -0.09151201217588235,
+      "y": 0.0824673305908597,
+      "z": 0.07565290165629016,
+      "cluster": 6
+    },
+    {
+      "id": "project-varqite-defi-collateral",
+      "name": "VarQITE DeFi Collateral Optimisation",
+      "kind": "project",
+      "x": -0.07838502351855986,
+      "y": 0.10612752039678434,
+      "z": 0.0763591513949335,
+      "cluster": 10
+    },
+    {
+      "id": "project-sparse-attention-poc",
+      "name": "Sparse Attention for Long Context LLMs",
+      "kind": "project",
+      "x": 0.16144358285988716,
+      "y": 0.21620433366469366,
+      "z": -0.07443991672685171,
+      "cluster": 1
+    },
+    {
+      "id": "project-agentic-playground",
+      "name": "Canvas Workspace",
+      "kind": "project",
+      "x": 0.09186608205123198,
+      "y": 0.17768448219900185,
+      "z": -0.14615505348262925,
+      "cluster": 1
+    },
+    {
+      "id": "project-black-swan",
+      "name": "Black Swan",
+      "kind": "project",
+      "x": -0.13146099147923226,
+      "y": 0.17363335406768132,
+      "z": 0.027340365396306535,
+      "cluster": 9
+    },
+    {
+      "id": "project-turing-complete-rubix-cube",
+      "name": "Turing-Complete Rubik's Cube CPUs",
+      "kind": "project",
+      "x": 0.43527493181969684,
+      "y": 0.23570145889627342,
+      "z": -0.41247117457237653,
+      "cluster": 7
+    },
+    {
+      "id": "project-rubix-chess",
+      "name": "Rubix Chess 3D",
+      "kind": "project",
+      "x": 0.020605533038242765,
+      "y": 0.14056090091425538,
+      "z": -0.10406924958890915,
+      "cluster": 3
+    },
+    {
+      "id": "project-f1-commentary",
+      "name": "F1 Commentary",
+      "kind": "project",
+      "x": 0.08860893248376875,
+      "y": -0.06653844192200042,
+      "z": -0.1118703539087746,
+      "cluster": 5
+    },
+    {
+      "id": "project-yuki",
+      "name": "Yuki ML",
+      "kind": "project",
+      "x": 0.14027549898102898,
+      "y": -0.020354714593841833,
+      "z": -0.028426059450869248,
+      "cluster": 5
+    },
+    {
+      "id": "project-f1-ghost-car",
+      "name": "F1 Ghost Car",
+      "kind": "project",
+      "x": 0.0940351563963224,
+      "y": -0.10619453405316631,
+      "z": -0.13341173851954896,
+      "cluster": 5
+    },
+    {
+      "id": "project-f1-qtda",
+      "name": "F1 Telemetry Data Fetcher",
+      "kind": "project",
+      "x": 0.1638724736628432,
+      "y": -0.0014758233124720667,
+      "z": -0.012030988157474831,
+      "cluster": 5
+    },
+    {
+      "id": "project-hpc-lbm",
+      "name": "HPC Lattice Boltzmann Optimisation",
+      "kind": "project",
+      "x": -0.0720265582720394,
+      "y": 0.04294212164485953,
+      "z": 0.0856957816388289,
+      "cluster": 6
+    },
+    {
+      "id": "project-adfes-biz-synthetic-extension",
+      "name": "Adfes-Biz Synthetic Extension",
+      "kind": "project",
+      "x": 0.11154982959399053,
+      "y": 0.0623300861234716,
+      "z": -0.14967562442117766,
+      "cluster": 1
+    },
+    {
+      "id": "project-factlet",
+      "name": "Factlet",
+      "kind": "project",
+      "x": -0.10554483528077499,
+      "y": -0.16222197221565396,
+      "z": 0.21300807085882217,
+      "cluster": 2
+    },
+    {
+      "id": "project-pin",
+      "name": "Pin",
+      "kind": "project",
+      "x": -0.13670485910062916,
+      "y": -0.22636158889216704,
+      "z": 0.12672522218841054,
+      "cluster": 2
+    },
+    {
+      "id": "project-poly-hop",
+      "name": "Poly-Hop",
+      "kind": "project",
+      "x": 0.09593273782812187,
+      "y": 0.0649010204905096,
+      "z": -0.07946842359705111,
+      "cluster": 3
+    },
+    {
+      "id": "project-quoridor-ai",
+      "name": "Quoridor AI",
+      "kind": "project",
+      "x": 0.017233690628265977,
+      "y": -0.0024140680901176825,
+      "z": -0.1618632868640154,
+      "cluster": 3
+    },
+    {
+      "id": "project-bonk",
+      "name": "Bonk / Boop Online",
+      "kind": "project",
+      "x": 0.020602699262175533,
+      "y": 0.03158795079747692,
+      "z": -0.14818407312234255,
+      "cluster": 3
+    },
+    {
+      "id": "project-vlm-memory",
+      "name": "VLM-memory",
+      "kind": "project",
+      "x": 0.17066542908180965,
+      "y": 0.14131522204546537,
+      "z": -0.03650337846587606,
+      "cluster": 1
+    },
+    {
+      "id": "project-veloworks",
+      "name": "Veloworks Components",
+      "kind": "project",
+      "x": -0.5179233390731044,
+      "y": -0.3986897552114582,
+      "z": 0.4863949697056374,
+      "cluster": 0
+    },
+    {
+      "id": "project-machine-learning-coursework",
+      "name": "machine-learning-coursework",
+      "kind": "project",
+      "x": 0.07875578096027325,
+      "y": 0.06035503721124569,
+      "z": -0.142615136062857,
+      "cluster": 1
+    },
+    {
+      "id": "project-omnii",
+      "name": "omnii",
+      "kind": "project",
+      "x": 0.12005800356760868,
+      "y": 0.15881436446323738,
+      "z": -0.05035677465363986,
+      "cluster": 1
+    },
+    {
+      "id": "project-sales-bot-showdown",
+      "name": "Sales-Bot-Showdown",
+      "kind": "project",
+      "x": 0.10068351815404383,
+      "y": 0.133479450978406,
+      "z": -0.11195216972849813,
+      "cluster": 1
+    },
+    {
+      "id": "project-yukigpt",
+      "name": "YukiGPT",
+      "kind": "project",
+      "x": 0.13809502123616862,
+      "y": 0.22513233724322046,
+      "z": -0.05806543192044916,
+      "cluster": 1
+    },
+    {
+      "id": "project-godel",
+      "name": "godel",
+      "kind": "project",
+      "x": -0.5344773309828814,
+      "y": -0.28095089714963706,
+      "z": 0.413215263834252,
+      "cluster": 4
+    },
+    {
+      "id": "project-f1-telemetry-analysis",
+      "name": "f1-telemetry-analysis",
+      "kind": "project",
+      "x": 0.09203974532126843,
+      "y": -0.02506893671024698,
+      "z": -0.06714840595943404,
+      "cluster": 5
+    },
+    {
+      "id": "project-ciuk-memory-benchmark",
+      "name": "ciuk-memory-benchmark",
+      "kind": "project",
+      "x": -0.10737207728212932,
+      "y": 0.20319517762990225,
+      "z": 0.10426076669624917,
+      "cluster": 6
+    },
+    {
+      "id": "project-hpc-lbm-v2",
+      "name": "hpc-lbm-v2",
+      "kind": "project",
+      "x": -0.13786495109159896,
+      "y": 0.15667518539717587,
+      "z": 0.03716605488870358,
+      "cluster": 6
+    },
+    {
+      "id": "project-distributed-vs-parallel-gol",
+      "name": "Distributed-Vs-Parallel-GoL",
+      "kind": "project",
+      "x": -0.12359562014315308,
+      "y": 0.15148787968670516,
+      "z": 0.08205074880196511,
+      "cluster": 6
+    },
+    {
+      "id": "project-quantum-economic-advantage-calculator",
+      "name": "quantum-economic-advantage-calculator",
+      "kind": "project",
+      "x": -0.07397424807351027,
+      "y": 0.16151807372774032,
+      "z": 0.16520494930329704,
+      "cluster": 10
+    },
+    {
+      "id": "project-copy-dance",
+      "name": "copy-dance",
+      "kind": "project",
+      "x": -0.0494486925650877,
+      "y": 0.08153995436483523,
+      "z": -0.16612454988893327,
+      "cluster": 3
+    },
+    {
+      "id": "project-island",
+      "name": "island",
+      "kind": "project",
+      "x": -0.14102209762851417,
+      "y": -0.12088598056861702,
+      "z": 0.24458039569230844,
+      "cluster": 2
+    },
+    {
+      "id": "project-quoridor",
+      "name": "quoridor",
+      "kind": "project",
+      "x": -0.026063005917352375,
+      "y": 0.04701493920291913,
+      "z": -0.14326880291413077,
+      "cluster": 3
+    },
+    {
+      "id": "project-go-spinners",
+      "name": "go-spinners",
+      "kind": "project",
+      "x": -0.4561544832468237,
+      "y": -0.2658706290444544,
+      "z": 0.4780507433905967,
+      "cluster": 4
+    },
+    {
+      "id": "project-aniboxd",
+      "name": "aniboxd",
+      "kind": "project",
+      "x": -0.1923732450581273,
+      "y": -0.24643273826360207,
+      "z": 0.1501085049081911,
+      "cluster": 2
+    },
+    {
+      "id": "project-aurelia",
+      "name": "aurelia",
+      "kind": "project",
+      "x": -0.10679906111872385,
+      "y": -0.19932964609673168,
+      "z": 0.24109594937939294,
+      "cluster": 2
+    },
+    {
+      "id": "project-detach",
+      "name": "detach",
+      "kind": "project",
+      "x": -0.12061048527634571,
+      "y": -0.1916012688031617,
+      "z": 0.20806172595153122,
+      "cluster": 2
+    },
+    {
+      "id": "project-find-my-pint",
+      "name": "Find-My-Pint",
+      "kind": "project",
+      "x": -0.15220166454472933,
+      "y": -0.23896934622344362,
+      "z": 0.17575312134814614,
+      "cluster": 2
+    },
+    {
+      "id": "project-journal-app",
+      "name": "journal-app",
+      "kind": "project",
+      "x": -0.17075074256137712,
+      "y": -0.2744357437744096,
+      "z": 0.16667874186190484,
+      "cluster": 2
+    },
+    {
+      "id": "project-proof",
+      "name": "proof",
+      "kind": "project",
+      "x": -0.1625096822811779,
+      "y": -0.2066714668014833,
+      "z": 0.20114015776738967,
+      "cluster": 2
+    },
+    {
+      "id": "project-step-counter-commit-graph",
+      "name": "step-counter-commit-graph",
+      "kind": "project",
+      "x": -0.20976261818099878,
+      "y": -0.27188256825257434,
+      "z": 0.17115328289788076,
+      "cluster": 2
+    },
+    {
+      "id": "project-upsilon",
+      "name": "upsilon",
+      "kind": "project",
+      "x": -0.15399195619019485,
+      "y": -0.17390769025135827,
+      "z": 0.21372766768431084,
+      "cluster": 2
+    },
+    {
+      "id": "project-lifo",
+      "name": "lifo",
+      "kind": "project",
+      "x": -0.461988884393193,
+      "y": -0.30948507615180054,
+      "z": 0.66548290486137,
+      "cluster": 0
+    },
+    {
+      "id": "project-lifo-website",
+      "name": "lifo-website",
+      "kind": "project",
+      "x": -0.5362185730127076,
+      "y": -0.3549365988760052,
+      "z": 0.5115116493894494,
+      "cluster": 0
+    },
+    {
+      "id": "project-memories-map",
+      "name": "memories-map",
+      "kind": "project",
+      "x": -0.6637167858836628,
+      "y": -0.4007027128256392,
+      "z": 0.45043996893717325,
+      "cluster": 0
+    },
+    {
+      "id": "project-mobile-website-mobo-website",
+      "name": "mobile-website (mobo-website)",
+      "kind": "project",
+      "x": -0.5466468585540788,
+      "y": -0.2816682310479989,
+      "z": 0.5476366676740989,
+      "cluster": 0
+    },
+    {
+      "id": "project-mystery-hour",
+      "name": "mystery-hour",
+      "kind": "project",
+      "x": -0.5441104300786268,
+      "y": -0.22839265503028072,
+      "z": 0.6376442661561995,
+      "cluster": 0
+    },
+    {
+      "id": "project-openclaw-app-template",
+      "name": "openclaw-app-template",
+      "kind": "project",
+      "x": -0.6759495561822885,
+      "y": -0.3159995919065783,
+      "z": 0.46825642084114955,
+      "cluster": 0
+    },
+    {
+      "id": "project-toms-brain",
+      "name": "toms-brain",
+      "kind": "project",
+      "x": -0.5851183439280512,
+      "y": -0.22064985432825915,
+      "z": 0.5849318011584205,
+      "cluster": 0
+    },
+    {
+      "id": "project-uob-swimming-website",
+      "name": "uob-swimming-website",
+      "kind": "project",
+      "x": -0.6424086666346582,
+      "y": -0.2451825691930022,
+      "z": 0.487823895723563,
+      "cluster": 0
+    },
+    {
+      "id": "project-versioned",
+      "name": "versioned",
+      "kind": "project",
+      "x": -0.6291006306291356,
+      "y": -0.20766141334576524,
+      "z": 0.5431457384740633,
+      "cluster": 0
+    },
+    {
+      "id": "project-ai-coursework",
+      "name": "ai-coursework",
+      "kind": "project",
+      "x": -0.6674906740625621,
+      "y": -0.11113984896493188,
+      "z": 0.5637097351318644,
+      "cluster": 14
+    },
+    {
+      "id": "project-ai-for-chess-in-3-dimensions",
+      "name": "AI-for-chess-in-3-dimensions",
+      "kind": "project",
+      "x": -0.721581744608273,
+      "y": -0.0875214032255676,
+      "z": 0.5255335196899218,
+      "cluster": 14
+    },
+    {
+      "id": "project-advent-of-code",
+      "name": "Advent-Of-Code",
+      "kind": "project",
+      "x": -0.534764995870255,
+      "y": -0.22166965792702595,
+      "z": 0.4907177203963177,
+      "cluster": 4
+    },
+    {
+      "id": "project-clipboard-cli",
+      "name": "clipboard-cli",
+      "kind": "project",
+      "x": -0.5415282673139659,
+      "y": -0.2548233062665447,
+      "z": 0.4310579554079994,
+      "cluster": 4
+    },
+    {
+      "id": "project-py2noteai",
+      "name": "Py2Notebook AI",
+      "kind": "project",
+      "x": 0.05420146844516682,
+      "y": 0.10302365899813773,
+      "z": -0.09558126544770874,
+      "cluster": 1
+    },
+    {
+      "id": "project-crgs-css-person-detection",
+      "name": "CRGS CSS Person Detection",
+      "kind": "project",
+      "x": 0.1129322054730597,
+      "y": 0.1617631851200803,
+      "z": -0.01786760803841933,
+      "cluster": 1
+    },
+    {
+      "id": "project-u3core",
+      "name": "u3Core",
+      "kind": "project",
+      "x": 0.10058375724498374,
+      "y": 0.12516028601129303,
+      "z": -0.0701941162290543,
+      "cluster": 1
+    },
+    {
+      "id": "project-focused",
+      "name": "Focused",
+      "kind": "project",
+      "x": -0.23155868022984877,
+      "y": -0.2433430938875854,
+      "z": 0.15993040129349004,
+      "cluster": 2
+    },
+    {
+      "id": "project-keep-sharp",
+      "name": "Keep-Sharp",
+      "kind": "project",
+      "x": -0.18841078429736902,
+      "y": -0.22285937503543732,
+      "z": 0.17494937709134795,
+      "cluster": 2
+    },
+    {
+      "id": "project-varqite-maxcut",
+      "name": "varQITE Max-Cut",
+      "kind": "project",
+      "x": -0.041942816623255254,
+      "y": 0.06622414519145826,
+      "z": 0.20307872700223875,
+      "cluster": 10
+    },
+    {
+      "id": "project-portfolio-optimisation",
+      "name": "Portfolio Optimisation",
+      "kind": "project",
+      "x": -0.15856588798139157,
+      "y": 0.026344607533038314,
+      "z": 0.032503786676558025,
+      "cluster": 9
+    },
+    {
+      "id": "project-algos-ii-minigame",
+      "name": "Algos II Minigame",
+      "kind": "project",
+      "x": -0.012563156131719835,
+      "y": 0.0408600410648272,
+      "z": -0.09032034469266986,
+      "cluster": 3
+    },
+    {
+      "id": "project-scotland-yard-ai",
+      "name": "Scotland Yard AI",
+      "kind": "project",
+      "x": 0.12515019258783494,
+      "y": 0.11303044665809224,
+      "z": -0.029564648215710476,
+      "cluster": 1
+    },
+    {
+      "id": "project-3d-whiteboard",
+      "name": "3D Whiteboard",
+      "kind": "project",
+      "x": -0.6183243994673948,
+      "y": -0.43013596502113227,
+      "z": 0.5081927788906205,
+      "cluster": 0
+    },
+    {
+      "id": "project-decimal-to-binary-visualiser",
+      "name": "Decimal-to-Binary Visualiser",
+      "kind": "project",
+      "x": -0.5050615128883462,
+      "y": -0.2704951756221112,
+      "z": 0.4891102435477369,
+      "cluster": 4
+    },
+    {
+      "id": "project-pgm-to-sk-converter",
+      "name": "PGM → SK Converter",
+      "kind": "project",
+      "x": -0.5256320971447895,
+      "y": -0.29246198223437336,
+      "z": 0.4375368584802348,
+      "cluster": 4
+    },
+    {
+      "id": "ach-eth-oxford",
+      "name": "ETH Oxford DeFi Hackathon — Winners",
+      "kind": "achievement",
+      "x": -0.7457681318970978,
+      "y": -0.29457419797208384,
+      "z": 0.738376022963654,
+      "cluster": 8
+    },
+    {
+      "id": "ach-eth-oxford-sui-ctf",
+      "name": "ETH Oxford SUI Capture-the-Flag",
+      "kind": "achievement",
+      "x": -0.9828896869618106,
+      "y": -0.39148683854677124,
+      "z": 0.6455427244855179,
+      "cluster": 8
+    },
+    {
+      "id": "ach-polygon-ai-agents",
+      "name": "Polygon AI Agents Hackathon",
+      "kind": "achievement",
+      "x": -0.8618177217347733,
+      "y": -0.3886578180532683,
+      "z": 0.661248096778488,
+      "cluster": 8
+    },
+    {
+      "id": "ach-vyperlang-2nd",
+      "name": "Vyperlang Bounty — 2nd Place",
+      "kind": "achievement",
+      "x": -0.7877364138626738,
+      "y": -0.41279774311274414,
+      "z": 0.7327789899140001,
+      "cluster": 8
+    },
+    {
+      "id": "ach-iquhack-ionq",
+      "name": "MIT iQuHack IonQ Content Bounty",
+      "kind": "achievement",
+      "x": -0.8631446575250044,
+      "y": -0.5036675410531233,
+      "z": 0.6850056044445849,
+      "cluster": 8
+    },
+    {
+      "id": "ach-iquhack-ionq-entanglement-2026",
+      "name": "MIT iQuHack IonQ Entanglement Distillation — 1st place Day 1",
+      "kind": "achievement",
+      "x": -0.8059526464013137,
+      "y": -0.34932060945130317,
+      "z": 0.8551695809390508,
+      "cluster": 8
+    },
+    {
+      "id": "ach-encodeai",
+      "name": "EncodeAI Wormhole Bounty",
+      "kind": "achievement",
+      "x": -0.9566816952969811,
+      "y": -0.5316957530367966,
+      "z": 0.618048025874338,
+      "cluster": 8
+    },
+    {
+      "id": "ach-isc25-uk",
+      "name": "Represented UK at ISC'25 SCC",
+      "kind": "achievement",
+      "x": -0.5033864565198009,
+      "y": -0.4710814855505737,
+      "z": 0.7611830087565723,
+      "cluster": 16
+    },
+    {
+      "id": "ach-ciuk",
+      "name": "CIUK HPC Cluster Challenge (×2)",
+      "kind": "achievement",
+      "x": -0.6887834261394709,
+      "y": -0.6564784551702437,
+      "z": 0.9465799783762423,
+      "cluster": 16
+    },
+    {
+      "id": "ach-ironman-ch",
+      "name": "Ironman Switzerland 140.6",
+      "kind": "achievement",
+      "x": -0.9053227472175425,
+      "y": -0.627779332515853,
+      "z": 0.6825989496326517,
+      "cluster": 13
+    },
+    {
+      "id": "ach-competitive-swim",
+      "name": "Competitive swimmer",
+      "kind": "achievement",
+      "x": -0.9410010780653526,
+      "y": -0.4103782214642909,
+      "z": 0.7573530649865461,
+      "cluster": 13
+    },
+    {
+      "id": "ach-bucs-swim",
+      "name": "BUCS Mens 1st Team Medley Relay",
+      "kind": "achievement",
+      "x": -0.9149471449416862,
+      "y": -0.4693962446162254,
+      "z": 0.7958080574731661,
+      "cluster": 13
+    },
+    {
+      "id": "ach-climbing",
+      "name": "Indoor bouldering — V7",
+      "kind": "achievement",
+      "x": -0.7210862230103614,
+      "y": -0.517581377478144,
+      "z": 0.9025138046876429,
+      "cluster": 13
+    },
+    {
+      "id": "ach-muay-thai",
+      "name": "Muay Thai — amateur sparring",
+      "kind": "achievement",
+      "x": -0.7947377261007191,
+      "y": -0.6302930765192821,
+      "z": 0.7258446517136928,
+      "cluster": 13
+    },
+    {
+      "id": "ach-sim-racing",
+      "name": "Sim racing",
+      "kind": "achievement",
+      "x": -0.4506215576611603,
+      "y": -0.9089086926086398,
+      "z": 0.8220071262148678,
+      "cluster": 15
+    },
+    {
+      "id": "ach-rubiks",
+      "name": "Rubik's cubing",
+      "kind": "achievement",
+      "x": -0.557981354889274,
+      "y": -0.7685912894475242,
+      "z": 0.7861946658253244,
+      "cluster": 15
+    },
+    {
+      "id": "ach-rubiks-bld",
+      "name": "Blindfolded Rubik's cubing",
+      "kind": "achievement",
+      "x": -0.4142667227581356,
+      "y": -0.7690250816485652,
+      "z": 0.9090544384019842,
+      "cluster": 15
+    },
+    {
+      "id": "ach-board-games",
+      "name": "Board games",
+      "kind": "achievement",
+      "x": -0.6242667227581356,
+      "y": -0.9785912894475242,
+      "z": 0.6990544384019842,
+      "cluster": 15
+    },
+    {
+      "id": "exp-veloworks",
+      "name": "Co-Founder & Operator · Veloworks Components",
+      "kind": "experience",
+      "x": -0.5026330687816593,
+      "y": -0.7737924509365803,
+      "z": 0.6538849680189356,
+      "cluster": 11
+    },
+    {
+      "id": "exp-demonstrator-bristol",
+      "name": "Demonstrator & Graduate Teacher · University of Bristol",
+      "kind": "experience",
+      "x": -0.41262201496702056,
+      "y": -0.6491481749578834,
+      "z": 0.7836741678972712,
+      "cluster": 11
+    },
+    {
+      "id": "exp-ml-research-bristol",
+      "name": "Machine Learning Research Assistant · University of Bristol · School of Brain, Behaviour and Health",
+      "kind": "experience",
+      "x": -0.365274875776483,
+      "y": -0.7636172473505027,
+      "z": 0.8084548161020185,
+      "cluster": 11
+    },
+    {
+      "id": "exp-edtech-cofounder",
+      "name": "Co-Founder & Technical Lead · Personal-finance EdTech startup (stealth)",
+      "kind": "experience",
+      "x": -0.4266653945126691,
+      "y": -0.8780267441547769,
+      "z": 0.579576246905125,
+      "cluster": 11
+    },
+    {
+      "id": "exp-ukscc-isc25",
+      "name": "UK HPC Student Team Member · UKSCC · ISC'25",
+      "kind": "experience",
+      "x": -0.3749290531579362,
+      "y": -0.7554617454464008,
+      "z": 0.6578531995619423,
+      "cluster": 11
+    },
+    {
+      "id": "exp-digital-u3-intern",
+      "name": "Machine Learning Software Engineer Intern · DigitalU3 (u3core)",
+      "kind": "experience",
+      "x": -0.27375449958476583,
+      "y": -0.7116182187430531,
+      "z": 0.752743212957746,
+      "cluster": 11
+    },
+    {
+      "id": "tech-repo-agentic-playground--typescript",
+      "name": "typescript",
+      "kind": "tech",
+      "x": 0.2947640410042044,
+      "y": 0.41809262264624136,
+      "z": -0.3205615909879562,
+      "cluster": 1
+    },
+    {
+      "id": "tech-repo-agentic-playground--zustand",
+      "name": "zustand",
+      "kind": "tech",
+      "x": 0.38477251323584316,
+      "y": 0.26925823363500345,
+      "z": -0.31934480132273113,
+      "cluster": 1
+    },
+    {
+      "id": "tech-repo-agentic-playground--electron",
+      "name": "electron",
+      "kind": "tech",
+      "x": 0.275911966297688,
+      "y": 0.37983442902494274,
+      "z": -0.24549426353493453,
+      "cluster": 1
+    },
+    {
+      "id": "tech-repo-hermes-agent--python",
+      "name": "python",
+      "kind": "tech",
+      "x": 0.3555875738852216,
+      "y": 0.3110603568780686,
+      "z": -0.3713986743347698,
+      "cluster": 1
+    },
+    {
+      "id": "tech-repo-hiring--typescript",
+      "name": "typescript",
+      "kind": "tech",
+      "x": 0.25004783412584036,
+      "y": 0.3201625906014336,
+      "z": -0.3509526481799745,
+      "cluster": 1
+    },
+    {
+      "id": "tech-repo-hiring--tailwind",
+      "name": "tailwind",
+      "kind": "tech",
+      "x": 0.3915480406152752,
+      "y": 0.3196577213104104,
+      "z": -0.25418673526241237,
+      "cluster": 1
+    },
+    {
+      "id": "tech-repo-hiring--express",
+      "name": "express",
+      "kind": "tech",
+      "x": 0.26837855212972994,
+      "y": 0.29178671894272273,
+      "z": -0.35673173995283064,
+      "cluster": 1
+    },
+    {
+      "id": "tech-repo-llama-8b-isc-25--python",
+      "name": "python",
+      "kind": "tech",
+      "x": 0.36739240879595086,
+      "y": 0.2818260769602985,
+      "z": -0.3294734433056632,
+      "cluster": 1
+    },
+    {
+      "id": "tech-repo-llama-8b-isc-25--pytorch",
+      "name": "pytorch",
+      "kind": "tech",
+      "x": 0.30165928051607455,
+      "y": 0.402784962969549,
+      "z": -0.31527053422597334,
+      "cluster": 1
+    },
+    {
+      "id": "tech-repo-llama-8b-isc-25--cuda",
+      "name": "cuda",
+      "kind": "tech",
+      "x": 0.33440502351622414,
+      "y": 0.31014412416270953,
+      "z": -0.24894248479236816,
+      "cluster": 1
+    },
+    {
+      "id": "tech-repo-machine-learning-coursework--jupyter",
+      "name": "jupyter",
+      "kind": "tech",
+      "x": 0.36960722011724917,
+      "y": 0.34317586039272163,
+      "z": -0.3387027476564866,
+      "cluster": 1
+    },
+    {
+      "id": "tech-repo-machine-learning-coursework--notebook",
+      "name": "notebook",
+      "kind": "tech",
+      "x": 0.25237090597039724,
+      "y": 0.3717777406266138,
+      "z": -0.23938176585591583,
+      "cluster": 1
+    },
+    {
+      "id": "tech-repo-machine-learning-coursework--python",
+      "name": "python",
+      "kind": "tech",
+      "x": 0.37768556688843047,
+      "y": 0.3202849693083487,
+      "z": -0.2669591848702997,
+      "cluster": 1
+    },
+    {
+      "id": "tech-repo-ocaml-microgpt--ocaml",
+      "name": "ocaml",
+      "kind": "tech",
+      "x": 0.45651863348150556,
+      "y": 0.3409516390145487,
+      "z": -0.28060235855189725,
+      "cluster": 1
+    },
+    {
+      "id": "tech-repo-ocaml-microgpt--planned",
+      "name": "planned",
+      "kind": "tech",
+      "x": 0.3387219530301734,
+      "y": 0.36617385626325055,
+      "z": -0.2413798635141446,
+      "cluster": 1
+    },
+    {
+      "id": "tech-repo-omnii--typescript",
+      "name": "typescript",
+      "kind": "tech",
+      "x": 0.40154970809766205,
+      "y": 0.2286516818032426,
+      "z": -0.2985642961695571,
+      "cluster": 1
+    },
+    {
+      "id": "tech-repo-omnii--native",
+      "name": "native",
+      "kind": "tech",
+      "x": 0.2606695153059534,
+      "y": 0.23937281462473406,
+      "z": -0.3399759441822609,
+      "cluster": 1
+    },
+    {
+      "id": "tech-repo-omnii--firebase",
+      "name": "firebase",
+      "kind": "tech",
+      "x": 0.29832070624638934,
+      "y": 0.30791145320438756,
+      "z": -0.4133537123458183,
+      "cluster": 1
+    },
+    {
+      "id": "tech-repo-personalised-text-coach--python",
+      "name": "python",
+      "kind": "tech",
+      "x": 0.42035831265452406,
+      "y": 0.2919424012501537,
+      "z": -0.2714993788507805,
+      "cluster": 1
+    },
+    {
+      "id": "tech-repo-personalised-text-coach--fastapi",
+      "name": "fastapi",
+      "kind": "tech",
+      "x": 0.3061744025735371,
+      "y": 0.3593664598685526,
+      "z": -0.26719172283228904,
+      "cluster": 1
+    },
+    {
+      "id": "tech-repo-personalised-text-coach--anthropic",
+      "name": "anthropic",
+      "kind": "tech",
+      "x": 0.3679715771238607,
+      "y": 0.2255079813456607,
+      "z": -0.31594893406942615,
+      "cluster": 1
+    },
+    {
+      "id": "tech-repo-sales-bot-showdown--next-js",
+      "name": "next.js",
+      "kind": "tech",
+      "x": 0.3590673242718338,
+      "y": 0.35209505391317203,
+      "z": -0.35191379148959034,
+      "cluster": 1
+    },
+    {
+      "id": "tech-repo-sales-bot-showdown--14",
+      "name": "14",
+      "kind": "tech",
+      "x": 0.39414692776856075,
+      "y": 0.38564697762555084,
+      "z": -0.3198994932305104,
+      "cluster": 1
+    },
+    {
+      "id": "tech-repo-sales-bot-showdown--typescript",
+      "name": "typescript",
+      "kind": "tech",
+      "x": 0.27403804108507174,
+      "y": 0.3062215288522919,
+      "z": -0.28469004437050344,
+      "cluster": 1
+    },
+    {
+      "id": "tech-repo-sparse-attention-poc--python",
+      "name": "python",
+      "kind": "tech",
+      "x": 0.2702359135926176,
+      "y": 0.35702495153444036,
+      "z": -0.27243925691459436,
+      "cluster": 1
+    },
+    {
+      "id": "tech-repo-sparse-attention-poc--pytorch",
+      "name": "pytorch",
+      "kind": "tech",
+      "x": 0.301807536054085,
+      "y": 0.2908846378330473,
+      "z": -0.2861205137630288,
+      "cluster": 1
+    },
+    {
+      "id": "tech-repo-sparse-attention-poc--sdpa",
+      "name": "sdpa",
+      "kind": "tech",
+      "x": 0.3232068353605462,
+      "y": 0.390634907953578,
+      "z": -0.19589514445869782,
+      "cluster": 1
+    },
+    {
+      "id": "tech-repo-speedy-llm--python",
+      "name": "python",
+      "kind": "tech",
+      "x": 0.26946674053131436,
+      "y": 0.35995625958262334,
+      "z": -0.24556556486716974,
+      "cluster": 1
+    },
+    {
+      "id": "tech-repo-speedy-llm--numpy",
+      "name": "numpy",
+      "kind": "tech",
+      "x": 0.33355731983977327,
+      "y": 0.2915410154135982,
+      "z": -0.29270925426559724,
+      "cluster": 1
+    },
+    {
+      "id": "tech-repo-speedy-llm--mlx",
+      "name": "mlx",
+      "kind": "tech",
+      "x": 0.3758320301199837,
+      "y": 0.3552903579830219,
+      "z": -0.2820046072413687,
+      "cluster": 1
+    },
+    {
+      "id": "tech-repo-vlm-memory--python",
+      "name": "python",
+      "kind": "tech",
+      "x": 0.34962289565631594,
+      "y": 0.2529644672603022,
+      "z": -0.325855648335366,
+      "cluster": 1
+    },
+    {
+      "id": "tech-repo-yuki--python",
+      "name": "python",
+      "kind": "tech",
+      "x": 0.3438290406774613,
+      "y": 0.18161994803900813,
+      "z": -0.15645242485593586,
+      "cluster": 5
+    },
+    {
+      "id": "tech-repo-yuki--scikit-learn",
+      "name": "scikit-learn",
+      "kind": "tech",
+      "x": 0.34855463518206586,
+      "y": 0.08502763948484701,
+      "z": -0.2591850568822603,
+      "cluster": 5
+    },
+    {
+      "id": "tech-repo-yuki--f1",
+      "name": "f1",
+      "kind": "tech",
+      "x": 0.37744137770910996,
+      "y": 0.22144712231994396,
+      "z": -0.19290721108463757,
+      "cluster": 5
+    },
+    {
+      "id": "tech-repo-yukigpt--python",
+      "name": "python",
+      "kind": "tech",
+      "x": 0.41621551656087674,
+      "y": 0.3259756265987292,
+      "z": -0.282329589340925,
+      "cluster": 1
+    },
+    {
+      "id": "tech-repo-yukigpt--pytorch",
+      "name": "pytorch",
+      "kind": "tech",
+      "x": 0.3789146033131181,
+      "y": 0.3089762049607654,
+      "z": -0.2817210248541867,
+      "cluster": 1
+    },
+    {
+      "id": "tech-repo-godel--javascript",
+      "name": "javascript",
+      "kind": "tech",
+      "x": -0.3197292136745231,
+      "y": -0.1765258559152578,
+      "z": 0.13959799103607246,
+      "cluster": 4
+    },
+    {
+      "id": "tech-repo-py2noteai--python",
+      "name": "python",
+      "kind": "tech",
+      "x": 0.4011118504646529,
+      "y": 0.30540561061586563,
+      "z": -0.19531528452446997,
+      "cluster": 1
+    },
+    {
+      "id": "tech-repo-py2noteai--openai",
+      "name": "openai",
+      "kind": "tech",
+      "x": 0.34712646377588124,
+      "y": 0.21782940030523532,
+      "z": -0.19892527885526862,
+      "cluster": 1
+    },
+    {
+      "id": "tech-repo-py2noteai--jupyter",
+      "name": "jupyter",
+      "kind": "tech",
+      "x": 0.33581744200782243,
+      "y": 0.34437920179284615,
+      "z": -0.32882773431575385,
+      "cluster": 1
+    },
+    {
+      "id": "tech-repo-crgs-css-person-detection--python",
+      "name": "python",
+      "kind": "tech",
+      "x": 0.3229375679836997,
+      "y": 0.2689544719546908,
+      "z": -0.3835584960284771,
+      "cluster": 1
+    },
+    {
+      "id": "tech-repo-crgs-css-person-detection--roboflow",
+      "name": "roboflow",
+      "kind": "tech",
+      "x": 0.34397499559821754,
+      "y": 0.26602542049897926,
+      "z": -0.3251502652397272,
+      "cluster": 1
+    },
+    {
+      "id": "tech-repo-crgs-css-person-detection--computer",
+      "name": "computer",
+      "kind": "tech",
+      "x": 0.2288510313518298,
+      "y": 0.2446775814615664,
+      "z": -0.3333832329188928,
+      "cluster": 1
+    },
+    {
+      "id": "tech-repo-u3core--python",
+      "name": "python",
+      "kind": "tech",
+      "x": 0.3764059039738688,
+      "y": 0.32010862978631005,
+      "z": -0.3355470345950897,
+      "cluster": 1
+    },
+    {
+      "id": "tech-repo-u3core--aws",
+      "name": "aws",
+      "kind": "tech",
+      "x": 0.29682123731457793,
+      "y": 0.43003117615095265,
+      "z": -0.30071638886221097,
+      "cluster": 1
+    },
+    {
+      "id": "tech-repo-u3core--vue",
+      "name": "vue",
+      "kind": "tech",
+      "x": 0.3973436450302676,
+      "y": 0.3468884720276691,
+      "z": -0.2291644610684569,
+      "cluster": 1
+    },
+    {
+      "id": "tech-repo-focused--swift",
+      "name": "swift",
+      "kind": "tech",
+      "x": 0.0626752193074048,
+      "y": 0.013327953856464764,
+      "z": -0.08635937236155419,
+      "cluster": 2
+    },
+    {
+      "id": "tech-repo-focused--swiftui",
+      "name": "swiftui",
+      "kind": "tech",
+      "x": 0.014158108398201495,
+      "y": 0.06806634180289697,
+      "z": -0.08672105362674329,
+      "cluster": 2
+    },
+    {
+      "id": "tech-repo-focused--swiftterm",
+      "name": "swiftterm",
+      "kind": "tech",
+      "x": 0.06687717140996666,
+      "y": 0.036981230382616526,
+      "z": -0.01765005236385752,
+      "cluster": 2
+    },
+    {
+      "id": "tech-repo-keep-sharp--swift",
+      "name": "swift",
+      "kind": "tech",
+      "x": 0.15999849516546613,
+      "y": 0.08205152637895288,
+      "z": -0.012456636781808153,
+      "cluster": 2
+    },
+    {
+      "id": "tech-repo-keep-sharp--swiftui",
+      "name": "swiftui",
+      "kind": "tech",
+      "x": 0.05825969092444773,
+      "y": 0.1280182858640167,
+      "z": -0.005541993069279539,
+      "cluster": 2
+    },
+    {
+      "id": "tech-repo-keep-sharp--appkit",
+      "name": "appkit",
+      "kind": "tech",
+      "x": 0.13240296148876865,
+      "y": 0.02927769910879037,
+      "z": -0.04676534371419487,
+      "cluster": 2
+    },
+    {
+      "id": "tech-repo-blind-cube--javascript",
+      "name": "javascript",
+      "kind": "tech",
+      "x": 0.6692748412784866,
+      "y": 0.43619597434261087,
+      "z": -0.6048115393767112,
+      "cluster": 7
+    },
+    {
+      "id": "tech-repo-blind-cube--html",
+      "name": "html",
+      "kind": "tech",
+      "x": 0.6459490267902259,
+      "y": 0.5312683212236673,
+      "z": -0.5787239513788947,
+      "cluster": 7
+    },
+    {
+      "id": "tech-repo-blind-cube--css",
+      "name": "css",
+      "kind": "tech",
+      "x": 0.6327655780818021,
+      "y": 0.4340461228157849,
+      "z": -0.5640774600225135,
+      "cluster": 7
+    },
+    {
+      "id": "tech-repo-turing-complete-rubix-cube--python",
+      "name": "python",
+      "kind": "tech",
+      "x": 0.6222549233722651,
+      "y": 0.3366763894696982,
+      "z": -0.6011392785685357,
+      "cluster": 7
+    },
+    {
+      "id": "tech-repo-cryptic-collab--next-js",
+      "name": "next.js",
+      "kind": "tech",
+      "x": 0.6590965370897988,
+      "y": 0.4858310622847719,
+      "z": -0.6030684001118146,
+      "cluster": 7
+    },
+    {
+      "id": "tech-repo-cryptic-collab--14",
+      "name": "14",
+      "kind": "tech",
+      "x": 0.7063882249673484,
+      "y": 0.44454727750719475,
+      "z": -0.6001490526509983,
+      "cluster": 7
+    },
+    {
+      "id": "tech-repo-cryptic-collab--prisma",
+      "name": "prisma",
+      "kind": "tech",
+      "x": 0.6149816911580983,
+      "y": 0.4374509320573956,
+      "z": -0.498536775567648,
+      "cluster": 7
+    },
+    {
+      "id": "tech-repo-connect-collab--next-js",
+      "name": "next.js",
+      "kind": "tech",
+      "x": 0.6060431622745194,
+      "y": 0.28871157868413316,
+      "z": -0.553128595899268,
+      "cluster": 7
+    },
+    {
+      "id": "tech-repo-connect-collab--14",
+      "name": "14",
+      "kind": "tech",
+      "x": 0.5950044650536104,
+      "y": 0.2968424772063238,
+      "z": -0.5526140592829052,
+      "cluster": 7
+    },
+    {
+      "id": "tech-repo-connect-collab--prisma",
+      "name": "prisma",
+      "kind": "tech",
+      "x": 0.5700311672100966,
+      "y": 0.26935663083064915,
+      "z": -0.6956704043287429,
+      "cluster": 7
+    },
+    {
+      "id": "tech-repo-georgia-ai--python",
+      "name": "python",
+      "kind": "tech",
+      "x": 0.5904650171659444,
+      "y": 0.35867988245598553,
+      "z": -0.5385890670663919,
+      "cluster": 7
+    },
+    {
+      "id": "tech-repo-georgia-ai--numpy",
+      "name": "numpy",
+      "kind": "tech",
+      "x": 0.7655547289514231,
+      "y": 0.35968764184737584,
+      "z": -0.5999249858580094,
+      "cluster": 7
+    },
+    {
+      "id": "tech-repo-georgia-ai--pandas",
+      "name": "pandas",
+      "kind": "tech",
+      "x": 0.7227948231264788,
+      "y": 0.41713881758251586,
+      "z": -0.5763239990728033,
+      "cluster": 7
+    },
+    {
+      "id": "tech-repo-rubix-chess--typescript",
+      "name": "typescript",
+      "kind": "tech",
+      "x": 0.22280333870908953,
+      "y": 0.1875981956645259,
+      "z": -0.4411556462993775,
+      "cluster": 3
+    },
+    {
+      "id": "tech-repo-rubix-chess--vite",
+      "name": "vite",
+      "kind": "tech",
+      "x": 0.2893342423187817,
+      "y": 0.11354884796032548,
+      "z": -0.37797231805482284,
+      "cluster": 3
+    },
+    {
+      "id": "tech-repo-rubix-chess--three-js",
+      "name": "three.js",
+      "kind": "tech",
+      "x": 0.1764011757245201,
+      "y": 0.10675515362631088,
+      "z": -0.3792532346792813,
+      "cluster": 3
+    },
+    {
+      "id": "tech-repo-erdos-855--tbd",
+      "name": "tbd",
+      "kind": "tech",
+      "x": 0.6843368448124357,
+      "y": 0.3859292797028247,
+      "z": -0.6404915326317229,
+      "cluster": 7
+    },
+    {
+      "id": "tech-repo-can-u-dig-it--tbd",
+      "name": "tbd",
+      "kind": "tech",
+      "x": 0.7345762913217272,
+      "y": 0.34310536119312957,
+      "z": -0.5711277674660082,
+      "cluster": 7
+    },
+    {
+      "id": "tech-repo-f1-ar--tbd",
+      "name": "tbd",
+      "kind": "tech",
+      "x": 0.27808349459318316,
+      "y": 0.11520492643294253,
+      "z": -0.22007635229449707,
+      "cluster": 5
+    },
+    {
+      "id": "tech-repo-f1-commentary--python",
+      "name": "python",
+      "kind": "tech",
+      "x": 0.26378511009375977,
+      "y": -0.05702156690335783,
+      "z": -0.2785842077259308,
+      "cluster": 5
+    },
+    {
+      "id": "tech-repo-f1-commentary--fastf1",
+      "name": "fastf1",
+      "kind": "tech",
+      "x": 0.25273143267450726,
+      "y": 0.006189962795940942,
+      "z": -0.36268686604125755,
+      "cluster": 5
+    },
+    {
+      "id": "tech-repo-f1-commentary--groq",
+      "name": "groq",
+      "kind": "tech",
+      "x": 0.2276013434294982,
+      "y": 0.038100685609549594,
+      "z": -0.25799398078487173,
+      "cluster": 5
+    },
+    {
+      "id": "tech-repo-f1-ghost-car--python",
+      "name": "python",
+      "kind": "tech",
+      "x": 0.31278078990933295,
+      "y": 0.024358054019539846,
+      "z": -0.23530673689255135,
+      "cluster": 5
+    },
+    {
+      "id": "tech-repo-f1-ghost-car--fastf1",
+      "name": "fastf1",
+      "kind": "tech",
+      "x": 0.39372603973663695,
+      "y": 0.029028067783380906,
+      "z": -0.21098152033907328,
+      "cluster": 5
+    },
+    {
+      "id": "tech-repo-f1-ghost-car--matplotlib",
+      "name": "matplotlib",
+      "kind": "tech",
+      "x": 0.33486186115506006,
+      "y": 0.09029473942027146,
+      "z": -0.333325438053065,
+      "cluster": 5
+    },
+    {
+      "id": "tech-repo-f1-qtda--python",
+      "name": "python",
+      "kind": "tech",
+      "x": 0.35106511043053434,
+      "y": -0.07978787200293788,
+      "z": -0.24510407551991265,
+      "cluster": 5
+    },
+    {
+      "id": "tech-repo-f1-qtda--fastf1",
+      "name": "fastf1",
+      "kind": "tech",
+      "x": 0.3496825814469828,
+      "y": 0.011583336140992022,
+      "z": -0.2530601165672187,
+      "cluster": 5
+    },
+    {
+      "id": "tech-repo-f1-qtda--pandas",
+      "name": "pandas",
+      "kind": "tech",
+      "x": 0.30420825470131047,
+      "y": 0.06421853268658906,
+      "z": -0.31100529019338746,
+      "cluster": 5
+    },
+    {
+      "id": "tech-repo-f1-telemetry-analysis--python",
+      "name": "python",
+      "kind": "tech",
+      "x": 0.3508082266824517,
+      "y": 0.07710655918164638,
+      "z": -0.25809299529664675,
+      "cluster": 5
+    },
+    {
+      "id": "tech-repo-f1-telemetry-analysis--fastf1",
+      "name": "fastf1",
+      "kind": "tech",
+      "x": 0.2396575070578731,
+      "y": -0.019964356713820644,
+      "z": -0.2528234115026375,
+      "cluster": 5
+    },
+    {
+      "id": "tech-repo-f1-telemetry-analysis--matplotlib",
+      "name": "matplotlib",
+      "kind": "tech",
+      "x": 0.30099049778765985,
+      "y": 0.10492559486050744,
+      "z": -0.23488328468320555,
+      "cluster": 5
+    },
+    {
+      "id": "tech-repo-fai--tbd",
+      "name": "tbd",
+      "kind": "tech",
+      "x": 0.28387732398037596,
+      "y": 0.07883621802997404,
+      "z": -0.3213978261756085,
+      "cluster": 5
+    },
+    {
+      "id": "tech-repo-fai--assetto",
+      "name": "assetto",
+      "kind": "tech",
+      "x": 0.2451605588266771,
+      "y": 0.0250495230240316,
+      "z": -0.259591668299854,
+      "cluster": 5
+    },
+    {
+      "id": "tech-repo-fai--corsa",
+      "name": "corsa",
+      "kind": "tech",
+      "x": 0.3164176360985684,
+      "y": 0.07607847241615544,
+      "z": -0.18005058623965176,
+      "cluster": 5
+    },
+    {
+      "id": "tech-repo-ciuk-archer2-hpl--hpc",
+      "name": "hpc",
+      "kind": "tech",
+      "x": 0.06578057577604046,
+      "y": 0.20953446648592727,
+      "z": -0.1977932134277809,
+      "cluster": 6
+    },
+    {
+      "id": "tech-repo-ciuk-archer2-hpl--linpack",
+      "name": "linpack",
+      "kind": "tech",
+      "x": 0.14349711816243754,
+      "y": 0.2594841528156049,
+      "z": -0.1244227343908956,
+      "cluster": 6
+    },
+    {
+      "id": "tech-repo-ciuk-archer2-hpl--archer2",
+      "name": "archer2",
+      "kind": "tech",
+      "x": 0.1260292666420336,
+      "y": 0.24444387378337928,
+      "z": -0.16532237316075749,
+      "cluster": 6
+    },
+    {
+      "id": "tech-repo-ciuk-memory-benchmark--hpc",
+      "name": "hpc",
+      "kind": "tech",
+      "x": 0.03292603766553873,
+      "y": 0.3452419640101557,
+      "z": -0.16417368365668764,
+      "cluster": 6
+    },
+    {
+      "id": "tech-repo-ciuk-memory-benchmark--memory",
+      "name": "memory",
+      "kind": "tech",
+      "x": 0.08647976505956602,
+      "y": 0.31058230678983223,
+      "z": -0.11043273759871858,
+      "cluster": 6
+    },
+    {
+      "id": "tech-repo-ciuk-memory-benchmark--benchmarking",
+      "name": "benchmarking",
+      "kind": "tech",
+      "x": 0.06804771197856674,
+      "y": 0.2950279838111807,
+      "z": -0.2257847308262984,
+      "cluster": 6
+    },
+    {
+      "id": "tech-repo-hpc-2--mpi",
+      "name": "mpi",
+      "kind": "tech",
+      "x": 0.041174644101403965,
+      "y": 0.25756654866368206,
+      "z": -0.09426807977425936,
+      "cluster": 6
+    },
+    {
+      "id": "tech-repo-hpc-2--openmp",
+      "name": "openmp",
+      "kind": "tech",
+      "x": 0.10380416018756995,
+      "y": 0.2537388439211714,
+      "z": -0.09741605607859459,
+      "cluster": 6
+    },
+    {
+      "id": "tech-repo-hpc-2--cuda",
+      "name": "cuda",
+      "kind": "tech",
+      "x": 0.14818193943703906,
+      "y": 0.37058942933811595,
+      "z": -0.08409861852499316,
+      "cluster": 6
+    },
+    {
+      "id": "tech-repo-hpc-lbm--openmp",
+      "name": "openmp",
+      "kind": "tech",
+      "x": 0.16410615480234875,
+      "y": 0.14620117646223796,
+      "z": -0.17665713964366042,
+      "cluster": 6
+    },
+    {
+      "id": "tech-repo-hpc-lbm--slurm",
+      "name": "slurm",
+      "kind": "tech",
+      "x": 0.12999090211854342,
+      "y": 0.23219951917776877,
+      "z": -0.19721997433626962,
+      "cluster": 6
+    },
+    {
+      "id": "tech-repo-hpc-lbm--gnuplot",
+      "name": "gnuplot",
+      "kind": "tech",
+      "x": 0.18172180995253173,
+      "y": 0.1579297597794597,
+      "z": -0.10517897740717154,
+      "cluster": 6
+    },
+    {
+      "id": "tech-repo-hpc-lbm-v2--openmp",
+      "name": "openmp",
+      "kind": "tech",
+      "x": 0.061452687498419534,
+      "y": 0.22609154283498725,
+      "z": -0.15053934630656143,
+      "cluster": 6
+    },
+    {
+      "id": "tech-repo-hpc-lbm-v2--simd",
+      "name": "simd",
+      "kind": "tech",
+      "x": 0.09437258528254375,
+      "y": 0.20940716137350995,
+      "z": -0.08745810452991734,
+      "cluster": 6
+    },
+    {
+      "id": "tech-repo-hpc-lbm-v2--sve2",
+      "name": "sve2",
+      "kind": "tech",
+      "x": 0.05400903290298043,
+      "y": 0.1567787833676095,
+      "z": -0.06475831298847501,
+      "cluster": 6
+    },
+    {
+      "id": "tech-repo-distributed-vs-parallel-gol--go",
+      "name": "go",
+      "kind": "tech",
+      "x": 0.010639180833636686,
+      "y": 0.268228617794345,
+      "z": -0.09954091315841522,
+      "cluster": 6
+    },
+    {
+      "id": "tech-repo-distributed-vs-parallel-gol--aws",
+      "name": "aws",
+      "kind": "tech",
+      "x": 0.03371220708278597,
+      "y": 0.12220831350174796,
+      "z": -0.20280191314763468,
+      "cluster": 6
+    },
+    {
+      "id": "tech-repo-distributed-vs-parallel-gol--ec2",
+      "name": "ec2",
+      "kind": "tech",
+      "x": 0.09369155196650406,
+      "y": 0.19490288460797514,
+      "z": -0.19575483117783074,
+      "cluster": 6
+    },
+    {
+      "id": "tech-repo-quantum-cross-chain-arbitrage--vyper",
+      "name": "vyper",
+      "kind": "tech",
+      "x": 0.07567567938462981,
+      "y": 0.23637019572256235,
+      "z": -0.14914107624512174,
+      "cluster": 9
+    },
+    {
+      "id": "tech-repo-quantum-cross-chain-arbitrage--python",
+      "name": "python",
+      "kind": "tech",
+      "x": 0.09647852023065429,
+      "y": 0.183248666809739,
+      "z": -0.1373554585609911,
+      "cluster": 9
+    },
+    {
+      "id": "tech-repo-quantum-cross-chain-arbitrage--javascript",
+      "name": "javascript",
+      "kind": "tech",
+      "x": 0.019752830092576626,
+      "y": 0.18540311632776624,
+      "z": -0.2772651968324873,
+      "cluster": 9
+    },
+    {
+      "id": "tech-repo-quantum-economic-advantage-calculator--javascript",
+      "name": "javascript",
+      "kind": "tech",
+      "x": 0.17436448417141004,
+      "y": 0.287807464235294,
+      "z": 0.0039752753529526345,
+      "cluster": 10
+    },
+    {
+      "id": "tech-repo-varqite-defi-collateral--python",
+      "name": "python",
+      "kind": "tech",
+      "x": 0.12269249504206868,
+      "y": 0.2604955426763524,
+      "z": 0.03631368521667714,
+      "cluster": 10
+    },
+    {
+      "id": "tech-repo-varqite-defi-collateral--qiskit",
+      "name": "qiskit",
+      "kind": "tech",
+      "x": 0.1483353818922467,
+      "y": 0.19013270175681204,
+      "z": -0.06401806051334719,
+      "cluster": 10
+    },
+    {
+      "id": "tech-repo-varqite-defi-collateral--qiskit-algorithms",
+      "name": "qiskit-algorithms",
+      "kind": "tech",
+      "x": 0.06400619466947416,
+      "y": 0.2753213153926023,
+      "z": -0.058052392017019755,
+      "cluster": 10
+    },
+    {
+      "id": "tech-repo-varqite-maxcut--python",
+      "name": "python",
+      "kind": "tech",
+      "x": 0.08990650437907875,
+      "y": 0.2278078896542609,
+      "z": -0.005914562965872798,
+      "cluster": 10
+    },
+    {
+      "id": "tech-repo-varqite-maxcut--qiskit",
+      "name": "qiskit",
+      "kind": "tech",
+      "x": 0.041525783617608523,
+      "y": 0.34483297737055574,
+      "z": -0.06407694771453759,
+      "cluster": 10
+    },
+    {
+      "id": "tech-repo-varqite-maxcut--ionq",
+      "name": "ionq",
+      "kind": "tech",
+      "x": 0.09174608067918866,
+      "y": 0.1948759796263611,
+      "z": 0.026612715413559113,
+      "cluster": 10
+    },
+    {
+      "id": "tech-repo-portfolio-optimisation--typescript",
+      "name": "typescript",
+      "kind": "tech",
+      "x": 0.08561459694656082,
+      "y": 0.2698860426863,
+      "z": -0.11060837408587856,
+      "cluster": 9
+    },
+    {
+      "id": "tech-repo-portfolio-optimisation--next-js",
+      "name": "next.js",
+      "kind": "tech",
+      "x": 0.1033593660095318,
+      "y": 0.2482629752990556,
+      "z": -0.15079735238667996,
+      "cluster": 9
+    },
+    {
+      "id": "tech-repo-portfolio-optimisation--wormhole",
+      "name": "wormhole",
+      "kind": "tech",
+      "x": 0.022856035565692677,
+      "y": 0.18084677068993052,
+      "z": -0.1780656519035734,
+      "cluster": 9
+    },
+    {
+      "id": "tech-repo-black-swan--go",
+      "name": "go",
+      "kind": "tech",
+      "x": -0.012208043856459135,
+      "y": 0.25814296320532776,
+      "z": -0.10241929175289999,
+      "cluster": 9
+    },
+    {
+      "id": "tech-repo-black-swan--solidity",
+      "name": "solidity",
+      "kind": "tech",
+      "x": 0.08241521887262918,
+      "y": 0.16674133673905867,
+      "z": -0.1294627366488319,
+      "cluster": 9
+    },
+    {
+      "id": "tech-repo-black-swan--risc0",
+      "name": "risc0",
+      "kind": "tech",
+      "x": 0.0969529136630406,
+      "y": 0.19247266211837605,
+      "z": -0.22426103486919227,
+      "cluster": 9
+    },
+    {
+      "id": "tech-repo-bonk--typescript",
+      "name": "typescript",
+      "kind": "tech",
+      "x": 0.25487794379548756,
+      "y": 0.17928904988436073,
+      "z": -0.3432636705228591,
+      "cluster": 3
+    },
+    {
+      "id": "tech-repo-bonk--vite",
+      "name": "vite",
+      "kind": "tech",
+      "x": 0.23520569588586382,
+      "y": 0.21334049165522648,
+      "z": -0.31018401744113855,
+      "cluster": 3
+    },
+    {
+      "id": "tech-repo-bonk--node-js",
+      "name": "node.js",
+      "kind": "tech",
+      "x": 0.27548362422609696,
+      "y": 0.14957946312139064,
+      "z": -0.3569612797625125,
+      "cluster": 3
+    },
+    {
+      "id": "tech-repo-catan--typescript",
+      "name": "typescript",
+      "kind": "tech",
+      "x": 0.23074051398426879,
+      "y": 0.2942444867744247,
+      "z": -0.3715784525057206,
+      "cluster": 3
+    },
+    {
+      "id": "tech-repo-catan--vite",
+      "name": "vite",
+      "kind": "tech",
+      "x": 0.24356446204216534,
+      "y": 0.18055344797549638,
+      "z": -0.2807266629806213,
+      "cluster": 3
+    },
+    {
+      "id": "tech-repo-copy-dance--typescript",
+      "name": "typescript",
+      "kind": "tech",
+      "x": 0.18489067878284388,
+      "y": 0.16373567389563515,
+      "z": -0.31875018356561147,
+      "cluster": 3
+    },
+    {
+      "id": "tech-repo-copy-dance--tailwind",
+      "name": "tailwind",
+      "kind": "tech",
+      "x": 0.2318673141229176,
+      "y": 0.16059978909092415,
+      "z": -0.3026358430727203,
+      "cluster": 3
+    },
+    {
+      "id": "tech-repo-copy-dance--mediapipe",
+      "name": "mediapipe",
+      "kind": "tech",
+      "x": 0.22208715497360423,
+      "y": 0.13895172893144603,
+      "z": -0.29708718313466387,
+      "cluster": 3
+    },
+    {
+      "id": "tech-repo-cuphead-ai--tbd",
+      "name": "tbd",
+      "kind": "tech",
+      "x": 0.10515448410620745,
+      "y": 0.2228006776662287,
+      "z": -0.29770973553366004,
+      "cluster": 3
+    },
+    {
+      "id": "tech-repo-island--swift",
+      "name": "swift",
+      "kind": "tech",
+      "x": 0.09760966288281622,
+      "y": -0.03601250118733988,
+      "z": 0.03747726535532456,
+      "cluster": 2
+    },
+    {
+      "id": "tech-repo-island--lottie",
+      "name": "lottie",
+      "kind": "tech",
+      "x": 0.022541261813420952,
+      "y": 0.01763713000125855,
+      "z": 0.0842891970317098,
+      "cluster": 2
+    },
+    {
+      "id": "tech-repo-island--mediaremote",
+      "name": "mediaremote",
+      "kind": "tech",
+      "x": 0.04961840559835842,
+      "y": 0.04008298279456787,
+      "z": -0.06186745735146232,
+      "cluster": 2
+    },
+    {
+      "id": "tech-repo-poly-hop--javascript",
+      "name": "javascript",
+      "kind": "tech",
+      "x": 0.19407438616001785,
+      "y": 0.15225990391081332,
+      "z": -0.33286972267967163,
+      "cluster": 3
+    },
+    {
+      "id": "tech-repo-poly-hop--html",
+      "name": "html",
+      "kind": "tech",
+      "x": 0.28513618578156485,
+      "y": 0.2269801505457852,
+      "z": -0.3274502702561753,
+      "cluster": 3
+    },
+    {
+      "id": "tech-repo-poly-hop--css",
+      "name": "css",
+      "kind": "tech",
+      "x": 0.15626231437727053,
+      "y": 0.2088512966381282,
+      "z": -0.3606547448787429,
+      "cluster": 3
+    },
+    {
+      "id": "tech-repo-quoridor--html",
+      "name": "html",
+      "kind": "tech",
+      "x": 0.18544257363166813,
+      "y": 0.3202480883540981,
+      "z": -0.4606119264485534,
+      "cluster": 3
+    },
+    {
+      "id": "tech-repo-quoridor--css",
+      "name": "css",
+      "kind": "tech",
+      "x": 0.2561721732907989,
+      "y": 0.3041697425715094,
+      "z": -0.4435912397101953,
+      "cluster": 3
+    },
+    {
+      "id": "tech-repo-quoridor--javascript",
+      "name": "javascript",
+      "kind": "tech",
+      "x": 0.13736813368088713,
+      "y": 0.2686956018223868,
+      "z": -0.4646238368003112,
+      "cluster": 3
+    },
+    {
+      "id": "tech-repo-quoridor-ai--python",
+      "name": "python",
+      "kind": "tech",
+      "x": 0.18602040397195502,
+      "y": 0.25341221148926857,
+      "z": -0.31797035304376925,
+      "cluster": 3
+    },
+    {
+      "id": "tech-repo-quoridor-ai--mcts",
+      "name": "mcts",
+      "kind": "tech",
+      "x": 0.19631939572195511,
+      "y": 0.24663590170924476,
+      "z": -0.3279768794401388,
+      "cluster": 3
+    },
+    {
+      "id": "tech-repo-quoridor-ai--zobrist",
+      "name": "zobrist",
+      "kind": "tech",
+      "x": 0.24840771588999105,
+      "y": 0.3301436966207739,
+      "z": -0.369611775282036,
+      "cluster": 3
+    },
+    {
+      "id": "tech-repo-go-anywhere--javascript",
+      "name": "javascript",
+      "kind": "tech",
+      "x": 0.20322090406857163,
+      "y": 0.2525670753726874,
+      "z": -0.4567189692245466,
+      "cluster": 3
+    },
+    {
+      "id": "tech-repo-go-anywhere--html",
+      "name": "html",
+      "kind": "tech",
+      "x": 0.24746642038158195,
+      "y": 0.35422744839314724,
+      "z": -0.35295123933361794,
+      "cluster": 3
+    },
+    {
+      "id": "tech-repo-go-anywhere--css",
+      "name": "css",
+      "kind": "tech",
+      "x": 0.18440079175777674,
+      "y": 0.3626582211372239,
+      "z": -0.39147456777052103,
+      "cluster": 3
+    },
+    {
+      "id": "tech-repo-go-spinners--go",
+      "name": "go",
+      "kind": "tech",
+      "x": -0.34870905029721244,
+      "y": -0.06355126154697101,
+      "z": 0.236344121326676,
+      "cluster": 4
+    },
+    {
+      "id": "tech-repo-algos-ii-minigame--python",
+      "name": "python",
+      "kind": "tech",
+      "x": 0.16276797411607188,
+      "y": 0.19615572402202197,
+      "z": -0.2668804842496175,
+      "cluster": 3
+    },
+    {
+      "id": "tech-repo-algos-ii-minigame--pygame",
+      "name": "pygame",
+      "kind": "tech",
+      "x": 0.1857180066870911,
+      "y": 0.1246150244733704,
+      "z": -0.32480234213291137,
+      "cluster": 3
+    },
+    {
+      "id": "tech-repo-scotland-yard-ai--java",
+      "name": "java",
+      "kind": "tech",
+      "x": 0.3233148968846042,
+      "y": 0.39847827394380675,
+      "z": -0.2722299955268131,
+      "cluster": 1
+    },
+    {
+      "id": "tech-repo-scotland-yard-ai--minimax",
+      "name": "minimax",
+      "kind": "tech",
+      "x": 0.28871152345131684,
+      "y": 0.27568984999149987,
+      "z": -0.21386111456716447,
+      "cluster": 1
+    },
+    {
+      "id": "tech-repo-scotland-yard-ai--alpha-beta",
+      "name": "alpha-beta",
+      "kind": "tech",
+      "x": 0.310185126855221,
+      "y": 0.35725127024366243,
+      "z": -0.21505008523463143,
+      "cluster": 1
+    },
+    {
+      "id": "tech-repo-aniboxd--swift",
+      "name": "swift",
+      "kind": "tech",
+      "x": -0.022041447674974637,
+      "y": -0.08934462630661641,
+      "z": -0.04474964755477789,
+      "cluster": 2
+    },
+    {
+      "id": "tech-repo-aniboxd--17",
+      "name": "17",
+      "kind": "tech",
+      "x": 0.06343985059568896,
+      "y": 0.0032004047111109032,
+      "z": 0.03833815067051704,
+      "cluster": 2
+    },
+    {
+      "id": "tech-repo-aniboxd--xcode",
+      "name": "xcode",
+      "kind": "tech",
+      "x": -0.04427338160666298,
+      "y": 0.031727199936826676,
+      "z": -0.0024646620031267136,
+      "cluster": 2
+    },
+    {
+      "id": "tech-repo-aurelia--swift",
+      "name": "swift",
+      "kind": "tech",
+      "x": 0.04237916939626869,
+      "y": 0.023856122384755207,
+      "z": 0.03383675082274775,
+      "cluster": 2
+    },
+    {
+      "id": "tech-repo-detach--swift",
+      "name": "swift",
+      "kind": "tech",
+      "x": -0.010159534525573895,
+      "y": -0.1517758881577934,
+      "z": 0.025787622414355046,
+      "cluster": 2
+    },
+    {
+      "id": "tech-repo-detach--15",
+      "name": "15",
+      "kind": "tech",
+      "x": 0.0644139920939102,
+      "y": -0.08467430476402085,
+      "z": -0.01620290490983238,
+      "cluster": 2
+    },
+    {
+      "id": "tech-repo-detach--wkwebview",
+      "name": "wkwebview",
+      "kind": "tech",
+      "x": 0.0538832646042936,
+      "y": 0.01769507284354857,
+      "z": 0.06045513047816958,
+      "cluster": 2
+    },
+    {
+      "id": "tech-repo-factlet--swift",
+      "name": "swift",
+      "kind": "tech",
+      "x": 0.03182302421482575,
+      "y": -0.16550015434635848,
+      "z": 0.06921341788035654,
+      "cluster": 2
+    },
+    {
+      "id": "tech-repo-factlet--17",
+      "name": "17",
+      "kind": "tech",
+      "x": 0.04412997431208731,
+      "y": -0.050287611153987395,
+      "z": 0.10229148694878068,
+      "cluster": 2
+    },
+    {
+      "id": "tech-repo-factlet--xcode",
+      "name": "xcode",
+      "kind": "tech",
+      "x": 0.015012060402573222,
+      "y": -0.06280946055698149,
+      "z": -0.05565126954292704,
+      "cluster": 2
+    },
+    {
+      "id": "tech-repo-fit-finder--swift",
+      "name": "swift",
+      "kind": "tech",
+      "x": -0.0529815724258636,
+      "y": -0.012290055887939716,
+      "z": -0.0035670844356887124,
+      "cluster": 2
+    },
+    {
+      "id": "tech-repo-fit-finder--python",
+      "name": "python",
+      "kind": "tech",
+      "x": -0.04084102520122883,
+      "y": -0.01630566687178167,
+      "z": 0.09738234580588825,
+      "cluster": 2
+    },
+    {
+      "id": "tech-repo-fit-finder--fastapi",
+      "name": "fastapi",
+      "kind": "tech",
+      "x": 0.024933443832994458,
+      "y": 0.002382408959734357,
+      "z": 0.07650726215826181,
+      "cluster": 2
+    },
+    {
+      "id": "tech-repo-find-my-pint--swift",
+      "name": "swift",
+      "kind": "tech",
+      "x": -0.0035875280849356475,
+      "y": -0.10057854126905144,
+      "z": 0.11081536877556913,
+      "cluster": 2
+    },
+    {
+      "id": "tech-repo-find-my-pint--17",
+      "name": "17",
+      "kind": "tech",
+      "x": -0.032815126956718024,
+      "y": -0.1574148400780325,
+      "z": 0.030224278020949288,
+      "cluster": 2
+    },
+    {
+      "id": "tech-repo-find-my-pint--xcode",
+      "name": "xcode",
+      "kind": "tech",
+      "x": -0.1029878882974661,
+      "y": -0.12821170917723917,
+      "z": 0.0695339458122888,
+      "cluster": 2
+    },
+    {
+      "id": "tech-repo-journal-app--swift",
+      "name": "swift",
+      "kind": "tech",
+      "x": -0.11601810155641784,
+      "y": -0.12019429959778313,
+      "z": 0.08868742819215106,
+      "cluster": 2
+    },
+    {
+      "id": "tech-repo-journal-app--16",
+      "name": "16",
+      "kind": "tech",
+      "x": 0.01469935347715233,
+      "y": -0.02647838156447748,
+      "z": 0.02628609629112553,
+      "cluster": 2
+    },
+    {
+      "id": "tech-repo-pin--swift",
+      "name": "swift",
+      "kind": "tech",
+      "x": -0.04764512932288238,
+      "y": -0.16883117374329742,
+      "z": 0.06942238690016807,
+      "cluster": 2
+    },
+    {
+      "id": "tech-repo-pin--17",
+      "name": "17",
+      "kind": "tech",
+      "x": 0.036229790410635114,
+      "y": -0.04306478640081571,
+      "z": 0.06344322409368568,
+      "cluster": 2
+    },
+    {
+      "id": "tech-repo-pin--mapkit",
+      "name": "mapkit",
+      "kind": "tech",
+      "x": 0.020175482081901286,
+      "y": -0.11546790366737174,
+      "z": 0.11039361155119831,
+      "cluster": 2
+    },
+    {
+      "id": "tech-repo-proof--swift",
+      "name": "swift",
+      "kind": "tech",
+      "x": -0.07447538120482224,
+      "y": -0.07213941858849611,
+      "z": 0.12454927208117259,
+      "cluster": 2
+    },
+    {
+      "id": "tech-repo-proof--cocoapods",
+      "name": "cocoapods",
+      "kind": "tech",
+      "x": -0.1155090497137117,
+      "y": -0.15397598222636277,
+      "z": 0.07329552062956209,
+      "cluster": 2
+    },
+    {
+      "id": "tech-repo-step-counter-commit-graph--swift",
+      "name": "swift",
+      "kind": "tech",
+      "x": -0.08642690442336651,
+      "y": -0.16408106141515744,
+      "z": 0.005465258806708409,
+      "cluster": 2
+    },
+    {
+      "id": "tech-repo-step-counter-commit-graph--17",
+      "name": "17",
+      "kind": "tech",
+      "x": 0.0513872451750277,
+      "y": -0.11735796040024718,
+      "z": 0.09330839699605545,
+      "cluster": 2
+    },
+    {
+      "id": "tech-repo-step-counter-commit-graph--healthkit",
+      "name": "healthkit",
+      "kind": "tech",
+      "x": -0.049020359725241734,
+      "y": -0.028995087685675172,
+      "z": 0.09271253451664728,
+      "cluster": 2
+    },
+    {
+      "id": "tech-repo-upsilon--swift",
+      "name": "swift",
+      "kind": "tech",
+      "x": -0.00992126797961352,
+      "y": -0.08643566015572998,
+      "z": 0.10154692984832325,
+      "cluster": 2
+    },
+    {
+      "id": "tech-repo-upsilon--swiftui",
+      "name": "swiftui",
+      "kind": "tech",
+      "x": 0.016346797885372036,
+      "y": -0.04711964843346818,
+      "z": 0.1117202160532906,
+      "cluster": 2
+    },
+    {
+      "id": "tech-repo-upsilon--16",
+      "name": "16",
+      "kind": "tech",
+      "x": -0.07032065849746966,
+      "y": -0.05127963213093978,
+      "z": 0.1698766426622748,
+      "cluster": 2
+    },
+    {
+      "id": "tech-repo-water-app--tbd",
+      "name": "tbd",
+      "kind": "tech",
+      "x": -0.030456797052378734,
+      "y": -0.09407362627615398,
+      "z": 0.14085272775627244,
+      "cluster": 2
+    },
+    {
+      "id": "tech-repo-water-app--intended",
+      "name": "intended",
+      "kind": "tech",
+      "x": -0.034304931539430254,
+      "y": -0.08647569272753247,
+      "z": 0.056343180895020994,
+      "cluster": 2
+    },
+    {
+      "id": "tech-repo-history-laptop-stickers--html",
+      "name": "html",
+      "kind": "tech",
+      "x": -0.39705049456583724,
+      "y": -0.16861012903330652,
+      "z": 0.2989051860582641,
+      "cluster": 0
+    },
+    {
+      "id": "tech-repo-history-laptop-stickers--css",
+      "name": "css",
+      "kind": "tech",
+      "x": -0.2853679298555311,
+      "y": -0.20490292182728514,
+      "z": 0.388535712736886,
+      "cluster": 0
+    },
+    {
+      "id": "tech-repo-history-laptop-stickers--javascript",
+      "name": "javascript",
+      "kind": "tech",
+      "x": -0.34247767475956226,
+      "y": -0.14303461658132205,
+      "z": 0.33222664534728247,
+      "cluster": 0
+    },
+    {
+      "id": "tech-repo-holly-portfolio--javascript",
+      "name": "javascript",
+      "kind": "tech",
+      "x": -0.38016758549454377,
+      "y": -0.2776361347014345,
+      "z": 0.270500489893719,
+      "cluster": 0
+    },
+    {
+      "id": "tech-repo-japan-itinerary--html",
+      "name": "html",
+      "kind": "tech",
+      "x": -0.34816160136964636,
+      "y": -0.2595654964421791,
+      "z": 0.4295162413941084,
+      "cluster": 0
+    },
+    {
+      "id": "tech-repo-japan-itinerary--css",
+      "name": "css",
+      "kind": "tech",
+      "x": -0.4408985878876606,
+      "y": -0.2542929649647521,
+      "z": 0.4353568102152373,
+      "cluster": 0
+    },
+    {
+      "id": "tech-repo-japan-itinerary--vercel",
+      "name": "vercel",
+      "kind": "tech",
+      "x": -0.3974001838381828,
+      "y": -0.36192684373161216,
+      "z": 0.4364637825438351,
+      "cluster": 0
+    },
+    {
+      "id": "tech-repo-lifo--native",
+      "name": "native",
+      "kind": "tech",
+      "x": -0.4419267169115452,
+      "y": -0.22697662565842588,
+      "z": 0.3776481182485912,
+      "cluster": 0
+    },
+    {
+      "id": "tech-repo-lifo--typescript",
+      "name": "typescript",
+      "kind": "tech",
+      "x": -0.42436386352212735,
+      "y": -0.2807696468415665,
+      "z": 0.3350698024328088,
+      "cluster": 0
+    },
+    {
+      "id": "tech-repo-lifo--firebase",
+      "name": "firebase",
+      "kind": "tech",
+      "x": -0.3771334150324992,
+      "y": -0.3097511250262527,
+      "z": 0.39638911724166365,
+      "cluster": 0
+    },
+    {
+      "id": "tech-repo-lifo-website--next-js",
+      "name": "next.js",
+      "kind": "tech",
+      "x": -0.4506395229732866,
+      "y": -0.41598397615239097,
+      "z": 0.5233197705217928,
+      "cluster": 0
+    },
+    {
+      "id": "tech-repo-lifo-website--15",
+      "name": "15",
+      "kind": "tech",
+      "x": -0.5130152414390462,
+      "y": -0.3230673757511852,
+      "z": 0.40799570365394616,
+      "cluster": 0
+    },
+    {
+      "id": "tech-repo-lifo-website--19",
+      "name": "19",
+      "kind": "tech",
+      "x": -0.42779068047650187,
+      "y": -0.3012796038306356,
+      "z": 0.5143685106023427,
+      "cluster": 0
+    },
+    {
+      "id": "tech-repo-memories-map--html",
+      "name": "html",
+      "kind": "tech",
+      "x": -0.6575061230043766,
+      "y": -0.40970229663738256,
+      "z": 0.6642244947735685,
+      "cluster": 0
+    },
+    {
+      "id": "tech-repo-memories-map--css",
+      "name": "css",
+      "kind": "tech",
+      "x": -0.6664158765153768,
+      "y": -0.4285187374790901,
+      "z": 0.6480938419809319,
+      "cluster": 0
+    },
+    {
+      "id": "tech-repo-memories-map--javascript",
+      "name": "javascript",
+      "kind": "tech",
+      "x": -0.5932313442185311,
+      "y": -0.37059923588262816,
+      "z": 0.5334630834527179,
+      "cluster": 0
+    },
+    {
+      "id": "tech-repo-mobile-website-mobo-website--typescript",
+      "name": "typescript",
+      "kind": "tech",
+      "x": -0.6847363443616775,
+      "y": -0.4132569095614671,
+      "z": 0.6741270631006099,
+      "cluster": 0
+    },
+    {
+      "id": "tech-repo-mystery-hour--vite",
+      "name": "vite",
+      "kind": "tech",
+      "x": -0.630962458290041,
+      "y": -0.40464518176402187,
+      "z": 0.5887712336026145,
+      "cluster": 0
+    },
+    {
+      "id": "tech-repo-mystery-hour--typescript",
+      "name": "typescript",
+      "kind": "tech",
+      "x": -0.6448923578637951,
+      "y": -0.423006140106164,
+      "z": 0.580655650200193,
+      "cluster": 0
+    },
+    {
+      "id": "tech-repo-mystery-hour--chart-js",
+      "name": "chart.js",
+      "kind": "tech",
+      "x": -0.7120622970861374,
+      "y": -0.4467393687018904,
+      "z": 0.6725751681863634,
+      "cluster": 0
+    },
+    {
+      "id": "tech-repo-openclaw-app-template--next-js",
+      "name": "next.js",
+      "kind": "tech",
+      "x": -0.521438418754749,
+      "y": -0.37930370256053525,
+      "z": 0.5464552724219123,
+      "cluster": 0
+    },
+    {
+      "id": "tech-repo-openclaw-app-template--15",
+      "name": "15",
+      "kind": "tech",
+      "x": -0.5639695918831558,
+      "y": -0.47875606080090993,
+      "z": 0.5687425195709195,
+      "cluster": 0
+    },
+    {
+      "id": "tech-repo-openclaw-app-template--typescript",
+      "name": "typescript",
+      "kind": "tech",
+      "x": -0.6236496525125571,
+      "y": -0.4679843716206483,
+      "z": 0.6444753740622553,
+      "cluster": 0
+    },
+    {
+      "id": "tech-repo-personal-website--typescript",
+      "name": "typescript",
+      "kind": "tech",
+      "x": -0.5565532851529882,
+      "y": -0.45887548248682786,
+      "z": 0.7354248495603286,
+      "cluster": 0
+    },
+    {
+      "id": "tech-repo-personal-website--next-js",
+      "name": "next.js",
+      "kind": "tech",
+      "x": -0.622296767451705,
+      "y": -0.4279124697768707,
+      "z": 0.6235177209217737,
+      "cluster": 0
+    },
+    {
+      "id": "tech-repo-personal-website--static",
+      "name": "static",
+      "kind": "tech",
+      "x": -0.5199568299184497,
+      "y": -0.4837594846895801,
+      "z": 0.5854841612392245,
+      "cluster": 0
+    },
+    {
+      "id": "tech-repo-rhino-deck--html",
+      "name": "html",
+      "kind": "tech",
+      "x": -0.5543192414849202,
+      "y": -0.500419347565458,
+      "z": 0.6934189554481242,
+      "cluster": 0
+    },
+    {
+      "id": "tech-repo-rhino-website--html",
+      "name": "html",
+      "kind": "tech",
+      "x": -0.4437598408447306,
+      "y": -0.4694325973938082,
+      "z": 0.5485117651019312,
+      "cluster": 0
+    },
+    {
+      "id": "tech-repo-rhino-website--css",
+      "name": "css",
+      "kind": "tech",
+      "x": -0.47610975334133604,
+      "y": -0.5506675104228897,
+      "z": 0.5216355197106883,
+      "cluster": 0
+    },
+    {
+      "id": "tech-repo-rhino-website--javascript",
+      "name": "javascript",
+      "kind": "tech",
+      "x": -0.43753591066324254,
+      "y": -0.5291809729870446,
+      "z": 0.6380542865058061,
+      "cluster": 0
+    },
+    {
+      "id": "tech-repo-toms-brain--markdown",
+      "name": "markdown",
+      "kind": "tech",
+      "x": -0.3577392253224675,
+      "y": -0.5375053076247021,
+      "z": 0.5324833509119707,
+      "cluster": 0
+    },
+    {
+      "id": "tech-repo-toms-brain--obsidian",
+      "name": "obsidian",
+      "kind": "tech",
+      "x": -0.45982955434309297,
+      "y": -0.5118410787689943,
+      "z": 0.5363096000826929,
+      "cluster": 0
+    },
+    {
+      "id": "tech-repo-uob-swimming-website--next-js",
+      "name": "next.js",
+      "kind": "tech",
+      "x": -0.43377480565525967,
+      "y": -0.40650006646097553,
+      "z": 0.5079307907140176,
+      "cluster": 0
+    },
+    {
+      "id": "tech-repo-uob-swimming-website--14",
+      "name": "14",
+      "kind": "tech",
+      "x": -0.48152927620556857,
+      "y": -0.4051096636831167,
+      "z": 0.5306517889390042,
+      "cluster": 0
+    },
+    {
+      "id": "tech-repo-uob-swimming-website--typescript",
+      "name": "typescript",
+      "kind": "tech",
+      "x": -0.32846228440110303,
+      "y": -0.4093693170402401,
+      "z": 0.4838413243161431,
+      "cluster": 0
+    },
+    {
+      "id": "tech-repo-veloworks-website--typescript",
+      "name": "typescript",
+      "kind": "tech",
+      "x": -0.473583623174457,
+      "y": -0.5145167356647622,
+      "z": 0.5147746076703391,
+      "cluster": 0
+    },
+    {
+      "id": "tech-repo-versioned--typescript",
+      "name": "typescript",
+      "kind": "tech",
+      "x": -0.30688325322855664,
+      "y": -0.5020446374823836,
+      "z": 0.4681834256359374,
+      "cluster": 0
+    },
+    {
+      "id": "tech-repo-versioned--vite",
+      "name": "vite",
+      "kind": "tech",
+      "x": -0.3828822847812233,
+      "y": -0.4359207795107582,
+      "z": 0.4386789741846423,
+      "cluster": 0
+    },
+    {
+      "id": "tech-repo-versioned--mediapipe",
+      "name": "mediapipe",
+      "kind": "tech",
+      "x": -0.3882933968951416,
+      "y": -0.3991767125188095,
+      "z": 0.5855745104230946,
+      "cluster": 0
+    },
+    {
+      "id": "tech-repo-article-website--typescript",
+      "name": "typescript",
+      "kind": "tech",
+      "x": -0.38802859160048675,
+      "y": -0.4143378104413521,
+      "z": 0.4867738151165083,
+      "cluster": 0
+    },
+    {
+      "id": "tech-repo-cv--html",
+      "name": "html",
+      "kind": "tech",
+      "x": -0.4696092425192958,
+      "y": -0.1807714360457166,
+      "z": 0.42516339314871626,
+      "cluster": 0
+    },
+    {
+      "id": "tech-repo-interactive-portfolio--javascript",
+      "name": "javascript",
+      "kind": "tech",
+      "x": -0.40952872728497786,
+      "y": -0.23191537407019205,
+      "z": 0.37443718032717577,
+      "cluster": 0
+    },
+    {
+      "id": "tech-repo-reel-farm--tbd",
+      "name": "tbd",
+      "kind": "tech",
+      "x": -0.5302890480476268,
+      "y": -0.16272117178565515,
+      "z": 0.5233572124003424,
+      "cluster": 0
+    },
+    {
+      "id": "tech-repo-cloud-agent-app--tbd",
+      "name": "tbd",
+      "kind": "tech",
+      "x": -0.4801665451469568,
+      "y": -0.22761890256303827,
+      "z": 0.3856842679026572,
+      "cluster": 0
+    },
+    {
+      "id": "tech-repo-no-code-app-app--tbd",
+      "name": "tbd",
+      "kind": "tech",
+      "x": -0.525160337864974,
+      "y": -0.30051789765731396,
+      "z": 0.4593449519600549,
+      "cluster": 0
+    },
+    {
+      "id": "tech-repo-vsti-interactive-examples--html",
+      "name": "html",
+      "kind": "tech",
+      "x": -0.4149572029925347,
+      "y": -0.28730708403037675,
+      "z": 0.5871384186038608,
+      "cluster": 0
+    },
+    {
+      "id": "tech-repo-3d-whiteboard--19",
+      "name": "19",
+      "kind": "tech",
+      "x": -0.4787189121663646,
+      "y": -0.2702356767881302,
+      "z": 0.39687614351823447,
+      "cluster": 0
+    },
+    {
+      "id": "tech-repo-3d-whiteboard--three-js",
+      "name": "three.js",
+      "kind": "tech",
+      "x": -0.4698660440148437,
+      "y": -0.3006861399568922,
+      "z": 0.3330650082229618,
+      "cluster": 0
+    },
+    {
+      "id": "tech-repo-3d-whiteboard--vite",
+      "name": "vite",
+      "kind": "tech",
+      "x": -0.49512461832683374,
+      "y": -0.3062089387697322,
+      "z": 0.29476128759208536,
+      "cluster": 0
+    },
+    {
+      "id": "tech-repo-adfes-biz-synthetic-extension--python",
+      "name": "python",
+      "kind": "tech",
+      "x": 0.1006186034695439,
+      "y": 0.06499223653303607,
+      "z": -0.13077069450820622,
+      "cluster": 1
+    },
+    {
+      "id": "tech-repo-adfes-biz-synthetic-extension--generative",
+      "name": "generative",
+      "kind": "tech",
+      "x": 0.21741149901325305,
+      "y": 0.16727551257486023,
+      "z": -0.12151919722138953,
+      "cluster": 1
+    },
+    {
+      "id": "tech-repo-adfes-biz-synthetic-extension--ai",
+      "name": "ai",
+      "kind": "tech",
+      "x": 0.17596582410762268,
+      "y": 0.04433806759542415,
+      "z": -0.1496488416323778,
+      "cluster": 1
+    },
+    {
+      "id": "tech-repo-ai-coursework--prolog",
+      "name": "prolog",
+      "kind": "tech",
+      "x": -0.5983871526519996,
+      "y": -0.27179966564628977,
+      "z": 0.4265164001730135,
+      "cluster": 14
+    },
+    {
+      "id": "tech-repo-ai-coursework--html",
+      "name": "html",
+      "kind": "tech",
+      "x": -0.48820341647261245,
+      "y": -0.35487316265441793,
+      "z": 0.40362806236693094,
+      "cluster": 14
+    },
+    {
+      "id": "tech-repo-ai-for-chess-in-3-dimensions--unity",
+      "name": "unity",
+      "kind": "tech",
+      "x": -0.5417728216520743,
+      "y": -0.19747351896294033,
+      "z": 0.29804324923212067,
+      "cluster": 14
+    },
+    {
+      "id": "tech-repo-ai-for-chess-in-3-dimensions--game",
+      "name": "game",
+      "kind": "tech",
+      "x": -0.6189643112440362,
+      "y": -0.3316490593989119,
+      "z": 0.3434661894041901,
+      "cluster": 14
+    },
+    {
+      "id": "tech-repo-ai-for-chess-in-3-dimensions--development",
+      "name": "development",
+      "kind": "tech",
+      "x": -0.6364972901750892,
+      "y": -0.27691863136166994,
+      "z": 0.32747798917856646,
+      "cluster": 14
+    },
+    {
+      "id": "tech-repo-advent-of-code--python",
+      "name": "python",
+      "kind": "tech",
+      "x": -0.5458505152416046,
+      "y": -0.2604203842370592,
+      "z": 0.4745100910246467,
+      "cluster": 4
+    },
+    {
+      "id": "tech-repo-advent-of-code--algorithms",
+      "name": "algorithms",
+      "kind": "tech",
+      "x": -0.4183732758676296,
+      "y": -0.22681239109106244,
+      "z": 0.5036704599846631,
+      "cluster": 4
+    },
+    {
+      "id": "tech-repo-advent-of-code--graph",
+      "name": "graph",
+      "kind": "tech",
+      "x": -0.4868037254507412,
+      "y": -0.2259300832031128,
+      "z": 0.45427570671869827,
+      "cluster": 4
+    },
+    {
+      "id": "tech-repo-clipboard-cli--shell",
+      "name": "shell",
+      "kind": "tech",
+      "x": -0.422595400345178,
+      "y": -0.2849367634229639,
+      "z": 0.31542526192154424,
+      "cluster": 4
+    },
+    {
+      "id": "tech-repo-sarah-eccles--python",
+      "name": "python",
+      "kind": "tech",
+      "x": -0.5557043336996058,
+      "y": -0.290590449949346,
+      "z": 0.4667135776600381,
+      "cluster": 4
+    },
+    {
+      "id": "tech-repo-anima-transaction--python",
+      "name": "python",
+      "kind": "tech",
+      "x": -0.5527671127729856,
+      "y": -0.24031379783030093,
+      "z": 0.3627582026605515,
+      "cluster": 4
+    },
+    {
+      "id": "tech-repo-life-of-steroids--makefile",
+      "name": "makefile",
+      "kind": "tech",
+      "x": -0.45665380306213027,
+      "y": -0.18145242553432114,
+      "z": 0.40157099214310865,
+      "cluster": 4
+    },
+    {
+      "id": "tech-repo-mini-agent--python",
+      "name": "python",
+      "kind": "tech",
+      "x": -0.44170290604442947,
+      "y": -0.02414872892824356,
+      "z": 0.5269954237690808,
+      "cluster": 12
+    },
+    {
+      "id": "tech-repo-minimax-mcp--python",
+      "name": "python",
+      "kind": "tech",
+      "x": -0.41172240289068895,
+      "y": -0.16854689689378205,
+      "z": 0.4789599388927427,
+      "cluster": 12
+    },
+    {
+      "id": "tech-repo-minimax-skills--profile",
+      "name": "profile",
+      "kind": "tech",
+      "x": -0.44106842534460466,
+      "y": -0.2346191209203676,
+      "z": 0.49429592587758564,
+      "cluster": 12
+    },
+    {
+      "id": "tech-repo-minimax-skills--typescript",
+      "name": "typescript",
+      "kind": "tech",
+      "x": -0.3914429971112988,
+      "y": -0.21955300793585336,
+      "z": 0.6009353523841567,
+      "cluster": 12
+    },
+    {
+      "id": "tech-repo-minimax-skills--python",
+      "name": "python",
+      "kind": "tech",
+      "x": -0.43189560712057345,
+      "y": -0.16669886090474154,
+      "z": 0.6250868930575647,
+      "cluster": 12
+    },
+    {
+      "id": "tech-repo-2024-mlaipredictionmicroservices-fork--vue",
+      "name": "vue",
+      "kind": "tech",
+      "x": -0.4793541228064141,
+      "y": -0.2995006499310954,
+      "z": 0.29153106602156914,
+      "cluster": 12
+    },
+    {
+      "id": "tech-repo-cut3r--python",
+      "name": "python",
+      "kind": "tech",
+      "x": -0.2577103973272072,
+      "y": -0.29511340253581214,
+      "z": 0.5987200522663302,
+      "cluster": 12
+    },
+    {
+      "id": "tech-repo-tumcuctom--markdown",
+      "name": "markdown",
+      "kind": "tech",
+      "x": -0.5058652006534472,
+      "y": -0.7635578290900148,
+      "z": 0.47124023662329506,
+      "cluster": 17
+    },
+    {
+      "id": "tech-project-ai-chess-3d--unity",
+      "name": "unity",
+      "kind": "tech",
+      "x": 0.14119162911791971,
+      "y": 0.16789559726348327,
+      "z": -0.11734982174445388,
+      "cluster": 1
+    },
+    {
+      "id": "tech-project-ai-chess-3d--neural",
+      "name": "neural",
+      "kind": "tech",
+      "x": 0.18550878270086182,
+      "y": 0.1641310066330593,
+      "z": -0.00440734271324375,
+      "cluster": 1
+    },
+    {
+      "id": "tech-project-ai-chess-3d--network",
+      "name": "network",
+      "kind": "tech",
+      "x": 0.14326144788481446,
+      "y": 0.1591103319825711,
+      "z": -0.132396258293883,
+      "cluster": 1
+    },
+    {
+      "id": "tech-project-quantum-cross-chain-arbitrage--vyper",
+      "name": "vyper",
+      "kind": "tech",
+      "x": -0.10197132330933531,
+      "y": 0.06345232772208201,
+      "z": -0.028473784813190735,
+      "cluster": 9
+    },
+    {
+      "id": "tech-project-quantum-cross-chain-arbitrage--python",
+      "name": "python",
+      "kind": "tech",
+      "x": -0.20098261162690484,
+      "y": 0.10561915414780564,
+      "z": 0.042095337385423454,
+      "cluster": 9
+    },
+    {
+      "id": "tech-project-quantum-cross-chain-arbitrage--qaoa",
+      "name": "qaoa",
+      "kind": "tech",
+      "x": -0.17170442767683358,
+      "y": 0.08327144448514309,
+      "z": -0.1049886767369705,
+      "cluster": 9
+    },
+    {
+      "id": "tech-project-llama-8b-isc25--pytorch",
+      "name": "pytorch",
+      "kind": "tech",
+      "x": -0.030803466294526467,
+      "y": 0.08492303204542691,
+      "z": 0.04314419794892999,
+      "cluster": 6
+    },
+    {
+      "id": "tech-project-llama-8b-isc25--flashattention",
+      "name": "flashattention",
+      "kind": "tech",
+      "x": -0.06371374804982503,
+      "y": 0.053933251330441856,
+      "z": 0.03206636232244715,
+      "cluster": 6
+    },
+    {
+      "id": "tech-project-llama-8b-isc25--fp8",
+      "name": "fp8",
+      "kind": "tech",
+      "x": -0.1472387364026393,
+      "y": 0.13643424182319344,
+      "z": 0.06554177833935007,
+      "cluster": 6
+    },
+    {
+      "id": "tech-project-varqite-defi-collateral--qiskit",
+      "name": "qiskit",
+      "kind": "tech",
+      "x": -0.1417898832922803,
+      "y": 0.0994261812192479,
+      "z": 0.08090482411490935,
+      "cluster": 10
+    },
+    {
+      "id": "tech-project-varqite-defi-collateral--varqite",
+      "name": "varqite",
+      "kind": "tech",
+      "x": -0.08298090969780915,
+      "y": 0.04266000595009925,
+      "z": 0.08025231976138016,
+      "cluster": 10
+    },
+    {
+      "id": "tech-project-varqite-defi-collateral--scipy",
+      "name": "scipy",
+      "kind": "tech",
+      "x": -0.12306975381961494,
+      "y": 0.054937243868859315,
+      "z": 0.10538237536116946,
+      "cluster": 10
+    },
+    {
+      "id": "tech-project-sparse-attention-poc--pytorch",
+      "name": "pytorch",
+      "kind": "tech",
+      "x": 0.22086799378204203,
+      "y": 0.12781883760316498,
+      "z": -0.08686198710895253,
+      "cluster": 1
+    },
+    {
+      "id": "tech-project-sparse-attention-poc--minimax",
+      "name": "minimax",
+      "kind": "tech",
+      "x": 0.20250103998057672,
+      "y": 0.207449803475329,
+      "z": 0.010410508477581334,
+      "cluster": 1
+    },
+    {
+      "id": "tech-project-sparse-attention-poc--m3",
+      "name": "m3",
+      "kind": "tech",
+      "x": 0.20097996503929666,
+      "y": 0.18537656808856562,
+      "z": -0.07080601667162484,
+      "cluster": 1
+    },
+    {
+      "id": "tech-project-agentic-playground--typescript",
+      "name": "typescript",
+      "kind": "tech",
+      "x": 0.030331938604036754,
+      "y": 0.17585672325152418,
+      "z": -0.1544841411883375,
+      "cluster": 1
+    },
+    {
+      "id": "tech-project-agentic-playground--electron",
+      "name": "electron",
+      "kind": "tech",
+      "x": 0.11105246151775341,
+      "y": 0.11637501159667347,
+      "z": -0.1313526600910995,
+      "cluster": 1
+    },
+    {
+      "id": "tech-project-agentic-playground--zustand",
+      "name": "zustand",
+      "kind": "tech",
+      "x": 0.14151826484356483,
+      "y": 0.2106722260021528,
+      "z": -0.13023152389673537,
+      "cluster": 1
+    },
+    {
+      "id": "tech-project-black-swan--go",
+      "name": "go",
+      "kind": "tech",
+      "x": -0.1709989016158822,
+      "y": 0.22298145087194027,
+      "z": 0.05258814692821211,
+      "cluster": 9
+    },
+    {
+      "id": "tech-project-black-swan--rust",
+      "name": "rust",
+      "kind": "tech",
+      "x": -0.12687857240221403,
+      "y": 0.1769119546511099,
+      "z": 0.08912377169712035,
+      "cluster": 9
+    },
+    {
+      "id": "tech-project-black-swan--risc0",
+      "name": "risc0",
+      "kind": "tech",
+      "x": -0.2110377093404483,
+      "y": 0.21898824437725012,
+      "z": -0.01578313570942437,
+      "cluster": 9
+    },
+    {
+      "id": "tech-project-turing-complete-rubix-cube--python",
+      "name": "python",
+      "kind": "tech",
+      "x": 0.4000855481341653,
+      "y": 0.22270856029234154,
+      "z": -0.3559611321664723,
+      "cluster": 7
+    },
+    {
+      "id": "tech-project-turing-complete-rubix-cube--computation",
+      "name": "computation",
+      "kind": "tech",
+      "x": 0.439477410058484,
+      "y": 0.3237014643150828,
+      "z": -0.4420899926229619,
+      "cluster": 7
+    },
+    {
+      "id": "tech-project-turing-complete-rubix-cube--theory",
+      "name": "theory",
+      "kind": "tech",
+      "x": 0.4718103239442035,
+      "y": 0.33417391737786395,
+      "z": -0.4167962452916532,
+      "cluster": 7
+    },
+    {
+      "id": "tech-project-rubix-chess--typescript",
+      "name": "typescript",
+      "kind": "tech",
+      "x": 0.03081053072808808,
+      "y": 0.14495875648150228,
+      "z": -0.17771082602501242,
+      "cluster": 3
+    },
+    {
+      "id": "tech-project-rubix-chess--three-js",
+      "name": "three.js",
+      "kind": "tech",
+      "x": -0.027997507862344014,
+      "y": 0.17690165988856899,
+      "z": -0.04770806173723898,
+      "cluster": 3
+    },
+    {
+      "id": "tech-project-rubix-chess--vite",
+      "name": "vite",
+      "kind": "tech",
+      "x": -0.013188820083806237,
+      "y": 0.15568289158117485,
+      "z": -0.03541983556184036,
+      "cluster": 3
+    },
+    {
+      "id": "tech-project-f1-commentary--python",
+      "name": "python",
+      "kind": "tech",
+      "x": 0.09819551091428409,
+      "y": -0.10934150179913484,
+      "z": -0.1577115098649724,
+      "cluster": 5
+    },
+    {
+      "id": "tech-project-f1-commentary--fastf1",
+      "name": "fastf1",
+      "kind": "tech",
+      "x": 0.08418686922528987,
+      "y": 0.02611936360533791,
+      "z": -0.13058859645656207,
+      "cluster": 5
+    },
+    {
+      "id": "tech-project-f1-commentary--groq",
+      "name": "groq",
+      "kind": "tech",
+      "x": 0.1415855233327115,
+      "y": -0.11600932831156534,
+      "z": -0.1541567916475485,
+      "cluster": 5
+    },
+    {
+      "id": "tech-project-yuki--python",
+      "name": "python",
+      "kind": "tech",
+      "x": 0.1809484284233507,
+      "y": -0.1044382913568526,
+      "z": -0.01516274444661945,
+      "cluster": 5
+    },
+    {
+      "id": "tech-project-yuki--scikit-learn",
+      "name": "scikit-learn",
+      "kind": "tech",
+      "x": 0.1924769193962253,
+      "y": -0.06945296175576889,
+      "z": -0.08960650080964332,
+      "cluster": 5
+    },
+    {
+      "id": "tech-project-yuki--fastf1",
+      "name": "fastf1",
+      "kind": "tech",
+      "x": 0.11750567675386905,
+      "y": -0.08975335741534134,
+      "z": -0.01994767117511974,
+      "cluster": 5
+    },
+    {
+      "id": "tech-project-f1-ghost-car--python",
+      "name": "python",
+      "kind": "tech",
+      "x": 0.13368076085383693,
+      "y": -0.14023857330619613,
+      "z": -0.212254055231712,
+      "cluster": 5
+    },
+    {
+      "id": "tech-project-f1-ghost-car--matplotlib",
+      "name": "matplotlib",
+      "kind": "tech",
+      "x": 0.11291002454508138,
+      "y": -0.09101658817750391,
+      "z": -0.05040328079931489,
+      "cluster": 5
+    },
+    {
+      "id": "tech-project-f1-ghost-car--fastf1",
+      "name": "fastf1",
+      "kind": "tech",
+      "x": 0.03740525473485333,
+      "y": -0.024962182839789154,
+      "z": -0.16534788630826053,
+      "cluster": 5
+    },
+    {
+      "id": "tech-project-f1-qtda--python",
+      "name": "python",
+      "kind": "tech",
+      "x": 0.16921952045638988,
+      "y": 0.03239748860843879,
+      "z": 0.03860578000091071,
+      "cluster": 5
+    },
+    {
+      "id": "tech-project-f1-qtda--fastf1",
+      "name": "fastf1",
+      "kind": "tech",
+      "x": 0.06740253065245504,
+      "y": -0.001683249952014714,
+      "z": 0.0350790257623772,
+      "cluster": 5
+    },
+    {
+      "id": "tech-project-f1-qtda--pandas",
+      "name": "pandas",
+      "kind": "tech",
+      "x": 0.1407947554735723,
+      "y": -0.04377493025632116,
+      "z": 0.009814572844276215,
+      "cluster": 5
+    },
+    {
+      "id": "tech-project-hpc-lbm--mpi",
+      "name": "mpi",
+      "kind": "tech",
+      "x": -0.04307822500161113,
+      "y": 0.09118279735275023,
+      "z": 0.09646011162091646,
+      "cluster": 6
+    },
+    {
+      "id": "tech-project-hpc-lbm--openmp",
+      "name": "openmp",
+      "kind": "tech",
+      "x": -0.11411883744000376,
+      "y": 0.019216317340424244,
+      "z": 0.10211443101501774,
+      "cluster": 6
+    },
+    {
+      "id": "tech-project-hpc-lbm--cuda",
+      "name": "cuda",
+      "kind": "tech",
+      "x": -0.020238615928149753,
+      "y": 0.0922381331769839,
+      "z": 0.025399559975581923,
+      "cluster": 6
+    },
+    {
+      "id": "tech-project-adfes-biz-synthetic-extension--python",
+      "name": "python",
+      "kind": "tech",
+      "x": 0.06981558574855684,
+      "y": -0.008418228196036798,
+      "z": -0.20982738122180333,
+      "cluster": 1
+    },
+    {
+      "id": "tech-project-adfes-biz-synthetic-extension--ml",
+      "name": "ml",
+      "kind": "tech",
+      "x": 0.12528431977861612,
+      "y": 0.029025124616731866,
+      "z": -0.09878631646404422,
+      "cluster": 1
+    },
+    {
+      "id": "tech-project-adfes-biz-synthetic-extension--generative",
+      "name": "generative",
+      "kind": "tech",
+      "x": 0.1583417231541863,
+      "y": 0.03206658799035081,
+      "z": -0.23034585922623324,
+      "cluster": 1
+    },
+    {
+      "id": "tech-project-factlet--swift",
+      "name": "swift",
+      "kind": "tech",
+      "x": -0.07335200504825887,
+      "y": -0.12144186510989263,
+      "z": 0.13911841269453998,
+      "cluster": 2
+    },
+    {
+      "id": "tech-project-factlet--widgetkit",
+      "name": "widgetkit",
+      "kind": "tech",
+      "x": -0.06643740924556507,
+      "y": -0.2246396927448417,
+      "z": 0.2582307642340667,
+      "cluster": 2
+    },
+    {
+      "id": "tech-project-factlet--groups",
+      "name": "groups",
+      "kind": "tech",
+      "x": -0.03685139240214208,
+      "y": -0.183740349822561,
+      "z": 0.281589639719978,
+      "cluster": 2
+    },
+    {
+      "id": "tech-project-pin--swift",
+      "name": "swift",
+      "kind": "tech",
+      "x": -0.07451213931216899,
+      "y": -0.2932638179089181,
+      "z": 0.07115750001412624,
+      "cluster": 2
+    },
+    {
+      "id": "tech-project-pin--mapkit",
+      "name": "mapkit",
+      "kind": "tech",
+      "x": -0.1852969334574721,
+      "y": -0.19911348651701416,
+      "z": 0.19889988694460098,
+      "cluster": 2
+    },
+    {
+      "id": "tech-project-pin--mklocalsearchcompleter",
+      "name": "mklocalsearchcompleter",
+      "kind": "tech",
+      "x": -0.14836192082525548,
+      "y": -0.2820392787956324,
+      "z": 0.08015118423727226,
+      "cluster": 2
+    },
+    {
+      "id": "tech-project-poly-hop--javascript",
+      "name": "javascript",
+      "kind": "tech",
+      "x": 0.11771359265515555,
+      "y": 0.006587963830739715,
+      "z": -0.04303303170111831,
+      "cluster": 3
+    },
+    {
+      "id": "tech-project-poly-hop--p5-js",
+      "name": "p5.js",
+      "kind": "tech",
+      "x": 0.13143268840689568,
+      "y": -0.012277888984993296,
+      "z": -0.09973291849727152,
+      "cluster": 3
+    },
+    {
+      "id": "tech-project-poly-hop--mediapipe",
+      "name": "mediapipe",
+      "kind": "tech",
+      "x": 0.08218805968359923,
+      "y": 0.016058588417936573,
+      "z": -0.08409925834427764,
+      "cluster": 3
+    },
+    {
+      "id": "tech-project-quoridor-ai--python",
+      "name": "python",
+      "kind": "tech",
+      "x": -0.03339582736558436,
+      "y": -0.03128422149064659,
+      "z": -0.1943777479348094,
+      "cluster": 3
+    },
+    {
+      "id": "tech-project-quoridor-ai--mcts",
+      "name": "mcts",
+      "kind": "tech",
+      "x": -0.019911839066995472,
+      "y": -0.017410374209428908,
+      "z": -0.07786803333623225,
+      "cluster": 3
+    },
+    {
+      "id": "tech-project-quoridor-ai--flask",
+      "name": "flask",
+      "kind": "tech",
+      "x": -0.02364263567505781,
+      "y": -0.0018406625616831066,
+      "z": -0.2312685562434843,
+      "cluster": 3
+    },
+    {
+      "id": "tech-project-bonk--typescript",
+      "name": "typescript",
+      "kind": "tech",
+      "x": 0.019330155216833882,
+      "y": 0.06025536476552357,
+      "z": -0.10528121014417716,
+      "cluster": 3
+    },
+    {
+      "id": "tech-project-bonk--vite",
+      "name": "vite",
+      "kind": "tech",
+      "x": -0.06254296889380921,
+      "y": 0.07516302671143761,
+      "z": -0.19253745061115424,
+      "cluster": 3
+    },
+    {
+      "id": "tech-project-bonk--node-js",
+      "name": "node.js",
+      "kind": "tech",
+      "x": 0.02180638728938644,
+      "y": 0.0007548762534357149,
+      "z": -0.047665314347123705,
+      "cluster": 3
+    },
+    {
+      "id": "tech-project-vlm-memory--python",
+      "name": "python",
+      "kind": "tech",
+      "x": 0.11005693088113007,
+      "y": 0.13446932182796112,
+      "z": 0.0522886900108548,
+      "cluster": 1
+    },
+    {
+      "id": "tech-project-vlm-memory--pytorch",
+      "name": "pytorch",
+      "kind": "tech",
+      "x": 0.20957780118307545,
+      "y": 0.10118477019907267,
+      "z": -0.07589077871342143,
+      "cluster": 1
+    },
+    {
+      "id": "tech-project-vlm-memory--3d",
+      "name": "3d",
+      "kind": "tech",
+      "x": 0.18961202866768337,
+      "y": 0.11733516585620732,
+      "z": -0.08264842680036191,
+      "cluster": 1
+    },
+    {
+      "id": "tech-project-veloworks--operations",
+      "name": "operations",
+      "kind": "tech",
+      "x": -0.4793709945545236,
+      "y": -0.3403389489281985,
+      "z": 0.4556010949255277,
+      "cluster": 0
+    },
+    {
+      "id": "tech-project-veloworks--marketing",
+      "name": "marketing",
+      "kind": "tech",
+      "x": -0.5443662347290769,
+      "y": -0.38875211709735924,
+      "z": 0.5857325052752763,
+      "cluster": 0
+    },
+    {
+      "id": "tech-project-veloworks--3d",
+      "name": "3d",
+      "kind": "tech",
+      "x": -0.49426377988342446,
+      "y": -0.46790652003192146,
+      "z": 0.4478101159619588,
+      "cluster": 0
+    },
+    {
+      "id": "tech-project-machine-learning-coursework--jupyter",
+      "name": "jupyter",
+      "kind": "tech",
+      "x": 0.09209772669495446,
+      "y": 0.05102639773378425,
+      "z": -0.19869550436209713,
+      "cluster": 1
+    },
+    {
+      "id": "tech-project-machine-learning-coursework--notebook",
+      "name": "notebook",
+      "kind": "tech",
+      "x": 0.054161863897605744,
+      "y": 0.12192356764590065,
+      "z": -0.14845657681589167,
+      "cluster": 1
+    },
+    {
+      "id": "tech-project-machine-learning-coursework--python",
+      "name": "python",
+      "kind": "tech",
+      "x": 0.13374513799417065,
+      "y": -0.01277654636833625,
+      "z": -0.16695520544867098,
+      "cluster": 1
+    },
+    {
+      "id": "tech-project-omnii--typescript",
+      "name": "typescript",
+      "kind": "tech",
+      "x": 0.11187731786594099,
+      "y": 0.14324737578334762,
+      "z": -0.15494809753291638,
+      "cluster": 1
+    },
+    {
+      "id": "tech-project-omnii--native",
+      "name": "native",
+      "kind": "tech",
+      "x": 0.03506851012670484,
+      "y": 0.1404889398182599,
+      "z": -0.059914696636591096,
+      "cluster": 1
+    },
+    {
+      "id": "tech-project-omnii--firebase",
+      "name": "firebase",
+      "kind": "tech",
+      "x": 0.10082323747785235,
+      "y": 0.10165762124976827,
+      "z": -0.09339198985142497,
+      "cluster": 1
+    },
+    {
+      "id": "tech-project-sales-bot-showdown--next-js",
+      "name": "next.js",
+      "kind": "tech",
+      "x": 0.1444758131924334,
+      "y": 0.09712296491691368,
+      "z": -0.16572487341055697,
+      "cluster": 1
+    },
+    {
+      "id": "tech-project-sales-bot-showdown--14",
+      "name": "14",
+      "kind": "tech",
+      "x": 0.012194864842709513,
+      "y": 0.19212956444793217,
+      "z": -0.08659869674956731,
+      "cluster": 1
+    },
+    {
+      "id": "tech-project-sales-bot-showdown--typescript",
+      "name": "typescript",
+      "kind": "tech",
+      "x": 0.12892089400582613,
+      "y": 0.21940732686072448,
+      "z": -0.10967974851618681,
+      "cluster": 1
+    },
+    {
+      "id": "tech-project-yukigpt--python",
+      "name": "python",
+      "kind": "tech",
+      "x": 0.18781107998822563,
+      "y": 0.15330191910357932,
+      "z": -0.03507376928966671,
+      "cluster": 1
+    },
+    {
+      "id": "tech-project-yukigpt--pytorch",
+      "name": "pytorch",
+      "kind": "tech",
+      "x": 0.16088162847118084,
+      "y": 0.27786815414951954,
+      "z": -0.05383566887689503,
+      "cluster": 1
+    },
+    {
+      "id": "tech-project-godel--javascript",
+      "name": "javascript",
+      "kind": "tech",
+      "x": -0.5764594669460308,
+      "y": -0.2182639938448244,
+      "z": 0.46021520033151486,
+      "cluster": 4
+    },
+    {
+      "id": "tech-project-f1-telemetry-analysis--python",
+      "name": "python",
+      "kind": "tech",
+      "x": 0.03500354868992719,
+      "y": 0.021609890349034926,
+      "z": -0.03483729312941537,
+      "cluster": 5
+    },
+    {
+      "id": "tech-project-f1-telemetry-analysis--fastf1",
+      "name": "fastf1",
+      "kind": "tech",
+      "x": 0.00789360973798725,
+      "y": -0.06149696069966039,
+      "z": -0.04199992378913857,
+      "cluster": 5
+    },
+    {
+      "id": "tech-project-f1-telemetry-analysis--matplotlib",
+      "name": "matplotlib",
+      "kind": "tech",
+      "x": 0.1433484716283233,
+      "y": 0.03297055471712257,
+      "z": -0.06243598072844894,
+      "cluster": 5
+    },
+    {
+      "id": "tech-project-ciuk-memory-benchmark--hpc",
+      "name": "hpc",
+      "kind": "tech",
+      "x": -0.11424150677444542,
+      "y": 0.17523033182069087,
+      "z": 0.015729268167480506,
+      "cluster": 6
+    },
+    {
+      "id": "tech-project-ciuk-memory-benchmark--memory",
+      "name": "memory",
+      "kind": "tech",
+      "x": -0.10005365860401423,
+      "y": 0.1300258813844387,
+      "z": 0.1157578355297057,
+      "cluster": 6
+    },
+    {
+      "id": "tech-project-ciuk-memory-benchmark--benchmarking",
+      "name": "benchmarking",
+      "kind": "tech",
+      "x": -0.08064315063364084,
+      "y": 0.16969087701209007,
+      "z": 0.13938967105142175,
+      "cluster": 6
+    },
+    {
+      "id": "tech-project-hpc-lbm-v2--openmp",
+      "name": "openmp",
+      "kind": "tech",
+      "x": -0.20476465265939175,
+      "y": 0.14023760305786823,
+      "z": -0.0219299193063932,
+      "cluster": 6
+    },
+    {
+      "id": "tech-project-hpc-lbm-v2--simd",
+      "name": "simd",
+      "kind": "tech",
+      "x": -0.2140483755107932,
+      "y": 0.13998527178785028,
+      "z": 0.07204487858078792,
+      "cluster": 6
+    },
+    {
+      "id": "tech-project-hpc-lbm-v2--sve2",
+      "name": "sve2",
+      "kind": "tech",
+      "x": -0.14170713386763337,
+      "y": 0.250608699039421,
+      "z": 0.08972158205053656,
+      "cluster": 6
+    },
+    {
+      "id": "tech-project-distributed-vs-parallel-gol--go",
+      "name": "go",
+      "kind": "tech",
+      "x": -0.18681651327335058,
+      "y": 0.1607622165278185,
+      "z": 0.02116525788534024,
+      "cluster": 6
+    },
+    {
+      "id": "tech-project-distributed-vs-parallel-gol--aws",
+      "name": "aws",
+      "kind": "tech",
+      "x": -0.08883466164427123,
+      "y": 0.12861025191647754,
+      "z": 0.0002157813094954275,
+      "cluster": 6
+    },
+    {
+      "id": "tech-project-distributed-vs-parallel-gol--ec2",
+      "name": "ec2",
+      "kind": "tech",
+      "x": -0.117173542631773,
+      "y": 0.2054582648977154,
+      "z": 0.016310080495685872,
+      "cluster": 6
+    },
+    {
+      "id": "tech-project-quantum-economic-advantage-calculator--javascript",
+      "name": "javascript",
+      "kind": "tech",
+      "x": -0.05463182078335365,
+      "y": 0.1357986836570551,
+      "z": 0.12120542433215867,
+      "cluster": 10
+    },
+    {
+      "id": "tech-project-copy-dance--typescript",
+      "name": "typescript",
+      "kind": "tech",
+      "x": -0.09496069159245778,
+      "y": 0.14417343219938344,
+      "z": -0.13563602217376428,
+      "cluster": 3
+    },
+    {
+      "id": "tech-project-copy-dance--tailwind",
+      "name": "tailwind",
+      "kind": "tech",
+      "x": -0.014939215538505954,
+      "y": 0.11833203955747004,
+      "z": -0.16444565105966163,
+      "cluster": 3
+    },
+    {
+      "id": "tech-project-copy-dance--mediapipe",
+      "name": "mediapipe",
+      "kind": "tech",
+      "x": 0.0019777727020157884,
+      "y": -0.003192271336451294,
+      "z": -0.17048181480369112,
+      "cluster": 3
+    },
+    {
+      "id": "tech-project-island--swift",
+      "name": "swift",
+      "kind": "tech",
+      "x": -0.17838270479623622,
+      "y": -0.08269370046584823,
+      "z": 0.17134097429848166,
+      "cluster": 2
+    },
+    {
+      "id": "tech-project-island--lottie",
+      "name": "lottie",
+      "kind": "tech",
+      "x": -0.20250528563701642,
+      "y": -0.071005654103161,
+      "z": 0.17062964068620584,
+      "cluster": 2
+    },
+    {
+      "id": "tech-project-island--mediaremote",
+      "name": "mediaremote",
+      "kind": "tech",
+      "x": -0.12293555493854398,
+      "y": -0.137979192616881,
+      "z": 0.3341602805602117,
+      "cluster": 2
+    },
+    {
+      "id": "tech-project-quoridor--html",
+      "name": "html",
+      "kind": "tech",
+      "x": -0.04268056947918792,
+      "y": -0.0011935962211637105,
+      "z": -0.1211418432426872,
+      "cluster": 3
+    },
+    {
+      "id": "tech-project-quoridor--css",
+      "name": "css",
+      "kind": "tech",
+      "x": 0.006458014298188423,
+      "y": 0.07913884378036054,
+      "z": -0.1842145287382903,
+      "cluster": 3
+    },
+    {
+      "id": "tech-project-quoridor--javascript",
+      "name": "javascript",
+      "kind": "tech",
+      "x": 0.05710625552145457,
+      "y": 0.10269359379841167,
+      "z": -0.18238049460529449,
+      "cluster": 3
+    },
+    {
+      "id": "tech-project-go-spinners--go",
+      "name": "go",
+      "kind": "tech",
+      "x": -0.4994894787187034,
+      "y": -0.25093206426914205,
+      "z": 0.5188835720038515,
+      "cluster": 4
+    },
+    {
+      "id": "tech-project-aniboxd--swift",
+      "name": "swift",
+      "kind": "tech",
+      "x": -0.15751181059987407,
+      "y": -0.2441337475468381,
+      "z": 0.11387084507419734,
+      "cluster": 2
+    },
+    {
+      "id": "tech-project-aniboxd--17",
+      "name": "17",
+      "kind": "tech",
+      "x": -0.19739825514336834,
+      "y": -0.2884532161974704,
+      "z": 0.21251652763407697,
+      "cluster": 2
+    },
+    {
+      "id": "tech-project-aniboxd--xcode",
+      "name": "xcode",
+      "kind": "tech",
+      "x": -0.11163372596447964,
+      "y": -0.20618249587768084,
+      "z": 0.10962906463002095,
+      "cluster": 2
+    },
+    {
+      "id": "tech-project-aurelia--swift",
+      "name": "swift",
+      "kind": "tech",
+      "x": -0.1693576449548437,
+      "y": -0.26985215255911715,
+      "z": 0.28395794195406326,
+      "cluster": 2
+    },
+    {
+      "id": "tech-project-detach--swift",
+      "name": "swift",
+      "kind": "tech",
+      "x": -0.02234845844207857,
+      "y": -0.1828353992837958,
+      "z": 0.18814076910616323,
+      "cluster": 2
+    },
+    {
+      "id": "tech-project-detach--15",
+      "name": "15",
+      "kind": "tech",
+      "x": -0.10325900645187967,
+      "y": -0.23064614120616747,
+      "z": 0.1745441446420917,
+      "cluster": 2
+    },
+    {
+      "id": "tech-project-detach--wkwebview",
+      "name": "wkwebview",
+      "kind": "tech",
+      "x": -0.15353227507771028,
+      "y": -0.12980892170726624,
+      "z": 0.19888619034595476,
+      "cluster": 2
+    },
+    {
+      "id": "tech-project-find-my-pint--swift",
+      "name": "swift",
+      "kind": "tech",
+      "x": -0.20196069517082627,
+      "y": -0.26929769136073733,
+      "z": 0.26823266328008033,
+      "cluster": 2
+    },
+    {
+      "id": "tech-project-find-my-pint--17",
+      "name": "17",
+      "kind": "tech",
+      "x": -0.15424557367842517,
+      "y": -0.1862928204649447,
+      "z": 0.19343052331839342,
+      "cluster": 2
+    },
+    {
+      "id": "tech-project-find-my-pint--xcode",
+      "name": "xcode",
+      "kind": "tech",
+      "x": -0.14560541922950837,
+      "y": -0.335669006653769,
+      "z": 0.1358540431438207,
+      "cluster": 2
+    },
+    {
+      "id": "tech-project-journal-app--swift",
+      "name": "swift",
+      "kind": "tech",
+      "x": -0.1889061466437843,
+      "y": -0.27409536362634906,
+      "z": 0.10077018339131849,
+      "cluster": 2
+    },
+    {
+      "id": "tech-project-journal-app--16",
+      "name": "16",
+      "kind": "tech",
+      "x": -0.2170358899154895,
+      "y": -0.28766409555150724,
+      "z": 0.09547223097523708,
+      "cluster": 2
+    },
+    {
+      "id": "tech-project-proof--swift",
+      "name": "swift",
+      "kind": "tech",
+      "x": -0.18801646497826674,
+      "y": -0.2824725652413746,
+      "z": 0.20432026275287818,
+      "cluster": 2
+    },
+    {
+      "id": "tech-project-proof--cocoapods",
+      "name": "cocoapods",
+      "kind": "tech",
+      "x": -0.19807003552315036,
+      "y": -0.15347453296162517,
+      "z": 0.24419682467422132,
+      "cluster": 2
+    },
+    {
+      "id": "tech-project-step-counter-commit-graph--swift",
+      "name": "swift",
+      "kind": "tech",
+      "x": -0.268074316094352,
+      "y": -0.2714277848261551,
+      "z": 0.15892386782579135,
+      "cluster": 2
+    },
+    {
+      "id": "tech-project-step-counter-commit-graph--17",
+      "name": "17",
+      "kind": "tech",
+      "x": -0.23414748291933873,
+      "y": -0.23850863246552556,
+      "z": 0.1366003249945782,
+      "cluster": 2
+    },
+    {
+      "id": "tech-project-step-counter-commit-graph--healthkit",
+      "name": "healthkit",
+      "kind": "tech",
+      "x": -0.24793760862154224,
+      "y": -0.22320813109340765,
+      "z": 0.14837146686314612,
+      "cluster": 2
+    },
+    {
+      "id": "tech-project-upsilon--swift",
+      "name": "swift",
+      "kind": "tech",
+      "x": -0.17438503570712766,
+      "y": -0.2088413467327707,
+      "z": 0.24388748534054,
+      "cluster": 2
+    },
+    {
+      "id": "tech-project-upsilon--swiftui",
+      "name": "swiftui",
+      "kind": "tech",
+      "x": -0.2220768153973462,
+      "y": -0.187721098937956,
+      "z": 0.16857588607817997,
+      "cluster": 2
+    },
+    {
+      "id": "tech-project-upsilon--16",
+      "name": "16",
+      "kind": "tech",
+      "x": -0.16507913884551972,
+      "y": -0.2708346378456562,
+      "z": 0.16476541182761092,
+      "cluster": 2
+    },
+    {
+      "id": "tech-project-lifo--native",
+      "name": "native",
+      "kind": "tech",
+      "x": -0.42102234189670895,
+      "y": -0.2804665399239493,
+      "z": 0.6934556516786554,
+      "cluster": 0
+    },
+    {
+      "id": "tech-project-lifo--typescript",
+      "name": "typescript",
+      "kind": "tech",
+      "x": -0.38963912844201276,
+      "y": -0.3466223237169725,
+      "z": 0.6170414825341959,
+      "cluster": 0
+    },
+    {
+      "id": "tech-project-lifo--firebase",
+      "name": "firebase",
+      "kind": "tech",
+      "x": -0.44582212928620923,
+      "y": -0.2902847958739495,
+      "z": 0.5663558523502615,
+      "cluster": 0
+    },
+    {
+      "id": "tech-project-lifo-website--next-js",
+      "name": "next.js",
+      "kind": "tech",
+      "x": -0.5021078528631141,
+      "y": -0.3000852375206471,
+      "z": 0.44517579546268127,
+      "cluster": 0
+    },
+    {
+      "id": "tech-project-lifo-website--15",
+      "name": "15",
+      "kind": "tech",
+      "x": -0.534822458690289,
+      "y": -0.3368362564461688,
+      "z": 0.5615416215069071,
+      "cluster": 0
+    },
+    {
+      "id": "tech-project-lifo-website--19",
+      "name": "19",
+      "kind": "tech",
+      "x": -0.48417026193814655,
+      "y": -0.361590700906953,
+      "z": 0.5277668377177961,
+      "cluster": 0
+    },
+    {
+      "id": "tech-project-memories-map--html",
+      "name": "html",
+      "kind": "tech",
+      "x": -0.722361156209139,
+      "y": -0.4585527487781039,
+      "z": 0.4756065265636629,
+      "cluster": 0
+    },
+    {
+      "id": "tech-project-memories-map--css",
+      "name": "css",
+      "kind": "tech",
+      "x": -0.7168575717877573,
+      "y": -0.47789127508431256,
+      "z": 0.4794699244163691,
+      "cluster": 0
+    },
+    {
+      "id": "tech-project-memories-map--javascript",
+      "name": "javascript",
+      "kind": "tech",
+      "x": -0.672613215595385,
+      "y": -0.3696399644045643,
+      "z": 0.5052564134824471,
+      "cluster": 0
+    },
+    {
+      "id": "tech-project-mobile-website-mobo-website--typescript",
+      "name": "typescript",
+      "kind": "tech",
+      "x": -0.547470634061441,
+      "y": -0.3075135727144668,
+      "z": 0.4773936989588228,
+      "cluster": 0
+    },
+    {
+      "id": "tech-project-mystery-hour--vite",
+      "name": "vite",
+      "kind": "tech",
+      "x": -0.4830485309563289,
+      "y": -0.19404280398836554,
+      "z": 0.5709673539710426,
+      "cluster": 0
+    },
+    {
+      "id": "tech-project-mystery-hour--typescript",
+      "name": "typescript",
+      "kind": "tech",
+      "x": -0.5138544560293564,
+      "y": -0.2659201001664937,
+      "z": 0.6614799937261745,
+      "cluster": 0
+    },
+    {
+      "id": "tech-project-mystery-hour--chart-js",
+      "name": "chart.js",
+      "kind": "tech",
+      "x": -0.4767448927716592,
+      "y": -0.24271561808365835,
+      "z": 0.6544571949306791,
+      "cluster": 0
+    },
+    {
+      "id": "tech-project-openclaw-app-template--next-js",
+      "name": "next.js",
+      "kind": "tech",
+      "x": -0.6593445005694083,
+      "y": -0.24348602203739492,
+      "z": 0.4966949263729437,
+      "cluster": 0
+    },
+    {
+      "id": "tech-project-openclaw-app-template--15",
+      "name": "15",
+      "kind": "tech",
+      "x": -0.6587850278034735,
+      "y": -0.3003058911804142,
+      "z": 0.5328244563218891,
+      "cluster": 0
+    },
+    {
+      "id": "tech-project-openclaw-app-template--typescript",
+      "name": "typescript",
+      "kind": "tech",
+      "x": -0.7263156033493219,
+      "y": -0.34062097959653903,
+      "z": 0.49150469411168685,
+      "cluster": 0
+    },
+    {
+      "id": "tech-project-toms-brain--markdown",
+      "name": "markdown",
+      "kind": "tech",
+      "x": -0.6041001420952331,
+      "y": -0.13673239643244622,
+      "z": 0.5337157989335415,
+      "cluster": 0
+    },
+    {
+      "id": "tech-project-toms-brain--obsidian",
+      "name": "obsidian",
+      "kind": "tech",
+      "x": -0.5168394370966688,
+      "y": -0.2938646065314453,
+      "z": 0.6225063737014739,
+      "cluster": 0
+    },
+    {
+      "id": "tech-project-uob-swimming-website--next-js",
+      "name": "next.js",
+      "kind": "tech",
+      "x": -0.6942162128803098,
+      "y": -0.2010141445827511,
+      "z": 0.46709110916644364,
+      "cluster": 0
+    },
+    {
+      "id": "tech-project-uob-swimming-website--14",
+      "name": "14",
+      "kind": "tech",
+      "x": -0.6100700317673423,
+      "y": -0.21026081576138242,
+      "z": 0.4637243376535816,
+      "cluster": 0
+    },
+    {
+      "id": "tech-project-uob-swimming-website--typescript",
+      "name": "typescript",
+      "kind": "tech",
+      "x": -0.6779040630034648,
+      "y": -0.19635557983089955,
+      "z": 0.430308445154932,
+      "cluster": 0
+    },
+    {
+      "id": "tech-project-versioned--typescript",
+      "name": "typescript",
+      "kind": "tech",
+      "x": -0.5886321932530938,
+      "y": -0.22891000789025195,
+      "z": 0.6067739520024984,
+      "cluster": 0
+    },
+    {
+      "id": "tech-project-versioned--vite",
+      "name": "vite",
+      "kind": "tech",
+      "x": -0.6231092626466397,
+      "y": -0.20918057848004748,
+      "z": 0.4834732065925795,
+      "cluster": 0
+    },
+    {
+      "id": "tech-project-versioned--mediapipe",
+      "name": "mediapipe",
+      "kind": "tech",
+      "x": -0.6736941036305903,
+      "y": -0.16386360534582298,
+      "z": 0.6329344182828156,
+      "cluster": 0
+    },
+    {
+      "id": "tech-project-ai-coursework--prolog",
+      "name": "prolog",
+      "kind": "tech",
+      "x": -0.6875229601410868,
+      "y": -0.09841090580971953,
+      "z": 0.5080027689077898,
+      "cluster": 14
+    },
+    {
+      "id": "tech-project-ai-coursework--html",
+      "name": "html",
+      "kind": "tech",
+      "x": -0.6308528501841788,
+      "y": -0.06810797676486652,
+      "z": 0.5813727372633316,
+      "cluster": 14
+    },
+    {
+      "id": "tech-project-ai-for-chess-in-3-dimensions--unity",
+      "name": "unity",
+      "kind": "tech",
+      "x": -0.7200378175408493,
+      "y": -0.056408032430895746,
+      "z": 0.4731659477244302,
+      "cluster": 14
+    },
+    {
+      "id": "tech-project-ai-for-chess-in-3-dimensions--game",
+      "name": "game",
+      "kind": "tech",
+      "x": -0.7559340492489696,
+      "y": -0.1016846806745594,
+      "z": 0.4447699545057577,
+      "cluster": 14
+    },
+    {
+      "id": "tech-project-ai-for-chess-in-3-dimensions--development",
+      "name": "development",
+      "kind": "tech",
+      "x": -0.6464930863387716,
+      "y": -0.1335048574192381,
+      "z": 0.49659654366181655,
+      "cluster": 14
+    },
+    {
+      "id": "tech-project-advent-of-code--python",
+      "name": "python",
+      "kind": "tech",
+      "x": -0.45775246563676375,
+      "y": -0.20241094174271662,
+      "z": 0.45733095214227193,
+      "cluster": 4
+    },
+    {
+      "id": "tech-project-advent-of-code--algorithms",
+      "name": "algorithms",
+      "kind": "tech",
+      "x": -0.5245659046622159,
+      "y": -0.2190890798950431,
+      "z": 0.43555380471513877,
+      "cluster": 4
+    },
+    {
+      "id": "tech-project-advent-of-code--graph",
+      "name": "graph",
+      "kind": "tech",
+      "x": -0.5740601199860941,
+      "y": -0.24246858227001813,
+      "z": 0.39248558030176767,
+      "cluster": 4
+    },
+    {
+      "id": "tech-project-clipboard-cli--shell",
+      "name": "shell",
+      "kind": "tech",
+      "x": -0.555225065118837,
+      "y": -0.20098650417172637,
+      "z": 0.5196886883602552,
+      "cluster": 4
+    },
+    {
+      "id": "tech-project-py2noteai--python",
+      "name": "python",
+      "kind": "tech",
+      "x": 0.05631382750421927,
+      "y": 0.02076494605922065,
+      "z": -0.06758550512694077,
+      "cluster": 1
+    },
+    {
+      "id": "tech-project-py2noteai--openai",
+      "name": "openai",
+      "kind": "tech",
+      "x": 0.07874170879213863,
+      "y": 0.04455640157455955,
+      "z": -0.024692773094345755,
+      "cluster": 1
+    },
+    {
+      "id": "tech-project-py2noteai--jupyter",
+      "name": "jupyter",
+      "kind": "tech",
+      "x": 0.10170510776253298,
+      "y": 0.15600349674918973,
+      "z": -0.07271001126822418,
+      "cluster": 1
+    },
+    {
+      "id": "tech-project-crgs-css-person-detection--python",
+      "name": "python",
+      "kind": "tech",
+      "x": 0.056273103728293944,
+      "y": 0.18122938338764805,
+      "z": -0.030121910565614488,
+      "cluster": 1
+    },
+    {
+      "id": "tech-project-crgs-css-person-detection--roboflow",
+      "name": "roboflow",
+      "kind": "tech",
+      "x": 0.07646690133052736,
+      "y": 0.15953045386229717,
+      "z": 0.01739568430216218,
+      "cluster": 1
+    },
+    {
+      "id": "tech-project-crgs-css-person-detection--computer",
+      "name": "computer",
+      "kind": "tech",
+      "x": 0.04400587965542241,
+      "y": 0.16660377997695155,
+      "z": 0.011503146698614373,
+      "cluster": 1
+    },
+    {
+      "id": "tech-project-u3core--python",
+      "name": "python",
+      "kind": "tech",
+      "x": 0.09511456761620385,
+      "y": 0.18881189338928528,
+      "z": -0.06496063658751068,
+      "cluster": 1
+    },
+    {
+      "id": "tech-project-u3core--aws",
+      "name": "aws",
+      "kind": "tech",
+      "x": 0.006112754460420658,
+      "y": 0.14061502695950492,
+      "z": -0.09163902405242749,
+      "cluster": 1
+    },
+    {
+      "id": "tech-project-u3core--vue",
+      "name": "vue",
+      "kind": "tech",
+      "x": 0.13734474090718932,
+      "y": 0.14724607161004624,
+      "z": -0.12974217105814248,
+      "cluster": 1
+    },
+    {
+      "id": "tech-project-focused--swift",
+      "name": "swift",
+      "kind": "tech",
+      "x": -0.21495056996450956,
+      "y": -0.22462915328456687,
+      "z": 0.10701697626560763,
+      "cluster": 2
+    },
+    {
+      "id": "tech-project-focused--swiftui",
+      "name": "swiftui",
+      "kind": "tech",
+      "x": -0.3022321236528755,
+      "y": -0.19211606773964315,
+      "z": 0.13927613135835615,
+      "cluster": 2
+    },
+    {
+      "id": "tech-project-focused--swiftterm",
+      "name": "swiftterm",
+      "kind": "tech",
+      "x": -0.2823182190809755,
+      "y": -0.24157362850896125,
+      "z": 0.13520756985194357,
+      "cluster": 2
+    },
+    {
+      "id": "tech-project-keep-sharp--swift",
+      "name": "swift",
+      "kind": "tech",
+      "x": -0.17390792405189698,
+      "y": -0.16706458686959264,
+      "z": 0.11691709552124686,
+      "cluster": 2
+    },
+    {
+      "id": "tech-project-keep-sharp--swiftui",
+      "name": "swiftui",
+      "kind": "tech",
+      "x": -0.21491849631501952,
+      "y": -0.14181751754136285,
+      "z": 0.11224860122828653,
+      "cluster": 2
+    },
+    {
+      "id": "tech-project-keep-sharp--appkit",
+      "name": "appkit",
+      "kind": "tech",
+      "x": -0.19573519508646295,
+      "y": -0.2790572001419065,
+      "z": 0.20021244175942263,
+      "cluster": 2
+    },
+    {
+      "id": "tech-project-varqite-maxcut--python",
+      "name": "python",
+      "kind": "tech",
+      "x": -0.09809288691207571,
+      "y": 0.07033127992528923,
+      "z": 0.1374509611398613,
+      "cluster": 10
+    },
+    {
+      "id": "tech-project-varqite-maxcut--qiskit",
+      "name": "qiskit",
+      "kind": "tech",
+      "x": -0.11694390503276803,
+      "y": 0.022947455394085665,
+      "z": 0.1847616607801261,
+      "cluster": 10
+    },
+    {
+      "id": "tech-project-varqite-maxcut--ionq",
+      "name": "ionq",
+      "kind": "tech",
+      "x": -0.09465210593447734,
+      "y": 0.13194958920034613,
+      "z": 0.2197475086230973,
+      "cluster": 10
+    },
+    {
+      "id": "tech-project-portfolio-optimisation--typescript",
+      "name": "typescript",
+      "kind": "tech",
+      "x": -0.18571024796886926,
+      "y": -0.002820444849660625,
+      "z": 0.0006550622187158281,
+      "cluster": 9
+    },
+    {
+      "id": "tech-project-portfolio-optimisation--next-js",
+      "name": "next.js",
+      "kind": "tech",
+      "x": -0.18173268055309474,
+      "y": 0.007976237766860458,
+      "z": 0.10092674507253994,
+      "cluster": 9
+    },
+    {
+      "id": "tech-project-portfolio-optimisation--wormhole",
+      "name": "wormhole",
+      "kind": "tech",
+      "x": -0.19305227554742477,
+      "y": 0.07199722233627692,
+      "z": 0.11285817166068354,
+      "cluster": 9
+    },
+    {
+      "id": "tech-project-algos-ii-minigame--python",
+      "name": "python",
+      "kind": "tech",
+      "x": -0.03038533913027573,
+      "y": -0.03518445077325234,
+      "z": -0.07323091737302587,
+      "cluster": 3
+    },
+    {
+      "id": "tech-project-algos-ii-minigame--pygame",
+      "name": "pygame",
+      "kind": "tech",
+      "x": 0.006344794176509794,
+      "y": 0.01496104729544007,
+      "z": -0.17846446837928953,
+      "cluster": 3
+    },
+    {
+      "id": "tech-project-scotland-yard-ai--java",
+      "name": "java",
+      "kind": "tech",
+      "x": 0.15467793482793912,
+      "y": 0.15698858629567974,
+      "z": -0.036380222759080094,
+      "cluster": 1
+    },
+    {
+      "id": "tech-project-scotland-yard-ai--minimax",
+      "name": "minimax",
+      "kind": "tech",
+      "x": 0.16585286494167625,
+      "y": 0.11963649026165207,
+      "z": -0.11499921686585868,
+      "cluster": 1
+    },
+    {
+      "id": "tech-project-scotland-yard-ai--alpha-beta",
+      "name": "alpha-beta",
+      "kind": "tech",
+      "x": 0.19812435407779008,
+      "y": 0.10219793878763787,
+      "z": -0.019340507255513062,
+      "cluster": 1
+    },
+    {
+      "id": "tech-project-3d-whiteboard--19",
+      "name": "19",
+      "kind": "tech",
+      "x": -0.6619607464635087,
+      "y": -0.5018420929259843,
+      "z": 0.524473823299799,
+      "cluster": 0
+    },
+    {
+      "id": "tech-project-3d-whiteboard--three-js",
+      "name": "three.js",
+      "kind": "tech",
+      "x": -0.6659551241013303,
+      "y": -0.4574785633323727,
+      "z": 0.4480367450827428,
+      "cluster": 0
+    },
+    {
+      "id": "tech-project-3d-whiteboard--vite",
+      "name": "vite",
+      "kind": "tech",
+      "x": -0.5848825860794555,
+      "y": -0.4849715547469034,
+      "z": 0.5839774575066807,
+      "cluster": 0
+    },
+    {
+      "id": "tech-ach-eth-oxford--quantum",
+      "name": "quantum",
+      "kind": "tech",
+      "x": -0.8247838655994986,
+      "y": -0.34244557702738276,
+      "z": 0.6863356302157033,
+      "cluster": 8
+    },
+    {
+      "id": "tech-ach-eth-oxford--defi",
+      "name": "defi",
+      "kind": "tech",
+      "x": -0.7676581584212447,
+      "y": -0.3684471484330479,
+      "z": 0.7034817628436746,
+      "cluster": 8
+    },
+    {
+      "id": "tech-ach-eth-oxford--vyper",
+      "name": "vyper",
+      "kind": "tech",
+      "x": -0.8246641917267049,
+      "y": -0.26520109826628285,
+      "z": 0.7159933742654038,
+      "cluster": 8
+    },
+    {
+      "id": "tech-ach-eth-oxford-sui-ctf--sui",
+      "name": "sui",
+      "kind": "tech",
+      "x": -0.9826640300792165,
+      "y": -0.28678098153505566,
+      "z": 0.6283692834170902,
+      "cluster": 8
+    },
+    {
+      "id": "tech-ach-eth-oxford-sui-ctf--move",
+      "name": "move",
+      "kind": "tech",
+      "x": -0.9929715232383278,
+      "y": -0.3902012290596167,
+      "z": 0.7108409504148133,
+      "cluster": 8
+    },
+    {
+      "id": "tech-ach-eth-oxford-sui-ctf--ctf",
+      "name": "ctf",
+      "kind": "tech",
+      "x": -0.9063688396078335,
+      "y": -0.44619393293455534,
+      "z": 0.6748507841962937,
+      "cluster": 8
+    },
+    {
+      "id": "tech-ach-polygon-ai-agents--polygon",
+      "name": "polygon",
+      "kind": "tech",
+      "x": -0.8134137215361816,
+      "y": -0.3999360916100039,
+      "z": 0.6907531164572747,
+      "cluster": 8
+    },
+    {
+      "id": "tech-ach-polygon-ai-agents--ai",
+      "name": "ai",
+      "kind": "tech",
+      "x": -0.8700002665341041,
+      "y": -0.4470264665767082,
+      "z": 0.6781149220673315,
+      "cluster": 8
+    },
+    {
+      "id": "tech-ach-polygon-ai-agents--defi",
+      "name": "defi",
+      "kind": "tech",
+      "x": -0.8748446284826985,
+      "y": -0.4126684691994769,
+      "z": 0.6058745784699358,
+      "cluster": 8
+    },
+    {
+      "id": "tech-ach-vyperlang-2nd--vyper",
+      "name": "vyper",
+      "kind": "tech",
+      "x": -0.7078420927975482,
+      "y": -0.4667970580845159,
+      "z": 0.6886284067502483,
+      "cluster": 8
+    },
+    {
+      "id": "tech-ach-vyperlang-2nd--defi",
+      "name": "defi",
+      "kind": "tech",
+      "x": -0.8207335964089041,
+      "y": -0.42688075091245514,
+      "z": 0.7931690755867176,
+      "cluster": 8
+    },
+    {
+      "id": "tech-ach-iquhack-ionq--quantum",
+      "name": "quantum",
+      "kind": "tech",
+      "x": -0.8974249037250297,
+      "y": -0.49528862046856087,
+      "z": 0.644399831195827,
+      "cluster": 8
+    },
+    {
+      "id": "tech-ach-iquhack-ionq--ionq",
+      "name": "ionq",
+      "kind": "tech",
+      "x": -0.8657633405487198,
+      "y": -0.5384106702914374,
+      "z": 0.7325032295834685,
+      "cluster": 8
+    },
+    {
+      "id": "tech-ach-iquhack-ionq-entanglement-2026--quantum",
+      "name": "quantum",
+      "kind": "tech",
+      "x": -0.8924739233310661,
+      "y": -0.3662419486960962,
+      "z": 0.8670928934588851,
+      "cluster": 8
+    },
+    {
+      "id": "tech-ach-iquhack-ionq-entanglement-2026--ionq",
+      "name": "ionq",
+      "kind": "tech",
+      "x": -0.871713013515185,
+      "y": -0.3889931700251215,
+      "z": 0.8603439815208984,
+      "cluster": 8
+    },
+    {
+      "id": "tech-ach-iquhack-ionq-entanglement-2026--entanglement",
+      "name": "entanglement",
+      "kind": "tech",
+      "x": -0.8673577090952096,
+      "y": -0.2696270529033792,
+      "z": 0.8835609862649119,
+      "cluster": 8
+    },
+    {
+      "id": "tech-ach-encodeai--ai",
+      "name": "ai",
+      "kind": "tech",
+      "x": -0.9008629657669877,
+      "y": -0.5747196968143246,
+      "z": 0.6418715349254767,
+      "cluster": 8
+    },
+    {
+      "id": "tech-ach-encodeai--wormhole",
+      "name": "wormhole",
+      "kind": "tech",
+      "x": -0.9585574706627573,
+      "y": -0.5687082738058815,
+      "z": 0.699297215403825,
+      "cluster": 8
+    },
+    {
+      "id": "tech-ach-isc25-uk--hpc",
+      "name": "hpc",
+      "kind": "tech",
+      "x": -0.46107617963648817,
+      "y": -0.4189293901860879,
+      "z": 0.7386399342086704,
+      "cluster": 16
+    },
+    {
+      "id": "tech-ach-isc25-uk--uk",
+      "name": "uk",
+      "kind": "tech",
+      "x": -0.46996597708399146,
+      "y": -0.5434502792468517,
+      "z": 0.7060719486718983,
+      "cluster": 16
+    },
+    {
+      "id": "tech-ach-isc25-uk--llama",
+      "name": "llama",
+      "kind": "tech",
+      "x": -0.553576809724323,
+      "y": -0.42364701838508617,
+      "z": 0.7339849795484011,
+      "cluster": 16
+    },
+    {
+      "id": "tech-ach-ciuk--hpc",
+      "name": "hpc",
+      "kind": "tech",
+      "x": -0.6728866530252212,
+      "y": -0.6870702087481005,
+      "z": 1.0037289375715974,
+      "cluster": 16
+    },
+    {
+      "id": "tech-ach-ciuk--uk",
+      "name": "uk",
+      "kind": "tech",
+      "x": -0.6491586182314347,
+      "y": -0.5924123976228888,
+      "z": 0.9481693149531732,
+      "cluster": 16
+    },
+    {
+      "id": "tech-ach-ciuk--cluster",
+      "name": "cluster",
+      "kind": "tech",
+      "x": -0.6492093386017923,
+      "y": -0.6506085700403222,
+      "z": 0.9046626532475338,
+      "cluster": 16
+    },
+    {
+      "id": "tech-ach-ironman-ch--triathlon",
+      "name": "triathlon",
+      "kind": "tech",
+      "x": -0.8658352655153356,
+      "y": -0.5950791782822878,
+      "z": 0.7150924815129213,
+      "cluster": 13
+    },
+    {
+      "id": "tech-ach-ironman-ch--endurance",
+      "name": "endurance",
+      "kind": "tech",
+      "x": -0.8424295406850661,
+      "y": -0.6812855665188576,
+      "z": 0.6417993657432212,
+      "cluster": 13
+    },
+    {
+      "id": "tech-ach-competitive-swim--swim",
+      "name": "swim",
+      "kind": "tech",
+      "x": -0.9805920181187626,
+      "y": -0.48519666825778096,
+      "z": 0.745021074399148,
+      "cluster": 13
+    },
+    {
+      "id": "tech-ach-competitive-swim--club",
+      "name": "club",
+      "kind": "tech",
+      "x": -0.847705019381278,
+      "y": -0.4094992226808496,
+      "z": 0.780228552741045,
+      "cluster": 13
+    },
+    {
+      "id": "tech-ach-bucs-swim--swim",
+      "name": "swim",
+      "kind": "tech",
+      "x": -0.8662067204220996,
+      "y": -0.5206299292106569,
+      "z": 0.8295761682899571,
+      "cluster": 13
+    },
+    {
+      "id": "tech-ach-bucs-swim--bucs",
+      "name": "bucs",
+      "kind": "tech",
+      "x": -0.9459939209489999,
+      "y": -0.4482835761100854,
+      "z": 0.746089792813583,
+      "cluster": 13
+    },
+    {
+      "id": "tech-ach-bucs-swim--relay",
+      "name": "relay",
+      "kind": "tech",
+      "x": -0.8836369453110842,
+      "y": -0.5173567232125899,
+      "z": 0.8002743016174467,
+      "cluster": 13
+    },
+    {
+      "id": "tech-ach-climbing--climb",
+      "name": "climb",
+      "kind": "tech",
+      "x": -0.7592718677094621,
+      "y": -0.4769617978482544,
+      "z": 0.9687574459115711,
+      "cluster": 13
+    },
+    {
+      "id": "tech-ach-climbing--bouldering",
+      "name": "bouldering",
+      "kind": "tech",
+      "x": -0.6904225276102032,
+      "y": -0.5491148421075264,
+      "z": 0.9270309428458998,
+      "cluster": 13
+    },
+    {
+      "id": "tech-ach-muay-thai--muay-thai",
+      "name": "muay-thai",
+      "kind": "tech",
+      "x": -0.7553538748086354,
+      "y": -0.6985433264559543,
+      "z": 0.7744349056591783,
+      "cluster": 13
+    },
+    {
+      "id": "tech-ach-muay-thai--striking",
+      "name": "striking",
+      "kind": "tech",
+      "x": -0.8377657178652802,
+      "y": -0.614127337096321,
+      "z": 0.7032572381912581,
+      "cluster": 13
+    },
+    {
+      "id": "tech-ach-sim-racing--sim-racing",
+      "name": "sim-racing",
+      "kind": "tech",
+      "x": -0.425503000525,
+      "y": -0.8423670827674694,
+      "z": 0.7500442441710662,
+      "cluster": 15
+    },
+    {
+      "id": "tech-ach-sim-racing--f1-25",
+      "name": "f1-25",
+      "kind": "tech",
+      "x": -0.4256424496022166,
+      "y": -0.8548387115991457,
+      "z": 0.8389934383349646,
+      "cluster": 15
+    },
+    {
+      "id": "tech-ach-sim-racing--assetto-corsa",
+      "name": "assetto-corsa",
+      "kind": "tech",
+      "x": -0.49981775457991784,
+      "y": -0.8916195371762723,
+      "z": 0.843813491695445,
+      "cluster": 15
+    },
+    {
+      "id": "tech-ach-rubiks--cfop",
+      "name": "cfop",
+      "kind": "tech",
+      "x": -0.5539798524324744,
+      "y": -0.8734685383981676,
+      "z": 0.7892091717224797,
+      "cluster": 15
+    },
+    {
+      "id": "tech-ach-rubiks--3x3",
+      "name": "3x3",
+      "kind": "tech",
+      "x": -0.5586445305735522,
+      "y": -0.8092463243528965,
+      "z": 0.8269791492473979,
+      "cluster": 15
+    },
+    {
+      "id": "tech-ach-rubiks-bld--3bld",
+      "name": "3bld",
+      "kind": "tech",
+      "x": -0.45256524412679366,
+      "y": -0.7468231415768503,
+      "z": 0.8259782357681753,
+      "cluster": 15
+    },
+    {
+      "id": "tech-ach-rubiks-bld--bld",
+      "name": "bld",
+      "kind": "tech",
+      "x": -0.41792650395711517,
+      "y": -0.8235722121976661,
+      "z": 0.9730542346675194,
+      "cluster": 15
+    },
+    {
+      "id": "tech-ach-board-games--board-games",
+      "name": "board-games",
+      "kind": "tech",
+      "x": -0.685642360496149,
+      "y": -0.9597914130626375,
+      "z": 0.6588416618776542,
+      "cluster": 15
+    },
+    {
+      "id": "tech-ach-board-games--catan",
+      "name": "catan",
+      "kind": "tech",
+      "x": -0.6726994619369397,
+      "y": -0.9375134605301793,
+      "z": 0.6633405562100484,
+      "cluster": 15
+    },
+    {
+      "id": "tech-ach-board-games--wingspan",
+      "name": "wingspan",
+      "kind": "tech",
+      "x": -0.7101777939176869,
+      "y": -0.957761314220444,
+      "z": 0.7638530908737983,
+      "cluster": 15
+    },
+    {
+      "id": "tech-exp-veloworks--business",
+      "name": "business",
+      "kind": "tech",
+      "x": -0.4655171509254262,
+      "y": -0.7286912456914718,
+      "z": 0.6953397641771145,
+      "cluster": 11
+    },
+    {
+      "id": "tech-exp-veloworks--operations",
+      "name": "operations",
+      "kind": "tech",
+      "x": -0.5385768483613257,
+      "y": -0.846638972185839,
+      "z": 0.6555300050957061,
+      "cluster": 11
+    },
+    {
+      "id": "tech-exp-veloworks--sponsorship",
+      "name": "sponsorship",
+      "kind": "tech",
+      "x": -0.42715305380512825,
+      "y": -0.786392642535369,
+      "z": 0.575988589729434,
+      "cluster": 11
+    },
+    {
+      "id": "tech-exp-demonstrator-bristol--teaching",
+      "name": "teaching",
+      "kind": "tech",
+      "x": -0.4821893548391112,
+      "y": -0.6854081064236313,
+      "z": 0.7680595790312128,
+      "cluster": 11
+    },
+    {
+      "id": "tech-exp-demonstrator-bristol--mentoring",
+      "name": "mentoring",
+      "kind": "tech",
+      "x": -0.3833654755656077,
+      "y": -0.6787857969396687,
+      "z": 0.7136353755321383,
+      "cluster": 11
+    },
+    {
+      "id": "tech-exp-demonstrator-bristol--curriculum",
+      "name": "curriculum",
+      "kind": "tech",
+      "x": -0.3977383125706351,
+      "y": -0.7356747314933022,
+      "z": 0.830311453961824,
+      "cluster": 11
+    },
+    {
+      "id": "tech-exp-ml-research-bristol--research",
+      "name": "research",
+      "kind": "tech",
+      "x": -0.3778676569780155,
+      "y": -0.6825178113442483,
+      "z": 0.8225064123969454,
+      "cluster": 11
+    },
+    {
+      "id": "tech-exp-ml-research-bristol--pytorch",
+      "name": "pytorch",
+      "kind": "tech",
+      "x": -0.4669543057581819,
+      "y": -0.8005723317802571,
+      "z": 0.8069096640541965,
+      "cluster": 11
+    },
+    {
+      "id": "tech-exp-ml-research-bristol--computer",
+      "name": "computer",
+      "kind": "tech",
+      "x": -0.3841290426803179,
+      "y": -0.8405499525559751,
+      "z": 0.8686805631106342,
+      "cluster": 11
+    },
+    {
+      "id": "tech-exp-edtech-cofounder--startup",
+      "name": "startup",
+      "kind": "tech",
+      "x": -0.49941282854982577,
+      "y": -0.8843108513301826,
+      "z": 0.5417079839599357,
+      "cluster": 11
+    },
+    {
+      "id": "tech-exp-edtech-cofounder--native",
+      "name": "native",
+      "kind": "tech",
+      "x": -0.48669720518425813,
+      "y": -0.9096226699484029,
+      "z": 0.6444780960233326,
+      "cluster": 11
+    },
+    {
+      "id": "tech-exp-edtech-cofounder--typescript",
+      "name": "typescript",
+      "kind": "tech",
+      "x": -0.49688829009683555,
+      "y": -0.8630394289971817,
+      "z": 0.5094859843836319,
+      "cluster": 11
+    },
+    {
+      "id": "tech-exp-ukscc-isc25--hpc",
+      "name": "hpc",
+      "kind": "tech",
+      "x": -0.4308958978220951,
+      "y": -0.7363637381780936,
+      "z": 0.5759593834264745,
+      "cluster": 11
+    },
+    {
+      "id": "tech-exp-ukscc-isc25--slurm",
+      "name": "slurm",
+      "kind": "tech",
+      "x": -0.3919166261195422,
+      "y": -0.7357879462123726,
+      "z": 0.6028558426562735,
+      "cluster": 11
+    },
+    {
+      "id": "tech-exp-ukscc-isc25--openmp",
+      "name": "openmp",
+      "kind": "tech",
+      "x": -0.3848090116961755,
+      "y": -0.7769090475376144,
+      "z": 0.6009712287523685,
+      "cluster": 11
+    },
+    {
+      "id": "tech-exp-digital-u3-intern--industry",
+      "name": "industry",
+      "kind": "tech",
+      "x": -0.2804218931031267,
+      "y": -0.649374812808859,
+      "z": 0.7548899921599534,
+      "cluster": 11
+    },
+    {
+      "id": "tech-exp-digital-u3-intern--python",
+      "name": "python",
+      "kind": "tech",
+      "x": -0.26087330186406527,
+      "y": -0.7455251931982857,
+      "z": 0.8413896847424264,
+      "cluster": 11
+    },
+    {
+      "id": "tech-exp-digital-u3-intern--pytorch",
+      "name": "pytorch",
+      "kind": "tech",
+      "x": -0.215824661739062,
+      "y": -0.7297336803795477,
+      "z": 0.8109791968409787,
+      "cluster": 11
+    }
+  ]
+}

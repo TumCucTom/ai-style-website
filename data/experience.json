@@ -1,0 +1,188 @@
+{
+  "jobs": [
+    {
+      "id": "anima",
+      "role": "Product Engineer",
+      "org": "Anima (YC W21)",
+      "dates": "Jun 2026 – now",
+      "period": "2026 – now",
+      "kind": "healthcare",
+      "tone": "text-accent",
+      "dot": "bg-accent",
+      "summary": "Building Anima's care enablement platform.",
+      "bullets": [
+        "Designed and built an autonomous engineering loop for a core product line, so software changes get implemented, shipped and validated with far less manual intervention.",
+        "Led the end-to-end revamp of one of Anima’s four core product lines: customer discovery, scoping, architecture, implementation, rollout and iteration.",
+        "Own ongoing product and engineering direction, working directly with customers to prioritise problems and ship production improvements.",
+        "Evaluated AI scribing and voice-agent workflows, benchmarking models and improving transcript reliability for high-volume call workflows."
+      ],
+      "stack": [
+        "Product",
+        "Agents",
+        "Voice AI",
+        "Evals",
+        "TypeScript",
+        "Python"
+      ]
+    },
+    {
+      "id": "veloworks",
+      "role": "Co-Founder & Operator",
+      "org": "Veloworks Components",
+      "dates": "Sep 2024 – Jun 2026",
+      "period": "2024 – 2026",
+      "kind": "business",
+      "tone": "text-domain-defi",
+      "dot": "bg-domain-defi",
+      "summary": "Co-founded and operated a business producing 3D-printed performance cycling components.",
+      "bullets": [
+        "Ran sponsorship, marketing, technical and financial operations across the season.",
+        "Designed and iterated prototypes before taking any of them to a paying customer.",
+        "Sole developer of the Veloworks website (TypeScript)."
+      ],
+      "stack": [
+        "Operations",
+        "Sponsorship",
+        "Marketing",
+        "3D Printing",
+        "TypeScript"
+      ],
+      "links": [
+        {
+          "label": "instagram",
+          "href": "https://www.instagram.com/veloworkscomponents/"
+        }
+      ]
+    },
+    {
+      "id": "demonstrator-bristol",
+      "role": "Demonstrator & Graduate Teacher",
+      "org": "University of Bristol",
+      "dates": "Aug 2025 – May 2026",
+      "period": "2025 – 2026",
+      "kind": "teaching",
+      "tone": "text-ink",
+      "dot": "",
+      "summary": "Taught first- and second-year computer science students on modules I had taken the year before.",
+      "bullets": [
+        "Delivered lectures and ran workshop exercises for first- and second-year modules.",
+        "Mentored a small team through their year-long Software Engineering Project.",
+        "Helped students in the Computer Systems A and Programming Languages & Computation workshops."
+      ],
+      "stack": [
+        "Teaching",
+        "Mentoring",
+        "Curriculum"
+      ]
+    },
+    {
+      "id": "ml-research-bristol",
+      "role": "Machine Learning Research Assistant",
+      "org": "University of Bristol · School of Brain, Behaviour and Health",
+      "dates": "Feb 2025 – Feb 2026",
+      "period": "2025 – 2026",
+      "kind": "research",
+      "tone": "text-domain-quantum",
+      "dot": "bg-domain-quantum",
+      "summary": "Built a machine-learning pipeline that generates photorealistic faces showing set emotions, for psychology research.",
+      "bullets": [
+        "Synthesised faces expressing the six basic emotions (anger, disgust, fear, happiness, sadness, surprise) at controlled intensities.",
+        "Designed the pipelines for use in experiments at the School of Brain, Behaviour and Health."
+      ],
+      "stack": [
+        "PyTorch",
+        "Computer Vision",
+        "Generative Models",
+        "Research"
+      ]
+    },
+    {
+      "id": "edtech-cofounder",
+      "role": "Technical Co-founder",
+      "org": "Fini · personal-finance education app",
+      "dates": "Jun 2025 – Sep 2025",
+      "period": "2025",
+      "kind": "startup",
+      "tone": "text-accent2",
+      "dot": "bg-accent2",
+      "summary": "Turned down a DeepMind internship to co-found a personal-finance education app for young adults.",
+      "bullets": [
+        "Started it in the belief that young adults should not be left without financial literacy.",
+        "Designed and built the app and website from scratch, and ran the user testing and iteration.",
+        "Learned to iterate quickly, keep the product lean and use AI-assisted programming while running experiments with users.",
+        "The lessons about where startups go wrong are going into the next one."
+      ],
+      "stack": [
+        "React Native",
+        "TypeScript",
+        "Firebase",
+        "AI-assisted development",
+        "User research"
+      ],
+      "links": []
+    },
+    {
+      "id": "ukscc-isc25",
+      "role": "UK Student Cluster Competition Team",
+      "org": "UKSCC · ISC'25",
+      "dates": "May 2025 – Jun 2025",
+      "period": "2025",
+      "kind": "hpc",
+      "tone": "text-domain-hpc",
+      "dot": "bg-domain-hpc",
+      "summary": "Represented the UK at the ISC Student Cluster Competition. Fine-tuned Llama 8B on 8×H100 and optimised OpenMX on 208 cores.",
+      "bullets": [
+        "Optimised OpenMX and Llama fine-tunes on a 208-core, 8×H100 cluster.",
+        "Worked with SLURM, OpenMP, MPI, CUDA and HPC libraries including LAPACK, BLAS, ScaLAPACK, FFTW, ELPA, OpenBLAS and Intel MKL.",
+        "Explored LoRA, QDoRA, DoRA, Transformer Engine, FP8 and FlashAttention 3 for the Llama 8B track."
+      ],
+      "stack": [
+        "HPC",
+        "SLURM",
+        "OpenMP",
+        "MPI",
+        "CUDA",
+        "FP8",
+        "FlashAttention 3",
+        "DoRA",
+        "Llama 8B"
+      ],
+      "links": [
+        {
+          "label": "write-up",
+          "href": "https://github.com/TumCucTom/llama-8b-ISC-25"
+        }
+      ]
+    },
+    {
+      "id": "digital-u3-intern",
+      "role": "Machine Learning Software Engineer Intern",
+      "org": "DigitalU3 (u3core)",
+      "dates": "Sep 2024 – Mar 2025",
+      "period": "2024 – 2025",
+      "kind": "industry",
+      "tone": "text-domain-ios",
+      "dot": "bg-domain-ios",
+      "summary": "Built a machine-learning system designed for efficiency and scale, with a product front end.",
+      "bullets": [
+        "Worked in an agile team: sprints, code reviews and delivery against product milestones.",
+        "Built a scalable web application with an integrated backend and structured database.",
+        "Delivered the production u3core contract."
+      ],
+      "stack": [
+        "Python",
+        "PyTorch",
+        "REST API",
+        "SQL",
+        "Agile",
+        "Code review"
+      ],
+      "links": [
+        {
+          "label": "github",
+          "href": "https://github.com/TumCucTom/u3core"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+/* Contact details sit behind a puzzle. The gate inherits the host page's
+   colour and body type, so it fits every version; only its labels and its
+   field are set here. Selectors are doubled (.gate .gate-x) so a host's
+   "card p" rules don't restyle them. */
+.gate {
+  --gate-mono: ui-monospace, "SF Mono", "Cascadia Mono", Menlo, Consolas, monospace;
+  --gate-soft: color-mix(in srgb, currentColor 68%, transparent);
+  --gate-rule: color-mix(in srgb, currentColor 22%, transparent);
+  border: 1px solid currentColor; padding: 1.25rem 1.4rem 1.35rem; text-align: left; max-width: 44rem;
+}
+.gate.bare { border: 0; padding: 0; }
+.gate .gate-k { margin: 0; font: 500 0.7rem/1.4 var(--gate-mono); letter-spacing: 0.12em; text-transform: uppercase; color: var(--gate-soft); }
+.gate .gate-t { margin: 0.7rem 0 0; font-weight: 700; font-size: 1.2em; line-height: 1.2; color: inherit; }
+.gate .gate-p { margin: 0.45rem 0 0; max-width: 38rem; color: inherit; }
+.gate form { margin: 1rem 0 0; display: flex; gap: 0.5rem; align-items: stretch; }
+.gate input {
+  height: 2.75rem; min-width: 0; width: 12rem; max-width: 12rem; flex: 1 1 7rem; padding: 0 0.8rem; border: 1px solid currentColor; border-radius: 0; background: transparent; color: inherit;
+  font: 0.95rem var(--gate-mono); outline: none; transition: box-shadow 160ms ease-out;
+}
+.gate input::placeholder { color: var(--gate-soft); opacity: 1; }
+.gate input:focus-visible { box-shadow: 0 0 0 2px currentColor; }
+.gate input[aria-invalid="true"] { box-shadow: inset 0 -3px 0 currentColor; }
+.gate .gate-go {
+  height: 2.75rem; padding: 0 1.1rem; border: 1px solid currentColor; border-radius: 0; background: transparent; color: inherit; cursor: pointer;
+  font: 600 0.72rem var(--gate-mono); letter-spacing: 0.1em; text-transform: uppercase; transition: box-shadow 160ms ease-out;
+}
+.gate .gate-go:hover { box-shadow: inset 0 0 0 1px currentColor; }
+.gate .gate-go:active { box-shadow: inset 0 0 0 3px currentColor; }
+.gate .gate-go:focus-visible { outline: 2px solid currentColor; outline-offset: 2px; }
+.gate .gate-links { margin: 0.9rem 0 0; display: flex; flex-wrap: wrap; gap: 0.2rem 1.25rem; font: 0.75rem/1.4 var(--gate-mono); color: var(--gate-soft); }
+.gate .gate-links button { padding: 0.35rem 0; text-decoration: underline; text-underline-offset: 3px; cursor: pointer; background: none; border: 0; color: inherit; font: inherit; transition: color 160ms ease-out; }
+.gate .gate-links:hover { color: inherit; }
+.gate .gate-links button { opacity: 1; }
+.gate .gate-links button:hover { text-decoration-thickness: 2px; }
+.gate .gate-links button:focus-visible { outline: 2px solid currentColor; outline-offset: 2px; }
+.gate .gate-msg { margin: 0.7rem 0 0; font: 0.78rem/1.45 var(--gate-mono); color: inherit; overflow-wrap: anywhere; }
+.gate .gate-code { margin: 0.5rem 0 0; font: 600 clamp(1.25rem, 5vw, 1.6rem)/1.2 var(--gate-mono); letter-spacing: 0.08em; color: inherit; overflow-wrap: anywhere; }
+.gate .gate-list { margin: 1rem 0 0; list-style: none; padding: 0; border-bottom: 1px solid var(--gate-rule); }
+.gate .gate-list li { display: flex; gap: 1rem; align-items: baseline; margin: 0; padding: 0.6rem 0; border-top: 1px solid var(--gate-rule); }
+.gate .gate-list span { width: 4.8rem; flex: none; font: 500 0.7rem var(--gate-mono); letter-spacing: 0.12em; text-transform: uppercase; color: var(--gate-soft); }
+.gate .gate-list a { font-weight: 700; color: inherit; text-decoration: underline; text-decoration-thickness: 1.5px; text-underline-offset: 3px; overflow-wrap: anywhere; }
+.gate .gate-list a:hover { text-decoration-thickness: 2.5px; }
+@media (pointer: coarse) { .gate .gate-links button { padding: 0.7rem 0; } }
+@media (prefers-reduced-motion: reduce) { .gate * { transition: none !important; } }

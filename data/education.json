@@ -1,0 +1,108 @@
+{
+  "schools": [
+    {
+      "id": "bristol",
+      "name": "University of Bristol",
+      "qualification": "BSc Computer Science",
+      "dates": "Sep 2023 – Jun 2026",
+      "grade": "First Class Honours",
+      "tone": "text-accent",
+      "modules": {
+        "Year 1": [
+          "Software Tools",
+          "Mathematics for Computer Science A & B",
+          "Computer Architecture",
+          "Imperative and Functional Programming",
+          "Object-Oriented Programming and Algorithms I"
+        ],
+        "Year 2": [
+          "Software Engineering Project",
+          "Programming Languages and Computation",
+          "Computer Systems A & B",
+          "Interaction and Society",
+          "Algorithms and Data"
+        ],
+        "Final Year": [
+          "Individual Project",
+          "High Performance Computing",
+          "Types and Lambda Calculus",
+          "Image Processing and Computer Vision",
+          "Machine Learning",
+          "Artificial Intelligence"
+        ]
+      },
+      "activities": [
+        "Ironman Switzerland: 3.8 km swim, 180 km bike, marathon",
+        "Winner, ETH Oxford DeFi Hackathon ($5,000)",
+        "Led one team and coached two more for Bristol at MIT's iQuHACK quantum hackathon",
+        "ISC'25 SCC: represented the UK in the first English team to enter",
+        "Founder and president of the Quantum Computing Society, and its first quantum hackathon",
+        "Treasurer and planning-and-control lead, Formula Student AI",
+        "Competitive swimming",
+        "Triathlon",
+        "Muay Thai"
+      ],
+      "highlights": [
+        "Dissertation 85%",
+        "Best Computer Vision Project",
+        "1st of 211 in ML and Computer Systems coursework",
+        "87% Machine Learning",
+        "86% Artificial Intelligence",
+        "86% Computer Systems"
+      ]
+    },
+    {
+      "id": "crgs",
+      "name": "Colchester Royal Grammar School",
+      "qualification": "A-Levels",
+      "dates": "Sep 2021 – Jul 2023",
+      "grade": "A*A*AA",
+      "tone": "text-domain-quantum",
+      "subjects": [
+        "Computer Science: ranked 1st in cohort, 100% NEA",
+        "Maths",
+        "Further Maths",
+        "Physics"
+      ],
+      "activities": [
+        "President, Computer Science Society",
+        "Team lead, Greenpower Formula Car",
+        "Electronics, Greenpower Formula Car",
+        "Composites, Greenpower Formula Car and Felsted School"
+      ],
+      "highlights": [
+        "100% in the Computer Science NEA",
+        "1st in the Computer Science cohort",
+        "President, Computer Science Society",
+        "Team lead, Greenpower Formula Car"
+      ]
+    },
+    {
+      "id": "felsted",
+      "name": "Felsted School",
+      "qualification": "GCSEs",
+      "dates": "Sep 2018 – Jul 2021",
+      "grade": "9,9,9,9,9,9,9,9,A,Distinction",
+      "tone": "text-domain-ai",
+      "subjects": [
+        "Further Maths",
+        "Computer Science",
+        "D&T",
+        "Triple Science",
+        "Maths",
+        "Double English",
+        "SLE"
+      ],
+      "activities": [
+        "Academic scholarship, all three years",
+        "100% in the D&T NEA"
+      ],
+      "highlights": [
+        "Academic scholarship",
+        "1st in the Computer Science cohort",
+        "100% in the D&T NEA",
+        "Ten top grades"
+      ]
+    }
+  ]
+}
