@@ -18,7 +18,7 @@ const plans = (rapid: number | null): { name: string; price: string; per: string
   { name: "Free", price: "£0", per: "forever", line: "Everything on this site. That's the whole product.", perks: ["All five versions", "Unlimited pages", "The puzzle, unskipped or skipped"], cta: "Your current plan" },
   { name: "Plus", price: "£4.99", per: "a month", line: "The same website, but you feel better about it.", perks: ["A slightly warmer hello", "Dark mode (also in Free)", "A sense of having supported something"], cta: "Upgrade to Plus" },
   { name: "Pro", price: `£${(rapid ?? 1272).toLocaleString("en-GB")}`, per: "a month", line: "Priced at my live chess.com rapid rating. It goes up if I improve.", perks: ["I play you at chess and probably lose", "Priority access to the keyword rules", "Your name said aloud, once"], cta: "Upgrade to Pro" },
-  { name: "Enterprise", price: "226 km", per: "per seat", line: "I do an Ironman on behalf of your team.", perks: ["10h30 turnaround, guaranteed-ish", "A dedicated account swimmer", "Invoices in kilometres only"], cta: "Talk to sales (me)" },
+  { name: "Enterprise", price: "226 km", per: "per seat", line: "I do an Ironman on behalf of your team.", perks: ["Guaranteed to start, guaranteed-ish to finish", "A dedicated account swimmer", "Invoices in kilometres only"], cta: "Talk to sales (me)" },
 ];
 
 const CHATS: { id: Exclude<ChatId, "mine" | "upgrade">; title: string; ask: string }[] = [
