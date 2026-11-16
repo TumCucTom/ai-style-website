@@ -990,3 +990,28 @@ html.light .is-chat { --up: #1f5fe0; }
 .chat-plan-contact > p.price i { font: 400 0.8rem/1 system-ui, -apple-system, sans-serif; letter-spacing: 0; font-style: normal; color: var(--muted); }
 .chat-plan-contact .gate { margin-top: 0.9rem; padding-top: 1rem; border-top: 1px solid var(--line); }
 .is-chat .llm-say .chat-plans { grid-template-columns: repeat(auto-fit, minmax(min(100%, 11rem), 1fr)); }
+
+/* Enterprise: one card, several plans. Swipe it, or use the arrows and dots. */
+.chat-plans > li.chat-ent { touch-action: pan-y; user-select: none; }
+.chat-ent > b { display: flex; align-items: center; justify-content: space-between; gap: 0.5rem; }
+.chat-ent-nav { display: flex; gap: 0.15rem; margin: -0.3rem -0.4rem -0.3rem 0; }
+.is-chat .chat-plans .chat-ent-nav button { all: unset; display: grid; place-items: center; width: 1.9rem; height: 1.9rem; margin: 0; padding: 0; border-radius: 8px; cursor: pointer; background: none; color: var(--muted); }
+.is-chat .chat-plans .chat-ent-nav button:hover { background: var(--hover); color: var(--ink); opacity: 1; }
+.chat-ent-nav svg { width: 0.95rem; height: 0.95rem; }
+.chat-ent-face { display: flex; flex-direction: column; gap: 0.35rem; animation: chat-ent 260ms cubic-bezier(0.2, 0.7, 0.2, 1); }
+@keyframes chat-ent { from { opacity: 0; transform: translateX(10px); } }
+.chat-ent-dots { display: flex; justify-content: center; gap: 0.15rem; margin: auto 0 0.5rem; }
+.is-chat .chat-plans .chat-ent-dots button { all: unset; width: 1.4rem; height: 1.4rem; margin: 0; padding: 0; cursor: pointer; background: none; display: grid; place-items: center; }
+.is-chat .chat-plans .chat-ent-dots button::before { content: ""; width: 0.4rem; height: 0.4rem; border-radius: 50%; background: var(--line); transition: background 140ms ease-out, transform 140ms ease-out; }
+.is-chat .chat-plans .chat-ent-dots button[aria-current]::before { background: var(--up); transform: scale(1.35); }
+.is-chat .chat-plans .chat-ent-dots button:hover::before { background: var(--muted); }
+.is-chat .chat-plans .chat-ent > button { margin-top: 0; }
+.is-chat .chat-plans .chat-ent-nav button:focus-visible, .is-chat .chat-plans .chat-ent-dots button:focus-visible { outline: 2px solid var(--up); outline-offset: 1px; }
+@media (prefers-reduced-motion: reduce) { .chat-ent-face { animation: none; } }
+
+.chat-plans > li.chat-ent { overflow: hidden; }
+.chat-ent-bar { position: absolute; left: 0; bottom: 0; height: 3px; width: 100%; background: var(--up); transform-origin: 0 50%; animation: chat-ent-bar 6s linear forwards; }
+@keyframes chat-ent-bar { from { transform: scaleX(0); } to { transform: scaleX(1); } }
+.chat-ent:hover .chat-ent-bar, .chat-ent:focus-within .chat-ent-bar { animation-play-state: paused; }
+@media (prefers-reduced-motion: reduce) { .chat-ent-bar { display: none; } }
+.chat-plans p.price i { white-space: nowrap; }

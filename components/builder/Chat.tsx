@@ -18,8 +18,67 @@ const plans = (rapid: number | null): { name: string; price: string; per: string
   { name: "Free", price: "£0", per: "forever", line: "Everything on this site. That's the whole product.", perks: ["All five versions", "Unlimited pages", "The puzzle, unskipped or skipped"], cta: "Your current plan" },
   { name: "Plus", price: "£4.99", per: "a month", line: "The same website, but you feel better about it.", perks: ["A slightly warmer hello", "Dark mode (also in Free)", "A sense of having supported something"], cta: "Upgrade to Plus" },
   { name: "Pro", price: `£${(rapid ?? 1272).toLocaleString("en-GB")}`, per: "a month", line: "Priced at my live chess.com rapid rating. It goes up if I improve.", perks: ["I play you at chess and probably lose", "Priority access to the keyword rules", "Your name said aloud, once"], cta: "Upgrade to Pro" },
-  { name: "Enterprise", price: "226 km", per: "per seat", line: "I do an Ironman on behalf of your team.", perks: ["Guaranteed to start, guaranteed-ish to finish", "A dedicated account swimmer", "Invoices in kilometres only"], cta: "Talk to sales (me)" },
 ];
+
+// Enterprise comes in a few flavours. Swipe the card, or use the arrows and dots.
+const ENTERPRISE = [
+  { price: "226 km", per: "per seat", line: "I do an Ironman on behalf of your team.", perks: ["Guaranteed to start, guaranteed-ish to finish", "A dedicated account swimmer", "Invoices in kilometres only"] },
+  { price: "3 rounds", per: "per quarter", line: "I spar on behalf of your legal team.", perks: ["Six months' experience, so manage expectations", "Pads held for your CEO", "Disputes settled on the bag"] },
+  { price: "48 hours", per: "no sleep", line: "I enter a hackathon as your company and try to win it.", perks: ["A quantum angle whether you need one or not", "Prize money: we'll talk", "The demo works on stage, once"] },
+];
+
+function Enterprise({ onTalk }: { onTalk: () => void }) {
+  const [i, setI] = useState(0);
+  const from = useRef<number | null>(null);
+  const n = ENTERPRISE.length;
+  const go = (d: number) => setI((x) => (x + d + n) % n);
+  const e = ENTERPRISE[i];
+  return (
+    <li
+      className="chat-ent"
+      onPointerDown={(ev) => (from.current = ev.clientX)}
+      onPointerUp={(ev) => {
+        const dx = from.current === null ? 0 : ev.clientX - from.current;
+        from.current = null;
+        if (Math.abs(dx) > 40) go(dx < 0 ? 1 : -1);
+      }}
+      onPointerCancel={() => (from.current = null)}
+    >
+      <b>
+        Enterprise
+        <span className="chat-ent-nav">
+          <button type="button" onClick={() => go(-1)} aria-label="Previous Enterprise plan">
+            <Icon d="M10 3 5 8l5 5" />
+          </button>
+          <button type="button" onClick={() => go(1)} aria-label="Next Enterprise plan">
+            <Icon d="m6 3 5 5-5 5" />
+          </button>
+        </span>
+      </b>
+      <div className="chat-ent-face" key={i} aria-live="polite">
+        <p className="price">
+          {e.price} <i>{e.per}</i>
+        </p>
+        <p>{e.line}</p>
+        <ul>
+          {e.perks.map((x) => (
+            <li key={x}>{x}</li>
+          ))}
+        </ul>
+      </div>
+      <div className="chat-ent-dots">
+        {ENTERPRISE.map((x, k) => (
+          <button key={x.price} type="button" onClick={() => setI(k)} aria-label={`Enterprise plan ${k + 1} of ${n}`} aria-current={k === i ? "true" : undefined} />
+        ))}
+      </div>
+      <button type="button" onClick={onTalk}>
+        Talk to sales (me)
+      </button>
+      {/* fills, then moves to the next plan; it waits while the card is hovered or focused */}
+      <span className="chat-ent-bar" key={`bar${i}`} onAnimationEnd={() => go(1)} aria-hidden="true" />
+    </li>
+  );
+}
 
 const CHATS: { id: Exclude<ChatId, "mine" | "upgrade">; title: string; ask: string }[] = [
   { id: "what", title: "What is this?", ask: "what is this?" },
@@ -177,6 +236,7 @@ export function ChatHome({ content, versions, run, focus, turns, message, pendin
               </button>
             </li>
           ))}
+          <Enterprise onTalk={() => document.getElementById("plan-contact")?.scrollIntoView({ behavior: "smooth", block: "center" })} />
         </ul>
         <div className="chat-plan-contact" id="plan-contact">
           <b>Talk to sales</b>
