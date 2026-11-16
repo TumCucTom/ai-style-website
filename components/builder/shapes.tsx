@@ -45,8 +45,8 @@ function items(p: Parts, s: Section): Item[] {
   }
 }
 const stats = (l: Content["live"]): [string | number, string][] => [
-  [l.c24, "commits in the last 24 hours"],
-  [l.c7, "commits in the last 7 days"],
+  [l.c7.toLocaleString("en-GB"), "GitHub contributions in the last 7 days"],
+  [l.cYear.toLocaleString("en-GB"), "GitHub contributions in the last year"],
   ...(l.rapid ? ([[l.rapid, "chess.com rapid"]] as [number, string][]) : []),
   ...(l.track ? ([[l.track.name, `last played · ${l.track.artist}`]] as [string, string][]) : []),
 ];
@@ -100,7 +100,7 @@ function Shell(p: Parts) {
           </h2>
           {s === "live" ? (
             <p className="sh-out">
-              up since 2018, {l.c24} commits in 24h, {l.c7} in 7 days
+              up since 2018, {l.c7} contributions in 7 days, {l.cYear} in a year
               {l.rapid ? `, rapid ${l.rapid}` : ""}
               {l.track ? `, last played ${l.track.name}` : ""}
             </p>
@@ -514,7 +514,7 @@ function Desktop(p: Parts) {
               ))}
             </ul>
             <p className="dk-count">
-              commits this week
+              contributions this week
               <b>{String(p.live.c7).padStart(6, "0")}</b>
             </p>
             <p className="dk-uc">Under construction since 2018</p>

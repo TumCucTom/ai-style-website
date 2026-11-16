@@ -104,8 +104,8 @@ function Items({ b, content }: { b: Block; content: Content }) {
 function Live({ content }: { content: Content }) {
   const l = content.live;
   const nums: [string | number, string][] = [
-    [l.c24, "commits, last 24 hours"],
-    [l.c7, "commits, last 7 days"],
+    [l.c7, "GitHub contributions, last 7 days"],
+    [l.cYear, "GitHub contributions, last year"],
   ];
   if (l.rapid) nums.push([l.rapid, "chess.com rapid"]);
   if (l.blitz) nums.push([l.blitz, "chess.com blitz"]);

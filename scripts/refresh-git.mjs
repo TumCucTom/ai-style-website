@@ -1,7 +1,7 @@
 import { execSync } from "node:child_process";
 
 const DATA_FILES = [
-  "data/live-commits.json",
+  "data/live-contributions.json",
   "data/live-chess.json",
   "data/live-spotify.json",
   "data/open-source.json",

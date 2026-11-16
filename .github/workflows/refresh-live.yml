@@ -2,7 +2,7 @@ name: refresh-live
 
 on:
   schedule:
-    # Every 2 hours; commit collection includes private repositories and PRs.
+    # Every 2 hours.
     - cron: "0 */2 * * *"
   workflow_dispatch:
   push:
@@ -11,8 +11,7 @@ on:
     paths:
       - ".github/workflows/refresh-live.yml"
       - "scripts/fetch-all.mjs"
-      - "scripts/github-activity.mjs"
-      - "scripts/commits.mjs"
+      - "scripts/contributions.mjs"
       - "data/**/*.json"
 
 concurrency:

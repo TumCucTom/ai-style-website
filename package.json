@@ -11,7 +11,7 @@
     "embed": "node scripts/embed.mjs",
     "embed:corpus": "node scripts/embed.mjs --dump",
     "embed:umap": "npm run embed:corpus && python3 scripts/embed_umap.py && npm run embed",
-    "commits": "node scripts/commits.mjs",
+    "contributions": "node scripts/contributions.mjs",
     "chess": "node scripts/chess.mjs"
   },
   "dependencies": {

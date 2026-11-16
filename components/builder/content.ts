@@ -2,7 +2,7 @@ import projects from "@/data/projects.json";
 import experience from "@/data/experience.json";
 import education from "@/data/education.json";
 import achievements from "@/data/achievements.json";
-import commits from "@/data/live-commits.json";
+import contributions from "@/data/live-contributions.json";
 import chess from "@/data/live-chess.json";
 import spotify from "@/data/live-spotify.json";
 import type { Content } from "./Site";
@@ -11,7 +11,7 @@ import type { Content } from "./Site";
 // arranges it; no text about Tom is generated.
 export function content(): Content {
   type P = { name: string; tagline: string; domain: string; year?: number; image?: string; links: Record<string, string | undefined> };
-  const c = commits as unknown as { summary: { last24h: { commits: number }; last7d: { commits: number } } };
+  const c = contributions as unknown as { last7d: number; lastYear: number };
   const ch = chess as unknown as { rapid: { rating: number | null } | null; blitz: { rating: number | null } | null };
   const sp = spotify as unknown as { current: { name: string; artist: string } | null };
   return {
@@ -33,8 +33,8 @@ export function content(): Content {
       .filter((a) => a.category.startsWith("sport") || a.category === "interests")
       .map((a) => ({ name: a.name, year: a.year, blurb: a.blurb, photo: a.photo })),
     live: {
-      c24: c.summary.last24h.commits,
-      c7: c.summary.last7d.commits,
+      c7: c.last7d,
+      cYear: c.lastYear,
       rapid: ch.rapid?.rating ?? null,
       blitz: ch.blitz?.rating ?? null,
       track: sp.current ? { name: sp.current.name, artist: sp.current.artist } : null,

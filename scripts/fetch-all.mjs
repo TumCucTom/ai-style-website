@@ -2,7 +2,7 @@
 // Fetch all live data and push in a single git cycle.
 // Runs as part of the refresh-live workflow or standalone.
 //
-// Handles: live-commits.json, live-chess.json, live-spotify.json, open-source.json
+// Handles: live-contributions.json, live-chess.json, live-spotify.json, open-source.json
 //
 // Git cycle: sync origin/main -> write data -> commit -> push.
 // Non-fast-forward pushes are retried by recommitting generated data on latest main.
@@ -11,7 +11,7 @@ import fs from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 import { gitConfig, gitPull, pushRefreshCommit } from "./refresh-git.mjs";
-import { fetchCommitActivity, failedActivity } from "./github-activity.mjs";
+import { fetchContributions, failedContributions } from "./contributions.mjs";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.resolve(__dirname, "..");
@@ -156,10 +156,10 @@ async function fetchOSS() {
 async function main() {
   console.log("Fetching all live data...");
   const [commitsData, chessData, spotifyData, ossData] = await Promise.all([
-    fetchCommitActivity().catch(() => {
-      console.warn("GitHub activity refresh failed; retaining the last successful snapshot");
-      const previous = JSON.parse(fs.readFileSync(path.join(DATA, "live-commits.json"), "utf8"));
-      return failedActivity(previous);
+    fetchContributions().catch((e) => {
+      console.warn(`GitHub contributions refresh failed (${e.message}); keeping the last good numbers`);
+      const previous = JSON.parse(fs.readFileSync(path.join(DATA, "live-contributions.json"), "utf8"));
+      return failedContributions(previous);
     }),
     fetchChess().catch((e) => ({ error: e.message })),
     fetchSpotify().catch((e) => ({ error: e.message })),
@@ -169,7 +169,7 @@ async function main() {
   // Log summaries
   if (commitsData && !commitsData.error) {
     const c = commitsData;
-    console.log(`commits: ${c.summary.last24h.commits}/24h · ${c.summary.last7d.commits}/7d · authed: ${c.authed}`);
+    console.log(`contributions: ${c.today.count} today · ${c.last7d}/7d · ${c.lastYear}/year`);
   }
   if (chessData && !chessData.error && chessData.rapid) {
     const r = chessData.rapid;
@@ -190,7 +190,7 @@ async function main() {
   gitPull();
 
   // Write files after pull so we commit freshest data
-  fs.writeFileSync(path.join(DATA, "live-commits.json"), JSON.stringify(commitsData, null, 2));
+  fs.writeFileSync(path.join(DATA, "live-contributions.json"), JSON.stringify(commitsData, null, 2) + "\n");
   fs.writeFileSync(path.join(DATA, "live-chess.json"), JSON.stringify(chessData, null, 2));
   fs.writeFileSync(path.join(DATA, "live-spotify.json"), JSON.stringify(spotifyData, null, 2));
   if (ossData && !ossData.error) {

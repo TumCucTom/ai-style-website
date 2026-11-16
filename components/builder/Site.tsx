@@ -8,7 +8,7 @@ export type Content = {
   schools: { name: string; qualification: string; dates: string; grade: string }[];
   wins: { name: string; year: number; blurb: string; tags: string[]; photo?: string }[];
   sport: { name: string; year: number; blurb: string; photo?: string }[];
-  live: { c24: number; c7: number; rapid: number | null; blitz: number | null; track: { name: string; artist: string } | null };
+  live: { c7: number; cYear: number; rapid: number | null; blitz: number | null; track: { name: string; artist: string } | null };
 };
 
 const TITLE: Record<Section, string> = {
@@ -144,12 +144,12 @@ export function Site({ spec, content }: { spec: Spec; content: Content }) {
     live: (
       <div className="llm-grid llm-stats">
         <div className="llm-card">
-          <b>{content.live.c24}</b>
-          <span>commits in the last 24 hours</span>
+          <b>{content.live.c7.toLocaleString("en-GB")}</b>
+          <span>GitHub contributions in the last 7 days</span>
         </div>
         <div className="llm-card">
-          <b>{content.live.c7}</b>
-          <span>commits in the last 7 days</span>
+          <b>{content.live.cYear.toLocaleString("en-GB")}</b>
+          <span>GitHub contributions in the last year</span>
         </div>
         {content.live.rapid && (
           <div className="llm-card">

@@ -27,12 +27,12 @@ test("pushRefreshCommit retries non-fast-forward pushes without forcing", () => 
   });
 
   assert.deepEqual(commands, [
-    "git add data/live-commits.json data/live-chess.json data/live-spotify.json data/open-source.json",
+    "git add data/live-contributions.json data/live-chess.json data/live-spotify.json data/open-source.json",
     'git commit -m "refresh: live data [skip ci]" -m "Co-Authored-By: Zippy AI <tomkinsbale@icloud.com>"',
     "git push origin HEAD:main",
     "git fetch origin main:refs/remotes/origin/main",
     "git reset --mixed origin/main",
-    "git add data/live-commits.json data/live-chess.json data/live-spotify.json data/open-source.json",
+    "git add data/live-contributions.json data/live-chess.json data/live-spotify.json data/open-source.json",
     'git commit -m "refresh: live data [skip ci]" -m "Co-Authored-By: Zippy AI <tomkinsbale@icloud.com>"',
     "git push origin HEAD:main",
   ]);

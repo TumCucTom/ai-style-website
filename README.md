@@ -45,34 +45,19 @@ animations are CSS scroll-driven animations, so they cost no JavaScript.
 
 ## GitHub activity
 
-The live wall counts unique commit SHAs over rolling 24-hour and seven-day
-windows. It combines authored commits found by GitHub commit search with commits
-in merged PRs authored or personally merged by TumCucTom, including agent-authored
-PRs. PR commits use the PR's merge timestamp. If a SHA appears more than once,
-its earliest qualifying activity within the seven-day snapshot wins. Therefore
-this measures authored/delivered commits, not GitHub profile contributions, PR
-counts, lines of code, or only commits first written during the window. Branch
-sync commits contained in qualifying PRs are included too.
+The live numbers are GitHub contributions, read from the public contribution
+calendar on the profile page (`github.com/users/TumCucTom/contributions`), so
+they are the numbers on the heatmap: the last seven days, the last year, and
+each recent day. Dates are UTC days, as the public calendar draws them.
 
-`GH_USER_TOKEN` must belong to TumCucTom and have read access to the repositories
-being measured. For a classic PAT this requires private-repository `repo` access
-and any organisation SSO authorisation. For a fine-grained PAT, grant repository
-contents and pull-request read access across the desired repositories; ensure
-the token supports all owners being measured. The collector verifies access to
-serenity, anima-service and anima-clinics-app before publishing a new snapshot.
-It cannot infer access to every other private repository, so token selection
-still defines coverage. The workflow's repository-scoped `GITHUB_TOKEN` is used
-for pushing data, never as a fallback activity token.
+It reads the page rather than the API because the API, with the tokens a
+workflow has, leaves out contributions the profile includes (work in private
+organisations). No token is needed. If the page can't be fetched or doesn't
+parse, the previous numbers are kept and the snapshot is marked stale.
 
-Both `npm run commits` and the scheduled `scripts/fetch-all.mjs` use the same
-collector. Search intervals split above 1,000 results; repository, PR and commit
-connections paginate. API errors and incomplete search responses fail collection
-rather than becoming zeros. Scheduled refresh failures retain the previous
-counts and timestamp and mark the snapshot stale. Private repository names,
-messages and links never enter the generated detail lists or top-repository
-labels. `refresh: live data` commits are excluded.
+`npm run contributions` prints the current numbers.
 
-Run `npm test` for the activity and git-refresh regression tests.
+Run `npm test` for the contributions-parser and git-refresh regression tests.
 
 
 ## The CV

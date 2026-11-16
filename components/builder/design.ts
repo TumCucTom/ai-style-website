@@ -257,7 +257,7 @@ export const BLOCK_GUIDE = `BLOCKS (each is {type, variant, title, text, span, l
 - education: variant list | cards.
 - wins: variant list | table | grid (hackathons and competitions).
 - sport: variant list | grid (sport and interests).
-- live: variant bignum | row | ticker (commits this week, chess ratings, last song).
+- live: variant bignum | row | ticker (GitHub contributions, chess ratings, last song).
 - contact: variant plain. Always include one. It renders a puzzle gate; you cannot change what is inside.
 - marquee: text = a short line that scrolls across. divider: a rule.
 FRAME (top-level "frame", optional, default "stack"): the page's skeleton. Pick the one the idea calls for; do not default to stack.

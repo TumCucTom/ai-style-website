@@ -347,10 +347,10 @@ export function ChatHome({ content, versions, run, focus, turns, message, pendin
         <p>These numbers refresh on their own, so they&apos;re honest:</p>
         <div className="chat-nums">
           <div>
-            <b>{l.c24}</b>commits in the last 24 hours
+            <b>{l.c7.toLocaleString("en-GB")}</b>GitHub contributions in the last 7 days
           </div>
           <div>
-            <b>{l.c7}</b>commits in the last 7 days
+            <b>{l.cYear.toLocaleString("en-GB")}</b>GitHub contributions in the last year
           </div>
           {l.rapid && (
             <div>

@@ -1,5 +1,5 @@
 import live from "@/data/live.json";
-import commits from "@/data/live-commits.json";
+import contributions from "@/data/live-contributions.json";
 import f1 from "@/data/f1.json";
 import chess from "@/data/live-chess.json";
 import spotify from "@/data/live-spotify.json";
@@ -25,12 +25,7 @@ function Rating({ name, c }: { name: string; c: Cat }) {
 }
 
 export function Live() {
-  const c = commits as unknown as {
-    fetchedAt: string;
-    refreshError?: boolean;
-    capped?: boolean;
-    summary: { last24h: { commits: number }; last7d: { commits: number } };
-  };
+  const c = contributions as unknown as { fetchedAt: string; refreshError?: boolean; last7d: number; lastYear: number };
   const ch = chess as unknown as { profileUrl: string; user: string; rapid: Cat; blitz: Cat; bullet: Cat };
   const sp = spotify as unknown as {
     current: { name: string; artist: string; album: string; url: string; image: string | null; isNowPlaying: boolean } | null;
@@ -55,15 +50,14 @@ export function Live() {
         <div className="cells grid-cols-2 md:grid-cols-4">
           {(
             [
-              ["last 24 hours", c.summary.last24h.commits],
-              ["last 7 days", c.summary.last7d.commits],
+              ["last 7 days", c.last7d],
+              ["last year", c.lastYear],
             ] as const
           ).map(([label, n], i) => (
             <div key={label}>
-              <p className="caps">({letter(i)}) commits · {label}</p>
+              <p className="caps">({letter(i)}) contributions · {label}</p>
               <p className="big mt-4 tabular">
                 <span className="count" style={{ "--to": n } as React.CSSProperties} aria-label={String(n)} />
-                {c.capped && "+"}
               </p>
             </div>
           ))}
@@ -112,8 +106,7 @@ export function Live() {
           ))}
         </div>
         <figcaption>
-          <b>Fig. 2.</b> Telemetry. (a, b) Rolling windows of unique commits I authored, or that shipped in pull requests I
-          opened or merged; private work counts toward totals only and this site&apos;s own refreshes are excluded. Snapshot
+          <b>Fig. 2.</b> Telemetry. (a, b) GitHub contributions, read from the calendar on my profile, so they match its heatmap. Snapshot
           from <Ago at={c.fetchedAt} />
           {c.refreshError && ", the last refresh that succeeded"}. (c) Lap targets are mine, for sim racing.
         </figcaption>
