@@ -5,7 +5,7 @@
 // data files, for anyone who would rather click than describe a website.
 
 import Link from "next/link";
-import { useEffect, useRef, useState, type ReactNode } from "react";
+import { useEffect, useLayoutEffect, useRef, useState, type ReactNode } from "react";
 import { ContactGate } from "@/components/ContactGate";
 import type { Content } from "./Site";
 
@@ -204,8 +204,12 @@ export function ChatHome({ content, versions, run, focus, turns, message, pendin
   const pick = (id: ChatId) => {
     setChat(id);
     setOpen(false);
-    window.scrollTo({ top: 0 });
   };
+  // A different chat starts from its top. This runs once the new thread is on the page and jumps
+  // straight there: a smooth scroll started on the old, longer thread would stop partway down the new one.
+  useLayoutEffect(() => {
+    if (chat !== "mine") window.scrollTo({ top: 0, behavior: "instant" });
+  }, [chat]);
   const try_ = (ask: string) => (
     <a href="/" onClick={(e) => (e.preventDefault(), run(ask))}>
       {ask}
