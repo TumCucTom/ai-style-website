@@ -407,7 +407,7 @@ export function ChatHome({ content, versions, run, focus, turns, message, pendin
           <em aria-hidden="true">↗</em>
         </a>
         <nav className="chat-cta" aria-label="Start here">
-          <button type="button" onClick={() => (setOpen(false), focus())}>
+          <button type="button" onClick={() => (pick("what"), focus())}>
             <Icon d="M8 3v10M3 8h10" />
             New page
           </button>
@@ -418,6 +418,14 @@ export function ChatHome({ content, versions, run, focus, turns, message, pendin
           <a href="https://cv.thomasbale.com" target="_blank" rel="noopener">
             <Icon d="M4.5 2.5h5l2 2v9h-7zM6.5 7h3M6.5 9.5h3" />
             Read the CV
+          </a>
+          <a href="https://github.com/TumCucTom" target="_blank" rel="noopener">
+            <Icon d="M6 3 2.5 8 6 13M10 3l3.5 5-3.5 5" />
+            GitHub
+          </a>
+          <a href="https://www.linkedin.com/in/thomas-bale" target="_blank" rel="noopener">
+            <Icon d="M3 6.5v6.5M3 3.6v.1M6.5 13V6.5M6.5 9.2c0-1.6 1-2.7 2.6-2.7s2.4 1 2.4 2.7V13" />
+            LinkedIn
           </a>
         </nav>
         <p className="chat-k">Chats</p>
@@ -441,14 +449,6 @@ export function ChatHome({ content, versions, run, focus, turns, message, pendin
               Tell me about the studio
             </button>
           </li>
-        </ul>
-        <p className="chat-k">Made by hand</p>
-        <ul>
-          {versions.map((v) => (
-            <li key={v.href}>
-              <Link href={v.href} target="_blank" rel="noopener">{v.name}</Link>
-            </li>
-          ))}
         </ul>
         <p className="chat-me">
           <span aria-hidden="true">T</span>
