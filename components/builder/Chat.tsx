@@ -179,6 +179,17 @@ export function ChatHome({ content, versions, run, focus, turns, message, pendin
     setOpen(false);
     setTimeout(() => more.current?.scrollIntoView({ behavior: "smooth", block: "start" }), 60);
   };
+  // a page in the pane asked to come back here (its "other versions" link)
+  useEffect(() => {
+    const back = (e: MessageEvent) => {
+      if (e.origin !== location.origin || (e.data as { tb?: string } | null)?.tb !== "versions") return;
+      setPane(null);
+      setChat("what");
+      setTimeout(() => document.getElementById("versions")?.scrollIntoView({ behavior: "smooth", block: "start" }), 80);
+    };
+    window.addEventListener("message", back);
+    return () => window.removeEventListener("message", back);
+  }, []);
   const openMine = (name: string) => (openUrl ? setPane({ title: name, src: openUrl, mine: true }) : onOpen());
   // asking for a page starts a chat of its own, the way a first message does in a chat app
   const count = turns.length + (pending ? 1 : 0);

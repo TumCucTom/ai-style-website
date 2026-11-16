@@ -204,6 +204,14 @@ export function Builder({ content, studio = false }: { content: Content; studio?
   const [view, setView] = useState<"chat" | "page">("chat");
   const chatting = !studio && view === "chat";
   const [asking, setAsking] = useState("");
+  // A link inside the preview pane can lead back here. The chat must not open inside itself:
+  // tell the page that owns the pane to close it and show its own list of versions.
+  const [nested, setNested] = useState(false);
+  useEffect(() => {
+    if (window.self === window.top || !chatting) return;
+    setNested(true);
+    window.parent.postMessage({ tb: "versions" }, location.origin);
+  }, [chatting]);
   const [openUrl, setOpenUrl] = useState<string | null>(null);
   useEffect(() => {
     let live = true;
@@ -673,6 +681,8 @@ export function Builder({ content, studio = false }: { content: Content; studio?
       Model {progress.f < 0.01 ? "downloading" : `${Math.round(progress.f * 100)}%`} · {waited}
     </button>
   );
+
+  if (nested && chatting) return <div className="llm" style={vars(BLANK)} />;
 
   return (
     <div ref={root} className={`llm ${design || chatting ? "fx-none" : `fx-${spec.theme.fx}`} ${blank ? "is-blank" : ""} ${studio ? "is-studio" : ""} ${chatting ? "is-chat" : ""}`} style={vars(design || chatting ? BLANK : spec)}>
