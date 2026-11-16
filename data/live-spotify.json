@@ -1,6 +1,6 @@
 {
   "user": "trvbale",
-  "fetchedAt": "2026-11-16T02:44:16.211Z",
+  "fetchedAt": "2026-11-16T12:19:30.971Z",
   "current": {
     "name": "熱情のスペクトラム",
     "artist": "Ikimonogakari",
@@ -11,20 +11,20 @@
     "playedAt": "15 Nov 2026, 00:05"
   },
   "weeklyStats": {
-    "totalScrobbles": 200
+    "totalScrobbles": 177
   },
   "topArtists": [
     {
       "name": "Atlus Sound Team",
-      "playCount": "20"
-    },
-    {
-      "name": "Flight of the Conchords",
-      "playCount": "13"
+      "playCount": "18"
     },
     {
       "name": "Rousseau",
-      "playCount": "12"
+      "playCount": "11"
+    },
+    {
+      "name": "Joy Crookes",
+      "playCount": "8"
     }
   ],
   "totalScrobbles": "3040"
