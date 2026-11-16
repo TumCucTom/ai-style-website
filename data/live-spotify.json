@@ -1,31 +1,31 @@
 {
   "user": "trvbale",
-  "fetchedAt": "2026-11-16T12:19:30.971Z",
+  "fetchedAt": "2026-11-16T23:08:23.349Z",
   "current": {
-    "name": "熱情のスペクトラム",
-    "artist": "Ikimonogakari",
-    "album": "Chou Ikimonobakari Tennen Kinen Members Best Selection",
-    "url": "https://www.last.fm/music/+noredirect/Ikimonogakari/_/%E7%86%B1%E6%83%85%E3%81%AE%E3%82%B9%E3%83%9A%E3%82%AF%E3%83%88%E3%83%A9%E3%83%A0",
-    "image": "https://lastfm-img.freetls.fastly.net/i/u/174s/bb80b85347d35939e8f99154db381585.jpg",
-    "isNowPlaying": false,
-    "playedAt": "15 Nov 2026, 00:05"
+    "name": "Fighting Gold",
+    "artist": "Coda",
+    "album": "Fighting Gold",
+    "url": "https://www.last.fm/music/Coda/_/Fighting+Gold",
+    "image": "https://lastfm-img.freetls.fastly.net/i/u/174s/2e9392abc09490e987202425c9001eed.jpg",
+    "isNowPlaying": true,
+    "playedAt": null
   },
   "weeklyStats": {
-    "totalScrobbles": 177
+    "totalScrobbles": 161
   },
   "topArtists": [
     {
-      "name": "Atlus Sound Team",
-      "playCount": "18"
+      "name": "Joy Crookes",
+      "playCount": "9"
+    },
+    {
+      "name": "Flight of the Conchords",
+      "playCount": "8"
     },
     {
       "name": "Rousseau",
-      "playCount": "11"
-    },
-    {
-      "name": "Joy Crookes",
       "playCount": "8"
     }
   ],
-  "totalScrobbles": "3040"
+  "totalScrobbles": "3057"
 }
