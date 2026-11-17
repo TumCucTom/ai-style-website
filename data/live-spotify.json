@@ -1,31 +1,31 @@
 {
   "user": "trvbale",
-  "fetchedAt": "2026-11-16T23:08:23.349Z",
+  "fetchedAt": "2026-11-17T05:51:38.006Z",
   "current": {
-    "name": "Fighting Gold",
-    "artist": "Coda",
-    "album": "Fighting Gold",
-    "url": "https://www.last.fm/music/Coda/_/Fighting+Gold",
-    "image": "https://lastfm-img.freetls.fastly.net/i/u/174s/2e9392abc09490e987202425c9001eed.jpg",
-    "isNowPlaying": true,
-    "playedAt": null
+    "name": "STONE OCEAN",
+    "artist": "ichigo from 岸田教団&THE明星ロケッツ",
+    "album": "STONE OCEAN",
+    "url": "https://www.last.fm/music/ichigo+from+%E5%B2%B8%E7%94%B0%E6%95%99%E5%9B%A3&THE%E6%98%8E%E6%98%9F%E3%83%AD%E3%82%B1%E3%83%83%E3%83%84/_/STONE+OCEAN",
+    "image": "https://lastfm-img.freetls.fastly.net/i/u/174s/8fe05581a5950b5ef3b662e987db654c.jpg",
+    "isNowPlaying": false,
+    "playedAt": "17 Nov 2026, 02:49"
   },
   "weeklyStats": {
-    "totalScrobbles": 161
+    "totalScrobbles": 200
   },
   "topArtists": [
     {
-      "name": "Joy Crookes",
-      "playCount": "9"
+      "name": "Cigarettes After Sex",
+      "playCount": "24"
     },
     {
       "name": "Flight of the Conchords",
-      "playCount": "8"
+      "playCount": "10"
     },
     {
-      "name": "Rousseau",
-      "playCount": "8"
+      "name": "Joy Crookes",
+      "playCount": "10"
     }
   ],
-  "totalScrobbles": "3057"
+  "totalScrobbles": "3112"
 }
