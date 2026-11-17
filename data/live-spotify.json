@@ -1,3 +1,31 @@
 {
-  "error": "Last.fm 503"
+  "user": "trvbale",
+  "fetchedAt": "2026-11-17T23:15:22.483Z",
+  "current": {
+    "name": "Solace - Slowed",
+    "artist": "txmy",
+    "album": "Solace",
+    "url": "https://www.last.fm/music/txmy/_/Solace+-+Slowed",
+    "image": "https://lastfm-img.freetls.fastly.net/i/u/174s/248a29e7f1e78457ff26954950ccb014.jpg",
+    "isNowPlaying": false,
+    "playedAt": "17 Nov 2026, 18:20"
+  },
+  "weeklyStats": {
+    "totalScrobbles": 200
+  },
+  "topArtists": [
+    {
+      "name": "Cigarettes After Sex",
+      "playCount": "24"
+    },
+    {
+      "name": "Flight of the Conchords",
+      "playCount": "10"
+    },
+    {
+      "name": "Joy Crookes",
+      "playCount": "10"
+    }
+  ],
+  "totalScrobbles": "3116"
 }
