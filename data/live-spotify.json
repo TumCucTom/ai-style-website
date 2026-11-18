@@ -1,14 +1,14 @@
 {
   "user": "trvbale",
-  "fetchedAt": "2026-11-18T05:19:06.025Z",
+  "fetchedAt": "2026-11-18T14:51:31.154Z",
   "current": {
-    "name": "Solace - Slowed",
-    "artist": "txmy",
-    "album": "Solace",
-    "url": "https://www.last.fm/music/txmy/_/Solace+-+Slowed",
-    "image": "https://lastfm-img.freetls.fastly.net/i/u/174s/248a29e7f1e78457ff26954950ccb014.jpg",
+    "name": "bipolar",
+    "artist": ".diedlonely",
+    "album": "bipolar",
+    "url": "https://www.last.fm/music/.diedlonely/_/bipolar",
+    "image": "https://lastfm-img.freetls.fastly.net/i/u/174s/d1c21946bb9e66399c971e95d055fed8.jpg",
     "isNowPlaying": false,
-    "playedAt": "17 Nov 2026, 18:20"
+    "playedAt": "18 Nov 2026, 14:24"
   },
   "weeklyStats": {
     "totalScrobbles": 200
@@ -19,13 +19,13 @@
       "playCount": "24"
     },
     {
-      "name": "Flight of the Conchords",
-      "playCount": "10"
+      "name": "Joy Crookes",
+      "playCount": "12"
     },
     {
-      "name": "Joy Crookes",
+      "name": "Flight of the Conchords",
       "playCount": "10"
     }
   ],
-  "totalScrobbles": "3116"
+  "totalScrobbles": "3141"
 }
