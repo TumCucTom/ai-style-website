@@ -1,14 +1,14 @@
 {
   "user": "trvbale",
-  "fetchedAt": "2026-11-18T14:51:31.154Z",
+  "fetchedAt": "2026-11-18T22:48:22.707Z",
   "current": {
-    "name": "bipolar",
-    "artist": ".diedlonely",
-    "album": "bipolar",
-    "url": "https://www.last.fm/music/.diedlonely/_/bipolar",
-    "image": "https://lastfm-img.freetls.fastly.net/i/u/174s/d1c21946bb9e66399c971e95d055fed8.jpg",
+    "name": "Ideal and the Real - end version",
+    "artist": "Atlus Sound Team",
+    "album": "Persona 5 Royal: Original Soundtrack",
+    "url": "https://www.last.fm/music/Atlus+Sound+Team/_/Ideal+and+the+Real+-+end+version",
+    "image": "https://lastfm-img.freetls.fastly.net/i/u/174s/8125e216d41a0b37d204b1dead46853b.jpg",
     "isNowPlaying": false,
-    "playedAt": "18 Nov 2026, 14:24"
+    "playedAt": "18 Nov 2026, 14:26"
   },
   "weeklyStats": {
     "totalScrobbles": 200
@@ -27,5 +27,5 @@
       "playCount": "10"
     }
   ],
-  "totalScrobbles": "3141"
+  "totalScrobbles": "3142"
 }

@@ -3,15 +3,15 @@
   "profileUrl": "https://www.chess.com/member/reewyyn",
   "avatar": "https://images.chesscomfiles.com/uploads/v1/user/564414754.03dc917d.200x200o.4d98d2cf32a1.jpg",
   "country": "GB",
-  "fetchedAt": "2026-11-18T14:51:31.663Z",
+  "fetchedAt": "2026-11-18T22:48:21.992Z",
   "rapid": {
-    "rating": 1291,
+    "rating": 1299,
     "best": 1531,
     "bestDate": 1786801645,
-    "wins": 185,
-    "losses": 201,
-    "draws": 19,
-    "lastGameDate": 1794916906
+    "wins": 187,
+    "losses": 202,
+    "draws": 20,
+    "lastGameDate": 1795029532
   },
   "blitz": {
     "rating": 1271,
