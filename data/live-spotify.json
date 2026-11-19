@@ -1,14 +1,14 @@
 {
   "user": "trvbale",
-  "fetchedAt": "2026-11-18T22:48:22.707Z",
+  "fetchedAt": "2026-11-19T05:14:30.872Z",
   "current": {
-    "name": "Ideal and the Real - end version",
-    "artist": "Atlus Sound Team",
-    "album": "Persona 5 Royal: Original Soundtrack",
-    "url": "https://www.last.fm/music/Atlus+Sound+Team/_/Ideal+and+the+Real+-+end+version",
-    "image": "https://lastfm-img.freetls.fastly.net/i/u/174s/8125e216d41a0b37d204b1dead46853b.jpg",
+    "name": "Motion Picture Soundtrack",
+    "artist": "Cigarettes After Sex",
+    "album": "Motion Picture Soundtrack",
+    "url": "https://www.last.fm/music/Cigarettes+After+Sex/_/Motion+Picture+Soundtrack",
+    "image": "https://lastfm-img.freetls.fastly.net/i/u/174s/2d74b6fbf191da80855674af945ca155.jpg",
     "isNowPlaying": false,
-    "playedAt": "18 Nov 2026, 14:26"
+    "playedAt": "18 Nov 2026, 23:18"
   },
   "weeklyStats": {
     "totalScrobbles": 200
@@ -16,16 +16,16 @@
   "topArtists": [
     {
       "name": "Cigarettes After Sex",
-      "playCount": "24"
+      "playCount": "29"
     },
     {
       "name": "Joy Crookes",
-      "playCount": "12"
+      "playCount": "14"
     },
     {
       "name": "Flight of the Conchords",
       "playCount": "10"
     }
   ],
-  "totalScrobbles": "3142"
+  "totalScrobbles": "3150"
 }
