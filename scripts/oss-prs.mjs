@@ -1,5 +1,5 @@
 // scripts/oss-prs.mjs
-// Fetch all PRs (open, merged, closed) by TumCucTom for repos in open-source.json
+// Fetch all PRs (open, merged, closed) by thomas-bale for repos in open-source.json
 // Uses Search API for accuracy (finds PRs across forks) + fallback to pulls API
 //
 // Run: node scripts/oss-prs.mjs
@@ -24,7 +24,7 @@ const authHeaders = () => ({
 
 async function fetchAllPRsSearch(org, repo) {
   // Use search API — finds PRs across all forks reliably
-  const url = `https://api.github.com/search/issues?q=author:TumCucTom+repo:${org}/${repo}+type:pr&sort=created&order=desc&per_page=100`;
+  const url = `https://api.github.com/search/issues?q=author:thomas-bale+repo:${org}/${repo}+type:pr&sort=created&order=desc&per_page=100`;
   const res = await fetch(url, { headers: authHeaders() });
   if (!res.ok) {
     console.error(`  Search API ${res.status} for ${org}/${repo}: ${res.statusText}`);

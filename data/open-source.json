@@ -48,7 +48,7 @@
     "id": "vercel-labs-zerolang",
     "org": "vercel-labs",
     "repo": "zerolang",
-    "url": "https://github.com/vercel-labs/zerolang/pulls?q=is%3Apr+author%3ATumCucTom",
+    "url": "https://github.com/vercel-labs/zerolang/pulls?q=is%3Apr+author%3Athomas-bale",
     "blurb": "Lexer/parser edge cases for the experimental graph-first agent language.",
     "tags": [
       "language",
@@ -99,7 +99,7 @@
     "id": "fast-f1",
     "org": "theOehrly",
     "repo": "Fast-F1",
-    "url": "https://github.com/theOehrly/Fast-F1/pulls?q=is%3Apr+author%3ATumCucTom",
+    "url": "https://github.com/theOehrly/Fast-F1/pulls?q=is%3Apr+author%3Athomas-bale",
     "blurb": "F1 telemetry library — public API for timing stream data.",
     "tags": [
       "f1",
@@ -173,7 +173,7 @@
     "id": "nous-hermes",
     "org": "NousResearch",
     "repo": "hermes-agent",
-    "url": "https://github.com/NousResearch/hermes-agent/pulls?q=is%3Apr+author%3ATumCucTom",
+    "url": "https://github.com/NousResearch/hermes-agent/pulls?q=is%3Apr+author%3Athomas-bale",
     "blurb": "Skills, docs, and CLI improvements.",
     "tags": [
       "agent",
@@ -241,7 +241,7 @@
     "id": "minimax-mini-agent",
     "org": "MiniMax-AI",
     "repo": "Mini-Agent",
-    "url": "https://github.com/MiniMax-AI/Mini-Agent/pulls?q=is%3Apr+author%3ATumCucTom",
+    "url": "https://github.com/MiniMax-AI/Mini-Agent/pulls?q=is%3Apr+author%3Athomas-bale",
     "blurb": "Streaming and sub-agent features.",
     "tags": [
       "agent",
@@ -272,7 +272,7 @@
     "id": "minimax-mcp",
     "org": "MiniMax-AI",
     "repo": "MiniMax-MCP",
-    "url": "https://github.com/MiniMax-AI/MiniMax-MCP/pulls?q=is%3Apr+author%3ATumCucTom",
+    "url": "https://github.com/MiniMax-AI/MiniMax-MCP/pulls?q=is%3Apr+author%3Athomas-bale",
     "blurb": "Tests, validation, and bug fixes.",
     "tags": [
       "mcp",
@@ -342,7 +342,7 @@
     "id": "minimax-skills",
     "org": "MiniMax-AI",
     "repo": "skills",
-    "url": "https://github.com/MiniMax-AI/skills/pulls?q=is%3Apr+author%3ATumCucTom",
+    "url": "https://github.com/MiniMax-AI/skills/pulls?q=is%3Apr+author%3Athomas-bale",
     "blurb": "New skills: PDF reading and spreadsheet triage.",
     "tags": [
       "skills",

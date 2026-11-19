@@ -128,7 +128,7 @@ async function fetchOSS() {
   });
 
   async function fetchAllPRsSearch(org, repo) {
-    const url = `https://api.github.com/search/issues?q=author:TumCucTom+repo:${org}/${repo}+type:pr&sort=created&order=desc&per_page=100`;
+    const url = `https://api.github.com/search/issues?q=author:thomas-bale+repo:${org}/${repo}+type:pr&sort=created&order=desc&per_page=100`;
     const res = await fetch(url, { headers: authHeaders2() });
     if (!res.ok) return null;
     const data = await res.json();

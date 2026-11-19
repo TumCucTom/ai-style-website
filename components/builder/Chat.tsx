@@ -409,7 +409,7 @@ export function ChatHome({ content, versions, run, focus, turns, message, pendin
       {open && <button type="button" className="chat-scrim" aria-label="Close" onClick={() => setOpen(false)} />}
       <aside className={`chat-side${open ? " open" : ""}`} aria-label="Chats and links">
         <p className="chat-brand">Tom Bale</p>
-        <a className="chat-source" href="https://github.com/TumCucTom/ai-style-website" target="_blank" rel="noopener">
+        <a className="chat-source" href="https://github.com/thomas-bale/ai-style-website" target="_blank" rel="noopener">
           <Icon d="M6 3 2.5 8 6 13M10 3l3.5 5-3.5 5" />
           <span>
             <b>Like this?</b>
@@ -430,7 +430,7 @@ export function ChatHome({ content, versions, run, focus, turns, message, pendin
             <Icon d="M4.5 2.5h5l2 2v9h-7zM6.5 7h3M6.5 9.5h3" />
             Read the CV
           </a>
-          <a href="https://github.com/TumCucTom" target="_blank" rel="noopener">
+          <a href="https://github.com/thomas-bale" target="_blank" rel="noopener">
             <Icon d="M6 3 2.5 8 6 13M10 3l3.5 5-3.5 5" />
             GitHub
           </a>

@@ -53,7 +53,7 @@ export default function Page() {
         <div className="wrap mono flex flex-wrap items-baseline justify-between gap-x-10 gap-y-3 text-muted">
           <p>
             © {new Date().getFullYear()} Thomas Bale. Preprint, not peer reviewed.{" "}
-            <a className="link text-ink" href="https://github.com/TumCucTom/ai-style-website" target="_blank" rel="noreferrer">
+            <a className="link text-ink" href="https://github.com/thomas-bale/ai-style-website" target="_blank" rel="noreferrer">
               Source
             </a>
             .
@@ -62,7 +62,7 @@ export default function Page() {
             Previous editions:{" "}
             <a className="link text-ink" href="https://v1.thomasbale.com" target="_blank" rel="noreferrer">v1</a>,{" "}
             <a className="link text-ink" href="https://v2.thomasbale.com" target="_blank" rel="noreferrer">v2</a>, and{" "}
-            <a className="link text-ink" href="https://github.com/TumCucTom/tui-portfolio" target="_blank" rel="noreferrer">one you can ssh into</a>.
+            <a className="link text-ink" href="https://github.com/thomas-bale/tui-portfolio" target="_blank" rel="noreferrer">one you can ssh into</a>.
           </p>
         </div>
       </footer>

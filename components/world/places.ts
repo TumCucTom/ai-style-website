@@ -205,7 +205,7 @@ const essex = (k: Kit): Built => {
       {
         x: 9, z: -0.5, title: "3D chess",
         body: "My A-level project: chess on an 8×8×8 board, with an engine to play against. 75 out of 75. This lattice is the board. You can walk through it.",
-        link: { href: "https://github.com/TumCucTom/ai-chess-3d", label: "the code" },
+        link: { href: "https://github.com/thomas-bale/ai-chess-3d", label: "the code" },
       },
     ],
   };
@@ -347,13 +347,13 @@ const bristol = async (k: Kit): Promise<Built> => {
       {
         x: ox + 12, z: oz + 6.2, title: "The HPC bit",
         body: "A coursework: take a lattice Boltzmann fluid solver and make it faster. I did 28 versions. I also captained the uni's cluster team at CIUK twice.",
-        link: { href: "https://github.com/TumCucTom/hpc-2", label: "the solver" },
+        link: { href: "https://github.com/thomas-bale/hpc-2", label: "the solver" },
       },
       { x: ox - 12, z: oz + 7, title: "Quantum society", body: "I started the Quantum Computing Society and we ran its first hackathon. This is meant to be a qubit." },
       {
         x: ox - 12.5, z: oz + 13.5, title: "Dissertation",
         body: "I gave a vision-language model a memory, so it can pick the frames that matter out of a long video. 85%, and Best Computer Vision Project.",
-        link: { href: "https://github.com/TumCucTom/VLM-memory", label: "VLM-memory" },
+        link: { href: "https://github.com/thomas-bale/VLM-memory", label: "VLM-memory" },
       },
     ],
     tick: (t) => ex.tick(t),
@@ -656,7 +656,7 @@ const monaco = async (k: Kit): Promise<Built> => {
       {
         x: -58, z: -20, title: "F1 projects",
         body: "I've built a few F1 things, including a ghost-car replay of qualifying laps and a race predictor.",
-        link: { href: "https://github.com/TumCucTom/f1-ghost-car", label: "ghost car" },
+        link: { href: "https://github.com/thomas-bale/f1-ghost-car", label: "ghost car" },
       },
     ],
     tick(t) {
@@ -895,7 +895,7 @@ const isc = (k: Kit): Built => {
       { x: -8, z: 1, title: "OpenMX", body: "One job was making OpenMX run faster on it. A lot of profiling." },
       {
         x: 8, z: 1, title: "Llama", body: "The other was fine-tuning Llama on the GPUs. We tried FP8, FlashAttention 3 and a few LoRA variants.",
-        link: { href: "https://github.com/TumCucTom/llama-8b-ISC-25", label: "write-up" },
+        link: { href: "https://github.com/thomas-bale/llama-8b-ISC-25", label: "write-up" },
       },
     ],
     tick(t) {

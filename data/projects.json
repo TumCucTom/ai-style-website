@@ -20,7 +20,7 @@
     "highlight": true,
     "highlightOrder": 4,
     "links": {
-      "github": "https://github.com/TumCucTom/ai-chess-3d"
+      "github": "https://github.com/thomas-bale/ai-chess-3d"
     }
   },
   {
@@ -43,7 +43,7 @@
     "highlight": true,
     "highlightOrder": 5,
     "links": {
-      "github": "https://github.com/TumCucTom/quantum-cross-chain-arbitrage"
+      "github": "https://github.com/thomas-bale/quantum-cross-chain-arbitrage"
     }
   },
   {
@@ -66,7 +66,7 @@
     "highlight": true,
     "highlightOrder": 3,
     "links": {
-      "github": "https://github.com/TumCucTom/llama-8b-ISC-25"
+      "github": "https://github.com/thomas-bale/llama-8b-ISC-25"
     }
   },
   {
@@ -86,7 +86,7 @@
       "0.03s processing on PoC subset"
     ],
     "links": {
-      "github": "https://github.com/TumCucTom/varqite-defi-collateral"
+      "github": "https://github.com/thomas-bale/varqite-defi-collateral"
     }
   },
   {
@@ -106,7 +106,7 @@
       "~170 GH200-hours total"
     ],
     "links": {
-      "github": "https://github.com/TumCucTom/sparse-attention-poc"
+      "github": "https://github.com/thomas-bale/sparse-attention-poc"
     }
   },
   {
@@ -127,7 +127,7 @@
       "Multi-workspace JSON storage, auto-save 500ms"
     ],
     "links": {
-      "github": "https://github.com/TumCucTom/agentic-playground"
+      "github": "https://github.com/thomas-bale/agentic-playground"
     }
   },
   {
@@ -148,7 +148,7 @@
       "RISC0 ZK prover for Secure Enclave \u2192 ZK"
     ],
     "links": {
-      "github": "https://github.com/TumCucTom/black-swan"
+      "github": "https://github.com/thomas-bale/black-swan"
     }
   },
   {
@@ -166,7 +166,7 @@
       "Plus a single-cube 8-bit calculator variant"
     ],
     "links": {
-      "github": "https://github.com/TumCucTom/turing-complete-rubix-cube"
+      "github": "https://github.com/thomas-bale/turing-complete-rubix-cube"
     }
   },
   {
@@ -180,7 +180,7 @@
     ],
     "highlights": [],
     "links": {
-      "github": "https://github.com/TumCucTom/can-U-dig-it"
+      "github": "https://github.com/thomas-bale/can-U-dig-it"
     }
   },
   {
@@ -199,7 +199,7 @@
       "Smooth slice animations, undo/redo"
     ],
     "links": {
-      "github": "https://github.com/TumCucTom/rubix-chess"
+      "github": "https://github.com/thomas-bale/rubix-chess"
     }
   },
   {
@@ -218,7 +218,7 @@
       "Animated GIFs of race incidents with follow camera"
     ],
     "links": {
-      "github": "https://github.com/TumCucTom/f1-commentary"
+      "github": "https://github.com/thomas-bale/f1-commentary"
     }
   },
   {
@@ -237,7 +237,7 @@
       "Predicts 2025 season from historical data"
     ],
     "links": {
-      "github": "https://github.com/TumCucTom/yuki"
+      "github": "https://github.com/thomas-bale/yuki"
     }
   },
   {
@@ -260,7 +260,7 @@
     "highlight": true,
     "highlightOrder": 2,
     "links": {
-      "github": "https://github.com/TumCucTom/f1-ghost-car"
+      "github": "https://github.com/thomas-bale/f1-ghost-car"
     }
   },
   {
@@ -280,7 +280,7 @@
       "Built-in FastF1 caching"
     ],
     "links": {
-      "github": "https://github.com/TumCucTom/f1-qtda"
+      "github": "https://github.com/thomas-bale/f1-qtda"
     }
   },
   {
@@ -301,7 +301,7 @@
       "NUMA first-touch on Grace CPU Superchip"
     ],
     "links": {
-      "github": "https://github.com/TumCucTom/hpc-2"
+      "github": "https://github.com/thomas-bale/hpc-2"
     }
   },
   {
@@ -321,7 +321,7 @@
       "Underpins the ML Research Assistant role"
     ],
     "links": {
-      "github": "https://github.com/TumCucTom/adfes-biz-synthetic-extension"
+      "github": "https://github.com/thomas-bale/adfes-biz-synthetic-extension"
     }
   },
   {
@@ -340,7 +340,7 @@
       "iOS 17+, on-device fact rotation"
     ],
     "links": {
-      "github": "https://github.com/TumCucTom/factlet",
+      "github": "https://github.com/thomas-bale/factlet",
       "appstore": "https://apps.apple.com/gb/developer/thomas-bale/id1833606286"
     }
   },
@@ -361,7 +361,7 @@
       "Tap-to-place with a place card"
     ],
     "links": {
-      "github": "https://github.com/TumCucTom/pin",
+      "github": "https://github.com/thomas-bale/pin",
       "appstore": "https://apps.apple.com/gb/developer/thomas-bale/id1833606286"
     }
   },
@@ -383,7 +383,7 @@
       "Polygon Amoy chain 80002"
     ],
     "links": {
-      "github": "https://github.com/TumCucTom/poly-hop",
+      "github": "https://github.com/thomas-bale/poly-hop",
       "live": "https://poly-hop.thomasbale.com"
     }
   },
@@ -405,7 +405,7 @@
       "Web AI-vs-AI watch mode"
     ],
     "links": {
-      "github": "https://github.com/TumCucTom/quoridor-ai"
+      "github": "https://github.com/thomas-bale/quoridor-ai"
     }
   },
   {
@@ -426,7 +426,7 @@
       "Reconnect support, last-move broadcast"
     ],
     "links": {
-      "github": "https://github.com/TumCucTom/bonk"
+      "github": "https://github.com/thomas-bale/bonk"
     }
   },
   {
@@ -450,7 +450,7 @@
     "highlight": true,
     "highlightOrder": 1,
     "links": {
-      "github": "https://github.com/TumCucTom/VLM-memory"
+      "github": "https://github.com/thomas-bale/VLM-memory"
     }
   },
   {
@@ -469,7 +469,7 @@
       "Side business alongside the degree"
     ],
     "links": {
-      "github": "https://github.com/TumCucTom/veloworks-website"
+      "github": "https://github.com/thomas-bale/veloworks-website"
     }
   },
   {
@@ -483,7 +483,7 @@
     ],
     "highlights": [],
     "links": {
-      "github": "https://github.com/TumCucTom/machine-learning-coursework"
+      "github": "https://github.com/thomas-bale/machine-learning-coursework"
     }
   },
   {
@@ -500,7 +500,7 @@
     ],
     "highlights": [],
     "links": {
-      "github": "https://github.com/TumCucTom/omnii",
+      "github": "https://github.com/thomas-bale/omnii",
       "appstore": "https://apps.apple.com/gb/developer/thomas-bale/id1833606286"
     }
   },
@@ -519,7 +519,7 @@
     ],
     "highlights": [],
     "links": {
-      "github": "https://github.com/TumCucTom/sales-bot-showdown"
+      "github": "https://github.com/thomas-bale/sales-bot-showdown"
     }
   },
   {
@@ -533,7 +533,7 @@
     ],
     "highlights": [],
     "links": {
-      "github": "https://github.com/TumCucTom/yukigpt"
+      "github": "https://github.com/thomas-bale/yukigpt"
     }
   },
   {
@@ -546,7 +546,7 @@
     ],
     "highlights": [],
     "links": {
-      "github": "https://github.com/TumCucTom/godel"
+      "github": "https://github.com/thomas-bale/godel"
     }
   },
   {
@@ -561,7 +561,7 @@
     ],
     "highlights": [],
     "links": {
-      "github": "https://github.com/TumCucTom/f1-telemetry-analysis"
+      "github": "https://github.com/thomas-bale/f1-telemetry-analysis"
     }
   },
   {
@@ -579,7 +579,7 @@
     ],
     "highlights": [],
     "links": {
-      "github": "https://github.com/TumCucTom/hpc-lbm-v2"
+      "github": "https://github.com/thomas-bale/hpc-lbm-v2"
     }
   },
   {
@@ -596,7 +596,7 @@
     ],
     "highlights": [],
     "links": {
-      "github": "https://github.com/TumCucTom/distributed-vs-parallel-gol"
+      "github": "https://github.com/thomas-bale/distributed-vs-parallel-gol"
     }
   },
   {
@@ -609,7 +609,7 @@
     ],
     "highlights": [],
     "links": {
-      "github": "https://github.com/TumCucTom/quantum-economic-advantage-calculator"
+      "github": "https://github.com/thomas-bale/quantum-economic-advantage-calculator"
     }
   },
   {
@@ -626,7 +626,7 @@
     ],
     "highlights": [],
     "links": {
-      "github": "https://github.com/TumCucTom/copy-dance"
+      "github": "https://github.com/thomas-bale/copy-dance"
     }
   },
   {
@@ -642,7 +642,7 @@
     ],
     "highlights": [],
     "links": {
-      "github": "https://github.com/TumCucTom/island",
+      "github": "https://github.com/thomas-bale/island",
       "appstore": "https://apps.apple.com/gb/developer/thomas-bale/id1833606286"
     }
   },
@@ -658,7 +658,7 @@
     ],
     "highlights": [],
     "links": {
-      "github": "https://github.com/TumCucTom/quoridor"
+      "github": "https://github.com/thomas-bale/quoridor"
     }
   },
   {
@@ -671,7 +671,7 @@
     ],
     "highlights": [],
     "links": {
-      "github": "https://github.com/TumCucTom/go-spinners"
+      "github": "https://github.com/thomas-bale/go-spinners"
     }
   },
   {
@@ -686,7 +686,7 @@
     ],
     "highlights": [],
     "links": {
-      "github": "https://github.com/TumCucTom/aniboxd",
+      "github": "https://github.com/thomas-bale/aniboxd",
       "appstore": "https://apps.apple.com/gb/developer/thomas-bale/id1833606286"
     }
   },
@@ -701,7 +701,7 @@
     ],
     "highlights": [],
     "links": {
-      "github": "https://github.com/TumCucTom/aurelia",
+      "github": "https://github.com/thomas-bale/aurelia",
       "appstore": "https://apps.apple.com/gb/developer/thomas-bale/id1833606286"
     }
   },
@@ -717,7 +717,7 @@
     ],
     "highlights": [],
     "links": {
-      "github": "https://github.com/TumCucTom/detach",
+      "github": "https://github.com/thomas-bale/detach",
       "appstore": "https://apps.apple.com/gb/developer/thomas-bale/id1833606286"
     }
   },
@@ -733,7 +733,7 @@
     ],
     "highlights": [],
     "links": {
-      "github": "https://github.com/TumCucTom/find-my-pint",
+      "github": "https://github.com/thomas-bale/find-my-pint",
       "appstore": "https://apps.apple.com/gb/developer/thomas-bale/id1833606286"
     }
   },
@@ -748,7 +748,7 @@
     ],
     "highlights": [],
     "links": {
-      "github": "https://github.com/TumCucTom/journal-app",
+      "github": "https://github.com/thomas-bale/journal-app",
       "appstore": "https://apps.apple.com/gb/developer/thomas-bale/id1833606286"
     }
   },
@@ -764,7 +764,7 @@
     ],
     "highlights": [],
     "links": {
-      "github": "https://github.com/TumCucTom/proof",
+      "github": "https://github.com/thomas-bale/proof",
       "appstore": "https://apps.apple.com/gb/developer/thomas-bale/id1833606286"
     }
   },
@@ -781,7 +781,7 @@
     ],
     "highlights": [],
     "links": {
-      "github": "https://github.com/TumCucTom/step-counter-commit-graph",
+      "github": "https://github.com/thomas-bale/step-counter-commit-graph",
       "appstore": "https://apps.apple.com/gb/developer/thomas-bale/id1833606286"
     }
   },
@@ -798,7 +798,7 @@
     ],
     "highlights": [],
     "links": {
-      "github": "https://github.com/TumCucTom/lifo"
+      "github": "https://github.com/thomas-bale/lifo"
     }
   },
   {
@@ -815,7 +815,7 @@
     ],
     "highlights": [],
     "links": {
-      "github": "https://github.com/TumCucTom/lifo-website"
+      "github": "https://github.com/thomas-bale/lifo-website"
     }
   },
   {
@@ -831,7 +831,7 @@
     ],
     "highlights": [],
     "links": {
-      "github": "https://github.com/TumCucTom/memories-map"
+      "github": "https://github.com/thomas-bale/memories-map"
     }
   },
   {
@@ -844,7 +844,7 @@
     ],
     "highlights": [],
     "links": {
-      "github": "https://github.com/TumCucTom/mobo-website"
+      "github": "https://github.com/thomas-bale/mobo-website"
     }
   },
   {
@@ -861,7 +861,7 @@
     ],
     "highlights": [],
     "links": {
-      "github": "https://github.com/TumCucTom/mystery-hour"
+      "github": "https://github.com/thomas-bale/mystery-hour"
     }
   },
   {
@@ -878,7 +878,7 @@
     ],
     "highlights": [],
     "links": {
-      "github": "https://github.com/TumCucTom/uob-swimming-website"
+      "github": "https://github.com/thomas-bale/uob-swimming-website"
     }
   },
   {
@@ -896,7 +896,7 @@
     ],
     "highlights": [],
     "links": {
-      "github": "https://github.com/TumCucTom/versioned"
+      "github": "https://github.com/thomas-bale/versioned"
     }
   },
   {
@@ -910,7 +910,7 @@
     ],
     "highlights": [],
     "links": {
-      "github": "https://github.com/TumCucTom/ai-coursework"
+      "github": "https://github.com/thomas-bale/ai-coursework"
     }
   },
   {
@@ -927,7 +927,7 @@
     ],
     "highlights": [],
     "links": {
-      "github": "https://github.com/TumCucTom/ai-for-chess-in-3-dimensions"
+      "github": "https://github.com/thomas-bale/ai-for-chess-in-3-dimensions"
     }
   },
   {
@@ -944,7 +944,7 @@
     ],
     "highlights": [],
     "links": {
-      "github": "https://github.com/TumCucTom/advent-of-code"
+      "github": "https://github.com/thomas-bale/advent-of-code"
     }
   },
   {
@@ -957,7 +957,7 @@
     ],
     "highlights": [],
     "links": {
-      "github": "https://github.com/TumCucTom/clipboard-cli"
+      "github": "https://github.com/thomas-bale/clipboard-cli"
     }
   },
   {
@@ -977,7 +977,7 @@
       "Hackathon-built: document as you go"
     ],
     "links": {
-      "github": "https://github.com/TumCucTom/py2noteAI"
+      "github": "https://github.com/thomas-bale/py2noteAI"
     }
   },
   {
@@ -995,7 +995,7 @@
       "Built for the CRGS Computer Science Society in-person event"
     ],
     "links": {
-      "github": "https://github.com/TumCucTom/CRGS-CSS-person-detection"
+      "github": "https://github.com/thomas-bale/CRGS-CSS-person-detection"
     }
   },
   {
@@ -1018,7 +1018,7 @@
       "AWS-deployed backend with full stakeholder + risk docs"
     ],
     "links": {
-      "github": "https://github.com/TumCucTom/u3core"
+      "github": "https://github.com/thomas-bale/u3core"
     }
   },
   {
@@ -1040,7 +1040,7 @@
       "Attach any terminal with `tmux attach -t agent-<id>`"
     ],
     "links": {
-      "github": "https://github.com/TumCucTom/focused",
+      "github": "https://github.com/thomas-bale/focused",
       "appstore": "https://apps.apple.com/gb/developer/thomas-bale/id1833606286"
     }
   },
@@ -1060,7 +1060,7 @@
       "Pairs with the Focused app"
     ],
     "links": {
-      "github": "https://github.com/TumCucTom/keep-sharp",
+      "github": "https://github.com/thomas-bale/keep-sharp",
       "appstore": "https://apps.apple.com/gb/developer/thomas-bale/id1833606286"
     }
   },
@@ -1082,7 +1082,7 @@
       "build_ansatz + build_maxcut_hamiltonian reusable"
     ],
     "links": {
-      "github": "https://github.com/TumCucTom/varQITE-maxcut"
+      "github": "https://github.com/thomas-bale/varQITE-maxcut"
     }
   },
   {
@@ -1106,7 +1106,7 @@
       "Live at supremacy.thomasbale.com"
     ],
     "links": {
-      "github": "https://github.com/TumCucTom/Portfolio-Optimisation"
+      "github": "https://github.com/thomas-bale/Portfolio-Optimisation"
     }
   },
   {
@@ -1124,7 +1124,7 @@
       "Final score = sum of squares of resource counts"
     ],
     "links": {
-      "github": "https://github.com/TumCucTom/Algos-II-Minigame"
+      "github": "https://github.com/thomas-bale/Algos-II-Minigame"
     }
   },
   {
@@ -1146,7 +1146,7 @@
       "Detectives: possible-location vector tracking with three evaluation classes"
     ],
     "links": {
-      "github": "https://github.com/TumCucTom/Scotland-Yard-AI"
+      "github": "https://github.com/thomas-bale/Scotland-Yard-AI"
     }
   },
   {
@@ -1167,7 +1167,7 @@
       "3D strokes rendered with Three.js"
     ],
     "links": {
-      "github": "https://github.com/TumCucTom/3d-whiteboard"
+      "github": "https://github.com/thomas-bale/3d-whiteboard"
     }
   },
   {
@@ -1184,7 +1184,7 @@
       "Two-way conversion"
     ],
     "links": {
-      "github": "https://github.com/TumCucTom/Decimal-to-binary-visualiser"
+      "github": "https://github.com/thomas-bale/Decimal-to-binary-visualiser"
     }
   },
   {
@@ -1201,7 +1201,7 @@
       "Lines drawn for every non-background colour"
     ],
     "links": {
-      "github": "https://github.com/TumCucTom/PGM-to-SK-Converter"
+      "github": "https://github.com/thomas-bale/PGM-to-SK-Converter"
     }
   }
 ]

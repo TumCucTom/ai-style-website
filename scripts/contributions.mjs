@@ -4,7 +4,7 @@
 // available to a workflow, it leaves out contributions the profile includes.)
 import { fileURLToPath } from "node:url";
 
-const USER = "TumCucTom";
+const USER = "thomas-bale";
 const URL_ = `https://github.com/users/${USER}/contributions`;
 
 /** Pull every day and the yearly total out of the calendar's HTML. Throws if it doesn't look like a calendar. */

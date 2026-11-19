@@ -46,7 +46,7 @@ animations are CSS scroll-driven animations, so they cost no JavaScript.
 ## GitHub activity
 
 The live numbers are GitHub contributions, read from the public contribution
-calendar on the profile page (`github.com/users/TumCucTom/contributions`), so
+calendar on the profile page (`github.com/users/thomas-bale/contributions`), so
 they are the numbers on the heatmap: the last seven days, the last year, and
 each recent day. Dates are UTC days, as the public calendar draws them.
 
@@ -62,4 +62,4 @@ Run `npm test` for the contributions-parser and git-refresh regression tests.
 
 ## The CV
 
-The CV is a separate site at https://cv.thomasbale.com (an update of the v2 site in `TumCucTom/personal-website`, folder `cv-website`). This repo only links to it.
+The CV is a separate site at https://cv.thomasbale.com (an update of the v2 site in `thomas-bale/personal-website`, folder `cv-website`). This repo only links to it.
