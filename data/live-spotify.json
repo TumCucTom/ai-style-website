@@ -1,31 +1,31 @@
 {
   "user": "trvbale",
-  "fetchedAt": "2026-11-20T05:00:38.985Z",
+  "fetchedAt": "2026-11-20T14:40:01.191Z",
   "current": {
-    "name": "Motion Picture Soundtrack",
-    "artist": "Cigarettes After Sex",
-    "album": "Motion Picture Soundtrack",
-    "url": "https://www.last.fm/music/Cigarettes+After+Sex/_/Motion+Picture+Soundtrack",
-    "image": "https://lastfm-img.freetls.fastly.net/i/u/174s/2d74b6fbf191da80855674af945ca155.jpg",
-    "isNowPlaying": false,
-    "playedAt": "18 Nov 2026, 23:18"
+    "name": "Solace - Slowed",
+    "artist": "txmy",
+    "album": "Solace",
+    "url": "https://www.last.fm/music/txmy/_/Solace+-+Slowed",
+    "image": "https://lastfm-img.freetls.fastly.net/i/u/174s/248a29e7f1e78457ff26954950ccb014.jpg",
+    "isNowPlaying": true,
+    "playedAt": null
   },
   "weeklyStats": {
-    "totalScrobbles": 200
+    "totalScrobbles": 201
   },
   "topArtists": [
     {
       "name": "Cigarettes After Sex",
-      "playCount": "29"
+      "playCount": "33"
+    },
+    {
+      "name": "攬佬SKAI ISYOURGOD",
+      "playCount": "21"
     },
     {
       "name": "Joy Crookes",
-      "playCount": "14"
-    },
-    {
-      "name": "Flight of the Conchords",
-      "playCount": "9"
+      "playCount": "12"
     }
   ],
-  "totalScrobbles": "3150"
+  "totalScrobbles": "3195"
 }
