@@ -1,17 +1,17 @@
 {
   "user": "trvbale",
-  "fetchedAt": "2026-11-20T14:40:01.191Z",
+  "fetchedAt": "2026-11-20T22:27:11.451Z",
   "current": {
-    "name": "Solace - Slowed",
-    "artist": "txmy",
-    "album": "Solace",
-    "url": "https://www.last.fm/music/txmy/_/Solace+-+Slowed",
-    "image": "https://lastfm-img.freetls.fastly.net/i/u/174s/248a29e7f1e78457ff26954950ccb014.jpg",
-    "isNowPlaying": true,
-    "playedAt": null
+    "name": "Freedom",
+    "artist": "Pharrell Williams",
+    "album": "Freedom",
+    "url": "https://www.last.fm/music/Pharrell+Williams/_/Freedom",
+    "image": "https://lastfm-img.freetls.fastly.net/i/u/174s/138a224165f3f0215cdd5a63ce84d701.png",
+    "isNowPlaying": false,
+    "playedAt": "20 Nov 2026, 14:51"
   },
   "weeklyStats": {
-    "totalScrobbles": 201
+    "totalScrobbles": 200
   },
   "topArtists": [
     {
@@ -24,8 +24,8 @@
     },
     {
       "name": "Joy Crookes",
-      "playCount": "12"
+      "playCount": "13"
     }
   ],
-  "totalScrobbles": "3195"
+  "totalScrobbles": "3200"
 }
